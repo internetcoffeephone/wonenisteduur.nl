@@ -1,0 +1,51 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  <div class="share-section">
+    <h2>Deel dit verhaal</h2>
+    <p>Hoe meer mensen dit begrijpen, hoe sneller het verandert.</p>
+
+    <div class="share-buttons">
+      <a class="share-btn share-btn--linkedin"
+         href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}"
+         target="_blank" rel="noopener">LinkedIn</a>
+      <a class="share-btn share-btn--facebook"
+         href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+         target="_blank" rel="noopener">Facebook</a>
+      <a class="share-btn share-btn--x"
+         href="https://x.com/intent/tweet?url={{ .Permalink }}&text=Wonen%20is%20te%20duur.%20De%20grondwaardebelasting%20is%20de%20oplossing.%20%23wonenisteduur"
+         target="_blank" rel="noopener">X</a>
+      <button class="share-btn share-btn--copy" onclick="copyURL(this)">Kopieer link</button>
+      <a class="share-btn share-btn--email"
+         href="mailto:?subject=Wonen%20is%20te%20duur%20-%20lees%20dit&body=Ik%20las%20dit%20over%20waarom%20wonen%20zo%20duur%20is%20en%20wat%20de%20oplossing%20is%3A%20grondwaardebelasting.%0A%0A{{ .Permalink }}%0A%0AKijk%20ook%20naar%20de%20politici-pagina%20voor%20contactgegevens%3A%20{{ .Permalink }}politici/">
+        E-mail</a>
+    </div>
+
+    <div class="hashtag">#wonenisteduur</div>
+
+    <p>Wil je politici direct aanschrijven? Bekijk de <a href="/politici/">contactgegevens</a>.</p>
+
+    <h3>Verder lezen</h3>
+    <ul class="reading-list">
+      <li><a href="https://en.wikipedia.org/wiki/Progress_and_Poverty" target="_blank" rel="noopener">Henry George: <em>Progress and Poverty</em> (1879)</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Georgism" target="_blank" rel="noopener">Wikipedia: Georgism</a></li>
+      <li><a href="https://www.reddit.com/r/georgism/" target="_blank" rel="noopener">r/georgism op Reddit</a></li>
+    </ul>
+  </div>
+
+  <p style="text-align:center; margin-top:2rem;">
+    <a class="cta-btn" href="/politici/">Bekijk politici &amp; contactgegevens &rarr;</a>
+  </p>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+function copyURL(btn) {
+  navigator.clipboard.writeText(window.location.href).then(function() {
+    var orig = btn.textContent;
+    btn.textContent = 'Gekopieerd!';
+    setTimeout(function() { btn.textContent = orig; }, 2000);
+  });
+}
+</script>
+{{ end }}

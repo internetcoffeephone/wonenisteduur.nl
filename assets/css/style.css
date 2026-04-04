@@ -1,0 +1,401 @@
+/* === Reset & Base === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+  color: #2c2c2c;
+  background: #fafaf8;
+}
+
+/* === Navigation === */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #1a3a5c;
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-title {
+  font-size: 1.1rem;
+}
+
+.nav-links a {
+  font-size: 0.95rem;
+  margin-left: 1.5rem;
+}
+
+/* === Content Container === */
+.container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* === Typography === */
+h1 {
+  font-size: 2rem;
+  color: #1a3a5c;
+  margin: 2.5rem 0 1rem;
+  line-height: 1.25;
+  border-bottom: 3px solid #e87722;
+  padding-bottom: 0.4rem;
+}
+
+h1:first-child {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #1a3a5c;
+  margin: 2rem 0 0.75rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #1a3a5c;
+  margin: 1.5rem 0 0.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: #1a3a5c;
+  text-decoration: underline;
+  text-decoration-color: #e87722;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: #e87722;
+}
+
+strong {
+  font-weight: 700;
+}
+
+blockquote {
+  border-left: 4px solid #e87722;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1.25rem;
+  background: #f0ede8;
+  font-style: italic;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #e0ddd6;
+  margin: 2.5rem 0;
+}
+
+/* === Expandable Sections === */
+details {
+  margin: 1rem 0 1.5rem;
+  border: 1px solid #e0ddd6;
+  border-radius: 6px;
+  background: #fff;
+}
+
+details summary {
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  color: #1a3a5c;
+  list-style: none;
+}
+
+details summary::before {
+  content: "\25B8  ";
+  display: inline;
+}
+
+details[open] summary::before {
+  content: "\25BE  ";
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > :not(summary) {
+  padding: 0 1rem;
+}
+
+details > p:last-child {
+  padding-bottom: 0.75rem;
+}
+
+/* === Tables === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+thead {
+  background: #1a3a5c;
+  color: #fff;
+}
+
+th {
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #e0ddd6;
+}
+
+tbody tr:hover {
+  background: #f0ede8;
+}
+
+/* === CTA Button === */
+.cta-btn {
+  display: inline-block;
+  background: #e87722;
+  color: #fff;
+  padding: 0.75rem 1.75rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.05rem;
+  transition: background 0.2s;
+}
+
+.cta-btn:hover {
+  background: #cf6615;
+  color: #fff;
+}
+
+/* === Share Buttons === */
+.share-section {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background: #f0ede8;
+  border-radius: 8px;
+}
+
+.share-section h2 {
+  margin-top: 0;
+}
+
+.share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.share-btn {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fff;
+  transition: opacity 0.2s;
+}
+
+.share-btn:hover {
+  opacity: 0.85;
+  color: #fff;
+}
+
+.share-btn--linkedin { background: #0077b5; }
+.share-btn--facebook { background: #1877f2; }
+.share-btn--x { background: #14171a; }
+.share-btn--copy {
+  background: #1a3a5c;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+.share-btn--email {
+  background: #e87722;
+}
+
+.hashtag {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a3a5c;
+  margin: 1rem 0;
+}
+
+/* === Reading List === */
+.reading-list {
+  margin: 1.5rem 0;
+}
+
+.reading-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* === Footer === */
+.site-footer {
+  background: #1a3a5c;
+  color: #c8d6e5;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration-color: #e87722;
+}
+
+.site-footer a:hover {
+  color: #e87722;
+}
+
+.footer-links {
+  margin-top: 0.75rem;
+}
+
+.footer-links a {
+  margin: 0 0.75rem;
+}
+
+/* === Disclaimer box === */
+.disclaimer {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+/* === Mobile === */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .container {
+    padding: 1.25rem 1rem 3rem;
+  }
+
+  /* Card layout for tables on mobile */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 1rem;
+    border: 1px solid #e0ddd6;
+    border-radius: 6px;
+    padding: 0.75rem;
+    background: #fff;
+  }
+
+  td {
+    padding: 0.25rem 0;
+    border: none;
+    text-align: left;
+  }
+
+  td::before {
+    content: attr(data-label);
+    font-weight: 700;
+    display: block;
+    font-size: 0.8rem;
+    color: #1a3a5c;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .share-buttons {
+    flex-direction: column;
+  }
+
+  .share-btn {
+    text-align: center;
+  }
+}
+
+/* === Print === */
+@media print {
+  .site-nav,
+  .site-footer,
+  .share-section {
+    display: none;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
+    font-size: 12pt;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  h1 {
+    border-bottom-color: #000;
+  }
+}
