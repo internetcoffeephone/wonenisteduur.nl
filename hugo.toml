@@ -1,0 +1,12 @@
+baseURL = "https://wonenisteduur.nl/"
+languageCode = "nl"
+title = "Wonen is te duur"
+
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+description = "Wonen in Nederland is onbetaalbaar. De grondwaardebelasting is de oplossing."
+ogImage = ""

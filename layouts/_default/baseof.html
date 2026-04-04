@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="/" class="nav-title">{{ .Site.Title }}</a>
+    <span class="nav-links">
+      <a href="/politici/">Politici</a>
+    </span>
+  </nav>
+
+  <main class="container">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>
