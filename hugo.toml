@@ -10,3 +10,7 @@ unsafe = true
 [params]
 description = "Wonen in Nederland is onbetaalbaar. De grondwaardebelasting is de oplossing."
 ogImage = ""
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
