@@ -78,7 +78,7 @@ In landen waar varianten van grondwaardebelasting zijn toegepast, zoals in **De 
 
 Geen van beide, of allebei. De grondwaardebelasting wordt gesteund over het hele politieke spectrum:
 
-- **Rechts** waardeert dat het de minst verstorende belasting
+- **Rechts** waardeert dat het de minst verstorende belasting is
 - **Links** waardeert de herverdeling van onverdiende winst
 - **Groenen** waarderen dat het efficiënt landgebruik stimuleert
 - **Economen** van alle stromingen erkennen de theoretische superioriteit
@@ -93,8 +93,8 @@ Een veelgehoorde zorg. Het antwoord:
 
 - De grondwaardebelasting kan **geleidelijk** worden ingevoerd, over een periode van 40–50 jaar. Hierdoor blijft de prijs van het huis nog een jaar of 10-20 stijgen, maar vlakt deze dan af. Dit voorkomt dat bestaande hypotheken onder water komen te staan.
 - Bestaande belastingen (zoals inkomstenbelasting, BTW, OZB, overdrachtsbelasting) kunnen tegelijk worden **afgebouwd**
-- Huiseigenaren die hun huis gewoon bewonen, en dus niet speculeren, merken per saldo **weinig verschil**, of gaan erop vooruit
-- De waarde van je huis stijgt minder snel, maar je belastingdruk op inkomen daalt flink
+- Huiseigenaren die hun huis gewoon bewonen, en dus niet speculeren, merken per saldo **weinig verschil**, of **gaan erop vooruit**
+- De waarde van je huis stijgt minder snel, maar de BTW en je belasting op inkomen dalen flink, idealiter naar 0
 - Je kinderen en kleinkinderen kunnen wél een huis kopen
 
 De vraag is niet: "verlies ik iets?" De vraag is: "willen we een samenleving waarin de volgende generatie ook een thuis kan vinden?"
@@ -103,7 +103,7 @@ De vraag is niet: "verlies ik iets?" De vraag is: "willen we een samenleving waa
 
 # Wat kan de overheid nu doen?
 
-1. **Voer een grondwaardebelasting in** als vervanging van de OZB, geleidelijk oplopend over 15 jaar
+1. **Voer een grondwaardebelasting in** als vervanging van de OZB, dit kan onmiddellijk zonder de hoogte van de belasting te veranderen
 2. **Schaf de overdrachtsbelasting af**. Deze belasting bestraft verhuizen en arbeidsmobiliteit
 3. **Belast leegstand en onbenut grondbezit** zwaarder (al is dit met een grondwaardebelasting overbodig)
 4. **Publiceer grondwaardecijfers** per perceel, zodat het debat op feiten gebaseerd is
@@ -118,8 +118,8 @@ Stel je een Nederland voor waarin:
 - Starters gewoon een huis kunnen kopen
 - Huren betaalbaar zijn, zonder wachtlijsten van tien jaar
 - Grondspeculatie een ding van het verleden is
-- Belasting betaald wordt over wat je bezit aan schaarse grond, niet over wat je verdient met werk. Belast het nemen van, niet het teruggeven aan de samenleving.
-- Gemeenten investeren in hun buurten, en de opbrengst komt terug bij de gemeenschap
+- Belasting betaald wordt over wat je bezit aan schaarse grond, niet over wat je verdient met werk
+- Mensen en gemeenten investeren in hun buurten, en de opbrengst terugkomt bij de gemeenschap in plaats van bij enkele grondeigenaren
 
 Dit is geen utopie. Dit is wat er gebeurt als je het belastingstelsel baseert op economische logica in plaats van op historisch toeval.
 
