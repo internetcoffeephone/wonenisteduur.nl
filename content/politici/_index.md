@@ -22,18 +22,18 @@ Schrijf ze aan, stel vragen, en laat ze weten dat er draagvlak is voor de grondw
 
 Het Europees Parlement heeft een **Special Committee on the Housing Crisis** (HOUS). Onderstaande Europarlementariërs zijn relevant vanwege hun commissielidmaatschap of portefeuille.
 
-| Naam | Partij (EU-fractie) | Commissie(s) | E-mail |
-|------|---------------------|-------------|--------|
-| Dirk Gotink | NSC (EPP) | HOUS, ECON | dirk.gotink@europarl.europa.eu |
-| Bas Eickhout | GroenLinks (Greens/EFA) | ECON | bas.eickhout@europarl.europa.eu |
-| Kim van Sparrentak | GroenLinks (Greens/EFA) | IMCO | kim.vansparrentak@europarl.europa.eu |
-| Lara Wolters | PvdA (S&D) | JURI | lara.wolters@europarl.europa.eu |
-| Mohammed Chahim | PvdA (S&D) | ENVI | mohammed.chahim@europarl.europa.eu |
-| Brigitte van den Berg | D66 (Renew) | BUDG | brigitte.vandenberg@europarl.europa.eu |
-| Gerben-Jan Gerbrandy | D66 (Renew) | ENVI | gerben-jan.gerbrandy@europarl.europa.eu |
-| Bart Groothuis | VVD (Renew) | ITRE | bart.groothuis@europarl.europa.eu |
-| Tom Berendsen | CDA (EPP) | ITRE | tom.berendsen@europarl.europa.eu |
-| Reinier van Lanschot | Volt (Greens/EFA) | ECON | reinier.vanlanschot@europarl.europa.eu |
+| Naam | Partij (EU-fractie) | E-mail |
+|------|---------------------|--------|
+| Dirk Gotink | NSC (EPP) | dirk.gotink@europarl.europa.eu |
+| Bas Eickhout | GroenLinks (Greens/EFA) | bas.eickhout@europarl.europa.eu |
+| Kim van Sparrentak | GroenLinks (Greens/EFA) | kim.vansparrentak@europarl.europa.eu |
+| Lara Wolters | PvdA (S&D) | lara.wolters@europarl.europa.eu |
+| Mohammed Chahim | PvdA (S&D) | mohammed.chahim@europarl.europa.eu |
+| Brigitte van den Berg | D66 (Renew) | brigitte.vandenberg@europarl.europa.eu |
+| Gerben-Jan Gerbrandy | D66 (Renew) | gerben-jan.gerbrandy@europarl.europa.eu |
+| Bart Groothuis | VVD (Renew) | bart.groothuis@europarl.europa.eu |
+| Tom Berendsen | CDA (EPP) | tom.berendsen@europarl.europa.eu |
+| Reinier van Lanschot | Volt (Greens/EFA) | reinier.vanlanschot@europarl.europa.eu |
 
 ## Tips voor je bericht
 
