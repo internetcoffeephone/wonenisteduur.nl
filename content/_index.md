@@ -4,132 +4,154 @@ title: "Wonen is te duur"
 
 # Wonen is te duur
 
-Een koophuis is onbereikbaar geworden voor gewone mensen. Huurprijzen stijgen sneller dan lonen. Jongeren blijven noodgedwongen thuis wonen. Gezinnen worden de stad uit gedrukt. Dit is geen natuurverschijnsel: het is het gevolg van beleid dat grond behandelt als beleggingsobject in plaats van als gemeenschappelijk goed.
+En niet alleen in Nederland. In bijna de hele westerse wereld zijn huizen en huren onbetaalbaar geworden. Een gemiddeld koophuis kost hier inmiddels zo'n tien keer een modaal jaarinkomen. Jongeren wonen steeds langer bij hun ouders, gezinnen trekken de stad uit omdat ze er geen plek meer kunnen betalen. Wie geen huis heeft, raakt steeds verder achter op wie er wel een heeft. Samenlevingen worden ongelijker en armer, met economische en politieke onrust tot gevolg.
 
-Er is een oplossing die eerlijk, bewezen en effectief is: de **grondwaardebelasting**.
-
----
-
-# Wat is het probleem?
-
-De huizenprijzen in Nederland zijn de afgelopen twintig jaar explosief gestegen. Het gemiddelde koophuis kost nu meer dan vier keer het modale jaarinkomen. Tegelijkertijd zijn de bouwkosten veel minder hard gestegen. Het verschil zit hem in de **grondprijs**.
-
-Grond is schaars, zeker in de Randstad. Niemand maakt midden in de stad nieuwe grond.
-Maar de waarde van grond stijgt door investeringen die de **gemeenschap** doet: wegen, scholen, OV, parken, ziekenhuizen.
-De eigenaar van de grond hoeft daar niets voor te doen, hij profiteert gratis.
-
-Dit mechanisme zorgt ervoor dat:
-
-- **Huizenprijzen blijven stijgen**, ongeacht hoeveel er gebouwd wordt
-- **Vermogensongelijkheid groeit**, omdat grondbezitters steeds rijker worden
-- **Speculatie loont**, waardoor grond onbenut blijft terwijl er woningnood heerst
-- **Starters kansloos zijn**, omdat ze concurreren met beleggers
+Nieuwe woningen bouwen verzacht de pijn, en dat moeten we ook blijven doen. Maar het is een pleister op een stinkende wond. Willen we de idioot hoge woonkosten echt aanpakken, dan moeten we kijken naar de oorzaak.
 
 ---
 
-# Waarom stijgt de grondprijs?
+# De oorzaak
 
-De grond onder een huis in Amsterdam is honderdduizenden euro's waard. Dezelfde hoeveelheid grond in een afgelegen dorp is bijna niets waard. Het verschil is niet wat de eigenaar heeft gedaan, het verschil is **locatie**, en locatie wordt waardevol door wat de samenleving eromheen bouwt.
+Die oorzaak is ons belastingstelsel. Het beloont grondbezit zonder dat daar iets tegenover staat. Elk jaar gaat er meer geld van de samenleving naar een kleine groep die daardoor steeds rijker wordt. De hypotheekrenteaftrek is daar maar een klein onderdeel van. Het probleem zit dieper.
 
-Als de gemeente een metrostation aanlegt, stijgen de huizenprijzen in de buurt. Als er een park komt, stijgen ze. Als er goede scholen zijn, stijgen ze. De eigenaar van het huis heeft daar niets aan bijgedragen, maar vangt wel de volledige waardestijging.
-
-Dit is een onverdiende winst: betaald door de gemeenschap, geïncasseerd door het individu.
+Bijna alles wat je bezit wordt minder waard. Je auto, je telefoon, je kleren en schoenen. Met huizen is het gek genoeg andersom: die worden elk jaar duurder, ook als ze verouderen. Een goed geïsoleerd nieuwbouwhuis woont een stuk prettiger dan een oud, tochtig krot. Toch wordt ook dat krot elk jaar duurder. Hoe kan dat?
 
 ---
 
-# De oplossing: grondwaardebelasting
+# Grond
 
-Een grondwaardebelasting belast alleen de waarde van de **grond**, niet de gebouwen of verbeteringen die erop staan. Dit betekent:
+Overal waar mensen graag wonen, zit het grootste deel van de waarde van een huis in de grond eronder. Het gaat om de locatie. Hoeveel grond waard is, hangt af van hoe graag mensen er willen wonen. Dat is voor iedereen anders, maar meestal gaat het om de nabijheid van goed werk en goede voorzieningen.
 
-- Je betaalt belasting over de **locatiewaarde** van je grond
-- Je betaalt **geen** extra belasting als je bouwt, renoveert of verbetert
-- Speculanten die grond onbenut laten betalen **net zoveel** als mensen die er iets nuttigs mee doen
-- De opbrengst kan gebruikt worden om andere belastingen te **verlagen**, zoals inkomstenbelasting of BTW
+Een rijtjeshuis in Amsterdam-Oost kost €600.000. Precies hetzelfde huis in Delfzijl kost €200.000. De stenen kosten overal ongeveer hetzelfde. Het verschil van €400.000 is de grondwaarde, en die heeft de eigenaar niet zelf gecreëerd. Die komt van de stad eromheen.
 
-### Waarom werkt dit?
+Legt de gemeente een metrostation aan, dan stijgen de huizenprijzen in de buurt. Komt er een park of een goede school bij, dan stijgen ze weer. De eigenaar heeft daar niets voor gedaan, maar krijgt wel de hele waardestijging. Het grootste deel van de waarde van een huis komt dus van de samenleving, en de stijging van die waarde al helemaal. Dat is geld dat de eigenaar gratis van de samenleving krijgt.
 
-1. **Grond kan niet verplaatst worden.** Je kunt fabrieken verplaatsen naar het buitenland, maar grond niet. Een grondwaardebelasting is daardoor niet te ontwijken.
-2. **Het ontmoedigt speculatie.** Als onbenutte grond evenveel kost als bebouwde grond, wordt het onrendabel om grond braak te laten liggen.
-3. **Het stimuleert bouwen.** Omdat gebouwen niet belast worden, is er geen straf voor investeren in woningen.
-4. **Het is eerlijk.** De waarde van grond is gecreëerd door de samenleving. Het is logisch dat die waarde terugvloeit naar de samenleving.
-5. **Het verlaagt huizenprijzen.** Als speculatie onrendabel wordt en grond efficiënt gebruikt wordt, daalt de grondprijs, en daarmee de huizenprijs.
+Een extreem voorbeeld is grondspeculatie: grond kopen omdat je verwacht dat het meer waard wordt, en er verder niets mee doen. Intussen staat er geen huis op, en staat iemand anders op een wachtlijst.
+
+Dit breekt het sociaal contract. De samenleving is normaal gesproken geen geld verschuldigd aan mensen die het niet nodig hebben voor hun basisbehoeften. Toch is dat precies wat er nu gebeurt.
 
 ---
 
-# Henry George en de vergeten oplossing
+# De oplossing
 
-De grondwaardebelasting is geen nieuw idee. De Amerikaanse econoom **Henry George** (1839–1897) schreef er in 1879 over in zijn boek *Progress and Poverty*, dat een van de bestverkochte boeken van de 19e eeuw werd.
+De oplossing is simpel: we heffen belasting op de waarde van grond. Dan komt de waardestijging van grond niet meer terecht bij individuele grondeigenaren, maar gaat die terug naar de samenleving, waar die vandaan komt.
 
-George stelde de fundamentele vraag: waarom bestaan armoede en rijkdom naast elkaar, juist wanneer de economie groeit? Zijn antwoord: omdat de winst van vooruitgang wordt opgeslorpt door stijgende grondprijzen, ten gunste van grondbezitters en ten koste van arbeiders en ondernemers.
+Alleen de grond wordt belast, het gebouw erop niet. Wie bouwt, verbouwt of isoleert, betaalt daar geen cent extra belasting over. Wie een leeg perceel in de binnenstad laat liggen, betaalt evenveel als de buurman met een appartementencomplex. Grond laten liggen gaat dan geld kosten, en bouwen wordt aantrekkelijker.
 
-Zijn oplossing was simpel: belast grondwaarde, niet arbeid. Dit idee werd gesteund door economen van links tot rechts, van **Milton Friedman** ("de minst slechte belasting") tot **Joseph Stiglitz** en **Albert Einstein**.
-
----
-
-# Maar wordt er dan niet minder gebouwd?
-
-Nee, juist meer. Een grondwaardebelasting belast **alleen de grond**, niet de gebouwen. Als je een leeg perceel hebt, betaal je evenveel belasting als je buurman met een appartementencomplex. Dat maakt het aantrekkelijk om te bouwen, niet om te wachten tot de grondprijs verder stijgt.
-
-In landen waar varianten van grondwaardebelasting zijn toegepast, zoals in **De VS**, **Estland**, **Denemarken**, **Singapore**, en delen van **Australië**, zijn de effecten positief: meer bouw, minder speculatie, en stabielere huizenprijzen.
+Met de opbrengst kunnen we andere belastingen verlagen. Daarover verderop meer.
 
 ---
 
-# Is dit links of rechts?
+# Waar komt dit idee vandaan?
 
-Geen van beide, of allebei. De grondwaardebelasting wordt gesteund over het hele politieke spectrum:
+Het is niet nieuw. De Amerikaanse econoom en filosoof Henry George (1839–1897) vroeg zich af waarom hij, ondanks gigantische technologische vooruitgang, juist steeds meer armoede en ongelijkheid zag. Zijn antwoord was grond. De welvaart die vooruitgang oplevert, verdwijnt in steeds hogere grondprijzen en komt terecht bij wie de grond bezit. Hij schreef het op in *Progress and Poverty* (1879), een van de best verkochte boeken van de 19e eeuw. Zijn gedachtengoed heet georgisme, of geoïsme.
 
-- **Rechts** waardeert dat het de minst verstorende belasting is
-- **Links** waardeert de herverdeling van onverdiende winst
-- **Groenen** waarderen dat het efficiënt landgebruik stimuleert
-- **Economen** van alle stromingen erkennen de theoretische superioriteit
+Het wordt gesteund door economen en politici over het hele politieke spectrum. Milton Friedman, niet bepaald een liefhebber van belastingen, noemde het "de minst slechte belasting". Ook Joseph Stiglitz en Albert Einstein spraken zich ervoor uit. Rechts waardeert dat het de economie minder verstoort dan welke andere belasting ook. Links waardeert dat onverdiende winst terugvloeit naar de samenleving. En wie om natuur en ruimte geeft, ziet dat het zuinig omgaan met grond beloont.
 
-Het is geen ideologisch voorstel. Het is een **praktische** oplossing, gebaseerd op meer dan een eeuw economisch onderzoek.
+Het maakt dus niet uit wat je politieke kleur is, elke partij zou zich hierachter moeten scharen. Het is niet links of rechts, het is simpelweg beter dan wat we nu hebben.
 
----
+Nu denk je waarschijnlijk, geheel terecht, minstens vier dingen:
 
-# Wat als ik al een huis heb?
+- Nóg meer belasting?
+- We belasten woningen toch al? Werkt dat dan?
+- Drijft dit de woonkosten niet nog verder op?
+- Wie bepaalt hoeveel grond waard is?
 
-Een veelgehoorde zorg. Het antwoord:
-
-- De grondwaardebelasting kan **geleidelijk** worden ingevoerd, over een periode van 40–50 jaar. Hierdoor blijft de prijs van het huis nog een jaar of 10-20 stijgen, maar vlakt deze dan af. Dit voorkomt dat bestaande hypotheken onder water komen te staan.
-- Bestaande belastingen (zoals inkomstenbelasting, BTW, OZB, overdrachtsbelasting) kunnen tegelijk worden **afgebouwd**
-- Huiseigenaren die hun huis gewoon bewonen, en dus niet speculeren, merken per saldo **weinig verschil**, of **gaan erop vooruit**
-- De waarde van je huis stijgt minder snel, maar de BTW en je belasting op inkomen dalen flink, idealiter naar 0
-- Je kinderen en kleinkinderen kunnen wél een huis kopen
-
-De vraag is niet: "verlies ik iets?" De vraag is: "willen we een samenleving waarin de volgende generatie ook een thuis kan vinden?"
+Hieronder de antwoorden.
 
 ---
 
-# Wat kan de overheid nu doen?
+# Nóg meer belasting?
 
-1. **Voer een grondwaardebelasting in** als vervanging van de OZB, dit kan onmiddellijk zonder de hoogte van de belasting te veranderen
-2. **Schaf de overdrachtsbelasting af**. Deze belasting bestraft verhuizen en arbeidsmobiliteit
-3. **Belast leegstand en onbenut grondbezit** zwaarder (al is dit met een grondwaardebelasting overbodig)
-4. **Publiceer grondwaardecijfers** per perceel, zodat het debat op feiten gebaseerd is
-5. **Verlaag de inkomstenbelasting** met de opbrengsten. Beloon werk, niet bezit
+Nee. Belasting op grondwaarde kunnen we compenseren door andere belastingen te verlagen of af te schaffen.
+
+Normaal gesproken belasten we dingen met negatieve gevolgen, zoals roken, suiker, alcohol en brandstof. Maar we belasten ook dingen die we juist wél willen, simpelweg omdat de overheid ze makkelijk kan bijhouden. Denk aan:
+
+- **Inkomstenbelasting.** We willen dat mensen werken, maar doordat we inkomen belasten, loont werken minder.
+- **BTW.** We willen dat mensen producten en diensten voor elkaar maken, maar door BTW loont ook dat minder.
+- **Overdrachtsbelasting.** We willen dat mensen kunnen verhuizen naar waar het werk is, maar elke keer dat een huis van eigenaar wisselt, gaat er een deel van de koopsom naar de overheid.
+
+Grond is anders. Grond kun je niet verplaatsen of verstoppen, en er komt niet minder van als je het belast. Daarom is een grondbelasting een van de weinige belastingen die de economie niet afremt.
 
 ---
 
-# Een visie voor Nederland
+# We belasten woningen toch al? Werkt dat dan?
 
-Stel je een Nederland voor waarin:
+Dat doen we, maar te weinig en op een domme manier. De OZB belast de grond en het huis samen, alsof het één ding is. Daardoor betaalt de eigenaar van een parkeerterrein in de binnenstad minder belasting dan de eigenaar van de flat ernaast. Toch profiteren ze allebei van precies dezelfde waardestijging, veroorzaakt door de rest van de samenleving.
 
-- Starters gewoon een huis kunnen kopen
-- Huren betaalbaar zijn, zonder wachtlijsten van tien jaar
-- Grondspeculatie een ding van het verleden is
-- Belasting betaald wordt over wat je bezit aan schaarse grond, niet over wat je verdient met werk
-- Mensen en gemeenten investeren in hun buurten, en de opbrengst terugkomt bij de gemeenschap in plaats van bij enkele grondeigenaren
+Wie bouwt, krijgt een hogere aanslag. Wie de grond leeg laat liggen, betaalt weinig en wacht rustig af tot de prijs stijgt. Er is dus geen financiële prikkel om grond nuttig te gebruiken, en dus ook niet om genoeg woningen te bouwen.
 
-Dit is geen utopie. Dit is wat er gebeurt als je het belastingstelsel baseert op economische logica in plaats van op historisch toeval.
+---
 
-**Wonen is te duur. De grondwaardebelasting is de oplossing.**
+# Drijft dit de woonkosten niet nog verder op?
+
+Nee. Als je belasting betaalt over grond, kost het geld om grond te bezitten. Daardoor daalt de prijs van grond, en komt de prijs van een huis dichter bij wat de stenen waard zijn.
+
+En de huur? Normaal gesproken rekenen verhuurders belastingen door aan hun huurders. Bij grondbelasting lukt dat niet. De reden is simpel: een verhuurder vraagt nu al de hoogste huur die de markt accepteert. Een fabrikant die hogere kosten krijgt, kan minder of kleinere producten gaan maken. Een grondeigenaar kan niet "minder grond aanbieden". De grond is er gewoon. Door de belasting komen er niet ineens meer of minder huurders, en ook niet meer of minder grond. De huur blijft dus gelijk. Wat verandert, is wie de winst op de grondwaarde krijgt: de samenleving in plaats van de verhuurder.
+
+Vergelijk het met een parkeerplaats op een toplocatie. De eigenaar vraagt nu al het maximum dat mensen willen betalen. Moet de eigenaar belasting betalen over die locatiewaarde, dan kan de prijs niet verder omhoog, want die zat al aan het plafond. De belasting gaat dus van de winstmarge af, en niet uit de zak van de parkeerder.
+
+Wél betaal je meer belasting als je op een gewilde plek woont. Maar daar krijg je ook veel voor terug: voorzieningen, goed openbaar vervoer, beter werk (waarover je dan minder belasting betaalt). Je betaalt de samenleving voor wat je eruit haalt. Een stuk eerlijker dan het huidige systeem.
+
+---
+
+# Wie bepaalt hoeveel grond waard is?
+
+De overheid, net als nu. Gemeenten stellen elk jaar al de WOZ-waarde van elk huis vast. De waarde van de grond los van het huis bepalen is ook goed te doen. Dat gebeurt met rekenmodellen die vergelijkbare huizen op verschillende locaties naast elkaar zetten. Estland en Denemarken doen dit al tientallen jaren, net als delen van Australië en de VS.
+
+De WOZ-waarde van elk huis kun je nu al opzoeken. Voor grondwaarden moet dat ook gelden, per perceel. Zo kan iedereen controleren of het klopt, en kunnen politici en ambtenaren niet verstoppen wanneer ze het systeem misbruiken voor eigen gewin.
+
+---
+
+# Waarom hebben we dit nog niet?
+
+Als het zo'n goed systeem is, waarom is het dan nog niet ingevoerd?
+
+Zoals gezegd zorgt een grondbelasting ervoor dat de prijs van grond flink daalt. Dat is uiteindelijk precies wat we willen. Maar als je het te snel invoert, veroorzaak je groot onrecht en een economische schok waar iedereen last van heeft.
+
+Een voorbeeld: voer je het morgen in, dan zit iedereen met een hypotheek ineens met een gigantische schuld, voor een huis en grond die veel minder waard zijn. Dat is oneerlijk, en daarom onwenselijk.
+
+---
+
+# Hoe komen we er dan wel?
+
+Door het niet in één keer te doen, maar geleidelijk, en ruim van tevoren gepland.
+
+Zo'n planning zou er zo uit kunnen zien. De overheid kondigt aan dat we over 20 jaar beginnen aan een overgang naar grondbelasting die 30 jaar duurt. Na die eerste 20 jaar komt er elk jaar een stukje grondbelasting bij, en gaan de inkomstenbelasting en BTW omlaag, zodat de overheidsfinanciën stabiel blijven.
+
+Tijdens die 30 jaar blijven huizenprijzen ongeveer gelijk, terwijl de inflatie en de lonen gewoon doorstijgen. Na 50 jaar is wonen, vergeleken met wat mensen verdienen, dus veel goedkoper geworden, zonder dat er ooit plots miljoenen hypotheken onder water staan.
+
+Een paar dingen hoeven niet zo lang te wachten:
+
+- **Baseer de OZB op grondwaarde** in plaats van op de waarde van huis en grond samen. Dat kan meteen, zonder dat er in totaal meer belasting wordt betaald.
+- **Schaf de overdrachtsbelasting af.** Die maakt verhuizen duur en houdt mensen vast op plekken waar ze liever weg zouden gaan.
+- **Maak grondwaarden per perceel openbaar,** zodat het debat over feiten gaat.
+
+---
+
+# En als ik al een huis heb?
+
+Dan blijft je hypotheek boven water. Daar is die lange overgang juist voor. Je huis wordt minder snel meer waard dan je gewend bent, maar je betaalt ook minder inkomstenbelasting en BTW. Wie gewoon in een eigen huis woont en werkt, merkt per saldo vaak weinig verschil, of gaat erop vooruit. En je kinderen en kleinkinderen kunnen straks wél een huis kopen.
+
+---
+
+# Visie
+
+Als dit lukt, kunnen starters weer gewoon een huis kopen en betaal je de huur van een normaal salaris. Niemand wordt dan nog rijk van een leeg stuk grond terwijl anderen jarenlang op een wachtlijst staan. Je betaalt belasting over de schaarse grond die je gebruikt, en veel minder over het werk dat je doet.
+
+Dit is een plan waar de jongere generatie, en onze kinderen en kleinkinderen, pas echt de vruchten van zullen plukken. Een plan waar we minstens 50 jaar lang een stabiele, verstandige regering voor nodig hebben. Des te meer reden om nu te beginnen: elk jaar dat we wachten, schuift dat een jaar verder op.
+
+Het is de enige juiste oplossing. We hebben de morele en praktische plicht om de waarde die we samen creëren ook met elkaar te delen. Om wonen weer betaalbaar te maken, en om een betere, rechtvaardigere samenleving te bouwen.
+
+**Wonen is te duur.**\
+**Maar dat hoeft het niet te zijn.**
 
 ---
 
 # Wat kan ik doen?
 
-- **Deel deze pagina** met vrienden, familie en collega's
-- **Schrijf je volksvertegenwoordiger** aan, hun contactgegevens staan op de [politici-pagina](/politici/)
-- **Praat erover** op feestjes, op het werk, op sociale media
-- **Gebruik de hashtag** #wonenisteduur
+Zet dit onderwerp op de kaart. Stem op politici die grondbelasting een warm hart toedragen, en laat de rest weten dat je het belangrijk vindt.
+
+- **Deel deze pagina.** Ken je iemand die klaagt over de woningprijzen? Stuur het ze.
+- **Schrijf je volksvertegenwoordigers aan.** Hun contactgegevens staan op de [politici-pagina](/politici/).
+- **Praat erover.** Op verjaardagen, op het werk, online. Gebruik #wonenisteduur.
