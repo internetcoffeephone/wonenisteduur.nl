@@ -1,5 +1,9 @@
 ---
 title: "Politici: contactgegevens"
+menus:
+  main:
+    name: Politici
+    weight: 90
 ---
 
 Verandering begint bij de mensen die de wetten maken.

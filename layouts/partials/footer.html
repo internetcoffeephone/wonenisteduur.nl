@@ -2,7 +2,9 @@
   <div>{{ .Site.Title }} | Wonen moet betaalbaar zijn.</div>
   <div class="footer-links">
     <a href="/">Home</a>
-    <a href="/politici/">Politici</a>
+    {{- range .Site.Menus.main }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{- end }}
     <a href="/privacy/">Privacy</a>
     {{ partial "email.html" . }}
   </div>

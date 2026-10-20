@@ -17,8 +17,12 @@
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta name="twitter:description" content="{{ .Site.Params.description }}">
 
-<!-- CSS via Hugo Pipes -->
-{{ $css := resources.Get "css/style.css" | minify | fingerprint }}
+<!-- CSS via Hugo Pipes: style.css first, then any other assets/css/*.css (one file per feature) -->
+{{ $parts := slice (resources.Get "css/style.css") }}
+{{ range resources.Match "css/*.css" }}
+  {{ if not (strings.HasSuffix .Name "style.css") }}{{ $parts = $parts | append . }}{{ end }}
+{{ end }}
+{{ $css := $parts | resources.Concat "css/site.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 
 <!-- Favicon -->

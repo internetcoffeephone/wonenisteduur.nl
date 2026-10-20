@@ -2,12 +2,16 @@
 <html lang="nl">
 <head>
   {{ partial "head.html" . }}
+  {{ block "head" . }}{{ end }}
 </head>
 <body>
   <nav class="site-nav">
     <a href="/" class="nav-title">{{ .Site.Title }}</a>
     <span class="nav-links">
-      <a href="/politici/">Politici</a>
+      {{- /* Pages join the nav via `menus: main` (with a weight) in their front matter. */}}
+      {{- range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
     </span>
   </nav>
 
