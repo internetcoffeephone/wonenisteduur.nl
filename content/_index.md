@@ -166,3 +166,4 @@ Zet dit onderwerp op de kaart. Stem op politici die grondbelasting een warm hart
 - **Deel deze pagina.** Ken je iemand die klaagt over de woningprijzen? Stuur het ze.
 - **Schrijf je volksvertegenwoordigers aan.** Hun contactgegevens staan op de [politici-pagina](/politici/). Vraag om één ding: geef gemeenten de keuze.
 - **Praat erover.** Op verjaardagen, op het werk, online. Gebruik #wonenisteduur.
+- **Wil je meedenken of meebouwen?** Zit je in een gemeenteraad, doe je onderzoek naar grond of wonen, of wil je helpen met data en kaarten? Mail {{< email >}}.

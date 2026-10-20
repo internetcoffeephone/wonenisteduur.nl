@@ -1,0 +1,4 @@
+{{- /* Contact address, assembled client-side so plain scrapers don't find it. */ -}}
+{{- $u := .Site.Params.contactUser -}}
+{{- $d := .Site.Params.contactDomain -}}
+<a class="js-email" href="#" data-u="{{ $u }}" data-d="{{ $d }}">{{ $u }} [at] {{ replace $d "." " [dot] " }}</a>

@@ -10,6 +10,11 @@ unsafe = true
 [params]
 description = "Wonen in Nederland is onbetaalbaar. De grondwaardebelasting is de oplossing."
 ogImage = ""
+# GoatCounter site code (https://<code>.goatcounter.com). Empty disables analytics.
+goatcounter = "wonenisteduur"
+# Contact address, split so it is assembled client-side (see layouts/partials/email.html).
+contactUser = "hugo"
+contactDomain = "wonenisteduur.nl"
 
 [caches]
   [caches.images]

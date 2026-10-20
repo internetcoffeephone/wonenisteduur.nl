@@ -1,0 +1,4 @@
+{{- /* Same markup as the "email" shortcode, for use in templates. */ -}}
+{{- $u := .Site.Params.contactUser -}}
+{{- $d := .Site.Params.contactDomain -}}
+<a class="js-email" href="#" data-u="{{ $u }}" data-d="{{ $d }}">{{ $u }} [at] {{ replace $d "." " [dot] " }}</a>

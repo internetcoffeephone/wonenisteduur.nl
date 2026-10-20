@@ -3,5 +3,15 @@
   <div class="footer-links">
     <a href="/">Home</a>
     <a href="/politici/">Politici</a>
+    <a href="/privacy/">Privacy</a>
+    {{ partial "email.html" . }}
   </div>
 </footer>
+<script>
+  // Fill in contact links assembled from data attributes (see layouts/partials/email.html).
+  document.querySelectorAll('a.js-email').forEach(function (a) {
+    var addr = a.dataset.u + '@' + a.dataset.d;
+    a.href = 'mailto:' + addr;
+    a.textContent = addr;
+  });
+</script>

@@ -1,0 +1,24 @@
+{{- /* GoatCounter: cookieless, aggregate-only analytics. Only in production builds
+       (hugo server is development) and only when a site code is configured. */ -}}
+{{- with .Site.Params.goatcounter }}
+{{- if hugo.IsProduction }}
+<script data-goatcounter="https://{{ . }}.goatcounter.com/count"
+        async src="/js/count.js"></script>
+<script>
+  // Count share buttons and mailto links as events. Only the event name and the
+  // current path are sent; no personal data.
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('[data-share], a[href^="mailto:"]');
+    if (!el || !window.goatcounter || !window.goatcounter.count) return;
+    var name;
+    if (el.dataset.share) {
+      name = 'share-' + el.dataset.share;
+    } else {
+      var local = el.getAttribute('href').slice(7).split('@')[0].split('?')[0];
+      name = 'mail-' + (local || 'contact');
+    }
+    window.goatcounter.count({ path: name + ':' + location.pathname, title: name, event: true });
+  });
+</script>
+{{- end }}
+{{- end }}
