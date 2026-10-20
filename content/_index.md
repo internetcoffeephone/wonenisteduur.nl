@@ -24,6 +24,8 @@ Overal waar mensen graag wonen, zit het grootste deel van de waarde van een huis
 
 Een rijtjeshuis in Amsterdam-Oost kost €600.000. Precies hetzelfde huis in Delfzijl kost €200.000. De stenen kosten overal ongeveer hetzelfde. Het verschil van €400.000 is de grondwaarde, en die heeft de eigenaar niet zelf gecreëerd. Die komt van de stad eromheen.
 
+Dit is geen Amsterdams verschijnsel. Volgens het [CBS](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84550NED) zat in 2022 zo'n 60% van de waarde van alle Nederlandse woningen in de grond, tegen ruim 40% in 2013. De stenen werden in die jaren nauwelijks meer waard. De grond wel.
+
 Legt de gemeente een metrostation aan, dan stijgen de huizenprijzen in de buurt. Komt er een park of een goede school bij, dan stijgen ze weer. De eigenaar heeft daar niets voor gedaan, maar krijgt wel de hele waardestijging. Het grootste deel van de waarde van een huis komt dus van de samenleving, en de stijging van die waarde al helemaal. Dat is geld dat de eigenaar gratis van de samenleving krijgt.
 
 Een extreem voorbeeld is grondspeculatie: grond kopen omdat je verwacht dat het meer waard wordt, en er verder niets mee doen. Intussen staat er geen huis op, en staat iemand anders op een wachtlijst.
@@ -77,7 +79,7 @@ Grond is anders. Grond kun je niet verplaatsen of verstoppen, en er komt niet mi
 
 # We belasten woningen toch al? Werkt dat dan?
 
-Dat doen we, maar te weinig en op een domme manier. De OZB belast de grond en het huis samen, alsof het één ding is. Daardoor betaalt de eigenaar van een parkeerterrein in de binnenstad minder belasting dan de eigenaar van de flat ernaast. Toch profiteren ze allebei van precies dezelfde waardestijging, veroorzaakt door de rest van de samenleving.
+Dat doen we, maar te weinig en op een domme manier. De OZB belast de grond en het huis samen, alsof het één ding is. Daardoor betaalt de eigenaar van een leeg perceel of parkeerterrein in de binnenstad per vierkante meter grond een fractie van wat de eigenaar van de flat ernaast betaalt. Toch profiteren ze allebei van precies dezelfde waardestijging, veroorzaakt door de rest van de samenleving.
 
 Wie bouwt, krijgt een hogere aanslag. Wie de grond leeg laat liggen, betaalt weinig en wacht rustig af tot de prijs stijgt. Er is dus geen financiële prikkel om grond nuttig te gebruiken, en dus ook niet om genoeg woningen te bouwen.
 
@@ -91,13 +93,22 @@ En de huur? Normaal gesproken rekenen verhuurders belastingen door aan hun huurd
 
 Vergelijk het met een parkeerplaats op een toplocatie. De eigenaar vraagt nu al het maximum dat mensen willen betalen. Moet de eigenaar belasting betalen over die locatiewaarde, dan kan de prijs niet verder omhoog, want die zat al aan het plafond. De belasting gaat dus van de winstmarge af, en niet uit de zak van de parkeerder.
 
+Dat is het verhaal voor de vrije sector. In de gereguleerde sector (sociale huur en middenhuur) ligt de huur juist *onder* de marktprijs, dus daar is de vraag een andere: mág een verhuurder de belasting doorberekenen? In Nederland niet. De jaarlijkse huurverhoging is een vast percentage, de OZB mag niet als servicekosten worden doorberekend, en het puntenstelsel rekent met de WOZ-waarde, die bij een grondbelasting eerder daalt dan stijgt. Er is wel één valkuil, en die kennen we uit Denemarken én uit onze eigen verhuurderheffing (2013–2022): geef verhuurders nooit extra huurruimte "ter compensatie" van een belasting. Dan betaalt de huurder alsnog. Dat moet dus expliciet níet in de wet.
+
+Wie volhoudt dat verhuurders een grondbelasting tóch doorberekenen, moet vier vragen beantwoorden:
+
+- Waarom verlagen verhuurders de huur niet wanneer hun kosten dalen, zoals toen de hypotheekrente jarenlang daalde?
+- Als verhuurders dreigen de huur te verhogen zodra er een grondbelasting komt, waarom doen ze dat dan niet nu al?
+- Waarom trekken projectontwikkelaars in hun rekenmodellen alle vaste lasten, grondbelasting én OZB, af van de huuropbrengst, zodat die volledig doorwerken in een lager bod op de grond?
+- Stijgen of dalen huren en huizenprijzen als alle OZB in een gemeente in één klap wordt afgeschaft?
+
 Wél betaal je meer belasting als je op een gewilde plek woont. Maar daar krijg je ook veel voor terug: voorzieningen, goed openbaar vervoer, beter werk (waarover je dan minder belasting betaalt). Je betaalt de samenleving voor wat je eruit haalt. Een stuk eerlijker dan het huidige systeem.
 
 ---
 
 # Wie bepaalt hoeveel grond waard is?
 
-De overheid, net als nu. Gemeenten stellen elk jaar al de WOZ-waarde van elk huis vast. De waarde van de grond los van het huis bepalen is ook goed te doen. Dat gebeurt met rekenmodellen die vergelijkbare huizen op verschillende locaties naast elkaar zetten. Estland en Denemarken doen dit al tientallen jaren, net als delen van Australië en de VS.
+De overheid, net als nu. Gemeenten stellen elk jaar al de WOZ-waarde van elk huis vast. De waarde van de grond los van het huis bepalen is ook goed te doen. Dat gebeurt met rekenmodellen die vergelijkbare huizen op verschillende locaties naast elkaar zetten. Zuid-Korea taxeert elk jaar de grond onder álle percelen in het land, los van de gebouwen, en is daar vijf maanden mee bezig. De Duitse deelstaat Baden-Württemberg belast sinds 2025 alleen nog grondwaarde; de hoogste Duitse belastingrechter heeft dat in 2026 bevestigd. Denemarken, Estland en delen van Australië en de VS doen het al veel langer. En veel Nederlandse gemeenten rekenen in hun WOZ-model nu al met een grondprijs per vierkante meter per buurt (de "grondstaffel"). Ze publiceren die alleen niet.
 
 De WOZ-waarde van elk huis kun je nu al opzoeken. Voor grondwaarden moet dat ook gelden, per perceel. Zo kan iedereen controleren of het klopt, en kunnen politici en ambtenaren niet verstoppen wanneer ze het systeem misbruiken voor eigen gewin.
 
@@ -123,7 +134,7 @@ Tijdens die 30 jaar blijven huizenprijzen ongeveer gelijk, terwijl de inflatie e
 
 Een paar dingen hoeven niet zo lang te wachten:
 
-- **Baseer de OZB op grondwaarde** in plaats van op de waarde van huis en grond samen. Dat kan meteen, zonder dat er in totaal meer belasting wordt betaald.
+- **Geef gemeenten de keuze om de OZB op grondwaarde te baseren** in plaats van op huis en grond samen, zonder dat de totale opbrengst stijgt. Nu mag dat niet: de Gemeentewet schrijft één tarief over de hele WOZ-waarde voor. Eén wetswijziging is genoeg, precies zoals gemeenten sinds 2026 zelf mogen kiezen voor een leegstandbelasting. Hoe dat kan, hebben economen van het COELO in 2024 al [uitgewerkt](https://www.coelo.nl/images/rapporten/Eindrapport_planbatenheffing_en_grondbelasting_3_juni_2024.pdf) voor het ministerie van Financiën.
 - **Schaf de overdrachtsbelasting af.** Die maakt verhuizen duur en houdt mensen vast op plekken waar ze liever weg zouden gaan.
 - **Maak grondwaarden per perceel openbaar,** zodat het debat over feiten gaat.
 
@@ -153,5 +164,5 @@ Het is de enige juiste oplossing. We hebben de morele en praktische plicht om de
 Zet dit onderwerp op de kaart. Stem op politici die grondbelasting een warm hart toedragen, en laat de rest weten dat je het belangrijk vindt.
 
 - **Deel deze pagina.** Ken je iemand die klaagt over de woningprijzen? Stuur het ze.
-- **Schrijf je volksvertegenwoordigers aan.** Hun contactgegevens staan op de [politici-pagina](/politici/).
+- **Schrijf je volksvertegenwoordigers aan.** Hun contactgegevens staan op de [politici-pagina](/politici/). Vraag om één ding: geef gemeenten de keuze.
 - **Praat erover.** Op verjaardagen, op het werk, online. Gebruik #wonenisteduur.
