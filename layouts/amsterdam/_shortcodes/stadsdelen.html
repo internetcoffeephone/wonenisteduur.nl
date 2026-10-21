@@ -1,0 +1,18 @@
+{{- /* Land value summary per stadsdeel (buurten with an own estimate). */ -}}
+<div class="ams-tabel-scroll">
+<table>
+  <thead><tr><th>Stadsdeel</th><th>Woningen</th><th>Grondaandeel</th><th>Grond per m² woonopp.</th><th>Grond per m² perceel</th><th>Parkeer&shy;terreinen</th></tr></thead>
+  <tbody>
+  {{- range hugo.Data.amsterdam.tabellen.stadsdeel_grond }}
+    <tr>
+      <td data-label="Stadsdeel">{{ .stadsdeel }}</td>
+      <td data-label="Woningen">{{ .woningen }}</td>
+      <td data-label="Grondaandeel">{{ .grondaandeel }}</td>
+      <td data-label="Grond per m² woonopp.">{{ .gw }}</td>
+      <td data-label="Grond per m² perceel">{{ .gp }}</td>
+      <td data-label="Parkeerterrein">{{ .pk_ha }} ha, €{{ .pk_mln }} mln</td>
+    </tr>
+  {{- end }}
+  </tbody>
+</table>
+</div>

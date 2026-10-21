@@ -1,0 +1,283 @@
+/* === Amsterdam report (/amsterdam/) ===
+   Scoped to .ams so nothing leaks into other pages (this file is bundled site-wide). */
+
+.ams .ams-lead {
+  font-size: 1.15rem;
+  color: #2c3e50;
+}
+
+.ams .ams-klein {
+  font-size: 0.85rem;
+  color: #5b5a56;
+}
+
+/* Stat tiles */
+.ams-tegels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.ams-tegel {
+  background: #fff;
+  border: 1px solid #e0ddd6;
+  border-top: 3px solid #7a9e5a;
+  border-radius: 6px;
+  padding: 0.9rem 1rem 1rem;
+}
+
+.ams-tegel-waarde p,
+.ams-tegel-label p {
+  margin: 0;
+}
+
+.ams-tegel-waarde {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #2c3e50;
+}
+
+.ams-tegel-label {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #5b5a56;
+}
+
+/* Maps: wider than the text column, static PNG until the script takes over */
+.ams-kaart-fig {
+  position: relative;
+  width: min(1060px, calc(100vw - 2rem));
+  margin: 1.5rem 0 2rem 50%;
+  transform: translateX(-50%);
+}
+
+.ams-kaart-fallback {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e0ddd6;
+  border-radius: 6px;
+  background: #fafaf8;
+}
+
+.ams-kaart,
+.ams-legenda {
+  display: none;
+}
+
+.ams-js .ams-kaart {
+  display: block;
+  height: min(640px, 75vh);
+  border: 1px solid #e0ddd6;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.ams-js .ams-kaart-fallback {
+  display: none;
+}
+
+.ams-kaart-wrap {
+  position: relative;
+}
+
+.ams-js .ams-legenda {
+  display: block;
+  position: absolute;
+  left: 0.6rem;
+  bottom: 0.6rem;
+  max-width: 270px;
+  padding: 0.6rem 0.75rem;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid #e0ddd6;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  pointer-events: none;
+}
+
+.ams-kaart-fig figcaption,
+.ams-grafiek-fig figcaption {
+  font-size: 0.88rem;
+  color: #5b5a56;
+  margin-top: 0.5rem;
+}
+
+.ams-kaart-fig figcaption {
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0.25rem;
+}
+
+.ams-legenda-titel {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.3rem;
+}
+
+.ams-legenda ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ams-legenda li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0 0 0.15rem;
+}
+
+.ams-swatch {
+  flex: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+}
+
+.ams-swatch-geen {
+  background: repeating-linear-gradient(45deg, #efede8 0 3px, #d2cec5 3px 4px);
+  border: 1px solid #d9d6cf;
+}
+
+.ams-kaart-knoppen {
+  border: none;
+  margin: 0 0 0.5rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  font-size: 0.92rem;
+  justify-content: center;
+}
+
+.ams-kaart-knoppen legend {
+  font-weight: 600;
+  color: #2c3e50;
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.ams-kaart-knoppen label {
+  cursor: pointer;
+}
+
+.ams .maplibregl-popup-content {
+  font-family: inherit;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  padding: 0.7rem 0.9rem;
+  color: #2c2c2c;
+}
+
+.ams .maplibregl-popup-content dl {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.1rem 0.75rem;
+  margin: 0.4rem 0 0.2rem;
+}
+
+.ams .maplibregl-popup-content dt {
+  color: #5b5a56;
+}
+
+.ams .maplibregl-popup-content dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.ams .maplibregl-popup-content p {
+  margin: 0.3rem 0 0;
+}
+
+/* Charts (inline SVG) and their table twins */
+.ams-grafiek-fig {
+  margin: 1.5rem 0 2rem;
+}
+
+.ams-grafiek {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid #e0ddd6;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.ams-mark:hover path,
+.ams-mark:hover rect {
+  opacity: 0.8;
+}
+
+.ams-tabel-scroll {
+  overflow-x: auto;
+}
+
+.ams-tabel-twin table,
+.ams .ams-top20 {
+  font-size: 0.85rem;
+}
+
+.ams-tabel-twin td,
+.ams-tabel-twin th {
+  padding: 0.4rem 0.5rem;
+}
+
+.ams-bereik {
+  color: #5b5a56;
+  white-space: nowrap;
+}
+
+.ams-methode table {
+  font-size: 0.88rem;
+}
+
+.ams .ams-bronnen {
+  font-size: 0.85rem;
+  color: #5b5a56;
+}
+
+@media (max-width: 600px) {
+  .ams-js .ams-kaart {
+    height: 70vh;
+  }
+
+  .ams-js .ams-legenda {
+    position: static;
+    max-width: none;
+    margin-top: 0.5rem;
+  }
+
+  .ams-tegel-waarde {
+    font-size: 1.35rem;
+  }
+}
+
+@media print {
+  .ams-kaart,
+  .ams-kaart-knoppen,
+  .ams-legenda,
+  .ams-js .ams-kaart {
+    display: none !important;
+  }
+
+  .ams-kaart-fallback,
+  .ams-js .ams-kaart-fallback {
+    display: block !important;
+  }
+
+  .ams-kaart-fig {
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+
+  .ams details {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+{{- /* Interactive map with a static PNG fallback (no JS, no WebGL, print, social).
+       Usage: {{< kaart soort="grond" >}} or {{< kaart soort="parkeren" >}} */ -}}
+{{- $soort := .Get "soort" -}}
+{{- $k := hugo.Data.amsterdam.kaart -}}
+{{- $img := cond (eq $soort "parkeren") "kaart-parkeren.png" "kaart-grondwaarde.png" -}}
+{{- $alt := cond (eq $soort "parkeren")
+    "Kaart van Amsterdam met alle bovengrondse parkeerterreinen als donkere vlakjes over de geschatte grondwaarde per buurt. Veel terreinen liggen in Zuidoost, Nieuw-West, Noord en in het havengebied."
+    "Kaart van de geschatte grondwaarde per m² woonoppervlak per buurt. Het donkerst zijn de grachtengordel, de Jordaan, Oud-Zuid, De Pijp en Oud-West; het lichtst grote delen van Zuidoost en delen van Nieuw-West, Weesp en Noord." -}}
+<figure class="ams-kaart-fig" data-soort="{{ $soort }}"
+        data-breaks="{{ $k.breaks | jsonify }}" data-seq="{{ $k.seq | jsonify }}" data-div="{{ $k.div | jsonify }}"
+        data-nodata="{{ $k.nodata }}" data-navy="{{ $k.navy }}">
+  {{- if eq $soort "grond" }}
+  <fieldset class="ams-kaart-knoppen" hidden>
+    <legend>Laat zien</legend>
+    <label><input type="radio" name="laag-{{ $soort }}" value="gw" checked> Grondwaarde per m² woonoppervlak</label>
+    <label><input type="radio" name="laag-{{ $soort }}" value="gp"> Grondprijs per m² perceel</label>
+    <label><input type="radio" name="laag-{{ $soort }}" value="oz"> OZB-verandering (alleen grond)</label>
+  </fieldset>
+  {{- end }}
+  <div class="ams-kaart-wrap">
+    <div class="ams-kaart" role="region" aria-label="Interactieve kaart; dezelfde gegevens staan in de tabellen en de downloads op deze pagina"></div>
+    <div class="ams-legenda" aria-hidden="true"></div>
+  </div>
+  <img class="ams-kaart-fallback" src="/amsterdam/{{ $img }}" alt="{{ $alt }}" width="1200" height="1032" loading="lazy">
+  {{- with .Inner }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

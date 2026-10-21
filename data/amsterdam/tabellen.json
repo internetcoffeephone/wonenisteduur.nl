@@ -1,0 +1,465 @@
+{
+ "ozb_type": [
+  {
+   "groep": "Alle woningen",
+   "woningen": "491.169",
+   "ozb_nu": "€269",
+   "p_A": "+⁠0,2%",
+   "d_A": "+⁠€1",
+   "p_B": "−⁠0,5%",
+   "d_B": "−⁠€1",
+   "min10_A": "26%",
+   "plus10_A": "7%",
+   "min10_B": "22%",
+   "plus10_B": "7%"
+  },
+  {
+   "groep": "Appartementen",
+   "woningen": "429.317",
+   "ozb_nu": "€260",
+   "p_A": "−⁠0,6%",
+   "d_A": "−⁠€1",
+   "p_B": "−⁠1,3%",
+   "d_B": "−⁠€4",
+   "min10_A": "29%",
+   "plus10_A": "0%",
+   "min10_B": "25%",
+   "plus10_B": "0%"
+  },
+  {
+   "groep": "Grondgebonden woningen",
+   "woningen": "61.852",
+   "ozb_nu": "€331",
+   "p_A": "+⁠10,9%",
+   "d_A": "+⁠€35",
+   "p_B": "+⁠11,9%",
+   "d_B": "+⁠€39",
+   "min10_A": "4%",
+   "plus10_A": "52%",
+   "min10_B": "2%",
+   "plus10_B": "53%"
+  }
+ ],
+ "ozb_inkomen": [
+  {
+   "groep": "Laagste 20%",
+   "woningen": "96.818",
+   "ozb_nu": "€190",
+   "p_A": "−⁠10,5%",
+   "d_A": "−⁠€18",
+   "p_B": "−⁠7,3%",
+   "d_B": "−⁠€13",
+   "min10_A": "53%",
+   "plus10_A": "9%",
+   "min10_B": "38%",
+   "plus10_B": "9%",
+   "inkomen": "€16.200–€30.700"
+  },
+  {
+   "groep": "20–40%",
+   "woningen": "97.495",
+   "ozb_nu": "€248",
+   "p_A": "−⁠0,6%",
+   "d_A": "−⁠€1",
+   "p_B": "−⁠1,0%",
+   "d_B": "−⁠€2",
+   "min10_A": "31%",
+   "plus10_A": "11%",
+   "min10_B": "31%",
+   "plus10_B": "10%",
+   "inkomen": "€30.700–€35.100"
+  },
+  {
+   "groep": "40–60%",
+   "woningen": "96.830",
+   "ozb_nu": "€269",
+   "p_A": "+⁠3,4%",
+   "d_A": "+⁠€9",
+   "p_B": "+⁠1,5%",
+   "d_B": "+⁠€4",
+   "min10_A": "17%",
+   "plus10_A": "4%",
+   "min10_B": "16%",
+   "plus10_B": "5%",
+   "inkomen": "€35.100–€40.100"
+  },
+  {
+   "groep": "60–80%",
+   "woningen": "96.531",
+   "ozb_nu": "€299",
+   "p_A": "+⁠3,5%",
+   "d_A": "+⁠€10",
+   "p_B": "+⁠2,0%",
+   "d_B": "+⁠€5",
+   "min10_A": "15%",
+   "plus10_A": "3%",
+   "min10_B": "14%",
+   "plus10_B": "3%",
+   "inkomen": "€40.200–€47.600"
+  },
+  {
+   "groep": "Hoogste 20%",
+   "woningen": "98.481",
+   "ozb_nu": "€386",
+   "p_A": "+⁠1,9%",
+   "d_A": "+⁠€8",
+   "p_B": "+⁠0,2%",
+   "d_B": "+⁠€1",
+   "min10_A": "15%",
+   "plus10_A": "6%",
+   "min10_B": "13%",
+   "plus10_B": "6%",
+   "inkomen": "€47.800–€259.300"
+  }
+ ],
+ "ozb_stadsdeel": [
+  {
+   "groep": "Nieuw-West",
+   "woningen": "76.622",
+   "ozb_nu": "€241",
+   "p_A": "−⁠14,4%",
+   "d_A": "−⁠€29",
+   "p_B": "−⁠10,1%",
+   "d_B": "−⁠€21",
+   "min10_A": "58%",
+   "plus10_A": "14%",
+   "min10_B": "50%",
+   "plus10_B": "14%"
+  },
+  {
+   "groep": "Zuidoost",
+   "woningen": "45.740",
+   "ozb_nu": "€180",
+   "p_A": "−⁠12,1%",
+   "d_A": "−⁠€19",
+   "p_B": "−⁠8,4%",
+   "d_B": "−⁠€12",
+   "min10_A": "61%",
+   "plus10_A": "9%",
+   "min10_B": "44%",
+   "plus10_B": "9%"
+  },
+  {
+   "groep": "Weesp",
+   "woningen": "10.944",
+   "ozb_nu": "€259",
+   "p_A": "−⁠8,6%",
+   "d_A": "−⁠€21",
+   "p_B": "−⁠6,3%",
+   "d_B": "−⁠€16",
+   "min10_A": "50%",
+   "plus10_A": "10%",
+   "min10_B": "42%",
+   "plus10_B": "10%"
+  },
+  {
+   "groep": "Noord",
+   "woningen": "54.651",
+   "ozb_nu": "€246",
+   "p_A": "−⁠7,9%",
+   "d_A": "−⁠€17",
+   "p_B": "−⁠5,3%",
+   "d_B": "−⁠€13",
+   "min10_A": "35%",
+   "plus10_A": "12%",
+   "min10_B": "34%",
+   "plus10_B": "13%"
+  },
+  {
+   "groep": "Oost",
+   "woningen": "75.827",
+   "ozb_nu": "€309",
+   "p_A": "−⁠0,9%",
+   "d_A": "−⁠€2",
+   "p_B": "−⁠1,5%",
+   "d_B": "−⁠€4",
+   "min10_A": "27%",
+   "plus10_A": "4%",
+   "min10_B": "22%",
+   "plus10_B": "5%"
+  },
+  {
+   "groep": "Centrum",
+   "woningen": "58.306",
+   "ozb_nu": "€315",
+   "p_A": "+⁠3,3%",
+   "d_A": "+⁠€10",
+   "p_B": "+⁠1,5%",
+   "d_B": "+⁠€5",
+   "min10_A": "0%",
+   "plus10_A": "7%",
+   "min10_B": "0%",
+   "plus10_B": "4%"
+  },
+  {
+   "groep": "Zuid",
+   "woningen": "84.543",
+   "ozb_nu": "€317",
+   "p_A": "+⁠5,4%",
+   "d_A": "+⁠€16",
+   "p_B": "+⁠3,0%",
+   "d_B": "+⁠€8",
+   "min10_A": "10%",
+   "plus10_A": "4%",
+   "min10_B": "10%",
+   "plus10_B": "4%"
+  },
+  {
+   "groep": "West",
+   "woningen": "84.536",
+   "ozb_nu": "€269",
+   "p_A": "+⁠5,8%",
+   "d_A": "+⁠€14",
+   "p_B": "+⁠3,2%",
+   "d_B": "+⁠€8",
+   "min10_A": "3%",
+   "plus10_A": "1%",
+   "min10_B": "2%",
+   "plus10_B": "1%"
+  }
+ ],
+ "top20": [
+  {
+   "rang": 1,
+   "label": "Parkeerterrein bij een ziekenhuis, Jan Tooropstraat (Lucas/Andreasziekenhuis e.o.)",
+   "stadsdeel": "Nieuw-West",
+   "m2": "18.172",
+   "waarde": "145",
+   "bereik": "135–161"
+  },
+  {
+   "rang": 2,
+   "label": "Parkeerterrein, Entrepotdok (Plantage)",
+   "stadsdeel": "Centrum",
+   "m2": "9.820",
+   "waarde": "99",
+   "bereik": "92–107"
+  },
+  {
+   "rang": 3,
+   "label": "Parkeerterrein, NDSM-straat (NDSM terrein)",
+   "stadsdeel": "Noord",
+   "m2": "10.089",
+   "waarde": "96",
+   "bereik": "92–105"
+  },
+  {
+   "rang": 4,
+   "label": "P+R-terrein, Piarcoplein (Sloterdijk Stationskwartier)",
+   "stadsdeel": "Nieuw-West",
+   "m2": "11.732",
+   "waarde": "73",
+   "bereik": "69–84"
+  },
+  {
+   "rang": 5,
+   "label": "Parkeerterrein bij een supermarkt, Buikslotermeerplein (Buikslotermeerplein)",
+   "stadsdeel": "Noord",
+   "m2": "12.500",
+   "waarde": "68",
+   "bereik": "61–79"
+  },
+  {
+   "rang": 6,
+   "label": "Parkeerterrein, C.J.van Houtenlaan (Bedrijventerrein Van Houten)",
+   "stadsdeel": "Weesp",
+   "m2": "7.592",
+   "waarde": "50",
+   "bereik": "45–55"
+  },
+  {
+   "rang": 7,
+   "label": "Parkeerterrein, Nachtwachtlaan (Rembrandtpark-Zuid)",
+   "stadsdeel": "Nieuw-West",
+   "m2": "6.383",
+   "waarde": "46",
+   "bereik": "41–50"
+  },
+  {
+   "rang": 8,
+   "label": "Parkeerterrein, Ina van Faassenhof (Buiksloterham-Zuid)",
+   "stadsdeel": "Noord",
+   "m2": "5.373",
+   "waarde": "45",
+   "bereik": "43–50"
+  },
+  {
+   "rang": 9,
+   "label": "Parkeerterrein bij woonwinkels, Osdorperweg (De Aker-Oost)",
+   "stadsdeel": "Nieuw-West",
+   "m2": "9.286",
+   "waarde": "45",
+   "bereik": "39–53"
+  },
+  {
+   "rang": 10,
+   "label": "Parkeerterrein, Kraanspoor (NDSM terrein)",
+   "stadsdeel": "Noord",
+   "m2": "4.708",
+   "waarde": "45",
+   "bereik": "43–49"
+  },
+  {
+   "rang": 11,
+   "label": "Parkeerterrein, Trompenburgstraat (Kromme Mijdrechtbuurt)",
+   "stadsdeel": "Zuid",
+   "m2": "4.281",
+   "waarde": "42",
+   "bereik": "38–45"
+  },
+  {
+   "rang": 12,
+   "label": "Parkeerterrein bij een onderwijsinstelling, Aambeeldstraat (Hamerstraatkwartier-West)",
+   "stadsdeel": "Noord",
+   "m2": "5.328",
+   "waarde": "39",
+   "bereik": "35–43"
+  },
+  {
+   "rang": 13,
+   "label": "Parkeerterrein, Uitdammerdijk (Durgerdam)",
+   "stadsdeel": "Noord",
+   "m2": "3.071",
+   "waarde": "38",
+   "bereik": "35–41"
+  },
+  {
+   "rang": 14,
+   "label": "Parkeerterrein, Mensinge (Buitenveldert-Oost-Midden)",
+   "stadsdeel": "Zuid",
+   "m2": "5.212",
+   "waarde": "38",
+   "bereik": "33–41"
+  },
+  {
+   "rang": 15,
+   "label": "Parkeerterrein, IJdoornlaan (Kadoelen)",
+   "stadsdeel": "Noord",
+   "m2": "4.177",
+   "waarde": "36",
+   "bereik": "33–39"
+  },
+  {
+   "rang": 16,
+   "label": "Parkeerterrein bij station Amsterdam RAI, Europaboulevard (De Klenckebuurt)",
+   "stadsdeel": "Zuid",
+   "m2": "4.457",
+   "waarde": "35",
+   "bereik": "32–39"
+  },
+  {
+   "rang": 17,
+   "label": "Parkeerterrein, Millingenhof (Holendrecht-Zuid)",
+   "stadsdeel": "Zuidoost",
+   "m2": "8.552",
+   "waarde": "33",
+   "bereik": "26–38"
+  },
+  {
+   "rang": 18,
+   "label": "Parkeerterrein bij winkelcentrum Bos en Lommerplein, Bos en Lommerplantsoen (Robert Scottbuurt-West)",
+   "stadsdeel": "West",
+   "m2": "3.893",
+   "waarde": "32",
+   "bereik": "29–35"
+  },
+  {
+   "rang": 19,
+   "label": "Parkeerterrein bij woonwinkels, Klaprozenweg (Buiksloterham-Noord)",
+   "stadsdeel": "Noord",
+   "m2": "3.895",
+   "waarde": "32",
+   "bereik": "30–36"
+  },
+  {
+   "rang": 20,
+   "label": "Parkeerterrein bij een onderwijsinstelling, Aambeeldstraat (Hamerstraatkwartier-West) – terrein 2",
+   "stadsdeel": "Noord",
+   "m2": "4.346",
+   "waarde": "32",
+   "bereik": "29–35"
+  }
+ ],
+ "stadsdeel_grond": [
+  {
+   "stadsdeel": "Centrum",
+   "buurten": 67,
+   "woningen": "58.306",
+   "grondaandeel": "85%",
+   "gw": "€6.840",
+   "gp": "€13.900",
+   "pk_ha": "2,4",
+   "pk_mln": "235"
+  },
+  {
+   "stadsdeel": "Nieuw-West",
+   "buurten": 59,
+   "woningen": "76.624",
+   "grondaandeel": "74%",
+   "gw": "€4.020",
+   "gp": "€6.700",
+   "pk_ha": "21,1",
+   "pk_mln": "1.325"
+  },
+  {
+   "stadsdeel": "Noord",
+   "buurten": 53,
+   "woningen": "54.551",
+   "grondaandeel": "77%",
+   "gw": "€4.630",
+   "gp": "€9.000",
+   "pk_ha": "20,9",
+   "pk_mln": "1.492"
+  },
+  {
+   "stadsdeel": "Oost",
+   "buurten": 54,
+   "woningen": "75.787",
+   "grondaandeel": "79%",
+   "gw": "€5.690",
+   "gp": "€11.000",
+   "pk_ha": "4,5",
+   "pk_mln": "384"
+  },
+  {
+   "stadsdeel": "Weesp",
+   "buurten": 19,
+   "woningen": "10.901",
+   "grondaandeel": "74%",
+   "gw": "€3.560",
+   "gp": "€3.000",
+   "pk_ha": "4,8",
+   "pk_mln": "243"
+  },
+  {
+   "stadsdeel": "West",
+   "buurten": 61,
+   "woningen": "84.536",
+   "grondaandeel": "84%",
+   "gw": "€6.560",
+   "gp": "€12.500",
+   "pk_ha": "1,0",
+   "pk_mln": "88"
+  },
+  {
+   "stadsdeel": "Zuid",
+   "buurten": 63,
+   "woningen": "84.525",
+   "grondaandeel": "86%",
+   "gw": "€6.770",
+   "gp": "€12.700",
+   "pk_ha": "6,5",
+   "pk_mln": "547"
+  },
+  {
+   "stadsdeel": "Zuidoost",
+   "buurten": 36,
+   "woningen": "45.740",
+   "grondaandeel": "70%",
+   "gw": "€2.870",
+   "gp": "€5.700",
+   "pk_ha": "23,0",
+   "pk_mln": "999"
+  }
+ ]
+}

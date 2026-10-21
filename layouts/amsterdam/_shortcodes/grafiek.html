@@ -1,0 +1,41 @@
+{{- /* Inline SVG chart from static/amsterdam/grafieken/<naam>.svg plus its table twin.
+       Usage: {{< grafiek naam="ozb-type" tabel="ozb_type" bijschrift="..." >}} */ -}}
+{{- $naam := .Get "naam" -}}
+{{- $svg := readFile (printf "static/amsterdam/grafieken/%s.svg" $naam) -}}
+{{- if not $svg }}{{ errorf "grafiek: %s.svg ontbreekt" $naam }}{{ end -}}
+<figure class="ams-grafiek-fig">
+  {{ $svg | safeHTML }}
+  {{- with .Get "bijschrift" }}
+    {{- $s := . }}
+    {{- range findRE `\{[A-Za-z0-9_]+\}` $s }}
+      {{- $k := trim . "{}" }}
+      {{- with index hugo.Data.amsterdam.cijfers $k }}{{ $s = replace $s (printf "{%s}" $k) .t }}{{ else }}{{ errorf "grafiek: onbekende sleutel %q" $k }}{{ end }}
+    {{- end }}
+  <figcaption>{{ $s | markdownify }}</figcaption>
+  {{- end }}
+  {{- with .Get "tabel" }}
+  {{- $rows := index hugo.Data.amsterdam.tabellen . }}
+  <details class="ams-tabel-twin">
+    <summary>Bekijk als tabel</summary>
+    <div class="ams-tabel-scroll">
+    <table>
+      <thead><tr>
+        <th>Groep</th>{{ if (index $rows 0).inkomen }}<th>Gem. gestand. inkomen</th>{{ end }}<th>Woningen</th><th>OZB nu (mediaan)</th>
+        <th>Alleen grond</th><th>Grond 3:1 gebouw</th><th>&gt;10% minder</th><th>&gt;10% meer</th>
+      </tr></thead>
+      <tbody>
+      {{- range $rows }}
+        <tr>
+          <td data-label="Groep">{{ .groep }}</td>{{ with .inkomen }}<td data-label="Inkomen">{{ . }}</td>{{ end }}
+          <td data-label="Woningen">{{ .woningen }}</td><td data-label="OZB nu">{{ .ozb_nu }}</td>
+          <td data-label="Alleen grond">{{ .p_A }} ({{ .d_A }})</td><td data-label="Grond 3:1">{{ .p_B }} ({{ .d_B }})</td>
+          <td data-label="&gt;10% minder">{{ .min10_A }}</td><td data-label="&gt;10% meer">{{ .plus10_A }}</td>
+        </tr>
+      {{- end }}
+      </tbody>
+    </table>
+    </div>
+    <p class="ams-klein">Mediaan per woning per jaar. De laatste twee kolommen gelden voor de variant alleen grond.</p>
+  </details>
+  {{- end }}
+</figure>

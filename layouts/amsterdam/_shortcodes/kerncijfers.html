@@ -1,0 +1,21 @@
+{{- /* Row of stat tiles. Each inner line: "waarde | toelichting", where {sleutel}
+       is replaced by the formatted number from data/amsterdam/cijfers.json. */ -}}
+{{- $c := hugo.Data.amsterdam.cijfers -}}
+<div class="ams-tegels">
+{{- range split (trim .Inner "\n ") "\n" }}
+  {{- $p := split . "|" }}
+  {{- $parts := slice }}
+  {{- range $p }}
+    {{- $s := trim . " " }}
+    {{- range findRE `\{[A-Za-z0-9_]+\}` $s }}
+      {{- $k := trim . "{}" }}
+      {{- with index $c $k }}{{ $s = replace $s (printf "{%s}" $k) .t }}{{ else }}{{ errorf "kerncijfers: onbekende sleutel %q" $k }}{{ end }}
+    {{- end }}
+    {{- $parts = $parts | append $s }}
+  {{- end }}
+  <div class="ams-tegel">
+    <div class="ams-tegel-waarde">{{ index $parts 0 | markdownify }}</div>
+    <div class="ams-tegel-label">{{ index $parts 1 | markdownify }}</div>
+  </div>
+{{- end }}
+</div>

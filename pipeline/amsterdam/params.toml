@@ -1,0 +1,92 @@
+# Parameters for the Amsterdam land value pipeline.
+# Every number the report publishes is derived from these values plus the
+# downloaded open data. Change a value here, rerun `make all` (see README).
+
+[area]
+gemeentecode = "GM0363"           # CBS code for Amsterdam (incl. Weesp since 2022)
+gemeentecode_bag = "0363"
+cbs_kerncijfers = "86165NED"      # Kerncijfers wijken en buurten 2025
+cbs_buurtkaart = "wijken-en-buurten-2025"
+# Most recent Kerncijfers edition with income per buurt (same buurt codes).
+cbs_inkomen = "85618NED"
+# The CBS WOZ average in 86165NED is for belastingjaar 2025, peildatum 1-1-2024.
+woz_peildatum = "2024-01-01"
+woz_peiljaar = 2024
+# RD New bounding box used for all bbox downloads (clipped to the gemeente later).
+bbox_rd = [110100, 476600, 136000, 494000]
+
+[rebuild_cost]
+# Base: CBS 83673NED "Bouwvergunningen; kerncijfers nieuwbouwwoningen",
+# GemiddeldeBouwkostenPerM_3 (bouwsom excl. btw per m2), West-Nederland (LD03),
+# 12 months ending December of `cbs_year` (the year before the WOZ peildatum),
+# mean of huur- and koopwoningen.
+cbs_table = "83673NED"
+cbs_region = "LD03"
+cbs_year = 2023
+btw = 1.21
+# Bijkomende kosten (architect, advisers, leges, financing, developer margin),
+# as Amsterdam's own erfpacht method includes them in "herbouwkosten".
+bijkomend = { low = 1.10, central = 1.20, high = 1.30 }
+# Amsterdam premium (piled foundations, multi-storey, tight sites) and the
+# known under-reporting of bouwsommen in permit applications.
+premium = { low = 1.00, central = 1.10, high = 1.25 }
+# Scale the central cost so that the same rules, applied to all Dutch dwellings
+# in BAG with the national CBS WOZ average, reproduce CBS's national land share
+# under dwellings (84550NED, latest year). Low/high stay as set above.
+calibrate_central_to_cbs = true
+
+[depreciation]
+# Building value factor f = max(floor, 1 - age / life), age = woz_peiljaar - bouwjaar.
+life = { low_land = 120, central = 80, high_land = 60 }
+floor = { low_land = 0.60, central = 0.40, high_land = 0.30 }
+
+[land_share]
+clip_min = 0.05                   # same floor as Amsterdam's own BSQ method
+clip_max = 0.95
+# Shrinkage toward the city baseline: w = n / (n + k), n = dwellings in the buurt.
+shrink_k = 200
+# Buurten with fewer dwellings than this get no own land rate; they borrow the
+# wijk rate (pooled over the wijk's buurten).
+min_dwellings = 50
+# Buurten whose CBS WOZ per m2 floor area is below this fraction of the city
+# median get no own estimate (student/temporary units, new builds after peildatum).
+min_woz_m2_frac = 0.4
+# ... or whose CBS dwelling count differs from the BAG count by more than this ratio.
+count_ratio_range = [0.5, 2.0]
+
+[land_area]
+# Allocation of parcel area to dwellings: each parcel's area is split over the
+# panden that overlap it (by overlap area), each pand's share over its
+# verblijfsobjecten (by floor area). Parcels without any pand are ignored.
+# Large mostly-empty parcels (public space, parks) are capped:
+cap_min_parcel_m2 = 5000          # only parcels larger than this are capped
+cap_footprint_multiple = 6        # allocate at most this many times the built footprint
+pand_status = ["Pand in gebruik", "Pand in gebruik (niet ingemeten)", "Verbouwing pand"]
+vbo_status = ["Verblijfsobject in gebruik", "Verblijfsobject in gebruik (niet ingemeten)", "Verbouwing verblijfsobject"]
+min_vbo_m2 = 10                   # ignore implausible floor areas
+max_vbo_m2 = 1000
+
+[parking]
+min_lot_m2 = 500                  # merged pieces below this are on-street bays
+strip_max_width_m = 8             # pieces thinner than this (2A/P) ...
+strip_min_elongation = 4          # ... and longer than 4x their width are street strips
+carriageway_touch_frac = 0.25     # strip if >= this share of the outline touches a rijbaan
+merge_buffer_m = 0.5              # polygons closer than this are merged
+structure_overlap = 0.85          # BAG pand cover >= this -> deck/garage, excluded
+osm_exclude_parking = ["multi-storey", "underground", "rooftop", "street_side", "lane", "on_kerb", "half_on_kerb", "layby"]
+
+[ozb]
+# CBS 83642NED, A047000 "Onroerendezaakbelasting woningen", GM0363, 2026 (voorlopig)
+cbs_table = "83642NED"
+year = "2026JJ00"
+# Verordening Onroerendezaakbelastingen 2007, versie CVDR72876_20 (gmb-2025-549232),
+# ingang heffing 1 januari 2026, art. 5: eigenarenbelasting woningen 0,0527%.
+tariff_woningen_2026 = 0.000527
+cvdr_id = "CVDR72876_20"
+land_building_ratio = 3.0         # variant 2: land taxed at 3x the building rate
+change_threshold = 0.10           # report shares changing more than +/- 10%
+
+[house_type]
+# A dwelling is "grondgebonden" when its pand holds exactly one woon-VBO and at
+# most `max_vbo_in_pand` VBOs in total; otherwise "appartement".
+max_vbo_in_pand = 2

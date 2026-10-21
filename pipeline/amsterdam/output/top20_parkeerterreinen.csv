@@ -1,0 +1,21 @@
+label,naam,straat,buurtcode,buurtnaam,stadsdeel,opp_m2,opp_onbebouwd_m2,bron,waarde_low,waarde_central,waarde_high,rang
+"Parkeerterrein bij een ziekenhuis, Jan Tooropstraat (Lucas/Andreasziekenhuis e.o.)",Parkeerterrein bij een ziekenhuis,Jan Tooropstraat,BU0363FM01,Lucas/Andreasziekenhuis e.o.,Nieuw-West,18827.0,18172.0,bgt+osm,134794212.0,144831622.0,160902943.0,1
+"Parkeerterrein, Entrepotdok (Plantage)",Parkeerterrein,Entrepotdok,BU0363AJ02,Plantage,Centrum,9820.0,9820.0,bgt+osm,91846074.0,99229439.0,106800695.0,2
+"Parkeerterrein, NDSM-straat (NDSM terrein)",Parkeerterrein,NDSM-straat,BU0363NB03,NDSM terrein,Noord,10089.0,10089.0,bgt,91947584.0,95779176.0,105271009.0,3
+"P+R-terrein, Piarcoplein (Sloterdijk Stationskwartier)",P+R-terrein,Piarcoplein,BU0363FA08,Sloterdijk Stationskwartier,Nieuw-West,11783.0,11732.0,bgt+osm,68755779.0,73458026.0,84213442.0,4
+"Parkeerterrein bij een supermarkt, Buikslotermeerplein (Buikslotermeerplein)",Parkeerterrein bij een supermarkt,Buikslotermeerplein,BU0363NH04,Buikslotermeerplein,Noord,12614.0,12500.0,bgt+osm,61426929.0,68406860.0,79117885.0,5
+"Parkeerterrein, C.J.van Houtenlaan (Bedrijventerrein Van Houten)",Parkeerterrein,C.J.van Houtenlaan,BU0363SD02,Bedrijventerrein Van Houten,Weesp,7592.0,7592.0,bgt+osm,44735821.0,49990921.0,54882921.0,6
+"Parkeerterrein, Nachtwachtlaan (Rembrandtpark-Zuid)",Parkeerterrein,Nachtwachtlaan,BU0363FM05,Rembrandtpark-Zuid,Nieuw-West,6497.0,6383.0,osm,40764726.0,45954264.0,50060769.0,7
+"Parkeerterrein, Ina van Faassenhof (Buiksloterham-Zuid)",Parkeerterrein,Ina van Faassenhof,BU0363NB04,Buiksloterham-Zuid,Noord,8846.0,5373.0,osm,42798208.0,44979043.0,49973625.0,8
+"Parkeerterrein bij woonwinkels, Osdorperweg (De Aker-Oost)",Parkeerterrein bij woonwinkels,Osdorperweg,BU0363FG03,De Aker-Oost,Nieuw-West,9286.0,9286.0,osm,39444317.0,44891693.0,53081832.0,9
+"Parkeerterrein, Kraanspoor (NDSM terrein)",Parkeerterrein,Kraanspoor,BU0363NB03,NDSM terrein,Noord,4708.0,4708.0,bgt+osm,42908869.0,44696945.0,49126467.0,10
+"Parkeerterrein, Trompenburgstraat (Kromme Mijdrechtbuurt)",Parkeerterrein,Trompenburgstraat,BU0363KM01,Kromme Mijdrechtbuurt,Zuid,5053.0,4281.0,osm,38176967.0,41866500.0,44788993.0,11
+"Parkeerterrein bij een onderwijsinstelling, Aambeeldstraat (Hamerstraatkwartier-West)",Parkeerterrein bij een onderwijsinstelling,Aambeeldstraat,BU0363NP01,Hamerstraatkwartier-West,Noord,5328.0,5328.0,bgt+osm,35253657.0,39045689.0,42816312.0,12
+"Parkeerterrein, Uitdammerdijk (Durgerdam)",Parkeerterrein,Uitdammerdijk,BU0363NQ10,Durgerdam,Noord,3071.0,3071.0,osm,35302278.0,38217951.0,41098132.0,13
+"Parkeerterrein, Mensinge (Buitenveldert-Oost-Midden)",Parkeerterrein,Mensinge,BU0363KR02,Buitenveldert-Oost-Midden,Zuid,5212.0,5212.0,bgt+osm,33429380.0,37786982.0,41456575.0,14
+"Parkeerterrein, IJdoornlaan (Kadoelen)",Parkeerterrein,IJdoornlaan,BU0363ND02,Kadoelen,Noord,4207.0,4177.0,bgt+osm,32571345.0,35601193.0,38813122.0,15
+"Parkeerterrein bij station Amsterdam RAI, Europaboulevard (De Klenckebuurt)",Parkeerterrein bij station Amsterdam RAI,Europaboulevard,BU0363KR01,De Klenckebuurt,Zuid,5590.0,4457.0,osm,32262963.0,35486471.0,39312759.0,16
+"Parkeerterrein, Millingenhof (Holendrecht-Zuid)",Parkeerterrein,Millingenhof,BU0363TJ03,Holendrecht-Zuid,Zuidoost,8552.0,8552.0,bgt+osm,25557938.0,32597014.0,38122367.0,17
+"Parkeerterrein bij winkelcentrum Bos en Lommerplein, Bos en Lommerplantsoen (Robert Scottbuurt-West)",Parkeerterrein bij winkelcentrum Bos en Lommerplein,Bos en Lommerplantsoen,BU0363ED04,Robert Scottbuurt-West,West,3893.0,3893.0,bgt+osm,29485405.0,32426793.0,35332696.0,18
+"Parkeerterrein bij woonwinkels, Klaprozenweg (Buiksloterham-Noord)",Parkeerterrein bij woonwinkels,Klaprozenweg,BU0363NB05,Buiksloterham-Noord,Noord,3895.0,3895.0,bgt+osm,30399854.0,32317566.0,35826953.0,19
+"Parkeerterrein bij een onderwijsinstelling, Aambeeldstraat (Hamerstraatkwartier-West) – terrein 2",Parkeerterrein bij een onderwijsinstelling,Aambeeldstraat,BU0363NP01,Hamerstraatkwartier-West,Noord,4654.0,4346.0,osm,28756053.0,31849175.0,34924835.0,20
