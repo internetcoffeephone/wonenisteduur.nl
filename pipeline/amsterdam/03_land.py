@@ -278,6 +278,7 @@ def main():
         "pct_grondgebonden_bag": g.type.apply(lambda s: 100 * (s == "grondgebonden").mean()),
         "woningen_met_grond": g.land_m2.count(),
         "grond_m2_per_woning": g.land_m2.mean(),
+        "opp_som_met_grond": g.apply(lambda d: d.opp[d.land_m2.notna()].sum(), include_groups=False),
         "herbouw_nieuw_som": g.herbouw_nieuw.sum(),
         **{f"drc_{v}_som": g[f"drc_{v}"].sum() for v in VARIANTS},
     })
@@ -285,17 +286,26 @@ def main():
     b["grond_m2_som"] = g.land_m2.sum()
     b["woz_som"] = b.woz_gem * b.woningen_bag
     b["woz_m2"] = b.woz_gem / b.opp_gem
+    b["opp_som"] = b.opp_gem * b.woningen_bag
     has_woz = b.woz_gem.notna() & (b.woningen_bag > 0)
     # CBS averages far below the city level per m2 usually mean special stock
     # (student or temporary units valued as a complex, or new builds after the
     # peildatum). Those buurten get no own residual estimate.
+    # Likewise when CBS counts far fewer or more dwellings than BAG (student
+    # rooms, short-stay units, many new builds): the average then describes
+    # other homes than the ones we model.
     med_m2 = wmedian(b.woz_m2[has_woz], b.woningen_bag[has_woz])
-    b["woz_afwijkend"] = has_woz & (b.woz_m2 < ls["min_woz_m2_frac"] * med_m2)
+    ratio = b.woningvoorraad_cbs / b.woningen_bag
+    lo, hi = ls["count_ratio_range"]
+    b["woz_afwijkend"] = has_woz & ((b.woz_m2 < ls["min_woz_m2_frac"] * med_m2) | ~ratio.between(lo, hi))
     ok = has_woz & ~b.woz_afwijkend
     own = ok & (b.woningen_bag >= ls["min_dwellings"]) & (b.grond_m2_per_woning > 0)
     b["wijkcode"] = buurten.set_index("buurtcode").wijkcode.reindex(b.index)
     wk = b[own].groupby("wijkcode")
-    out = {"woz_m2_median_woning": med_m2}
+    # Reference density: floor area per m2 of residential land, city-wide.
+    fsi_ref = float(b.opp_som_met_grond[own].sum() / b.grond_m2_som[own].sum())
+    b["dichtheid"] = b.opp_som_met_grond / b.grond_m2_som
+    out = {"woz_m2_median_woning": med_m2, "dichtheid_ref": fsi_ref}
     for v in VARIANTS:
         a_raw = ((b.woz_som - b[f"drc_{v}_som"]) / b.woz_som).clip(ls["clip_min"], ls["clip_max"])
         a_city = float((b.woz_som[ok].sum() - b[f"drc_{v}_som"][ok].sum()) / b.woz_som[ok].sum())
@@ -309,6 +319,12 @@ def main():
         a_w = ((woz - wk[f"drc_{v}_som"].sum()) / woz).clip(ls["clip_min"], ls["clip_max"])
         r_w = a_w * (woz / wk.woningen_bag.sum()) / (wk.grond_m2_som.sum() / wk.woningen_met_grond.sum())
         b[f"grondprijs_m2_{v}"] = r_own.where(own, b.wijkcode.map(r_w))
+        # Location value per m2 of floor area, independent of how parcels are drawn.
+        g_own = a * b.woz_gem / b.opp_gem
+        g_w = a_w * woz / wk.opp_som.sum()
+        b[f"grondwaarde_m2_wo_{v}"] = g_own.where(own, b.wijkcode.map(g_w))
+        # Land price per m2 of land if built at the city's typical density.
+        b[f"grondprijs_m2_std_{v}"] = b[f"grondwaarde_m2_wo_{v}"] * fsi_ref
         out[f"a_city_{v}"] = a_city
     b["gewicht"] = b.woningen_bag / (b.woningen_bag + ls["shrink_k"])
     b["bsq_check"] = ((b.woz_som - b.herbouw_nieuw_som * 1.05) / b.woz_som).clip(0.05, 0.49).where(ok)
@@ -320,12 +336,16 @@ def main():
         b = b.join(off)
         for v in VARIANTS:
             b[f"grondprijs_m2_{v}"] = b.r_official.fillna(b[f"grondprijs_m2_{v}"])
+            b[f"grondprijs_m2_std_{v}"] = b.r_official.fillna(b[f"grondprijs_m2_std_{v}"])
+            b[f"grondwaarde_m2_wo_{v}"] = (b.r_official / b.dichtheid).fillna(b[f"grondwaarde_m2_wo_{v}"])
         b["bron_grondprijs"] = np.where(b.r_official.notna(), "grondstaffel", b.bron_grondprijs)
 
     b["grondwaarde_per_woning_central"] = b.grondprijs_m2_central * b.grond_m2_per_woning
     b = b.join(uniformity(buurten, vbo))
 
     gdf = buurten.merge(b.drop(columns="wijkcode"), left_on="buurtcode", right_index=True, how="left")
+    gdf["bron_grondprijs"] = gdf.bron_grondprijs.fillna("geen")
+    gdf["woz_bruikbaar"] = gdf.woz_bruikbaar.fillna(False).astype(bool)
     gdf.to_parquet(WORK / "buurt_land.parquet")
     keep_w = ["buurtcode", "type", "opp", "age", "land_m2", "drc_central", "drc_low", "drc_high"]
     w[keep_w].to_parquet(WORK / "dwellings.parquet")
@@ -353,6 +373,8 @@ def main():
         lv = (gdf[f"grondprijs_m2_{v}"] * gdf.grond_m2_per_woning * gdf.woningen_met_grond).sum()
         summ[f"grondwaarde_woningen_{v}"] = float(lv)
         summ[f"grondprijs_m2_median_woning_{v}"] = wmedian(res[f"grondprijs_m2_{v}"], res.woningen_bag)
+        summ[f"grondwaarde_m2_wo_median_woning_{v}"] = wmedian(res[f"grondwaarde_m2_wo_{v}"], res.woningen_bag)
+        summ[f"grondprijs_m2_std_median_woning_{v}"] = wmedian(res[f"grondprijs_m2_std_{v}"], res.woningen_bag)
         summ[f"grondaandeel_gem_{v}"] = float(np.average(res[f"grondaandeel_{v}"].dropna(),
                                                          weights=res.loc[res[f"grondaandeel_{v}"].notna(), "woz_som"]))
     summ["bsq_check_gem"] = float(np.average(gdf.bsq_check.dropna(), weights=gdf.woz_som[gdf.bsq_check.notna()]))
@@ -361,6 +383,7 @@ def main():
     summ["cv_woz_m2_share_gt_025"] = float((gdf.cv_woz_m2 > 0.25).sum() / gdf.cv_woz_m2.notna().sum())
     summ["cv_buurten"] = int(gdf.cv_woz_m2.notna().sum())
     write_json(WORK / "summary_land.json", summ, indent=1)
+    write_json(OUT / "samenvatting_grond.json", summ, indent=1)
     log("summary", {k: v for k, v in summ.items() if not isinstance(v, dict)})
 
     # ------------------------------------------------------------ deliverable files
@@ -368,12 +391,13 @@ def main():
             "woz_gem", "opp_gem", "woz_m2", "bouwjaar_med", "pct_grondgebonden_bag", "pct_eengezins_cbs",
             "grond_m2_per_woning", "gewicht",
             *[f"grondaandeel_ruw_{v}" for v in VARIANTS], *[f"grondaandeel_{v}" for v in VARIANTS],
-            *[f"grondprijs_m2_{v}" for v in VARIANTS], "bron_grondprijs", "grondwaarde_per_woning_central",
+            *[f"grondprijs_m2_{v}" for v in VARIANTS], *[f"grondwaarde_m2_wo_{v}" for v in VARIANTS],
+            *[f"grondprijs_m2_std_{v}" for v in VARIANTS], "dichtheid", "bron_grondprijs", "woz_afwijkend", "grondwaarde_per_woning_central",
             "bsq_check", "cv_woz_m2", "n_cellen", "inkomen_gem", "pct_koop_cbs", "pct_corporatie_cbs"]
     tab = gdf[cols].copy()
     for c in tab.columns:
         if tab[c].dtype.kind == "f":
-            tab[c] = tab[c].round(3 if c.startswith(("grondaandeel", "gewicht", "bsq", "cv_")) else 0)
+            tab[c] = tab[c].round(3 if c.startswith(("grondaandeel", "gewicht", "bsq", "cv_", "dichtheid")) else 0)
     tab.to_csv(OUT / "buurt_grondprijs.csv", index=False)
     geo = gdf[cols + ["geometry"]].copy()
     for c in cols:

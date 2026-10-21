@@ -49,6 +49,8 @@ min_dwellings = 50
 # Buurten whose CBS WOZ per m2 floor area is below this fraction of the city
 # median get no own estimate (student/temporary units, new builds after peildatum).
 min_woz_m2_frac = 0.4
+# ... or whose CBS dwelling count differs from the BAG count by more than this ratio.
+count_ratio_range = [0.5, 2.0]
 
 [land_area]
 # Allocation of parcel area to dwellings: each parcel's area is split over the

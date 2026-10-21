@@ -1,0 +1,345 @@
+{
+ "kandidaten": {
+  "bgt": 43592,
+  "osm": 1665
+ },
+ "stukken": {
+  "straat": 38957,
+  "terrein": 686,
+  "gebouwd": 7
+ },
+ "gemeente_land_m2": 220732136.5973855,
+ "terrein": {
+  "aantal": 686,
+  "m2": 1775002.0354438522,
+  "m2_onbebouwd": 1727911.5722229811,
+  "m2_gewaardeerd": 842541.3690879671,
+  "waarde_low": 4749254563.811825,
+  "waarde_central": 5312866561.079079,
+  "waarde_high": 5975838974.475747,
+  "waarde_indicatief_low": 2861145910.76826,
+  "waarde_indicatief_central": 3137511122.240505,
+  "waarde_indicatief_high": 3565655600.3494887,
+  "aantal_gewaardeerd": 396,
+  "m2_geen_eigen_tarief": 885370.203135014
+ },
+ "straat": {
+  "aantal": 38957,
+  "m2": 3036433.9245968545,
+  "m2_onbebouwd": 3036433.9245968545,
+  "m2_gewaardeerd": 2639096.0324196042,
+  "waarde_low": 18311143580.445217,
+  "waarde_central": 20281151692.01261,
+  "waarde_high": 22275456446.85837,
+  "waarde_indicatief_low": 1782931489.7267122,
+  "waarde_indicatief_central": 1928161344.67867,
+  "waarde_indicatief_high": 2150470310.269405
+ },
+ "gebouwd": {
+  "aantal": 7,
+  "m2": 10337.803973532315,
+  "m2_onbebouwd": 160.77168895661038,
+  "m2_gewaardeerd": 28.783132683439085,
+  "waarde_low": 124211.80852871887,
+  "waarde_central": 135939.65573276742,
+  "waarde_high": 162098.4646745609,
+  "waarde_indicatief_low": 6.80877622808847e-10,
+  "waarde_indicatief_central": 8.151080191873404e-10,
+  "waarde_indicatief_high": 9.316086695990285e-10
+ },
+ "top20": [
+  {
+   "rang": 1,
+   "label": "Parkeerterrein bij een ziekenhuis, Jan Tooropstraat (Lucas/Andreasziekenhuis e.o.)",
+   "naam": "Parkeerterrein bij een ziekenhuis",
+   "straat": "Jan Tooropstraat",
+   "buurt": "Lucas/Andreasziekenhuis e.o.",
+   "stadsdeel": "Nieuw-West",
+   "m2": 18172,
+   "waarde_low": 134794211.77479747,
+   "waarde_central": 144831622.14676273,
+   "waarde_high": 160902943.26123765
+  },
+  {
+   "rang": 2,
+   "label": "Parkeerterrein, Entrepotdok (Plantage)",
+   "naam": "Parkeerterrein",
+   "straat": "Entrepotdok",
+   "buurt": "Plantage",
+   "stadsdeel": "Centrum",
+   "m2": 9820,
+   "waarde_low": 91846073.95578782,
+   "waarde_central": 99229438.59651701,
+   "waarde_high": 106800695.2388065
+  },
+  {
+   "rang": 3,
+   "label": "Parkeerterrein, NDSM-straat (NDSM terrein)",
+   "naam": "Parkeerterrein",
+   "straat": "NDSM-straat",
+   "buurt": "NDSM terrein",
+   "stadsdeel": "Noord",
+   "m2": 10089,
+   "waarde_low": 91947583.78795345,
+   "waarde_central": 95779176.28443633,
+   "waarde_high": 105271009.25714804
+  },
+  {
+   "rang": 4,
+   "label": "P+R-terrein, Piarcoplein (Sloterdijk Stationskwartier)",
+   "naam": "P+R-terrein",
+   "straat": "Piarcoplein",
+   "buurt": "Sloterdijk Stationskwartier",
+   "stadsdeel": "Nieuw-West",
+   "m2": 11732,
+   "waarde_low": 68755778.95881128,
+   "waarde_central": 73458025.99325639,
+   "waarde_high": 84213442.04724805
+  },
+  {
+   "rang": 5,
+   "label": "Parkeerterrein bij een supermarkt, Buikslotermeerplein (Buikslotermeerplein)",
+   "naam": "Parkeerterrein bij een supermarkt",
+   "straat": "Buikslotermeerplein",
+   "buurt": "Buikslotermeerplein",
+   "stadsdeel": "Noord",
+   "m2": 12500,
+   "waarde_low": 61426929.18385978,
+   "waarde_central": 68406859.7025858,
+   "waarde_high": 79117885.24413252
+  },
+  {
+   "rang": 6,
+   "label": "Parkeerterrein, C.J.van Houtenlaan (Bedrijventerrein Van Houten)",
+   "naam": "Parkeerterrein",
+   "straat": "C.J.van Houtenlaan",
+   "buurt": "Bedrijventerrein Van Houten",
+   "stadsdeel": "Weesp",
+   "m2": 7592,
+   "waarde_low": 44735820.690045744,
+   "waarde_central": 49990920.88896886,
+   "waarde_high": 54882921.48551639
+  },
+  {
+   "rang": 7,
+   "label": "Parkeerterrein, Nachtwachtlaan (Rembrandtpark-Zuid)",
+   "naam": "Parkeerterrein",
+   "straat": "Nachtwachtlaan",
+   "buurt": "Rembrandtpark-Zuid",
+   "stadsdeel": "Nieuw-West",
+   "m2": 6383,
+   "waarde_low": 40764725.8652536,
+   "waarde_central": 45954264.4685943,
+   "waarde_high": 50060768.66720617
+  },
+  {
+   "rang": 8,
+   "label": "Parkeerterrein, Ina van Faassenhof (Buiksloterham-Zuid)",
+   "naam": "Parkeerterrein",
+   "straat": "Ina van Faassenhof",
+   "buurt": "Buiksloterham-Zuid",
+   "stadsdeel": "Noord",
+   "m2": 5373,
+   "waarde_low": 42798208.07105412,
+   "waarde_central": 44979042.726783074,
+   "waarde_high": 49973625.041353725
+  },
+  {
+   "rang": 9,
+   "label": "Parkeerterrein bij woonwinkels, Osdorperweg (De Aker-Oost)",
+   "naam": "Parkeerterrein bij woonwinkels",
+   "straat": "Osdorperweg",
+   "buurt": "De Aker-Oost",
+   "stadsdeel": "Nieuw-West",
+   "m2": 9286,
+   "waarde_low": 39444316.53602417,
+   "waarde_central": 44891693.49914238,
+   "waarde_high": 53081832.42094874
+  },
+  {
+   "rang": 10,
+   "label": "Parkeerterrein, Kraanspoor (NDSM terrein)",
+   "naam": "Parkeerterrein",
+   "straat": "Kraanspoor",
+   "buurt": "NDSM terrein",
+   "stadsdeel": "Noord",
+   "m2": 4708,
+   "waarde_low": 42908868.76101451,
+   "waarde_central": 44696945.10629866,
+   "waarde_high": 49126466.7810261
+  },
+  {
+   "rang": 11,
+   "label": "Parkeerterrein, Trompenburgstraat (Kromme Mijdrechtbuurt)",
+   "naam": "Parkeerterrein",
+   "straat": "Trompenburgstraat",
+   "buurt": "Kromme Mijdrechtbuurt",
+   "stadsdeel": "Zuid",
+   "m2": 4281,
+   "waarde_low": 38176966.93571856,
+   "waarde_central": 41866499.537659444,
+   "waarde_high": 44788993.42100107
+  },
+  {
+   "rang": 12,
+   "label": "Parkeerterrein bij een onderwijsinstelling, Aambeeldstraat (Hamerstraatkwartier-West)",
+   "naam": "Parkeerterrein bij een onderwijsinstelling",
+   "straat": "Aambeeldstraat",
+   "buurt": "Hamerstraatkwartier-West",
+   "stadsdeel": "Noord",
+   "m2": 5328,
+   "waarde_low": 35253656.66321603,
+   "waarde_central": 39045688.58576826,
+   "waarde_high": 42816312.44768103
+  },
+  {
+   "rang": 13,
+   "label": "Parkeerterrein, Uitdammerdijk (Durgerdam)",
+   "naam": "Parkeerterrein",
+   "straat": "Uitdammerdijk",
+   "buurt": "Durgerdam",
+   "stadsdeel": "Noord",
+   "m2": 3071,
+   "waarde_low": 35302278.374596305,
+   "waarde_central": 38217950.8757492,
+   "waarde_high": 41098131.911404245
+  },
+  {
+   "rang": 14,
+   "label": "Parkeerterrein, Mensinge (Buitenveldert-Oost-Midden)",
+   "naam": "Parkeerterrein",
+   "straat": "Mensinge",
+   "buurt": "Buitenveldert-Oost-Midden",
+   "stadsdeel": "Zuid",
+   "m2": 5212,
+   "waarde_low": 33429380.434966,
+   "waarde_central": 37786982.34223402,
+   "waarde_high": 41456575.22816559
+  },
+  {
+   "rang": 15,
+   "label": "Parkeerterrein, IJdoornlaan (Kadoelen)",
+   "naam": "Parkeerterrein",
+   "straat": "IJdoornlaan",
+   "buurt": "Kadoelen",
+   "stadsdeel": "Noord",
+   "m2": 4177,
+   "waarde_low": 32571345.11383485,
+   "waarde_central": 35601193.08007009,
+   "waarde_high": 38813122.44482117
+  },
+  {
+   "rang": 16,
+   "label": "Parkeerterrein bij station Amsterdam RAI, Europaboulevard (De Klenckebuurt)",
+   "naam": "Parkeerterrein bij station Amsterdam RAI",
+   "straat": "Europaboulevard",
+   "buurt": "De Klenckebuurt",
+   "stadsdeel": "Zuid",
+   "m2": 4457,
+   "waarde_low": 32262962.609676618,
+   "waarde_central": 35486471.27323629,
+   "waarde_high": 39312759.440128714
+  },
+  {
+   "rang": 17,
+   "label": "Parkeerterrein, Millingenhof (Holendrecht-Zuid)",
+   "naam": "Parkeerterrein",
+   "straat": "Millingenhof",
+   "buurt": "Holendrecht-Zuid",
+   "stadsdeel": "Zuidoost",
+   "m2": 8552,
+   "waarde_low": 25557938.38891215,
+   "waarde_central": 32597014.193614606,
+   "waarde_high": 38122367.33764459
+  },
+  {
+   "rang": 18,
+   "label": "Parkeerterrein bij winkelcentrum Bos en Lommerplein, Bos en Lommerplantsoen (Robert Scottbuurt-West)",
+   "naam": "Parkeerterrein bij winkelcentrum Bos en Lommerplein",
+   "straat": "Bos en Lommerplantsoen",
+   "buurt": "Robert Scottbuurt-West",
+   "stadsdeel": "West",
+   "m2": 3893,
+   "waarde_low": 29485404.650984168,
+   "waarde_central": 32426793.15948251,
+   "waarde_high": 35332696.28472964
+  },
+  {
+   "rang": 19,
+   "label": "Parkeerterrein bij woonwinkels, Klaprozenweg (Buiksloterham-Noord)",
+   "naam": "Parkeerterrein bij woonwinkels",
+   "straat": "Klaprozenweg",
+   "buurt": "Buiksloterham-Noord",
+   "stadsdeel": "Noord",
+   "m2": 3895,
+   "waarde_low": 30399853.686968245,
+   "waarde_central": 32317565.703391254,
+   "waarde_high": 35826952.97807069
+  },
+  {
+   "rang": 20,
+   "label": "Parkeerterrein bij een onderwijsinstelling, Aambeeldstraat (Hamerstraatkwartier-West) – terrein 2",
+   "naam": "Parkeerterrein bij een onderwijsinstelling",
+   "straat": "Aambeeldstraat",
+   "buurt": "Hamerstraatkwartier-West",
+   "stadsdeel": "Noord",
+   "m2": 4346,
+   "waarde_low": 28756053.015444394,
+   "waarde_central": 31849175.29898177,
+   "waarde_high": 34924835.24286494
+  }
+ ],
+ "top20_aandeel_central": 0.20128744269578042,
+ "per_stadsdeel": {
+  "Centrum": {
+   "terrein_m2": 29801.065839523522,
+   "terrein_waarde_central": 234971876.5601446,
+   "aantal": 14
+  },
+  "Nieuw-West": {
+   "terrein_m2": 342460.6147168558,
+   "terrein_waarde_central": 1325089404.0364926,
+   "aantal": 129
+  },
+  "Noord": {
+   "terrein_m2": 260584.62399822578,
+   "terrein_waarde_central": 1491687624.8191686,
+   "aantal": 108
+  },
+  "Oost": {
+   "terrein_m2": 134833.19815043441,
+   "terrein_waarde_central": 384077850.6296065,
+   "aantal": 58
+  },
+  "Water": {
+   "terrein_m2": 9612.097917492913,
+   "terrein_waarde_central": 0.0,
+   "aantal": 3
+  },
+  "Weesp": {
+   "terrein_m2": 75389.3749616114,
+   "terrein_waarde_central": 243485335.2800241,
+   "aantal": 38
+  },
+  "West": {
+   "terrein_m2": 44741.884869942674,
+   "terrein_waarde_central": 88005717.08897884,
+   "aantal": 27
+  },
+  "Westpoort": {
+   "terrein_m2": 254984.52799795198,
+   "terrein_waarde_central": 0.0,
+   "aantal": 97
+  },
+  "Zuid": {
+   "terrein_m2": 101931.9904907189,
+   "terrein_waarde_central": 546742692.1177821,
+   "aantal": 49
+  },
+  "Zuidoost": {
+   "terrein_m2": 473572.19328022393,
+   "terrein_waarde_central": 998806060.5468812,
+   "aantal": 163
+  }
+ }
+}
