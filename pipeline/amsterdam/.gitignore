@@ -1,0 +1,5 @@
+# Raw downloads and intermediate files (several GB). Set AMS_CACHE to keep them elsewhere.
+cache/
+__pycache__/
+*.pyc
+.venv/
