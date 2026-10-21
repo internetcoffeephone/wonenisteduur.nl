@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 528" width="380" height="528" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif">
+<title id="t">Grond onder woningen en de woningen zelf</title>
+<desc id="d">Lijngrafiek van de waarde van de grond onder alle Nederlandse woningen en van de woningen zelf, in miljard euro, 1995 tot 2022. De stenen stijgen geleidelijk van €408 naar €1.232 miljard. De grond stijgt van €121 naar €2.045 miljard, met een dip tussen 2008 en 2013. Sinds 2000 is de grond meer waard dan de stenen.</desc>
+<rect width="380" height="528" fill="#fafaf8"/>
+<text x="0.0" y="24.8" font-size="16" fill="#2c3e50" font-weight="600">Grond onder woningen en de woningen</text>
+<text x="0.0" y="45.6" font-size="16" fill="#2c3e50" font-weight="600">zelf</text>
+<text x="0.0" y="63.8" font-size="13" fill="#5c5a54">Waarde in miljard euro (prijzen van elk jaar),</text>
+<text x="0.0" y="82.0" font-size="13" fill="#5c5a54">eind van elk jaar</text>
+<line x1="0.0" y1="97.6" x2="18.0" y2="97.6" stroke="#5f8a3f" stroke-width="2.5"/>
+<text x="24.0" y="102.0" font-size="12.5" fill="#2c2c2c">Grond onder woningen</text>
+<line x1="0.0" y1="116.4" x2="18.0" y2="116.4" stroke="#226198" stroke-width="2.5"/>
+<text x="24.0" y="120.8" font-size="12.5" fill="#2c2c2c">Woningen zelf (de stenen)</text>
+<line x1="40.0" y1="432.8" x2="288.0" y2="432.8" stroke="#b9b4a9" stroke-width="1"/>
+<text x="34.0" y="436.9" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">0</text>
+<line x1="40.0" y1="368.3" x2="288.0" y2="368.3" stroke="#e0ddd6" stroke-width="1"/>
+<text x="34.0" y="372.5" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">500</text>
+<line x1="40.0" y1="303.9" x2="288.0" y2="303.9" stroke="#e0ddd6" stroke-width="1"/>
+<text x="34.0" y="308.1" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">1.000</text>
+<line x1="40.0" y1="239.4" x2="288.0" y2="239.4" stroke="#e0ddd6" stroke-width="1"/>
+<text x="34.0" y="243.6" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">1.500</text>
+<line x1="40.0" y1="175.0" x2="288.0" y2="175.0" stroke="#e0ddd6" stroke-width="1"/>
+<text x="34.0" y="179.2" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">2.000</text>
+<path d="M40.0,380.2L49.2,377.0L58.4,374.3L67.6,371.1L76.7,366.9L85.9,361.3L95.1,354.8L104.3,348.4L113.5,342.8L122.7,338.3L131.9,334.0L141.0,328.2L150.2,323.8L159.4,318.2L168.6,312.7L177.8,310.5L187.0,313.2L196.1,315.1L205.3,317.0L214.5,320.2L223.7,322.8L232.9,322.6L242.1,321.1L251.3,313.8L260.4,305.2L269.6,295.4L278.8,285.5L288.0,274.0" fill="none" stroke="#226198" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M40.0,417.2L49.2,411.3L58.4,403.0L67.6,394.2L76.7,379.5L85.9,360.8L95.1,348.9L104.3,342.3L113.5,338.9L122.7,332.9L131.9,327.0L141.0,320.3L150.2,312.0L159.4,307.7L168.6,317.6L177.8,323.2L187.0,325.1L196.1,337.2L205.3,347.8L214.5,341.7L223.7,331.9L232.9,319.6L242.1,301.7L251.3,284.1L260.4,271.0L269.6,254.7L278.8,212.8L288.0,169.2" fill="none" stroke="#5f8a3f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="288.0" cy="169.2" r="4.0" fill="#5f8a3f" stroke="#fafaf8" stroke-width="2"/>
+<text x="298.0" y="167.2" font-size="12.5" fill="#2c2c2c" font-weight="600">Grond</text>
+<text x="298.0" y="183.6" font-size="12.5" fill="#2c2c2c">€2.045 mld</text>
+<circle cx="288.0" cy="274.0" r="4.0" fill="#226198" stroke="#fafaf8" stroke-width="2"/>
+<text x="298.0" y="272.0" font-size="12.5" fill="#2c2c2c" font-weight="600">Stenen</text>
+<text x="298.0" y="288.4" font-size="12.5" fill="#2c2c2c">€1.232 mld</text>
+<text x="40.0" y="450.8" font-size="12" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">1995</text>
+<text x="131.9" y="450.8" font-size="12" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2005</text>
+<text x="223.7" y="450.8" font-size="12" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2015</text>
+<text x="288.0" y="450.8" font-size="12" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2022*</text>
+<text x="0.0" y="474.1" font-size="11" fill="#6b685f">Bron: CBS StatLine 84550NED (vorige reeks), eindbalans.</text>
+<text x="0.0" y="489.5" font-size="11" fill="#6b685f">* 2022 voorlopig. Latere jaren publiceert het CBS niet</text>
+<text x="0.0" y="504.9" font-size="11" fill="#6b685f">meer apart.</text>
+<text x="0.0" y="520.3" font-size="11" fill="#6b685f">Bijgewerkt 21 oktober 2026. wonenisteduur.nl</text>
+</svg>

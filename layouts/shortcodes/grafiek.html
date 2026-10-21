@@ -1,0 +1,40 @@
+{{- /*
+  A chart from data/cijfers.json: the SVG (narrow variant on phones), its alt text,
+  and the underlying numbers in a <details> table.
+  Usage: {{< grafiek "grond-bbp" >}}
+*/ -}}
+{{- $slug := .Get 0 -}}
+{{- $g := index (hugo.Data.cijfers.grafieken | default dict) $slug -}}
+{{- if not $g -}}
+  {{- errorf "grafiek: onbekende grafiek %q (%s)" $slug .Position -}}
+{{- end -}}
+<figure class="cijfers-figuur" id="grafiek-{{ $slug }}">
+  <picture>
+    <source media="(max-width: 560px)" srcset="{{ $g.smal.src | relURL }}?v={{ $g.smal.v }}" width="{{ $g.smal.w }}" height="{{ $g.smal.h }}">
+    <img src="{{ $g.breed.src | relURL }}?v={{ $g.breed.v }}" width="{{ $g.breed.w }}" height="{{ $g.breed.h }}" alt="{{ $g.alt }}" loading="lazy" decoding="async">
+  </picture>
+</figure>
+<details class="cijfers-tabel">
+  <summary>Bekijk de cijfers achter deze grafiek</summary>
+  <div class="cijfers-tabel-scroll">
+    <table>
+      <thead>
+        <tr>
+          {{- range $i, $kop := $g.tabel.kop }}
+          <th scope="col"{{ if index $g.tabel.rechts $i }} class="num"{{ end }}>{{ $kop }}</th>
+          {{- end }}
+        </tr>
+      </thead>
+      <tbody>
+        {{- range $g.tabel.rijen }}
+        <tr>
+          {{- range $i, $cel := . }}
+          <td data-label="{{ index $g.tabel.kop $i }}"{{ if index $g.tabel.rechts $i }} class="num"{{ end }}>{{ $cel }}</td>
+          {{- end }}
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+  </div>
+  <p class="cijfers-noot">{{ $g.tabel.noot }}</p>
+</details>

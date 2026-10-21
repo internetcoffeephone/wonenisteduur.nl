@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 692 331" width="692" height="331" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif">
+<title id="t">OZB, overdrachtsbelasting en hypotheekrenteaftrek in 2026</title>
+<desc id="d">Staafdiagram met bedragen voor 2026 in miljard euro: OZB woningen 3,2; OZB niet-woningen 3,1; Overdrachtsbelasting 5,1; Hypotheekrenteaftrek 10,7. De hypotheekrenteaftrek is geen opbrengst maar gemiste belasting.</desc>
+<rect width="692" height="331" fill="#fafaf8"/>
+<text x="0.0" y="26.1" font-size="17" fill="#2c3e50" font-weight="600">OZB, overdrachtsbelasting en hypotheekrenteaftrek in 2026</text>
+<text x="0.0" y="45.0" font-size="13.5" fill="#5c5a54">Miljard euro per jaar</text>
+<line x1="236.0" y1="63.0" x2="236.0" y2="271.0" stroke="#b9b4a9" stroke-width="1"/>
+<text x="0.0" y="72.0" font-size="13" fill="#2c2c2c" font-weight="600">OZB woningen</text>
+<text x="0.0" y="88.7" font-size="11.5" fill="#5c5a54">gemeenten, begroot 2026</text>
+<path d="M236.0,57.0H338.5Q342.5,57.0 342.5,61.0V75.0Q342.5,79.0 338.5,79.0H236.0Z" fill="#226198" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="350.5" y="72.5" font-size="13" fill="#2c2c2c" font-weight="600" style="font-variant-numeric:tabular-nums">€3,2 mld</text>
+<text x="0.0" y="126.0" font-size="13" fill="#2c2c2c" font-weight="600">OZB niet-woningen</text>
+<text x="0.0" y="142.7" font-size="11.5" fill="#5c5a54">gemeenten, begroot 2026</text>
+<path d="M236.0,111.0H336.4Q340.4,111.0 340.4,115.0V129.0Q340.4,133.0 336.4,133.0H236.0Z" fill="#226198" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="348.4" y="126.5" font-size="13" fill="#2c2c2c" font-weight="600" style="font-variant-numeric:tabular-nums">€3,1 mld</text>
+<text x="0.0" y="180.0" font-size="13" fill="#2c2c2c" font-weight="600">Overdrachtsbelasting</text>
+<text x="0.0" y="196.7" font-size="11.5" fill="#5c5a54">Rijk, raming 2026</text>
+<path d="M236.0,165.0H401.3Q405.3,165.0 405.3,169.0V183.0Q405.3,187.0 401.3,187.0H236.0Z" fill="#226198" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="413.3" y="180.5" font-size="13" fill="#2c2c2c" font-weight="600" style="font-variant-numeric:tabular-nums">€5,1 mld</text>
+<text x="0.0" y="234.0" font-size="13" fill="#2c2c2c" font-weight="600">Hypotheekrenteaftrek</text>
+<text x="0.0" y="250.7" font-size="11.5" fill="#5c5a54">gemiste belasting, raming 2026</text>
+<path d="M236.0,219.0H588.0Q592.0,219.0 592.0,223.0V237.0Q592.0,241.0 588.0,241.0H236.0Z" fill="#226198" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="600.0" y="234.5" font-size="13" fill="#2c2c2c" font-weight="600" style="font-variant-numeric:tabular-nums">€10,7 mld</text>
+<text x="0.0" y="291.1" font-size="11.5" fill="#6b685f">Bron: CBS 83642NED (begrote OZB-opbrengst 2026, 342 gemeenten, voorlopig); Miljoenennota 2027,</text>
+<text x="0.0" y="307.2" font-size="11.5" fill="#6b685f">tabel 3.1.7.1 (overdrachtsbelasting) en tabel 4.3.2 (budgettair belang hypotheekrenteaftrek).</text>
+<text x="0.0" y="323.3" font-size="11.5" fill="#6b685f">Bijgewerkt 21 oktober 2026. wonenisteduur.nl</text>
+</svg>
