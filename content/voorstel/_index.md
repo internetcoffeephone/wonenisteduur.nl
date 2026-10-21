@@ -34,11 +34,12 @@ De OZB is dus eigenlijk twee belastingen in één: een belasting op stenen en ee
 
 **De belasting op stenen is een verbeterboete.**
 Wie een huis verbouwt, uitbreidt of op een leeg kavel woningen bouwt, krijgt een hogere aanslag.
-De gemeente straft precies het gedrag dat ze wil: meer en betere woningen.
+De belasting straft precies het gedrag dat gemeenten willen: meer en betere woningen.
 
 **De lage belasting op grond is een speculatiesubsidie.**
 Wie een pand laat verloederen, betaalt minder.
-Wie een kavel in de stad leeg laat liggen of als parkeerterrein gebruikt, betaalt per vierkante meter grond veel minder dan de buren met een woongebouw, terwijl de grond net zo veel waard wordt.
+Wie een kavel in de stad leeg laat liggen of als parkeerterrein gebruikt, betaalt alleen over de grond.
+De eigenaar van een even grote kavel ernaast met een kantoor- of woongebouw betaalt over grond én gebouw, terwijl de grond van beiden even hard in waarde stijgt.
 
 Dat de grond steeds meer van de waarde uitmaakt, laten de cijfers van het CBS zien.
 Eind 2022 was de grond onder alle Nederlandse woningen € 2.045 miljard waard en de woningen zelf € 1.232 miljard: de grond was **62%** van het totaal.
@@ -56,12 +57,12 @@ Gemeenten mogen alleen de belastingen heffen die de wet toestaat, en de Gemeente
 <table class="voorstel-wetten">
 <thead><tr><th>Bepaling</th><th>Wat er staat</th><th>Waarom dat in de weg zit</th></tr></thead>
 <tbody>
-<tr><td data-label="Bepaling"><a href="https://wetten.overheid.nl/jci1.3:c:BWBR0001840&amp;artikel=132">Grondwet, art. 132, zesde lid</a></td><td data-label="Wat er staat">De wet bepaalt welke belastingen gemeenten kunnen heffen.</td><td data-label="Waarom dat in de weg zit">Een nieuwe heffingsmogelijkheid kan alleen de wetgever geven.</td></tr>
+<tr><td data-label="Bepaling"><a href="https://wetten.overheid.nl/jci1.3:c:BWBR0001840&amp;artikel=132">Grondwet, art. 132, zesde lid</a></td><td data-label="Wat er staat">&ldquo;De wet bepaalt welke belastingen door de besturen van provincies en gemeenten kunnen worden geheven en regelt hun financiële verhouding tot het Rijk.&rdquo;</td><td data-label="Waarom dat in de weg zit">Een nieuwe heffingsmogelijkheid kan alleen de wetgever geven.</td></tr>
 <tr><td data-label="Bepaling"><a href="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;artikel=219">Gemeentewet, art. 219</a></td><td data-label="Wat er staat">Gemeenten heffen alleen de belastingen uit de Gemeentewet en andere wetten.</td><td data-label="Waarom dat in de weg zit">Een gemeente kan geen eigen grondbelasting bedenken.</td></tr>
 <tr><td data-label="Bepaling"><a href="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;artikel=220c">Gemeentewet, art. 220c</a></td><td data-label="Wat er staat">De heffingsmaatstaf is de WOZ-waarde van de onroerende zaak.</td><td data-label="Waarom dat in de weg zit">Grond en gebouw vormen samen één grondslag.</td></tr>
 <tr><td data-label="Bepaling"><a href="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;artikel=220f">Gemeentewet, art. 220f</a></td><td data-label="Wat er staat">Eén percentage, &ldquo;gelijkelijk vastgesteld&rdquo;, per categorie: gebruikers niet-woningen, eigenaren woningen, eigenaren niet-woningen.</td><td data-label="Waarom dat in de weg zit">Een lager tarief voor het gebouw is niet toegestaan.</td></tr>
 <tr><td data-label="Bepaling"><a href="https://wetten.overheid.nl/jci1.3:c:BWBR0005416&amp;artikel=220d">Gemeentewet, art. 220d</a></td><td data-label="Wat er staat">Vrijstellingen, onder meer voor landbouwgrond, natuur en wegen.</td><td data-label="Waarom dat in de weg zit">Bepaalt mee welke grond buiten de OZB valt (zie de vragen hieronder).</td></tr>
-<tr><td data-label="Bepaling"><a href="https://wetten.overheid.nl/jci1.3:c:BWBR0007119&amp;artikel=16">Wet WOZ, art. 16</a> en <a href="https://wetten.overheid.nl/jci1.3:c:BWBR0007119&amp;artikel=17">17</a></td><td data-label="Wat er staat">Eén onroerende zaak krijgt één waarde, voor grond en gebouw samen.</td><td data-label="Waarom dat in de weg zit">Er bestaat wettelijk geen aparte grondwaarde om een tarief op toe te passen.</td></tr>
+<tr><td data-label="Bepaling"><a href="https://wetten.overheid.nl/jci1.3:c:BWBR0007119&amp;artikel=16">Wet WOZ, art. 16</a> en <a href="https://wetten.overheid.nl/jci1.3:c:BWBR0007119&amp;artikel=17">17</a></td><td data-label="Wat er staat">Art. 16 bepaalt wat één onroerende zaak is; art. 17: &ldquo;Aan een onroerende zaak wordt een waarde toegekend.&rdquo; Eén waarde dus, voor grond en gebouw samen.</td><td data-label="Waarom dat in de weg zit">Er bestaat wettelijk geen aparte grondwaarde om een tarief op toe te passen.</td></tr>
 </tbody>
 </table>
 
@@ -112,7 +113,7 @@ Ze werkten twee varianten uit. Variant 1 is een grondbelasting binnen de OZB (§
 
 Ons concept bouwt hierop voort, met drie verschillen:
 
-1. **De WOZ-waarde blijft hetzelfde.** COELO splitst het WOZ-object zelf in een gebouwd en een ongebouwd deel. Wij laten het object en de waarde intact en voegen alleen een grondwaarde toe als onderdeel. Dat betekent minder beschikkingen, en waterschappen, de Belastingdienst en het puntenstelsel voor huurwoningen merken er niets van.
+1. **De WOZ-waarde blijft hetzelfde.** COELO splitst voor de belasting het WOZ-object in een gebouwd en een ongebouwd deel, met elk een eigen waarde. Wij laten het object en de WOZ-waarde intact en leggen de grondwaarde vast als onderdeel ervan, in dezelfde beschikking. Dat scheelt beschikkingen, en voor andere gebruikers van de WOZ-waarde, zoals waterschappen, de Belastingdienst en het puntenstelsel voor huurwoningen, verandert er niets.
 2. **Budgetneutraal en vrijwillig.** COELO denkt aan een grondbelasting met hogere tarieven dan de huidige OZB. Wij stellen een verschuiving voor binnen de opbrengst die de raad nu al kiest. Dat houdt de tarieven gematigd, een van de voorwaarden die COELO noemt.
 3. **De vrijstellingen blijven.** COELO pleit ervoor om de vrijstelling voor landbouwgrond te schrappen. Dat is een aparte discussie; wij laten artikel 220d ongemoeid.
 
@@ -288,7 +289,7 @@ Dat is een bewuste keuze, en een les uit de verhuurderheffing (zie de vragen hie
 ### Eigendomsrecht
 
 COELO/ESBL concluderen dat een grondbelasting binnen de OZB een geoorloofde inmenging in het eigendomsrecht is, onder voorwaarden (p. 82–83).
-Dit voorstel volgt die voorwaarden: de raad moet de keuze motiveren, de methode voor de grondwaarde staat in de wet en een AMvB, de verschuiving is budgetneutraal en dus gematigd, en het optionele achtste lid begrenst de verschuiving in de eerste jaren.
+Dit voorstel volgt die voorwaarden: de raad moet zijn keuze, zoals elke tariefkeuze, kunnen onderbouwen, de methode voor de grondwaarde staat in de wet en een AMvB, de verschuiving is budgetneutraal en dus gematigd, en het optionele achtste lid begrenst de verschuiving in de eerste jaren.
 
 ### Gemeentefonds
 
@@ -324,9 +325,9 @@ Die geeft al de goede prikkel, en is makkelijk uit te leggen en te controleren.
 
 ### Gaan huurders dit betalen?
 
-Niet als de wet dat niet toestaat, en dit voorstel staat het niet toe.
-In de gereguleerde huur bepaalt de wet hoeveel de huur per jaar mag stijgen; de OZB speelt daarin geen rol.
-Het puntenstelsel rekent met de WOZ-waarde, en die verandert door dit voorstel niet.
+In de gereguleerde huur niet.
+Daar bepaalt de wet hoeveel de huur per jaar mag stijgen, los van de OZB, en dit voorstel verandert daar niets aan.
+Het puntenstelsel rekent met de WOZ-waarde, en die blijft gelijk.
 
 De valkuil is bekend.
 Bij de invoering van de verhuurderheffing (2013) wees het kabinet op extra huurverhogingen als manier om de heffing te betalen: inflatie plus 5% voor huishoudens met een hoger inkomen, en extra punten in gebieden met hoge WOZ-waarden ([Kamerstuk 33 407, nr. 6](https://zoek.officielebekendmakingen.nl/kst-33407-6.html), § 3).
@@ -353,7 +354,7 @@ Landbouwgrond die bedrijfsmatig wordt gebruikt, valt buiten de OZB ([Gemeentewet
 Een boer gaat dus niet meer betalen voor zijn akkers.
 
 Er zit wel een nadeel aan.
-Ook landbouwgrond die al bestemd is voor woningbouw maar nog wordt verpacht of beboerd, blijft vrijgesteld zolang het bedrijf doorloopt.
+Ook landbouwgrond die al bestemd is voor woningbouw, maar nog door een boer wordt gebruikt, blijft vrijgesteld zolang het landbouwbedrijf doorloopt.
 COELO/ESBL schrijven dat de oorspronkelijke reden voor deze vrijstelling &ldquo;al geruime tijd niet meer bestaat&rdquo; (p. 8).
 Een gerichte oplossing, bijvoorbeeld het vervallen van de vrijstelling voor grond met een woonbestemming, verdient een eigen debat.
 
@@ -363,18 +364,18 @@ Ja, op drie manieren.
 De raad kan klein beginnen, bijvoorbeeld met een verhouding van 1,5 : 1, en die elk jaar wat vergroten.
 Het optionele achtste lid maakt dat verplicht: in de eerste vier jaar is het tarief op gebouwen minstens de helft van dat op grond.
 En wie eerst wil zien hoe het werkt, kiest de variant met een experiment in een beperkt aantal gemeenten, met evaluatie na vier jaar.
-Een gemeente kan ook al vóór invoering de grondwaarden uitrekenen en publiceren, zodat inwoners zien wat er voor hen verandert.
+Een gemeente kan ook al vóór invoering de grondprijzen per gebied uitrekenen en publiceren, zodat inwoners kunnen nagaan wat er voor hen verandert.
 
 ### Waarom niet alleen een planbatenheffing of beter kostenverhaal?
 
 Die zijn nuttig, maar ze werken op een ander moment en op andere plekken.
 Een planbatenheffing roomt de waardestijging af als grond een nieuwe bestemming krijgt, vooral bij uitleglocaties.
-In de binnenstad is die waardesprong klein of zelfs negatief, omdat de grond al veel waard is en sloop en sanering geld kosten (COELO/ESBL, p. 15).
+In de binnenstad is die waardesprong vaak klein of zelfs negatief, omdat de grond al veel waard is en sloop en sanering geld kosten (COELO/ESBL, p. 15).
 En een planbatenheffing &ldquo;helpt niet bij het versnellen van&rdquo; bouwprojecten die stilliggen omdat de eigenaar op een hogere prijs wacht (p. 6).
 
 Een grondwaarde in de OZB werkt elk jaar en overal, ook in de binnenstad en op stilliggende kavels.
 COELO/ESBL: een grondbelasting en een planbatenheffing &ldquo;kunnen goed naast elkaar bestaan&rdquo; (p. 85).
-De Tweede Kamer vroeg in mei 2026 opnieuw om een uitgewerkte planbatenheffing of een uitbreiding van het kostenverhaal ([motie-De Hoop, 32 847, nr. 1453](https://zoek.officielebekendmakingen.nl/kst-32847-1453.html)).
+In mei 2026 vroeg Kamerlid De Hoop in een motie opnieuw om een uitgewerkte planbatenheffing of een uitbreiding van het kostenverhaal ([Kamerstuk 32 847, nr. 1453](https://zoek.officielebekendmakingen.nl/kst-32847-1453.html)).
 Dit voorstel past daar naast.
 
 ### Wie gaat er meer betalen, en wie minder?
@@ -383,7 +384,7 @@ Bij een budgetneutrale verschuiving betalen eigenaren met veel grondwaarde ten o
 Wie compact bouwt, nieuw bouwt of zijn pand goed onderhoudt, betaalt minder.
 Omdat de verschuiving per categorie budgetneutraal is, betalen woningen samen niet meer dan nu, en niet-woningen samen ook niet.
 Hoe het in een bepaalde gemeente uitvalt, hangt af van de lokale grondwaarden en de gekozen verhouding.
-Wonenisteduur.nl werkt aan een doorrekening voor een voorbeeldgemeente.
+Daarvoor is een doorrekening per gemeente nodig, en die moet openbaar zijn.
 
 ## Downloads en reageren
 
