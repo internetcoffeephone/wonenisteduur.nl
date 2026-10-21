@@ -1,0 +1,7 @@
+{{ define "main" }}
+<div class="voorstel">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.lead }}<p class="voorstel-lead">{{ . }}</p>{{ end }}
+  {{ .Content }}
+</div>
+{{ end }}

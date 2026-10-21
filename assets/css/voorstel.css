@@ -236,3 +236,59 @@
     break-after: avoid;
   }
 }
+
+/* Plain-language explanations on /voorstel/uitgelegd/ */
+.voorstel .wet-uitleg {
+  margin: 0.25rem 0 1.25rem 1.8em;
+  padding: 0.75rem 1rem 0.25rem;
+  background: #eef2f6;
+  border-left: 4px solid #2c3e50;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #2c2c2c;
+}
+
+.voorstel .wettekst > .wet-uitleg {
+  margin-left: 0;
+}
+
+.voorstel .wet-uitleg p {
+  margin-bottom: 0.55rem;
+}
+
+.voorstel .wet-uitleg ul {
+  margin: 0 0 0.6rem;
+  padding-left: 1.25rem;
+}
+
+.voorstel .wet-uitleg li {
+  margin-bottom: 0.2rem;
+}
+
+.voorstel .wettekst .wet-uitleg-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2c3e50;
+  margin-bottom: 0.3rem;
+}
+
+.voorstel-uitgelegd {
+  margin: 0 0 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .voorstel .wet-uitleg {
+    margin-left: 0;
+    padding: 0.65rem 0.8rem 0.2rem;
+  }
+}
+
+@media print {
+  .voorstel .wet-uitleg {
+    background: none;
+    border-left-color: #000;
+  }
+}

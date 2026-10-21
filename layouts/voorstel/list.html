@@ -12,6 +12,10 @@
   </p>
   {{ end }}
 
+  {{ with site.GetPage "/voorstel/uitgelegd" }}
+  <p class="voorstel-uitgelegd"><a href="{{ .RelPermalink }}">Lees de wettekst met uitleg in gewone taal &rarr;</a></p>
+  {{ end }}
+
   <nav class="voorstel-toc" aria-label="Inhoud van deze pagina">
     <p class="voorstel-toc-title">Op deze pagina</p>
     <ol>

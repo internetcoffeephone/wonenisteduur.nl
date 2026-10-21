@@ -1,0 +1,248 @@
+# Conceptwettekst van /voorstel/, in stukken met uitleg.
+# Gebruikt door de shortcode wettekst (layouts/voorstel/_shortcodes/wettekst.html):
+# /voorstel/ toont alleen html, /voorstel/uitgelegd/ ook de uitleg (Markdown).
+# Pas de wettekst hier aan; beide pagina's volgen automatisch.
+hoofd:
+  - html: |-
+      <div class="wettekst">
+      <p class="wet-titel">Voorstel van wet tot wijziging van de Gemeentewet en de Wet waardering onroerende zaken in verband met de mogelijkheid voor gemeenten om bij de onroerende-zaakbelastingen de grond zwaarder te belasten dan de opstal (Wet grondwaarde in de onroerende-zaakbelastingen)</p>
+    uitleg: |-
+      **In gewone taal:** de titel van de wet. Hij zegt wat er verandert: gemeenten mogen bij de OZB de grond zwaarder belasten dan het gebouw. Tussen haakjes staat de korte naam waarmee de wet later wordt aangehaald.
+
+      **Waarom twee wetten:** de OZB staat in de Gemeentewet, en de WOZ-waarde waarover de OZB wordt geheven in de Wet waardering onroerende zaken (Wet WOZ). Beide moeten veranderen.
+  - html: |-
+      <p class="wet-considerans">Allen, die deze zullen zien of horen lezen, saluut! doen te weten:</p>
+      <p class="wet-considerans">Alzo Wij in overweging genomen hebben, dat het wenselijk is gemeenten de mogelijkheid te bieden bij de heffing van de onroerende-zaakbelastingen het deel van de waarde van een onroerende zaak dat aan de grond kan worden toegerekend naar een hoger percentage te belasten dan het deel dat aan de opstal kan worden toegerekend, zonder dat de opbrengst van die belastingen daardoor stijgt, ter bevordering van de woningbouw en van een doelmatig gebruik van grond;</p>
+      <p class="wet-considerans">Zo is het, dat Wij, de Afdeling advisering van de Raad van State gehoord, en met gemeen overleg der Staten-Generaal, hebben goedgevonden en verstaan, gelijk Wij goedvinden en verstaan bij deze:</p>
+    uitleg: |-
+      **In gewone taal:** dit is de vaste aanhef die boven elke Nederlandse wet staat. Alleen de middelste zin is inhoud, en daarin staat het doel: gemeenten krijgen een *mogelijkheid*, geen plicht; de opbrengst mag niet stijgen; en het gaat om meer woningbouw en beter gebruik van grond.
+
+      **Waarom dat ertoe doet:** bij twijfel kijkt een rechter naar het doel van een wet. Doordat &lsquo;zonder dat de opbrengst stijgt&rsquo; al in de aanhef staat, is duidelijk dat dit geen verkapte belastingverhoging mag worden.
+  - html: |-
+      <h3 class="wet-artikel" id="artikel-i">Artikel I</h3>
+      <p>De Gemeentewet wordt als volgt gewijzigd:</p>
+      <p class="wet-onderdeel-kop">A</p>
+      <p>Na artikel 220f wordt een artikel ingevoegd, luidende:</p>
+    uitleg: |-
+      **In gewone taal:** artikel I verandert de Gemeentewet. Er komt één nieuw artikel bij, 220fa, direct na artikel 220f. Artikel 220f zegt nu dat de OZB één percentage van de WOZ-waarde is.
+
+      **Achtergrond:** de OZB bestaat uit drie belastingen: (a) voor gebruikers van bedrijfspanden, (b) voor eigenaren van woningen en (c) voor eigenaren van bedrijfspanden en andere niet-woningen. Voor elk daarvan stelt de gemeenteraad nu één tarief vast.
+  - html: |-
+      <div class="wet-nieuw">
+      <p class="wet-nieuw-kop">Artikel 220fa</p>
+      <p class="lid"><span class="nr">1.</span> In afwijking van artikel 220f, eerste lid, kan in de belastingverordening worden bepaald dat de belasting, bedoeld in artikel 220f, eerste lid, onderdeel b of c, wordt geheven naar een percentage van de grondwaarde en een lager percentage van de opstalwaarde.</p>
+    uitleg: |-
+      **In gewone taal:** de gemeenteraad mag kiezen voor twee tarieven in plaats van één: een hoger tarief over de waarde van de grond en een lager tarief over de waarde van het gebouw. Dat mag alleen bij de belastingen voor eigenaren (b en c), niet bij die voor gebruikers van bedrijfspanden. &lsquo;Kan&rsquo; betekent: het hoeft niet. Doet de raad niets, dan blijft alles zoals het is.
+
+      **Waarom alleen eigenaren:** wie een bedrijfspand huurt, kan de grond niet bebouwen of verkopen. Een hoger grondtarief geeft een huurder dus geen reden om iets anders te doen; hij betaalt alleen meer. De eigenaar beslist over de grond, dus daar hoort de prikkel.
+  - html: |-
+      <p class="lid"><span class="nr">2.</span> Voor de toepassing van dit artikel wordt verstaan onder:</p>
+      <p class="onderdeel"><span class="nr">a.</span> grondwaarde: de grondwaarde, bedoeld in artikel 17a van de Wet waardering onroerende zaken, die op de voet van hoofdstuk IV van die wet voor de onroerende zaak is vastgesteld;</p>
+      <p class="onderdeel"><span class="nr">b.</span> opstalwaarde: de heffingsmaatstaf, verminderd met de grondwaarde;</p>
+      <p class="onderdeel"><span class="nr">c.</span> agrarische waarde: de waarde die cultuurgrond als bedoeld in artikel 220d, eerste lid, onderdeel a, zou hebben indien het omgevingsplan uitsluitend gebruik voor de land- of bosbouw zou toestaan.</p>
+    uitleg: |-
+      **In gewone taal:** drie begrippen die verderop terugkomen.
+
+      - De *grondwaarde* is het deel van de WOZ-waarde dat bij de grond hoort. Hoe die wordt bepaald, staat in de Wet WOZ (artikel II hieronder).
+      - De *opstalwaarde* is de rest: WOZ-waarde min grondwaarde. Dat is in feite de waarde van het gebouw.
+      - De *agrarische waarde* is wat landbouwgrond waard zou zijn als je er alleen mocht boeren.
+
+      **Waarom zo:** omdat de opstalwaarde &lsquo;de rest&rsquo; is, tellen grond en gebouw altijd precies op tot de WOZ-waarde die er al is. Er komt geen tweede taxatie van het gebouw bij.
+  - html: |-
+      <p class="lid"><span class="nr">3.</span> Indien ingevolge artikel 220d of 220e de waarde van een deel van de onroerende zaak buiten aanmerking blijft, wordt voor de toepassing van dit artikel de grondwaarde verminderd met het deel daarvan dat aan dat deel van de onroerende zaak kan worden toegerekend.</p>
+    uitleg: |-
+      **In gewone taal:** sommige delen van een pand zijn vrijgesteld van OZB, bijvoorbeeld de akkers van een boerenbedrijf of een kerk. Valt zo'n deel weg, dan gaat ook de grondwaarde van precies dat deel eraf.
+
+      **Waarom niet gewoon naar verhouding:** neem een boerderij van € 1 miljoen. De akkers van € 800.000 zijn vrijgesteld. Het woonhuis met erf is € 200.000 waard, waarvan € 60.000 grond. Verlaag je de grondwaarde van het hele bedrijf naar verhouding, dan wordt het woonhuis belast alsof het voor 86% uit grond bestaat, terwijl dat 30% is.
+  - html: |-
+      <p class="lid"><span class="nr">4.</span> In afwijking van artikel 220d, eerste lid, onderdeel a, en van het derde lid, wordt het bedrag waarmee de grondwaarde van cultuurgrond de agrarische waarde daarvan te boven gaat, voor de toepassing van dit artikel tot de heffingsmaatstaf en tot de grondwaarde gerekend.</p>
+    uitleg: |-
+      **In gewone taal:** landbouwgrond waarop een boer werkt, blijft vrijgesteld, maar alleen voor de waarde die ze als landbouwgrond heeft. Mag er volgens het omgevingsplan ook iets anders, bijvoorbeeld woningbouw, dan is de grond meer waard. Over dat extra deel betaalt de eigenaar het grondtarief.
+
+      **Waarom:** grond met een woonbestemming is volgens DNB circa € 1,4 miljoen per hectare meer waard dan landbouwgrond. Nu is die grond helemaal vrijgesteld zolang er geboerd wordt, ook als de eigenaar hem alleen aan een boer verhuurt om de vrijstelling te houden. Met een hoger grondtarief zou die constructie meer waard worden. Zo is er geen grens waarop de aanslag ineens verspringt: voor een boer op grond met een agrarische bestemming is het extra deel nul.
+  - html: |-
+      <p class="lid"><span class="nr">5.</span> Indien toepassing wordt gegeven aan het eerste lid, worden in de belastingverordening voor de desbetreffende belasting vastgesteld:</p>
+      <p class="onderdeel"><span class="nr">a.</span> een basispercentage;</p>
+      <p class="onderdeel"><span class="nr">b.</span> een percentage voor de grondwaarde, en</p>
+      <p class="onderdeel"><span class="nr">c.</span> een percentage voor de opstalwaarde, dat lager is dan het percentage voor de grondwaarde.</p>
+    uitleg: |-
+      **In gewone taal:** kiest de raad voor de verschuiving, dan zet hij drie percentages in de belastingverordening:
+
+      - het *basispercentage*: het gewone OZB-tarief dat de raad zonder verschuiving zou heffen;
+      - een percentage voor de grond;
+      - een lager percentage voor het gebouw.
+
+      **Waarom drie:** het basispercentage is de meetlat. Daarmee kan iedereen nagaan dat de twee nieuwe tarieven samen niet meer opbrengen dan het gewone tarief (zesde lid). Het basispercentage wordt ook gebruikt voor woonboten (onderdeel B) en bij erfpacht (achtste lid).
+  - html: |-
+      <p class="lid"><span class="nr">6.</span> De percentages, bedoeld in het vijfde lid, onderdelen b en c, worden zodanig vastgesteld dat de geraamde opbrengst van de belasting niet hoger is dan de geraamde opbrengst bij heffing naar het basispercentage over de heffingsmaatstaf zonder toepassing van het vierde lid.</p>
+    uitleg: |-
+      **In gewone taal:** de twee tarieven samen mogen niet meer opbrengen dan het basispercentage over alle WOZ-waarden zou opbrengen. Wat de gemeente extra binnenhaalt via de landbouwgrond van het vierde lid, telt niet mee: dat geld verlaagt de tarieven voor anderen.
+
+      **Wat dit niet doet:** het basispercentage kiest de raad vrij, net als nu het OZB-tarief. De raad kan de OZB dus nog steeds verhogen, maar moet dat dan openlijk doen, in het basispercentage. De verschuiving zelf levert nooit extra geld op.
+  - html: |-
+      <p class="lid"><span class="nr">7.</span> Indien artikel 220f, tweede lid, wordt toegepast voor de belasting, bedoeld in artikel 220f, eerste lid, onderdeel c, en voor de belasting, bedoeld in artikel 220f, eerste lid, onderdeel b, toepassing is gegeven aan het eerste lid, gelden voor de daar bedoelde onroerende zaken de percentages voor de grondwaarde en de opstalwaarde van laatstgenoemde belasting.</p>
+    uitleg: |-
+      **In gewone taal:** gemeenten mogen nu al sportaccommodaties, dorpshuizen en panden van goede doelen belasten tegen het lagere woningtarief in plaats van het tarief voor bedrijfspanden (artikel 220f, tweede lid). Dit lid zegt: doet een gemeente dat, en heeft ze de verschuiving voor woningen ingevoerd, dan gelden voor die panden ook de grond- en gebouwtarieven van woningen.
+
+      **Waarom:** anders zou zo'n dorpshuis tussen twee regelingen in vallen.
+  - html: |-
+      <p class="lid"><span class="nr">8.</span> Indien de grond van een onroerende zaak in erfpacht is uitgegeven door een rechtspersoon als bedoeld in artikel 1, eerste lid, van Boek 2 van het Burgerlijk Wetboek, of door een rechtspersoon waarvan alle aandelen middellijk of onmiddellijk worden gehouden door een of meer van die rechtspersonen, wordt het percentage voor de grondwaarde toegepast op de grondwaarde, verminderd met de gekapitaliseerde canon. Over het bedrag van die vermindering, doch ten hoogste over de grondwaarde, geldt het basispercentage. In de belastingverordening kan voor dat bedrag een lager percentage worden vastgesteld, doch niet lager dan het percentage voor de opstalwaarde.</p>
+    uitleg: |-
+      **In gewone taal:** wie zijn grond in erfpacht heeft van een overheid, betaalt daar al een vergoeding voor: de canon. Over het deel van de grond dat met die canon al betaald wordt, geldt het gewone basispercentage, net als nu. Alleen over de rest van de grondwaarde betaalt de erfpachter het hogere grondtarief. De gemeente mag dat deel nog lager belasten, tot het gebouwtarief.
+
+      **Waarom:** een overheid die grond in erfpacht uitgeeft, ontvangt de grondrente al via de canon. Zonder deze regel zou de erfpachter voor dezelfde grond dubbel extra betalen. De regel geldt ook voor bedrijven die helemaal van de overheid zijn, zoals Havenbedrijf Rotterdam. Hij geldt niet voor particuliere erfpacht: daar zou een eigenaar zijn grond aan een eigen bv in erfpacht kunnen geven om belasting te ontwijken.
+  - html: |-
+      <p class="lid"><span class="nr">9.</span> De gekapitaliseerde canon is de jaarlijkse canon, gedeeld door een bij algemene maatregel van bestuur vast te stellen kapitalisatievoet. De jaarlijkse canon is de canon, bedoeld in artikel 85, tweede lid, van Boek 5 van het Burgerlijk Wetboek, die aan het kalenderjaar kan worden toegerekend. Een canon die in één keer of vooruit is voldaan voor een periode van bepaalde duur, wordt in gelijke delen toegerekend aan de kalenderjaren van die periode. Een canon die is voldaan voor de gehele verdere duur van een eeuwigdurende erfpacht, wordt aan geen enkel kalenderjaar toegerekend. Het achtste lid wordt ambtshalve toegepast voor erfpacht die door de gemeente is uitgegeven, en overigens op verzoek van de belastingplichtige die de hoogte van de canon aannemelijk maakt.</p>
+    uitleg: |-
+      **In gewone taal:** zo reken je uit hoeveel grondwaarde met de canon al betaald wordt: deel de canon per jaar door een vast percentage, de kapitalisatievoet, dat het kabinet vaststelt. Bij 4% staat een canon van € 4.000 per jaar voor € 100.000 grondwaarde.
+
+      - Is de canon voor een aantal jaren vooruit betaald, dan wordt het bedrag gelijk over die jaren verdeeld.
+      - Is de canon voor altijd afgekocht, dan telt hij niet. Wie dat deed, heeft de grond in feite gekocht.
+
+      Heeft de gemeente de grond zelf uitgegeven, dan past zij dit zelf toe. Bij erfpacht van het Rijk, een provincie of een waterschap vraagt de erfpachter erom, met de akte of een rekening.
+
+      **Waarom zo:** de verlichting hangt af van hoeveel canon er werkelijk betaald wordt. Wie een volle canon betaalt, krijgt veel verlichting, wie een lage oude canon betaalt weinig. Er is geen drempel: een symbolische canon levert een symbolische verlichting op. Een rekenvoorbeeld staat in de [toelichting](/voorstel/#erfpacht).
+  - html: |-
+      <p class="lid"><span class="nr">10.</span> Het percentage voor de opstalwaarde, gedeeld door het percentage voor de grondwaarde, wijkt ten hoogste 0,25 af van dat quotiënt voor het voorafgaande kalenderjaar. Voor de toepassing van dit lid wordt het quotiënt gesteld op 1 voor een kalenderjaar waarin voor de desbetreffende belasting geen toepassing wordt gegeven aan het eerste lid.</p>
+    uitleg: |-
+      **In gewone taal:** de verhouding tussen de twee tarieven mag elk jaar maar een beetje veranderen. Deel het gebouwtarief door het grondtarief: zonder verschuiving is dat 1, bij een verhouding van 2 : 1 is het 0,5, en bij een belasting op alleen grond 0. Dat getal mag per jaar hooguit 0,25 omhoog of omlaag. Een gemeente doet er dus minstens vier jaar over om alleen nog de grond te belasten, en een gemeente die wil stoppen, bouwt net zo geleidelijk af.
+
+      **Waarom:** schokken in de aanslag ondermijnen het draagvlak. In Pittsburgh werd de grondbelasting in 2001 afgeschaft nadat de aanslagen na een uitgestelde hertaxatie in één keer sterk stegen. Jaarlijkse WOZ-taxaties voorkomen schokken door verouderde waarden; dit lid voorkomt schokken door de keuze van de raad. Het geldt voor elke gemeente, ook voor wie later begint, en er is geen datum waarop de regel ineens vervalt.
+  - html: |-
+      </div>
+      <p class="wet-onderdeel-kop">B</p>
+      <p>Aan artikel 221, derde lid, wordt een volzin toegevoegd, luidende: Indien toepassing is gegeven aan artikel 220fa, eerste lid, is daarbij het basispercentage, bedoeld in artikel 220fa, vijfde lid, onderdeel a, van toepassing.</p>
+    uitleg: |-
+      **In gewone taal:** gemeenten kunnen ook belasting heffen over woonboten en andere woon- of bedrijfsruimten die niet vast aan de grond zitten (artikel 221). Daar hoort geen grond bij in de WOZ-waarde. Voor hen blijft daarom het basispercentage gelden.
+
+      **Waarom:** zonder grondwaarde zou een woonboot anders alleen het lage gebouwtarief betalen, en er onbedoeld op vooruitgaan.
+  - html: |-
+      <h3 class="wet-artikel" id="artikel-ii">Artikel II</h3>
+      <p>De Wet waardering onroerende zaken wordt als volgt gewijzigd:</p>
+      <p class="wet-onderdeel-kop">A</p>
+      <p>Na artikel 17 wordt een artikel ingevoegd, luidende:</p>
+    uitleg: |-
+      **In gewone taal:** artikel II verandert de Wet waardering onroerende zaken (Wet WOZ). Die wet regelt hoe de gemeente elk jaar de WOZ-waarde van elk pand bepaalt. Er komt een artikel 17a bij, over de grondwaarde.
+
+      **Waarom in de Wet WOZ:** de grondwaarde moet net zo zorgvuldig worden bepaald als de WOZ-waarde: met dezelfde peildatum, onder hetzelfde toezicht van de Waarderingskamer, en met dezelfde mogelijkheid van bezwaar.
+  - html: |-
+      <div class="wet-nieuw">
+      <p class="wet-nieuw-kop">Artikel 17a</p>
+      <p class="lid"><span class="nr">1.</span> Indien in de gemeente waarin de onroerende zaak is gelegen voor een kalenderjaar toepassing wordt gegeven aan artikel 220fa van de Gemeentewet, wordt voor dat kalenderjaar tevens het deel van de waarde, bedoeld in artikel 17, bepaald dat kan worden toegerekend aan de grond (grondwaarde), en voor cultuurgrond als bedoeld in artikel 220d, eerste lid, onderdeel a, van de Gemeentewet de agrarische waarde, bedoeld in artikel 220fa, tweede lid, onderdeel c, van die wet.</p>
+    uitleg: |-
+      **In gewone taal:** alleen als een gemeente de verschuiving invoert, bepaalt zij naast de WOZ-waarde ook de grondwaarde, en bij landbouwgrond de agrarische waarde.
+
+      **Waarom:** het voorstel is vrijwillig. Gemeenten die niet meedoen, hebben er dan ook geen extra werk aan.
+  - html: |-
+      <p class="lid"><span class="nr">2.</span> De grondwaarde wordt bepaald op de waarde die aan de tot de onroerende zaak behorende grond, met inbegrip van de ondergrond van de daarop aanwezige gebouwde eigendommen, dient te worden toegekend indien de volle en onbezwaarde eigendom daarvan zou kunnen worden overgedragen en die grond onbebouwd en, voor zover het omgevingsplan bebouwing toestaat, bouwrijp zou zijn, met inachtneming van het gebruik dat het omgevingsplan op de waardepeildatum toestaat.</p>
+    uitleg: |-
+      **In gewone taal:** de grondwaarde is wat de grond waard zou zijn als er niets op stond en je er meteen mocht bouwen wat het omgevingsplan toestaat. De grond onder het gebouw telt gewoon mee.
+
+      **Waarom zo:** zo krijgt grond met dezelfde ligging en dezelfde bestemming dezelfde waarde per vierkante meter, of er nu een flat, een vervallen schuur of niets op staat. Wie een leeg kavel laat liggen, betaalt dan evenveel grondbelasting als de buurman die er woningen op bouwde. Taxateurs werken nu al zo, met grondprijzen per vierkante meter per buurt (grondstaffels).
+  - html: |-
+      <p class="lid"><span class="nr">3.</span> Indien de onroerende zaak een gedeelte is als bedoeld in artikel 16, onderdeel c, wordt de grondwaarde gesteld op een deel van de grondwaarde van het eigendom waarvan dat gedeelte deel uitmaakt, naar verhouding van de waarde van dat gedeelte tot de waarde van alle gedeelten van dat eigendom.</p>
+    uitleg: |-
+      **In gewone taal:** bij een appartementengebouw wordt de grondwaarde van het hele gebouw verdeeld over de appartementen, naar verhouding van hun WOZ-waarde. Een appartement met 10% van de totale waarde krijgt 10% van de grondwaarde.
+
+      **Waarom:** appartementen hebben geen eigen stuk grond. Verdelen naar waarde is eenvoudig en volgt de WOZ-waarden die er al zijn.
+  - html: |-
+      <p class="lid"><span class="nr">4.</span> De grondwaarde bedraagt niet meer dan de waarde, bedoeld in artikel 17.</p>
+    uitleg: |-
+      **In gewone taal:** de grondwaarde kan nooit hoger zijn dan de hele WOZ-waarde.
+
+      **Waarom:** bij een vervallen pand kan de grond, als je het pand wegdenkt, meer waard zijn dan grond en pand samen, bijvoorbeeld omdat slopen geld kost. Dan is de grondwaarde gelijk aan de WOZ-waarde en de opstalwaarde nul. Zo wordt de opstalwaarde nooit negatief.
+  - html: |-
+      <p class="lid"><span class="nr">5.</span> Artikel 18 is van overeenkomstige toepassing.</p>
+    uitleg: |-
+      **In gewone taal:** voor de grondwaarde gelden dezelfde datums als voor de WOZ-waarde. De waarde gaat over 1 januari van het jaar ervoor (de waardepeildatum) en over de staat van het pand op dat moment, met de bestaande uitzonderingen als er in dat jaar is gebouwd of gesloopt (artikel 18 Wet WOZ).
+
+      **Waarom:** grondwaarde en WOZ-waarde moeten over hetzelfde moment gaan, anders klopt de optelsom niet.
+  - html: |-
+      <p class="lid"><span class="nr">6.</span> Bij of krachtens algemene maatregel van bestuur worden regels gesteld over de bepaling van de grondwaarde en de agrarische waarde, waaronder regels over het gebruik van grondprijzen per vierkante meter die per gebied worden vastgesteld. Artikel 20, derde lid, is van overeenkomstige toepassing.</p>
+    uitleg: |-
+      **In gewone taal:** het kabinet legt in een algemene maatregel van bestuur vast hoe de grondwaarde en de agrarische waarde worden bepaald, onder meer met grondprijzen per vierkante meter per gebied. Voordat die regels er komen, krijgen de Tweede en de Eerste Kamer zes weken om erop te reageren (artikel 20, derde lid, Wet WOZ).
+
+      **Waarom:** een wet kan een taxatiemethode niet tot in detail vastleggen. Een algemene maatregel van bestuur kan dat wel, en is makkelijker bij te stellen als de praktijk daarom vraagt. Doordat de Kamers vooraf meekijken, blijft het geen zaak van alleen ambtenaren.
+  - html: |-
+      <p class="lid"><span class="nr">7.</span> Degene die ingevolge artikel 1, tweede lid, met de uitvoering van deze wet is belast, maakt de grondprijzen per vierkante meter, bedoeld in het zesde lid, en de begrenzing van de gebieden waarvoor zij zijn vastgesteld, openbaar uiterlijk op het tijdstip waarop de beschikkingen, bedoeld in artikel 22, eerste lid, worden bekendgemaakt.</p>
+    uitleg: |-
+      **In gewone taal:** de gemeente publiceert de grondprijzen per vierkante meter per gebied, en de grenzen van die gebieden, uiterlijk als de WOZ-beschikkingen worden verstuurd.
+
+      **Waarom:** met die prijzen en de openbare kadastrale kaart kan iedereen de grondwaarde van zijn eigen perceel narekenen, en die van de buren. Grondprijzen per gebied zijn geen persoonsgegevens. Verschillen tussen vergelijkbare buren zijn een veelvoorkomende reden voor bezwaar; openheid helpt fouten te vinden voordat het bezwaren worden.
+  - html: |-
+      </div>
+      <p class="wet-onderdeel-kop">B</p>
+      <p>In artikel 20, eerste lid, wordt na &ldquo;bepaalt de waarde van die onroerende zaak&rdquo; ingevoegd &ldquo;en, in het geval, bedoeld in artikel 17a, eerste lid, de grondwaarde&rdquo;.</p>
+    uitleg: |-
+      **In gewone taal:** artikel 20 van de Wet WOZ zegt wie de WOZ-waarde bepaalt: de gemeente. Dit onderdeel voegt toe dat de gemeente op dezelfde manier ook de grondwaarde bepaalt.
+
+      **Waarom:** zo ligt de grondwaarde bij dezelfde taxateurs, met dezelfde gegevens en onder hetzelfde toezicht.
+  - html: |-
+      <p class="wet-onderdeel-kop">C</p>
+      <p>Aan artikel 22 wordt een lid toegevoegd, luidende:</p>
+      <div class="wet-nieuw">
+      <p class="lid"><span class="nr">3.</span> In het geval, bedoeld in artikel 17a, eerste lid, wordt bij de beschikking, bedoeld in het eerste lid, tevens de grondwaarde en, in voorkomend geval, de agrarische waarde vastgesteld.</p>
+      </div>
+    uitleg: |-
+      **In gewone taal:** de grondwaarde, en bij landbouwgrond de agrarische waarde, komen op dezelfde WOZ-beschikking als de WOZ-waarde.
+
+      **Waarom:** er komt geen extra brief en geen aparte procedure. Wie het niet eens is met de grondwaarde, maakt bezwaar zoals nu tegen de WOZ-waarde.
+  - html: |-
+      <p class="wet-onderdeel-kop">D</p>
+      <p>Artikel 23, eerste lid, wordt als volgt gewijzigd:</p>
+      <p class="lid"><span class="nr">1.</span> In onderdeel e wordt de punt aan het slot vervangen door een puntkomma.</p>
+      <p class="lid"><span class="nr">2.</span> Er wordt een onderdeel toegevoegd, luidende:</p>
+      <div class="wet-nieuw">
+      <p class="onderdeel"><span class="nr">f.</span> in het geval, bedoeld in artikel 17a, eerste lid, de grondwaarde en, in voorkomend geval, de agrarische waarde.</p>
+      </div>
+    uitleg: |-
+      **In gewone taal:** artikel 23 somt op wat er in elk geval op een WOZ-beschikking moet staan: naam, adres, het pand, de waarde, de peildatum en het jaar. Daar komen de grondwaarde en, bij landbouwgrond, de agrarische waarde bij. Het eerste punt is alleen een leesteken dat verandert omdat er een onderdeel achter komt.
+
+      **Waarom:** zo ziet elke eigenaar zwart op wit welk deel van zijn WOZ-waarde als grond telt.
+  - html: |-
+      <h3 class="wet-artikel" id="artikel-iii">Artikel III</h3>
+      <p>Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties zendt, in overeenstemming met Onze Minister van Financiën, binnen vijf jaar na de inwerkingtreding van deze wet aan de Staten-Generaal een verslag over de doeltreffendheid en de effecten van deze wet in de praktijk.</p>
+    uitleg: |-
+      **In gewone taal:** binnen vijf jaar na de invoering laten de ministers van Binnenlandse Zaken en Financiën het parlement weten of de wet werkt en wat de gevolgen zijn.
+
+      **Waarom:** het is een nieuw instrument. Een verplichte evaluatie zorgt ervoor dat de Kamer kan bijsturen, bijvoorbeeld als er meer bezwaren komen dan verwacht of als de taxatiemethode beter kan.
+  - html: |-
+      <h3 class="wet-artikel" id="artikel-iv">Artikel IV</h3>
+      <p>Deze wet treedt in werking op een bij koninklijk besluit te bepalen tijdstip.</p>
+    uitleg: |-
+      **In gewone taal:** de regering bepaalt bij koninklijk besluit wanneer de wet ingaat.
+
+      **Waarom:** gemeenten, taxateurs en leveranciers van belastingsoftware hebben tijd nodig om zich voor te bereiden, en de algemene maatregel van bestuur over de grondwaarde moet eerst klaar zijn.
+  - html: |-
+      <h3 class="wet-artikel" id="artikel-v">Artikel V</h3>
+      <p>Deze wet wordt aangehaald als: Wet grondwaarde in de onroerende-zaakbelastingen.</p>
+    uitleg: |-
+      **In gewone taal:** dit is de korte naam van de wet, waarmee anderen er later naar verwijzen.
+  - html: |-
+      </div>
+variant:
+  - html: |-
+      <div class="wettekst wettekst-variant">
+      <p class="wet-titel">Variant: eerst een experiment</p>
+      <p>Wie liever klein begint, vervangt artikel III door een experimenteerbepaling. De artikelen I en II gelden dan alleen in gemeenten die zich aanmelden.</p>
+  - html: |-
+      <h3 class="wet-artikel" id="artikel-iii-variant">Artikel III (variant)</h3>
+      <p class="lid"><span class="nr">1.</span> In afwijking van artikel I, onderdeel A, en artikel II, onderdeel A, zijn artikel 220fa van de Gemeentewet en artikel 17a van de Wet waardering onroerende zaken slechts van toepassing in gemeenten die op verzoek van de raad bij ministeriële regeling door Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties, in overeenstemming met Onze Minister van Financiën, zijn aangewezen.</p>
+    uitleg: |-
+      **In gewone taal:** in deze variant geldt de wet niet meteen voor alle gemeenten. Een gemeenteraad die wil meedoen, vraagt erom, en de minister wijst de gemeente dan aan.
+
+      **Waarom:** sommige Kamerleden willen eerst zien hoe het uitpakt. Een experiment met gemeenten die zelf willen, levert ervaring op zonder iedereen te verplichten.
+  - html: |-
+      <p class="lid"><span class="nr">2.</span> Een aanwijzing geldt voor ten hoogste zes kalenderjaren, verlengd met het aantal kalenderjaren dat nodig is om met toepassing van artikel 220fa, tiende lid, van de Gemeentewet terug te keren naar heffing naar één percentage.</p>
+    uitleg: |-
+      **In gewone taal:** een gemeente doet hooguit zes jaar mee. Daarna mag ze nog net zo lang doorgaan als nodig is om in stappen van 0,25 per jaar terug te gaan naar één tarief.
+
+      **Waarom:** zonder die verlenging zou de aanslag in het jaar na het experiment in één keer terugspringen: precies de schok die het tiende lid van artikel 220fa voorkomt.
+  - html: |-
+      <p class="lid"><span class="nr">3.</span> Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties zendt binnen vier jaar na de inwerkingtreding van deze wet aan de Staten-Generaal een verslag over de doeltreffendheid en de effecten van deze wet in de aangewezen gemeenten.</p>
+    uitleg: |-
+      **In gewone taal:** binnen vier jaar rapporteert de minister hoe het experiment in de deelnemende gemeenten uitpakt.
+
+      **Waarom:** dan ligt er een evaluatie voordat de eerste aanwijzingen aflopen, en kan de Kamer besluiten of de wet voor alle gemeenten gaat gelden.
+  - html: |-
+      </div>

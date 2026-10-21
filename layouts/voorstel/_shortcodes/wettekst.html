@@ -1,0 +1,15 @@
+{{- /* Renders the draft law from data/voorstel/wettekst.yaml.
+       tekst: "hoofd" or "variant". uitleg="ja" adds the plain-language
+       explanation after each fragment (used on /voorstel/uitgelegd/). */ -}}
+{{- $fragmenten := index hugo.Data.voorstel.wettekst (.Get "tekst") -}}
+{{- $uitleg := eq (.Get "uitleg") "ja" -}}
+{{- $opts := dict "display" "block" -}}
+{{- range $fragmenten }}
+{{ .html | safeHTML }}
+{{- if and $uitleg .uitleg }}
+<aside class="wet-uitleg" aria-label="Uitleg">
+<p class="wet-uitleg-label">Uitleg</p>
+{{ $.Page.RenderString $opts .uitleg }}
+</aside>
+{{- end }}
+{{- end }}

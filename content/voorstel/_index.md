@@ -156,80 +156,11 @@ Hij is niet getoetst door wetgevingsjuristen.
 Verbeteringen zijn welkom.</p>
 </div>
 
-<div class="wettekst">
-<p class="wet-titel">Voorstel van wet tot wijziging van de Gemeentewet en de Wet waardering onroerende zaken in verband met de mogelijkheid voor gemeenten om bij de onroerende-zaakbelastingen de grond zwaarder te belasten dan de opstal (Wet grondwaarde in de onroerende-zaakbelastingen)</p>
-<p class="wet-considerans">Allen, die deze zullen zien of horen lezen, saluut! doen te weten:</p>
-<p class="wet-considerans">Alzo Wij in overweging genomen hebben, dat het wenselijk is gemeenten de mogelijkheid te bieden bij de heffing van de onroerende-zaakbelastingen het deel van de waarde van een onroerende zaak dat aan de grond kan worden toegerekend naar een hoger percentage te belasten dan het deel dat aan de opstal kan worden toegerekend, zonder dat de opbrengst van die belastingen daardoor stijgt, ter bevordering van de woningbouw en van een doelmatig gebruik van grond;</p>
-<p class="wet-considerans">Zo is het, dat Wij, de Afdeling advisering van de Raad van State gehoord, en met gemeen overleg der Staten-Generaal, hebben goedgevonden en verstaan, gelijk Wij goedvinden en verstaan bij deze:</p>
-<h3 class="wet-artikel" id="artikel-i">Artikel I</h3>
-<p>De Gemeentewet wordt als volgt gewijzigd:</p>
-<p class="wet-onderdeel-kop">A</p>
-<p>Na artikel 220f wordt een artikel ingevoegd, luidende:</p>
-<div class="wet-nieuw">
-<p class="wet-nieuw-kop">Artikel 220fa</p>
-<p class="lid"><span class="nr">1.</span> In afwijking van artikel 220f, eerste lid, kan in de belastingverordening worden bepaald dat de belasting, bedoeld in artikel 220f, eerste lid, onderdeel b of c, wordt geheven naar een percentage van de grondwaarde en een lager percentage van de opstalwaarde.</p>
-<p class="lid"><span class="nr">2.</span> Voor de toepassing van dit artikel wordt verstaan onder:</p>
-<p class="onderdeel"><span class="nr">a.</span> grondwaarde: de grondwaarde, bedoeld in artikel 17a van de Wet waardering onroerende zaken, die op de voet van hoofdstuk IV van die wet voor de onroerende zaak is vastgesteld;</p>
-<p class="onderdeel"><span class="nr">b.</span> opstalwaarde: de heffingsmaatstaf, verminderd met de grondwaarde;</p>
-<p class="onderdeel"><span class="nr">c.</span> agrarische waarde: de waarde die cultuurgrond als bedoeld in artikel 220d, eerste lid, onderdeel a, zou hebben indien het omgevingsplan uitsluitend gebruik voor de land- of bosbouw zou toestaan.</p>
-<p class="lid"><span class="nr">3.</span> Indien ingevolge artikel 220d of 220e de waarde van een deel van de onroerende zaak buiten aanmerking blijft, wordt voor de toepassing van dit artikel de grondwaarde verminderd met het deel daarvan dat aan dat deel van de onroerende zaak kan worden toegerekend.</p>
-<p class="lid"><span class="nr">4.</span> In afwijking van artikel 220d, eerste lid, onderdeel a, en van het derde lid, wordt het bedrag waarmee de grondwaarde van cultuurgrond de agrarische waarde daarvan te boven gaat, voor de toepassing van dit artikel tot de heffingsmaatstaf en tot de grondwaarde gerekend.</p>
-<p class="lid"><span class="nr">5.</span> Indien toepassing wordt gegeven aan het eerste lid, worden in de belastingverordening voor de desbetreffende belasting vastgesteld:</p>
-<p class="onderdeel"><span class="nr">a.</span> een basispercentage;</p>
-<p class="onderdeel"><span class="nr">b.</span> een percentage voor de grondwaarde, en</p>
-<p class="onderdeel"><span class="nr">c.</span> een percentage voor de opstalwaarde, dat lager is dan het percentage voor de grondwaarde.</p>
-<p class="lid"><span class="nr">6.</span> De percentages, bedoeld in het vijfde lid, onderdelen b en c, worden zodanig vastgesteld dat de geraamde opbrengst van de belasting niet hoger is dan de geraamde opbrengst bij heffing naar het basispercentage over de heffingsmaatstaf zonder toepassing van het vierde lid.</p>
-<p class="lid"><span class="nr">7.</span> Indien artikel 220f, tweede lid, wordt toegepast voor de belasting, bedoeld in artikel 220f, eerste lid, onderdeel c, en voor de belasting, bedoeld in artikel 220f, eerste lid, onderdeel b, toepassing is gegeven aan het eerste lid, gelden voor de daar bedoelde onroerende zaken de percentages voor de grondwaarde en de opstalwaarde van laatstgenoemde belasting.</p>
-<p class="lid"><span class="nr">8.</span> Indien de grond van een onroerende zaak in erfpacht is uitgegeven door een rechtspersoon als bedoeld in artikel 1, eerste lid, van Boek 2 van het Burgerlijk Wetboek, of door een rechtspersoon waarvan alle aandelen middellijk of onmiddellijk worden gehouden door een of meer van die rechtspersonen, wordt het percentage voor de grondwaarde toegepast op de grondwaarde, verminderd met de gekapitaliseerde canon. Over het bedrag van die vermindering, doch ten hoogste over de grondwaarde, geldt het basispercentage. In de belastingverordening kan voor dat bedrag een lager percentage worden vastgesteld, doch niet lager dan het percentage voor de opstalwaarde.</p>
-<p class="lid"><span class="nr">9.</span> De gekapitaliseerde canon is de jaarlijkse canon, gedeeld door een bij algemene maatregel van bestuur vast te stellen kapitalisatievoet. De jaarlijkse canon is de canon, bedoeld in artikel 85, tweede lid, van Boek 5 van het Burgerlijk Wetboek, die aan het kalenderjaar kan worden toegerekend. Een canon die in één keer of vooruit is voldaan voor een periode van bepaalde duur, wordt in gelijke delen toegerekend aan de kalenderjaren van die periode. Een canon die is voldaan voor de gehele verdere duur van een eeuwigdurende erfpacht, wordt aan geen enkel kalenderjaar toegerekend. Het achtste lid wordt ambtshalve toegepast voor erfpacht die door de gemeente is uitgegeven, en overigens op verzoek van de belastingplichtige die de hoogte van de canon aannemelijk maakt.</p>
-<p class="lid"><span class="nr">10.</span> Het percentage voor de opstalwaarde, gedeeld door het percentage voor de grondwaarde, wijkt ten hoogste 0,25 af van dat quotiënt voor het voorafgaande kalenderjaar. Voor de toepassing van dit lid wordt het quotiënt gesteld op 1 voor een kalenderjaar waarin voor de desbetreffende belasting geen toepassing wordt gegeven aan het eerste lid.</p>
-</div>
-<p class="wet-onderdeel-kop">B</p>
-<p>Aan artikel 221, derde lid, wordt een volzin toegevoegd, luidende: Indien toepassing is gegeven aan artikel 220fa, eerste lid, is daarbij het basispercentage, bedoeld in artikel 220fa, vijfde lid, onderdeel a, van toepassing.</p>
-<h3 class="wet-artikel" id="artikel-ii">Artikel II</h3>
-<p>De Wet waardering onroerende zaken wordt als volgt gewijzigd:</p>
-<p class="wet-onderdeel-kop">A</p>
-<p>Na artikel 17 wordt een artikel ingevoegd, luidende:</p>
-<div class="wet-nieuw">
-<p class="wet-nieuw-kop">Artikel 17a</p>
-<p class="lid"><span class="nr">1.</span> Indien in de gemeente waarin de onroerende zaak is gelegen voor een kalenderjaar toepassing wordt gegeven aan artikel 220fa van de Gemeentewet, wordt voor dat kalenderjaar tevens het deel van de waarde, bedoeld in artikel 17, bepaald dat kan worden toegerekend aan de grond (grondwaarde), en voor cultuurgrond als bedoeld in artikel 220d, eerste lid, onderdeel a, van de Gemeentewet de agrarische waarde, bedoeld in artikel 220fa, tweede lid, onderdeel c, van die wet.</p>
-<p class="lid"><span class="nr">2.</span> De grondwaarde wordt bepaald op de waarde die aan de tot de onroerende zaak behorende grond, met inbegrip van de ondergrond van de daarop aanwezige gebouwde eigendommen, dient te worden toegekend indien de volle en onbezwaarde eigendom daarvan zou kunnen worden overgedragen en die grond onbebouwd en, voor zover het omgevingsplan bebouwing toestaat, bouwrijp zou zijn, met inachtneming van het gebruik dat het omgevingsplan op de waardepeildatum toestaat.</p>
-<p class="lid"><span class="nr">3.</span> Indien de onroerende zaak een gedeelte is als bedoeld in artikel 16, onderdeel c, wordt de grondwaarde gesteld op een deel van de grondwaarde van het eigendom waarvan dat gedeelte deel uitmaakt, naar verhouding van de waarde van dat gedeelte tot de waarde van alle gedeelten van dat eigendom.</p>
-<p class="lid"><span class="nr">4.</span> De grondwaarde bedraagt niet meer dan de waarde, bedoeld in artikel 17.</p>
-<p class="lid"><span class="nr">5.</span> Artikel 18 is van overeenkomstige toepassing.</p>
-<p class="lid"><span class="nr">6.</span> Bij of krachtens algemene maatregel van bestuur worden regels gesteld over de bepaling van de grondwaarde en de agrarische waarde, waaronder regels over het gebruik van grondprijzen per vierkante meter die per gebied worden vastgesteld. Artikel 20, derde lid, is van overeenkomstige toepassing.</p>
-<p class="lid"><span class="nr">7.</span> Degene die ingevolge artikel 1, tweede lid, met de uitvoering van deze wet is belast, maakt de grondprijzen per vierkante meter, bedoeld in het zesde lid, en de begrenzing van de gebieden waarvoor zij zijn vastgesteld, openbaar uiterlijk op het tijdstip waarop de beschikkingen, bedoeld in artikel 22, eerste lid, worden bekendgemaakt.</p>
-</div>
-<p class="wet-onderdeel-kop">B</p>
-<p>In artikel 20, eerste lid, wordt na &ldquo;bepaalt de waarde van die onroerende zaak&rdquo; ingevoegd &ldquo;en, in het geval, bedoeld in artikel 17a, eerste lid, de grondwaarde&rdquo;.</p>
-<p class="wet-onderdeel-kop">C</p>
-<p>Aan artikel 22 wordt een lid toegevoegd, luidende:</p>
-<div class="wet-nieuw">
-<p class="lid"><span class="nr">3.</span> In het geval, bedoeld in artikel 17a, eerste lid, wordt bij de beschikking, bedoeld in het eerste lid, tevens de grondwaarde en, in voorkomend geval, de agrarische waarde vastgesteld.</p>
-</div>
-<p class="wet-onderdeel-kop">D</p>
-<p>Artikel 23, eerste lid, wordt als volgt gewijzigd:</p>
-<p class="lid"><span class="nr">1.</span> In onderdeel e wordt de punt aan het slot vervangen door een puntkomma.</p>
-<p class="lid"><span class="nr">2.</span> Er wordt een onderdeel toegevoegd, luidende:</p>
-<div class="wet-nieuw">
-<p class="onderdeel"><span class="nr">f.</span> in het geval, bedoeld in artikel 17a, eerste lid, de grondwaarde en, in voorkomend geval, de agrarische waarde.</p>
-</div>
-<h3 class="wet-artikel" id="artikel-iii">Artikel III</h3>
-<p>Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties zendt, in overeenstemming met Onze Minister van Financiën, binnen vijf jaar na de inwerkingtreding van deze wet aan de Staten-Generaal een verslag over de doeltreffendheid en de effecten van deze wet in de praktijk.</p>
-<h3 class="wet-artikel" id="artikel-iv">Artikel IV</h3>
-<p>Deze wet treedt in werking op een bij koninklijk besluit te bepalen tijdstip.</p>
-<h3 class="wet-artikel" id="artikel-v">Artikel V</h3>
-<p>Deze wet wordt aangehaald als: Wet grondwaarde in de onroerende-zaakbelastingen.</p>
-</div>
+Liever in gewone taal? Op [Het voorstel, uitgelegd](/voorstel/uitgelegd/) staat na elk onderdeel van de wettekst wat er staat en waarom.
 
-<div class="wettekst wettekst-variant">
-<p class="wet-titel">Variant: eerst een experiment</p>
-<p>Wie liever klein begint, vervangt artikel III door een experimenteerbepaling. De artikelen I en II gelden dan alleen in gemeenten die zich aanmelden.</p>
-<h3 class="wet-artikel" id="artikel-iii-variant">Artikel III (variant)</h3>
-<p class="lid"><span class="nr">1.</span> In afwijking van artikel I, onderdeel A, en artikel II, onderdeel A, zijn artikel 220fa van de Gemeentewet en artikel 17a van de Wet waardering onroerende zaken slechts van toepassing in gemeenten die op verzoek van de raad bij ministeriële regeling door Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties, in overeenstemming met Onze Minister van Financiën, zijn aangewezen.</p>
-<p class="lid"><span class="nr">2.</span> Een aanwijzing geldt voor ten hoogste zes kalenderjaren, verlengd met het aantal kalenderjaren dat nodig is om met toepassing van artikel 220fa, tiende lid, van de Gemeentewet terug te keren naar heffing naar één percentage.</p>
-<p class="lid"><span class="nr">3.</span> Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties zendt binnen vier jaar na de inwerkingtreding van deze wet aan de Staten-Generaal een verslag over de doeltreffendheid en de effecten van deze wet in de aangewezen gemeenten.</p>
-</div>
+{{< wettekst tekst="hoofd" >}}
+
+{{< wettekst tekst="variant" >}}
 
 ## Toelichting
 

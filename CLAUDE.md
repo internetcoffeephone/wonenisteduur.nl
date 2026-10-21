@@ -15,6 +15,8 @@ Always run `pre-commit run --all-files` before creating git commits. Fix any iss
 
 - `content/_index.md` — homepage content (Dutch advocacy text)
 - `content/politici/_index.md` — politicians contact page
+- `data/voorstel/wettekst.yaml` — the draft law text, split into fragments with a plain-language `uitleg` each; rendered on `/voorstel/` (law only) and `/voorstel/uitgelegd/` (law + uitleg) by `layouts/voorstel/_shortcodes/wettekst.html`. Edit the law here, not in the content files.
+- Navigation comes from `menus: main` in front matter; every `assets/css/*.css` is bundled after `style.css`
 - `layouts/` — custom Hugo templates (no theme)
 - `assets/css/style.css` — all styles, processed via Hugo Pipes
 - `static/` — favicon and other static assets
