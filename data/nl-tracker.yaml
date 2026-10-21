@@ -46,8 +46,8 @@ categorieen:
   - id: partijen
     titel: Partijen (verkiezingen van 29 oktober 2025)
     intro: >-
-      Volgens de doorrekening door het CPB (Keuzes in Kaart 2027–2030, oktober 2025). Alleen tien
-      partijen deden mee; PVV, SP, PvdD, FVD en DENK niet.
+      Volgens de doorrekening door het CPB (Keuzes in Kaart 2027–2030, oktober 2025). Tien
+      partijen deden mee; onder meer PVV, SP, PvdD, FVD en DENK niet.
     items:
       - titel: GroenLinks-PvdA (nu PRO)
         datum: 2025-10
@@ -159,7 +159,8 @@ categorieen:
         status: verworpen
         tekst: >-
           Constateert dat de Kamer al meerdere keren om een uitgewerkte planbatenheffing vroeg en
-          verzoekt de regering die vóór Prinsjesdag 2026 te sturen. Verworpen.
+          verzoekt de regering vóór Prinsjesdag 2026 een voorstel te sturen voor een
+          planbatenheffing of een uitbreiding van kostenverhaal. Verworpen.
         voor: [ChristenUnie, PvdD, DENK, GroenLinks-PvdA, Volt, BBB, 50PLUS, SP, PVV, Groep Markuszower]
         tegen: [D66, Keijzer, JA21, VVD, CDA, SGP, FVD]
         bronnen:

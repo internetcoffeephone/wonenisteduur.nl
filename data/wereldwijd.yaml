@@ -182,7 +182,7 @@ gevallen:
   - id: baden-wuerttemberg
     land: Duitsland
     titel: Baden-Württemberg
-    ondertitel: Grondsteuer alleen nog op de grondwaarde (sinds 2025)
+    ondertitel: Grundsteuer alleen nog op de grondwaarde (sinds 2025)
     status: In werking sinds 1 januari 2025; door de hoogste belastingrechter goedgekeurd
     ingevoerd: >-
       Het Bundesverfassungsgericht oordeelde in 2018 dat de Duitse Grundsteuer ongrondwettig was,
@@ -238,8 +238,9 @@ gevallen:
           (1.999 eigenaren in heel Duitsland) stegen de aanslagen in Baden-Württemberg gemiddeld het
           sterkst: +141%, tegen +98% in het federale model.
         zekerheid: >-
-          Laag. De deelnemers kozen zelf om mee te doen, maar zo'n 6% van de reacties kwam uit
-          Baden-Württemberg, en de enquête komt van de verhuurderslobby.
+          Laag. De deelnemers kozen zelf om mee te doen, slechts zo'n 6% van de reacties kwam uit
+          Baden-Württemberg, en de enquête komt van de vereniging van particuliere eigenaren en
+          verhuurders.
         bronnen:
           - titel: Haus & Grund Deutschland, "Erste Wirkungsanalyse" (mei 2025)
             url: https://www.hausundgrund.de/sites/default/files/downloads/grundsteuerreform-2025sonderauswertung.pdf
@@ -332,7 +333,7 @@ gevallen:
     ondertitel: Grondbelasting per deelstaat; Canberra ruilt overdrachtsbelasting in
     status: Bestaat al lang; de ruil in Canberra loopt sinds 2012 en loopt achter
     ingevoerd: >-
-      Australische deelstaten heffen al tientallen jaren *land tax* op de onbebouwde grondwaarde.
+      Australische deelstaten heffen *land tax* op de onbebouwde grondwaarde.
       In New South Wales is het hoofdverblijf vrijgesteld; de belasting treft vooral beleggers en
       bedrijven. Het Australian Capital Territory (Canberra) besloot in 2012 de overdrachtsbelasting
       (*stamp duty*) in twintig jaar af te bouwen en de jaarlijkse gemeentebelasting (*general
@@ -480,22 +481,25 @@ gevallen:
       - label: negatief
         tekst: >-
           **Vooral uitstel.** Tot 15 september 2025 werd €120,4 miljoen aan belasting aangegeven,
-          waarvan €75,8 miljoen (63%) is uitgesteld, bijvoorbeeld omdat er een bouwaanvraag loopt.
-          Van de 1.982 aangiften vroegen er 583 uitstel en 158 een vrijstelling.
+          waarvan €75,8 miljoen (63%) is uitgesteld. Van de 1.982 aangiften vroegen er 583 uitstel
+          en 158 een vrijstelling. Uitstel kan onder meer zolang een bouwvergunning, bezwaar of
+          rechtszaak loopt.
         zekerheid: Hoog (officiële, voorlopige cijfers).
         bronnen:
           - titel: Revenue, RZLT-statistieken september 2025
             url: https://www.revenue.ie/en/corporate/documents/statistics/property-taxes/rzlt-220925.pdf
+          - titel: McCann FitzGerald (21 oktober 2024), over de uitstelregels
+            url: https://www.mccannfitzgerald.com/knowledge/environmental-and-planning/budget-2025-and-changes-to-residential-zoned-land-tax
       - label: negatief
         tekst: >-
           **Liever de bestemming kwijt dan bouwen.** Eigenaren, vooral boeren, kunnen hun gemeente
-          vragen de woonbestemming te schrappen; dan vervalt de belasting. In 2024 hadden al 210
-          eigenaren dat gevraagd. In de begroting voor 2025 werd het een vaste route (aanvragen tot
-          1 april). Zo verdwijnt er bouwgrond van de kaart, het tegendeel van het doel.
-        zekerheid: Middel. Het aantal komt uit een Dáil-debat zoals weergegeven door Agriland.
+          vragen de woonbestemming te schrappen; dan vervalt de belasting. Sinds de begroting voor
+          2025 is dat een vaste route (aanvragen tussen 1 februari en 1 april). Elke toegekende
+          aanvraag haalt bouwgrond van de kaart, het tegendeel van het doel.
+        zekerheid: >-
+          Hoog wat de regeling betreft. Hoeveel grond zo is teruggezet, konden wij niet uit een
+          officiële bron halen.
         bronnen:
-          - titel: Agriland, Taoiseach in de Dáil (2024)
-            url: https://www.agriland.ie/farming-news/farmers-do-not-want-housing-estates-on-land-taoiseach/
           - titel: McCann FitzGerald (21 oktober 2024)
             url: https://www.mccannfitzgerald.com/knowledge/environmental-and-planning/budget-2025-and-changes-to-residential-zoned-land-tax
       - label: onbekend
@@ -559,7 +563,8 @@ plannen:
     tekst: >-
       Burgemeester Duggan wilde in 2023 de belasting op gebouwen in Detroit verlagen en die op grond
       ruim verdubbelen; volgens de stad zou 97% van de huiseigenaren minder betalen. Daarvoor was een
-      wet van de staat Michigan nodig, en die kwam er niet. Het plan is niet ingevoerd.
+      wet van de staat Michigan nodig. Die kwam er in 2023 niet door, en voor zover wij konden
+      nagaan ook later niet. Het plan is niet ingevoerd.
     bronnen:
       - titel: Stad Detroit, "The Land Value Tax Plan"
         url: https://detroitmi.gov/LandValueTax
@@ -681,7 +686,7 @@ historisch:
     tekst: >-
       De 'People's Budget' van Lloyd George voerde heffingen op grondwaardestijging in. De
       daarvoor nodige taxatie van al het land kostte vijf jaar (1910–1915); de heffingen werden in
-      1920 afgeschaft voordat ze echt iets opleverden.
+      1920 weer afgeschaft.
     bronnen:
       - titel: The National Archives, Valuation Office survey 1910–1915
         url: https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/valuation-office-survey-land-value-ownership-1910-1915/
