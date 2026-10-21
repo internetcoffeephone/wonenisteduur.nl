@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 184" role="img" aria-labelledby="ozb-type-t ozb-type-d" class="ams-grafiek" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif">
+<title id="ozb-type-t">OZB-verandering per woningtype, alleen grond belast</title><desc id="ozb-type-d">Mediane verandering van de OZB per woning bij een budgetneutrale verschuiving naar alleen grond.</desc>
+<line x1="200.0" y1="26" x2="200.0" y2="158" stroke="#e6e3dc" stroke-width="1"/>
+<text x="200.0" y="176" font-size="13" fill="#8a877f" text-anchor="middle">−⁠20%</text>
+<line x1="292.5" y1="26" x2="292.5" y2="158" stroke="#e6e3dc" stroke-width="1"/>
+<text x="292.5" y="176" font-size="13" fill="#8a877f" text-anchor="middle">−⁠10%</text>
+<line x1="385.0" y1="26" x2="385.0" y2="158" stroke="#e6e3dc" stroke-width="1"/>
+<text x="385.0" y="176" font-size="13" fill="#8a877f" text-anchor="middle">0%</text>
+<line x1="477.5" y1="26" x2="477.5" y2="158" stroke="#e6e3dc" stroke-width="1"/>
+<text x="477.5" y="176" font-size="13" fill="#8a877f" text-anchor="middle">+⁠10%</text>
+<line x1="570.0" y1="26" x2="570.0" y2="158" stroke="#e6e3dc" stroke-width="1"/>
+<text x="570.0" y="176" font-size="13" fill="#8a877f" text-anchor="middle">+⁠20%</text>
+<line x1="385.0" y1="26" x2="385.0" y2="158" stroke="#a9a69e" stroke-width="1"/>
+<g class="ams-mark"><title>Alle woningen: mediane verandering +⁠0,2%, +⁠€1 per jaar (nu €269)</title><rect x="10" y="36.0" width="670" height="36" fill="transparent"/><path d="M385.0,44.0H385.0Q387.1,44.0 387.1,46.1V61.9Q387.1,64.0 385.0,64.0H385.0Z" fill="#df6c32"/></g>
+<text x="188" y="59.0" font-size="14" fill="#2c2c2c" text-anchor="end">Alle woningen</text>
+<text x="377.0" y="59.0" font-size="14" fill="#2c2c2c" text-anchor="end" font-weight="600">+⁠0,2% (+⁠€1)</text>
+<g class="ams-mark"><title>Appartementen: mediane verandering −⁠0,6%, −⁠€1 per jaar (nu €260)</title><rect x="10" y="76.0" width="670" height="36" fill="transparent"/><path d="M385.0,84.0H383.7Q379.7,84.0 379.7,88.0V100.0Q379.7,104.0 383.7,104.0H385.0Z" fill="#407bc5"/></g>
+<text x="188" y="99.0" font-size="14" fill="#2c2c2c" text-anchor="end">Appartementen</text>
+<text x="393.0" y="99.0" font-size="14" fill="#2c2c2c" text-anchor="start" font-weight="600">−⁠0,6% (−⁠€1)</text>
+<g class="ams-mark"><title>Grondgebonden woningen: mediane verandering +⁠10,9%, +⁠€35 per jaar (nu €331)</title><rect x="10" y="116.0" width="670" height="36" fill="transparent"/><path d="M385.0,124.0H481.7Q485.7,124.0 485.7,128.0V140.0Q485.7,144.0 481.7,144.0H385.0Z" fill="#df6c32"/></g>
+<text x="188" y="139.0" font-size="14" fill="#2c2c2c" text-anchor="end">Grondgebonden woningen</text>
+<text x="377.0" y="139.0" font-size="14" fill="#2c2c2c" text-anchor="end" font-weight="600">+⁠10,9% (+⁠€35)</text>
+</svg>

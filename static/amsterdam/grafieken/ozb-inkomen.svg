@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 264" role="img" aria-labelledby="ozb-inkomen-t ozb-inkomen-d" class="ams-grafiek" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif">
+<title id="ozb-inkomen-t">OZB-verandering naar inkomen van de buurt, alleen grond belast</title><desc id="ozb-inkomen-d">Mediane verandering per woning, buurten ingedeeld in vijf groepen met elk evenveel woningen, van laag naar hoog gemiddeld gestandaardiseerd huishoudinkomen.</desc>
+<line x1="200.0" y1="26" x2="200.0" y2="238" stroke="#e6e3dc" stroke-width="1"/>
+<text x="200.0" y="256" font-size="13" fill="#8a877f" text-anchor="middle">−⁠20%</text>
+<line x1="292.5" y1="26" x2="292.5" y2="238" stroke="#e6e3dc" stroke-width="1"/>
+<text x="292.5" y="256" font-size="13" fill="#8a877f" text-anchor="middle">−⁠10%</text>
+<line x1="385.0" y1="26" x2="385.0" y2="238" stroke="#e6e3dc" stroke-width="1"/>
+<text x="385.0" y="256" font-size="13" fill="#8a877f" text-anchor="middle">0%</text>
+<line x1="477.5" y1="26" x2="477.5" y2="238" stroke="#e6e3dc" stroke-width="1"/>
+<text x="477.5" y="256" font-size="13" fill="#8a877f" text-anchor="middle">+⁠10%</text>
+<line x1="570.0" y1="26" x2="570.0" y2="238" stroke="#e6e3dc" stroke-width="1"/>
+<text x="570.0" y="256" font-size="13" fill="#8a877f" text-anchor="middle">+⁠20%</text>
+<line x1="385.0" y1="26" x2="385.0" y2="238" stroke="#a9a69e" stroke-width="1"/>
+<g class="ams-mark"><title>Laagste 20%: mediane verandering −⁠10,5%, −⁠€18 per jaar (nu €190)</title><rect x="10" y="36.0" width="670" height="36" fill="transparent"/><path d="M385.0,44.0H292.1Q288.1,44.0 288.1,48.0V60.0Q288.1,64.0 292.1,64.0H385.0Z" fill="#407bc5"/></g>
+<text x="188" y="59.0" font-size="14" fill="#2c2c2c" text-anchor="end">Laagste 20%</text>
+<text x="393.0" y="59.0" font-size="14" fill="#2c2c2c" text-anchor="start" font-weight="600">−⁠10,5% (−⁠€18)</text>
+<g class="ams-mark"><title>20–40%: mediane verandering −⁠0,6%, −⁠€1 per jaar (nu €248)</title><rect x="10" y="76.0" width="670" height="36" fill="transparent"/><path d="M385.0,84.0H383.9Q379.9,84.0 379.9,88.0V100.0Q379.9,104.0 383.9,104.0H385.0Z" fill="#407bc5"/></g>
+<text x="188" y="99.0" font-size="14" fill="#2c2c2c" text-anchor="end">20–40%</text>
+<text x="393.0" y="99.0" font-size="14" fill="#2c2c2c" text-anchor="start" font-weight="600">−⁠0,6% (−⁠€1)</text>
+<g class="ams-mark"><title>40–60%: mediane verandering +⁠3,4%, +⁠€9 per jaar (nu €269)</title><rect x="10" y="116.0" width="670" height="36" fill="transparent"/><path d="M385.0,124.0H412.8Q416.8,124.0 416.8,128.0V140.0Q416.8,144.0 412.8,144.0H385.0Z" fill="#df6c32"/></g>
+<text x="188" y="139.0" font-size="14" fill="#2c2c2c" text-anchor="end">40–60%</text>
+<text x="377.0" y="139.0" font-size="14" fill="#2c2c2c" text-anchor="end" font-weight="600">+⁠3,4% (+⁠€9)</text>
+<g class="ams-mark"><title>60–80%: mediane verandering +⁠3,5%, +⁠€10 per jaar (nu €299)</title><rect x="10" y="156.0" width="670" height="36" fill="transparent"/><path d="M385.0,164.0H413.7Q417.7,164.0 417.7,168.0V180.0Q417.7,184.0 413.7,184.0H385.0Z" fill="#df6c32"/></g>
+<text x="188" y="179.0" font-size="14" fill="#2c2c2c" text-anchor="end">60–80%</text>
+<text x="377.0" y="179.0" font-size="14" fill="#2c2c2c" text-anchor="end" font-weight="600">+⁠3,5% (+⁠€10)</text>
+<g class="ams-mark"><title>Hoogste 20%: mediane verandering +⁠1,9%, +⁠€8 per jaar (nu €386)</title><rect x="10" y="196.0" width="670" height="36" fill="transparent"/><path d="M385.0,204.0H398.7Q402.7,204.0 402.7,208.0V220.0Q402.7,224.0 398.7,224.0H385.0Z" fill="#df6c32"/></g>
+<text x="188" y="219.0" font-size="14" fill="#2c2c2c" text-anchor="end">Hoogste 20%</text>
+<text x="377.0" y="219.0" font-size="14" fill="#2c2c2c" text-anchor="end" font-weight="600">+⁠1,9% (+⁠€8)</text>
+</svg>

@@ -1,0 +1,17 @@
+{{- /* Top 20 surface parking lots by estimated land value (central), from tabellen.json. */ -}}
+<div class="ams-tabel-scroll">
+<table class="ams-top20">
+  <thead><tr><th>#</th><th>Parkeerterrein</th><th>Stadsdeel</th><th>Oppervlak</th><th>Grondwaarde (schatting)</th></tr></thead>
+  <tbody>
+  {{- range hugo.Data.amsterdam.tabellen.top20 }}
+    <tr>
+      <td data-label="#">{{ .rang }}</td>
+      <td data-label="Parkeerterrein">{{ .label }}</td>
+      <td data-label="Stadsdeel">{{ .stadsdeel }}</td>
+      <td data-label="Oppervlak">{{ .m2 }} m²</td>
+      <td data-label="Grondwaarde">€{{ .waarde }} mln <span class="ams-bereik">({{ .bereik }})</span></td>
+    </tr>
+  {{- end }}
+  </tbody>
+</table>
+</div>

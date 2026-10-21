@@ -1,0 +1,4 @@
+{{- /* Headline number from data/amsterdam/cijfers.json, written by pipeline/amsterdam/06_publish.py.
+       Usage: {{< cijfer "grondwaarde_central" >}}. Unknown keys fail the build. */ -}}
+{{- $k := .Get 0 -}}
+{{- with index hugo.Data.amsterdam.cijfers $k -}}{{ .t }}{{- else -}}{{ errorf "cijfer: onbekende sleutel %q in %s" $k $.Page.File.Path }}{{- end -}}
