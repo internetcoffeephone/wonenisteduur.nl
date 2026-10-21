@@ -1,0 +1,68 @@
+# Figures that have no machine-readable source, typed in by hand.
+# Every entry records where it comes from. Check them again when a new
+# Miljoenennota (Prinsjesdag) or CPB forecast comes out, and when you bump
+# `belastingen.jaar`, update all three amounts together.
+
+[belastingen]
+# Year shown in the tax chart. The OZB amounts for this year are fetched
+# from CBS 83642NED; the two amounts below must be for the same year.
+jaar = 2026
+miljoenennota = "Miljoenennota 2027"
+
+[belastingen.overdrachtsbelasting]
+mln_euro = 5087
+soort = "raming"
+bron = "Miljoenennota 2027, bijlage 3, tabel 3.1.7.1 'Raming belasting- en premieontvangsten 2026-2031 op EMU-basis'"
+url = "https://www.rijksfinancien.nl/miljoenennota/2027/bijlage"
+geraadpleegd = "2026-10-21"
+
+[belastingen.hypotheekrenteaftrek]
+mln_euro = 10698
+soort = "raming van het budgettair belang (gederfde belasting)"
+bron = "Miljoenennota 2027, bijlage 4 'Fiscale regelingen', tabel 4.3.2, regel 'Hypotheekrenteaftrek'"
+url = "https://www.rijksfinancien.nl/miljoenennota/2027/bijlage"
+geraadpleegd = "2026-10-21"
+
+[belastingen.eigenwoningforfait]
+# Negative budgettair belang in the same table: the counterpart of the HRA.
+mln_euro = -3147
+bron = "Miljoenennota 2027, bijlage 4 'Fiscale regelingen', tabel 4.3.2, regel 'Eigenwoningforfait'"
+url = "https://www.rijksfinancien.nl/miljoenennota/2027/bijlage"
+geraadpleegd = "2026-10-21"
+
+[doucet]
+# Lars Doucet, "UBI advocates should watch South Korea", Progress and Poverty, 23 April 2026.
+# Quotes: "South Korea's land value to GDP ratio is in excess of 500%" and
+# "my own research puts the United States' total land value to GDP ratio in the
+# ballpark of a mere 200%". The post gives no reference year for either figure.
+vs_pct = 200
+zuid_korea_pct = 500
+titel = "UBI advocates should watch South Korea"
+datum = "2026-04-23"
+url = "https://blog.landeconomics.org/p/ubi-advocates-should-watch-south"
+
+[dnb.esb2019]
+# F. van Hoenselaar & M. Mink, "Niet stenen, maar vooral grond steeds prijziger",
+# ESB 104(4778), 3 October 2019: "De prijs van een gemiddeld huis reflecteerde in
+# 2018 voor 55 procent de prijs van de onderliggende grond."
+aandeel_pct = 55
+jaar = 2018
+titel = "Niet stenen, maar vooral grond steeds prijziger"
+url = "https://esb.nu/niet-stenen-maar-vooral-grond-steeds-prijziger/"
+
+[dnb.planbaten2025]
+# N. de Meijier & G. Hebbink, DNB Analyse "Grondslag van een planbatenheffing",
+# 28 May 2025 (published 2 June 2025): "Inmiddels bestaat bijna 60% van de waarde
+# van het eigenwoningbezit uit de onderliggende grond; tien jaar geleden was dit
+# nog 42%." Source given for its figure 1: CBS niet-financiële balansen.
+tekst_nu = "bijna 60%"
+eerder_pct = 42
+titel = "Grondslag van een planbatenheffing"
+url = "https://www.dnb.nl/publicaties/publicaties-onderzoek/analyse/grondslag-van-een-planbatenheffing/"
+
+[cpb.modaal_inkomen]
+# Bruto modaal inkomen (euro per jaar), CPB Kerngegevenstabel MEV 2027 (September 2026).
+bron = "CPB, Kerngegevenstabel Macro Economische Verkenning 2027"
+url = "https://www.cpb.nl/system/files/cpbmedia/CPB-kerngegevens-MEV-2027.pdf"
+geraadpleegd = "2026-10-21"
+euro = { 2024 = 43500, 2025 = 46000, 2026 = 48000, 2027 = 50000 }

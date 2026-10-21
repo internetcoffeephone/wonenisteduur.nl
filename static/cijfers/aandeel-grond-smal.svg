@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 502" width="380" height="502" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif">
+<title id="t">Aandeel van de grond in de woningwaarde</title>
+<desc id="d">Lijngrafiek van het aandeel van de grond in de waarde van alle woningen, 1995 tot 2022. Van 23% in 1995 naar 52% in 2008, 42% in 2013 en 62% in 2022. Een berekening van DNB voor 2018, 55%, ligt op de lijn.</desc>
+<rect width="380" height="502" fill="#fafaf8"/>
+<text x="0.0" y="24.8" font-size="16" fill="#2c3e50" font-weight="600">Welk deel van de woningwaarde is</text>
+<text x="0.0" y="45.6" font-size="16" fill="#2c3e50" font-weight="600">grond?</text>
+<text x="0.0" y="63.8" font-size="13" fill="#5c5a54">Grond onder woningen als percentage van de</text>
+<text x="0.0" y="82.0" font-size="13" fill="#5c5a54">waarde van grond en woningen samen</text>
+<line x1="0.0" y1="97.6" x2="18.0" y2="97.6" stroke="#5f8a3f" stroke-width="2.5"/>
+<text x="24.0" y="102.0" font-size="12.5" fill="#2c2c2c">CBS</text>
+<path d="M73.5,92.6L78.5,97.6L73.5,102.6L68.5,97.6Z" fill="#fafaf8" stroke="#2c2c2c" stroke-width="2"/>
+<text x="88.5" y="102.0" font-size="12.5" fill="#2c2c2c">DNB-berekening voor 2018 (ESB, 2019)</text>
+<line x1="40.0" y1="422.0" x2="306.0" y2="422.0" stroke="#b9b4a9" stroke-width="1"/>
+<text x="34.0" y="426.2" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">0%</text>
+<line x1="40.0" y1="349.5" x2="306.0" y2="349.5" stroke="#e0ddd6" stroke-width="1"/>
+<text x="34.0" y="353.7" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">25%</text>
+<line x1="40.0" y1="277.0" x2="306.0" y2="277.0" stroke="#e0ddd6" stroke-width="1"/>
+<text x="34.0" y="281.2" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">50%</text>
+<line x1="40.0" y1="204.5" x2="306.0" y2="204.5" stroke="#e0ddd6" stroke-width="1"/>
+<text x="34.0" y="208.7" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">75%</text>
+<line x1="40.0" y1="132.0" x2="306.0" y2="132.0" stroke="#e0ddd6" stroke-width="1"/>
+<text x="34.0" y="136.2" font-size="12" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">100%</text>
+<path d="M40.0,355.6L49.9,341.3L59.7,324.2L69.6,310.4L79.4,292.3L89.3,276.5L99.1,271.8L109.0,271.9L118.8,274.0L128.7,273.0L138.5,272.0L148.4,271.7L158.2,269.5L168.1,270.6L177.9,280.0L187.8,285.0L197.6,284.7L207.5,292.0L217.3,299.3L227.2,292.3L237.0,283.2L246.9,275.0L256.7,265.4L266.6,260.9L276.4,259.9L286.3,258.3L296.1,248.3L306.0,241.0L306.0,422.0L40.0,422.0Z" fill="#5f8a3f" fill-opacity="0.1" stroke="none" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M40.0,355.6L49.9,341.3L59.7,324.2L69.6,310.4L79.4,292.3L89.3,276.5L99.1,271.8L109.0,271.9L118.8,274.0L128.7,273.0L138.5,272.0L148.4,271.7L158.2,269.5L168.1,270.6L177.9,280.0L187.8,285.0L197.6,284.7L207.5,292.0L217.3,299.3L227.2,292.3L237.0,283.2L246.9,275.0L256.7,265.4L266.6,260.9L276.4,259.9L286.3,258.3L296.1,248.3L306.0,241.0" fill="none" stroke="#5f8a3f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="40.0" cy="355.6" r="4.0" fill="#5f8a3f" stroke="#fafaf8" stroke-width="2"/>
+<text x="46.0" y="375.6" font-size="12.5" fill="#2c2c2c">23%</text>
+<circle cx="168.1" cy="270.6" r="4.0" fill="#5f8a3f" stroke="#fafaf8" stroke-width="2"/>
+<text x="168.1" y="260.6" font-size="12.5" fill="#2c2c2c" text-anchor="middle">52%</text>
+<circle cx="217.3" cy="299.3" r="4.0" fill="#5f8a3f" stroke="#fafaf8" stroke-width="2"/>
+<text x="217.3" y="319.3" font-size="12.5" fill="#2c2c2c" text-anchor="middle">42%</text>
+<circle cx="306.0" cy="241.0" r="4.0" fill="#5f8a3f" stroke="#fafaf8" stroke-width="2"/>
+<text x="316.0" y="239.0" font-size="13.5" fill="#2c2c2c" font-weight="600">62%</text>
+<text x="316.0" y="256.0" font-size="12.5" fill="#2c2c2c">in 2022*</text>
+<path d="M266.6,256.5L272.6,262.5L266.6,268.5L260.6,262.5Z" fill="#fafaf8" stroke="#2c2c2c" stroke-width="2"/>
+<text x="270.6" y="249.5" font-size="12.5" fill="#2c2c2c" text-anchor="end">DNB: 55%</text>
+<text x="40.0" y="440.0" font-size="12" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">1995</text>
+<text x="138.5" y="440.0" font-size="12" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2005</text>
+<text x="237.0" y="440.0" font-size="12" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2015</text>
+<text x="306.0" y="440.0" font-size="12" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2022*</text>
+<text x="0.0" y="463.4" font-size="11" fill="#6b685f">Bron: CBS StatLine 84550NED; DNB: Van Hoenselaar &amp; Mink,</text>
+<text x="0.0" y="478.8" font-size="11" fill="#6b685f">ESB 2019. * 2022 voorlopig.</text>
+<text x="0.0" y="494.2" font-size="11" fill="#6b685f">Bijgewerkt 21 oktober 2026. wonenisteduur.nl</text>
+</svg>

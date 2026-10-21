@@ -1,0 +1,15 @@
+{{- /*
+  Prints one formatted number from data/cijfers.json (written by pipeline/cijfers/build.py).
+  Usage: {{< cijfer "grond_bbp" >}}  ->  233%
+  An unknown key fails the build, so a typo never ships as an empty spot.
+*/ -}}
+{{- $key := .Get 0 -}}
+{{- with hugo.Data.cijfers -}}
+  {{- with index .tekst $key -}}
+    {{- . -}}
+  {{- else -}}
+    {{- errorf "cijfer: onbekende sleutel %q (%s)" $key $.Position -}}
+  {{- end -}}
+{{- else -}}
+  {{- errorf "cijfer: data/cijfers.json ontbreekt; draai uv run pipeline/cijfers/build.py (%s)" $.Position -}}
+{{- end -}}

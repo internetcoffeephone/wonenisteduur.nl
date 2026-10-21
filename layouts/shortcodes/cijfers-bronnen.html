@@ -1,0 +1,15 @@
+{{- /*
+  Lists the CBS tables behind /grond-in-cijfers/, with their last modification date,
+  from data/cijfers.json. Usage: {{< cijfers-bronnen >}}
+*/ -}}
+{{- with hugo.Data.cijfers -}}
+<ul class="cijfers-bronnen">
+  {{- range .bronnen }}
+  {{- if .op_pagina }}
+  <li>CBS, <a href="{{ .url }}">{{ .titel }}</a> ({{ .tabel }}), bijgewerkt {{ .gewijzigd_tekst }}</li>
+  {{- end }}
+  {{- end }}
+</ul>
+{{- else -}}
+  {{- errorf "cijfers-bronnen: data/cijfers.json ontbreekt (%s)" $.Position -}}
+{{- end -}}

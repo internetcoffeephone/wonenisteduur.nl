@@ -1,0 +1,81 @@
+/* === Grond in cijfers (/grond-in-cijfers/) === */
+
+.cijfers-figuur {
+  margin: 1.75rem 0 0.75rem;
+}
+
+.cijfers-figuur img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cijfers-tabel-scroll {
+  overflow-x: auto;
+}
+
+.cijfers-tabel table {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.cijfers-tabel th,
+.cijfers-tabel td {
+  padding: 0.35rem 0.6rem;
+}
+
+.cijfers-tabel .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.cijfers-noot {
+  font-size: 0.85rem;
+  color: #5c5a54;
+}
+
+.cijfers-bronnen li {
+  margin-bottom: 0.5rem;
+}
+
+/* Keep the data tables as real tables on phones: they are narrow enough, and the
+   site-wide card layout would turn 30 rows of numbers into 30 cards. */
+@media (max-width: 600px) {
+  .cijfers-tabel table {
+    display: table;
+    font-size: 0.85rem;
+  }
+
+  .cijfers-tabel thead {
+    display: table-header-group;
+  }
+
+  .cijfers-tabel tbody {
+    display: table-row-group;
+  }
+
+  .cijfers-tabel tr {
+    display: table-row;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    background: none;
+  }
+
+  .cijfers-tabel th,
+  .cijfers-tabel td {
+    display: table-cell;
+    padding: 0.3rem 0.4rem;
+    border-bottom: 1px solid #e0ddd6;
+  }
+
+  .cijfers-tabel td.num {
+    text-align: right;
+  }
+
+  .cijfers-tabel td::before {
+    content: none;
+  }
+}

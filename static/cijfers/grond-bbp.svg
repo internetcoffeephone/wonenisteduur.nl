@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 692 424" width="692" height="424" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif">
+<title id="t">Waarde van alle grond in Nederland, in % van het bbp</title>
+<desc id="d">Lijngrafiek van de waarde van alle grond in Nederland als percentage van het bbp, 1995 tot 2025. Van 74% in 1995 naar 184% in 2007, terug naar 132% in 2013 en daarna omhoog naar 233% in 2025. Ter vergelijking: volgens schattingen van Lars Doucet ongeveer 200% in de VS en meer dan 500% in Zuid-Korea.</desc>
+<rect width="692" height="424" fill="#fafaf8"/>
+<text x="0.0" y="26.1" font-size="17" fill="#2c3e50" font-weight="600">Waarde van alle grond in Nederland, in procenten van het bbp</text>
+<text x="0.0" y="45.0" font-size="13.5" fill="#5c5a54">Grond onder woningen en bedrijven en landbouwgrond, eind van elk jaar</text>
+<line x1="44.0" y1="341.0" x2="552.0" y2="341.0" stroke="#b9b4a9" stroke-width="1"/>
+<text x="38.0" y="345.4" font-size="12.5" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">0%</text>
+<line x1="44.0" y1="291.9" x2="552.0" y2="291.9" stroke="#e0ddd6" stroke-width="1"/>
+<text x="38.0" y="296.3" font-size="12.5" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">100%</text>
+<line x1="44.0" y1="242.8" x2="552.0" y2="242.8" stroke="#e0ddd6" stroke-width="1"/>
+<text x="38.0" y="247.2" font-size="12.5" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">200%</text>
+<line x1="44.0" y1="193.7" x2="552.0" y2="193.7" stroke="#e0ddd6" stroke-width="1"/>
+<text x="38.0" y="198.1" font-size="12.5" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">300%</text>
+<line x1="44.0" y1="144.6" x2="552.0" y2="144.6" stroke="#e0ddd6" stroke-width="1"/>
+<text x="38.0" y="149.0" font-size="12.5" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">400%</text>
+<line x1="44.0" y1="95.5" x2="552.0" y2="95.5" stroke="#e0ddd6" stroke-width="1"/>
+<text x="38.0" y="99.9" font-size="12.5" fill="#6b685f" text-anchor="end" style="font-variant-numeric:tabular-nums">500%</text>
+<path d="M44.0,304.6L60.9,298.4L77.9,291.0L94.8,284.6L111.7,272.2L128.7,259.5L145.6,254.6L162.5,253.5L179.5,253.7L196.4,252.8L213.3,251.8L230.3,253.0L247.2,250.9L264.1,251.3L281.1,254.8L298.0,259.7L314.9,262.4L331.9,269.2L348.8,276.2L365.7,273.6L382.7,269.2L399.6,263.9L416.5,256.9L433.5,251.0L450.4,249.2L467.3,239.5L484.3,229.7L501.2,223.7L518.1,236.3L535.1,232.6L552.0,226.8L552.0,341.0L44.0,341.0Z" fill="#5f8a3f" fill-opacity="0.1" stroke="none" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M44.0,304.6L60.9,298.4L77.9,291.0L94.8,284.6L111.7,272.2L128.7,259.5L145.6,254.6L162.5,253.5L179.5,253.7L196.4,252.8L213.3,251.8L230.3,253.0L247.2,250.9L264.1,251.3L281.1,254.8L298.0,259.7L314.9,262.4L331.9,269.2L348.8,276.2L365.7,273.6L382.7,269.2L399.6,263.9L416.5,256.9L433.5,251.0L450.4,249.2L467.3,239.5L484.3,229.7L501.2,223.7L518.1,236.3L535.1,232.6L552.0,226.8" fill="none" stroke="#5f8a3f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="44.0" cy="304.6" r="4.0" fill="#5f8a3f" stroke="#fafaf8" stroke-width="2"/>
+<text x="50.0" y="325.0" font-size="13" fill="#2c2c2c">74%</text>
+<circle cx="247.2" cy="250.9" r="4.0" fill="#5f8a3f" stroke="#fafaf8" stroke-width="2"/>
+<text x="247.2" y="240.9" font-size="13" fill="#2c2c2c" text-anchor="middle">184% (2007)</text>
+<circle cx="348.8" cy="276.2" r="4.0" fill="#5f8a3f" stroke="#fafaf8" stroke-width="2"/>
+<text x="348.8" y="296.6" font-size="13" fill="#2c2c2c" text-anchor="middle">132% (2013)</text>
+<circle cx="552.0" cy="226.8" r="4.0" fill="#5f8a3f" stroke="#fafaf8" stroke-width="2"/>
+<text x="556.0" y="216.8" font-size="13" fill="#2c2c2c" font-weight="600" text-anchor="end">233% in 2025*</text>
+<text x="566.0" y="63.0" font-size="12.5" fill="#5c5a54" font-weight="600">Ter vergelijking</text>
+<line x1="566.0" y1="95.5" x2="580.0" y2="95.5" stroke="#5c5a54" stroke-width="2"/>
+<text x="586.0" y="100.1" font-size="13" fill="#2c2c2c" font-weight="600">Zuid-Korea</text>
+<text x="586.0" y="116.3" font-size="13" fill="#2c2c2c">meer dan 500%</text>
+<line x1="566.0" y1="242.8" x2="580.0" y2="242.8" stroke="#5c5a54" stroke-width="2"/>
+<text x="586.0" y="247.4" font-size="13" fill="#2c2c2c" font-weight="600">VS</text>
+<text x="586.0" y="263.6" font-size="13" fill="#2c2c2c">ca. 200%</text>
+<text x="44.0" y="359.8" font-size="12.5" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">1995</text>
+<text x="128.7" y="359.8" font-size="12.5" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2000</text>
+<text x="213.3" y="359.8" font-size="12.5" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2005</text>
+<text x="298.0" y="359.8" font-size="12.5" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2010</text>
+<text x="382.7" y="359.8" font-size="12.5" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2015</text>
+<text x="467.3" y="359.8" font-size="12.5" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2020</text>
+<text x="552.0" y="359.8" font-size="12.5" fill="#6b685f" text-anchor="middle" style="font-variant-numeric:tabular-nums">2025*</text>
+<text x="0.0" y="383.9" font-size="11.5" fill="#6b685f">Bron: CBS StatLine 85953NED (grond, eindbalans) en 85879NED (bbp, lopende prijzen). * 2025</text>
+<text x="0.0" y="400.0" font-size="11.5" fill="#6b685f">voorlopig. VS en Zuid-Korea: schattingen van Lars Doucet (2026).</text>
+<text x="0.0" y="416.1" font-size="11.5" fill="#6b685f">Bijgewerkt 21 oktober 2026. wonenisteduur.nl</text>
+</svg>

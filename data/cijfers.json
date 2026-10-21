@@ -1,0 +1,817 @@
+{
+  "_let_op": "Gegenereerd door pipeline/cijfers/build.py. Niet met de hand aanpassen.",
+  "bijgewerkt": "2026-10-21",
+  "tekst": {
+    "bijgewerkt": "21 oktober 2026",
+    "grond_jaar": "2025",
+    "grond_jaar_status": "voorlopig",
+    "grond_totaal": "€2.724 miljard",
+    "grond_totaal_biljoen": "€2,7 biljoen",
+    "bbp": "€1.171 miljard",
+    "grond_bbp": "233%",
+    "grond_bbp_keer": "2,3",
+    "grond_bbp_begin_jaar": "1995",
+    "grond_bbp_begin": "74%",
+    "grond_bbp_piek_jaar": "2007",
+    "grond_bbp_piek": "184%",
+    "grond_bbp_dal_jaar": "2013",
+    "grond_bbp_dal": "132%",
+    "landbouwgrond": "€197 miljard",
+    "landbouwgrond_aandeel": "7%",
+    "grond_bbp_zonder_landbouw": "216%",
+    "woning_jaar": "2022",
+    "woning_begin_jaar": "1995",
+    "woning_grond": "€2.045 miljard",
+    "woning_stenen": "€1.232 miljard",
+    "woning_grond_begin": "€121 miljard",
+    "woning_stenen_begin": "€408 miljard",
+    "grond_groter_dan_stenen_sinds": "2000",
+    "aandeel_grond": "62%",
+    "aandeel_grond_begin": "23%",
+    "aandeel_grond_2008": "52%",
+    "aandeel_grond_basis": "42%",
+    "basisjaar": "2013",
+    "stenen_groei_basis": "37%",
+    "grond_groei_basis": "210%",
+    "grond_factor_basis": "3,1",
+    "stenen_volume_groei_basis": "12%",
+    "cpi_groei_basis": "23%",
+    "stenen_reeel_per_eenheid_basis": "−1%",
+    "grond_reeel_per_eenheid_basis": "133%",
+    "revisie_jaar": "2022",
+    "revisie_grond_oud": "€2.318 miljard",
+    "revisie_grond_nieuw": "€2.376 miljard",
+    "revisie_grond_verschil": "+2,5%",
+    "revisie_stenen_verschil": "+2,4%",
+    "belasting_jaar": "2026",
+    "miljoenennota": "Miljoenennota 2027",
+    "ozb_totaal": "€6,3 miljard",
+    "ozb_woningen": "€3,2 miljard",
+    "ozb_niet_woningen": "€3,1 miljard",
+    "ozb_gemeenten": "342",
+    "overdrachtsbelasting": "€5,1 miljard",
+    "hypotheekrenteaftrek": "€10,7 miljard",
+    "eigenwoningforfait": "€3,1 miljard",
+    "hypotheekrenteaftrek_netto": "€7,6 miljard",
+    "hra_keer_ozb_woningen": "3,3",
+    "doucet_vs": "200%",
+    "doucet_zuid_korea": "500%",
+    "dnb_esb_jaar": "2018",
+    "dnb_esb_aandeel": "55%",
+    "cbs_aandeel_dnb_jaar": "56%",
+    "dnb_2025_nu": "bijna 60%",
+    "dnb_2025_eerder": "42%",
+    "huisprijs_jaar": "2025",
+    "huisprijs": "€479.527",
+    "modaal_inkomen": "€46.000",
+    "huisprijs_keer_modaal": "10,4"
+  },
+  "grafieken": {
+    "grond-bbp": {
+      "alt": "Lijngrafiek van de waarde van alle grond in Nederland als percentage van het bbp, 1995 tot 2025. Van 74% in 1995 naar 184% in 2007, terug naar 132% in 2013 en daarna omhoog naar 233% in 2025. Ter vergelijking: volgens schattingen van Lars Doucet ongeveer 200% in de VS en meer dan 500% in Zuid-Korea.",
+      "breed": {
+        "src": "cijfers/grond-bbp.svg",
+        "v": "3fed8ba729",
+        "w": 692,
+        "h": 424
+      },
+      "smal": {
+        "src": "cijfers/grond-bbp-smal.svg",
+        "v": "d1056a6f7d",
+        "w": 380,
+        "h": 484
+      },
+      "tabel": {
+        "kop": [
+          "Jaar",
+          "Grond (mld €)",
+          "Bbp (mld €)",
+          "Grond in % van bbp"
+        ],
+        "rechts": [
+          false,
+          true,
+          true,
+          true
+        ],
+        "rijen": [
+          [
+            "1995",
+            "245",
+            "330",
+            "74,2%"
+          ],
+          [
+            "1996",
+            "300",
+            "345",
+            "86,8%"
+          ],
+          [
+            "1997",
+            "377",
+            "370",
+            "101,9%"
+          ],
+          [
+            "1998",
+            "454",
+            "395",
+            "115,0%"
+          ],
+          [
+            "1999",
+            "589",
+            "420",
+            "140,2%"
+          ],
+          [
+            "2000",
+            "751",
+            "452",
+            "166,1%"
+          ],
+          [
+            "2001",
+            "850",
+            "483",
+            "175,9%"
+          ],
+          [
+            "2002",
+            "896",
+            "503",
+            "178,2%"
+          ],
+          [
+            "2003",
+            "916",
+            "515",
+            "177,9%"
+          ],
+          [
+            "2004",
+            "955",
+            "532",
+            "179,6%"
+          ],
+          [
+            "2005",
+            "1.005",
+            "553",
+            "181,6%"
+          ],
+          [
+            "2006",
+            "1.053",
+            "587",
+            "179,3%"
+          ],
+          [
+            "2007",
+            "1.144",
+            "623",
+            "183,6%"
+          ],
+          [
+            "2008",
+            "1.190",
+            "651",
+            "182,7%"
+          ],
+          [
+            "2009",
+            "1.106",
+            "630",
+            "175,5%"
+          ],
+          [
+            "2010",
+            "1.065",
+            "643",
+            "165,6%"
+          ],
+          [
+            "2011",
+            "1.051",
+            "656",
+            "160,2%"
+          ],
+          [
+            "2012",
+            "962",
+            "658",
+            "146,2%"
+          ],
+          [
+            "2013",
+            "878",
+            "666",
+            "131,9%"
+          ],
+          [
+            "2014",
+            "932",
+            "679",
+            "137,4%"
+          ],
+          [
+            "2015",
+            "1.023",
+            "699",
+            "146,4%"
+          ],
+          [
+            "2016",
+            "1.131",
+            "720",
+            "157,0%"
+          ],
+          [
+            "2017",
+            "1.287",
+            "751",
+            "171,4%"
+          ],
+          [
+            "2018",
+            "1.444",
+            "787",
+            "183,4%"
+          ],
+          [
+            "2019",
+            "1.551",
+            "830",
+            "186,9%"
+          ],
+          [
+            "2020",
+            "1.688",
+            "816",
+            "206,7%"
+          ],
+          [
+            "2021",
+            "2.022",
+            "892",
+            "226,8%"
+          ],
+          [
+            "2022",
+            "2.376",
+            "994",
+            "239,0%"
+          ],
+          [
+            "2023",
+            "2.239",
+            "1.050",
+            "213,2%"
+          ],
+          [
+            "2024",
+            "2.462",
+            "1.115",
+            "220,8%"
+          ],
+          [
+            "2025*",
+            "2.724",
+            "1.171",
+            "232,7%"
+          ]
+        ],
+        "noot": "* voorlopig. Grond: CBS 85953NED, AN211, alle sectoren, eindbalans. Bbp: CBS 85879NED, werkelijke prijzen."
+      }
+    },
+    "grond-stenen": {
+      "alt": "Lijngrafiek van de waarde van de grond onder alle Nederlandse woningen en van de woningen zelf, in miljard euro, 1995 tot 2022. De stenen stijgen geleidelijk van €408 naar €1.232 miljard. De grond stijgt van €121 naar €2.045 miljard, met een dip tussen 2008 en 2013. Sinds 2000 is de grond meer waard dan de stenen.",
+      "breed": {
+        "src": "cijfers/grond-stenen.svg",
+        "v": "683c1eb5ec",
+        "w": 692,
+        "h": 441
+      },
+      "smal": {
+        "src": "cijfers/grond-stenen-smal.svg",
+        "v": "ff4ae2079a",
+        "w": 380,
+        "h": 528
+      },
+      "tabel": {
+        "kop": [
+          "Jaar",
+          "Grond onder woningen (mld €)",
+          "Woningen zelf (mld €)"
+        ],
+        "rechts": [
+          false,
+          true,
+          true
+        ],
+        "rijen": [
+          [
+            "1995",
+            "121",
+            "408"
+          ],
+          [
+            "1996",
+            "167",
+            "432"
+          ],
+          [
+            "1997",
+            "231",
+            "454"
+          ],
+          [
+            "1998",
+            "299",
+            "478"
+          ],
+          [
+            "1999",
+            "413",
+            "511"
+          ],
+          [
+            "2000",
+            "558",
+            "554"
+          ],
+          [
+            "2001",
+            "650",
+            "605"
+          ],
+          [
+            "2002",
+            "702",
+            "655"
+          ],
+          [
+            "2003",
+            "728",
+            "698"
+          ],
+          [
+            "2004",
+            "775",
+            "733"
+          ],
+          [
+            "2005",
+            "821",
+            "766"
+          ],
+          [
+            "2006",
+            "873",
+            "811"
+          ],
+          [
+            "2007",
+            "937",
+            "845"
+          ],
+          [
+            "2008",
+            "970",
+            "888"
+          ],
+          [
+            "2009",
+            "894",
+            "932"
+          ],
+          [
+            "2010",
+            "850",
+            "949"
+          ],
+          [
+            "2011",
+            "835",
+            "928"
+          ],
+          [
+            "2012",
+            "742",
+            "913"
+          ],
+          [
+            "2013",
+            "659",
+            "898"
+          ],
+          [
+            "2014",
+            "706",
+            "873"
+          ],
+          [
+            "2015",
+            "783",
+            "853"
+          ],
+          [
+            "2016",
+            "878",
+            "855"
+          ],
+          [
+            "2017",
+            "1.017",
+            "866"
+          ],
+          [
+            "2018",
+            "1.154",
+            "923"
+          ],
+          [
+            "2019",
+            "1.255",
+            "990"
+          ],
+          [
+            "2020",
+            "1.382",
+            "1.065"
+          ],
+          [
+            "2021",
+            "1.706",
+            "1.143"
+          ],
+          [
+            "2022*",
+            "2.045",
+            "1.232"
+          ]
+        ],
+        "noot": "* voorlopig. CBS 84550NED, AN2111A en AN111, alle sectoren, eindbalans."
+      }
+    },
+    "aandeel-grond": {
+      "alt": "Lijngrafiek van het aandeel van de grond in de waarde van alle woningen, 1995 tot 2022. Van 23% in 1995 naar 52% in 2008, 42% in 2013 en 62% in 2022. Een berekening van DNB voor 2018, 55%, ligt op de lijn.",
+      "breed": {
+        "src": "cijfers/aandeel-grond.svg",
+        "v": "1c011001e6",
+        "w": 692,
+        "h": 433
+      },
+      "smal": {
+        "src": "cijfers/aandeel-grond-smal.svg",
+        "v": "36d5ebc4e4",
+        "w": 380,
+        "h": 502
+      },
+      "tabel": {
+        "kop": [
+          "Jaar",
+          "Aandeel grond"
+        ],
+        "rechts": [
+          false,
+          true
+        ],
+        "rijen": [
+          [
+            "1995",
+            "22,9%"
+          ],
+          [
+            "1996",
+            "27,8%"
+          ],
+          [
+            "1997",
+            "33,7%"
+          ],
+          [
+            "1998",
+            "38,5%"
+          ],
+          [
+            "1999",
+            "44,7%"
+          ],
+          [
+            "2000",
+            "50,2%"
+          ],
+          [
+            "2001",
+            "51,8%"
+          ],
+          [
+            "2002",
+            "51,7%"
+          ],
+          [
+            "2003",
+            "51,0%"
+          ],
+          [
+            "2004",
+            "51,4%"
+          ],
+          [
+            "2005",
+            "51,7%"
+          ],
+          [
+            "2006",
+            "51,8%"
+          ],
+          [
+            "2007",
+            "52,6%"
+          ],
+          [
+            "2008",
+            "52,2%"
+          ],
+          [
+            "2009",
+            "49,0%"
+          ],
+          [
+            "2010",
+            "47,3%"
+          ],
+          [
+            "2011",
+            "47,4%"
+          ],
+          [
+            "2012",
+            "44,8%"
+          ],
+          [
+            "2013",
+            "42,3%"
+          ],
+          [
+            "2014",
+            "44,7%"
+          ],
+          [
+            "2015",
+            "47,9%"
+          ],
+          [
+            "2016",
+            "50,7%"
+          ],
+          [
+            "2017",
+            "54,0%"
+          ],
+          [
+            "2018",
+            "55,6%"
+          ],
+          [
+            "2019",
+            "55,9%"
+          ],
+          [
+            "2020",
+            "56,5%"
+          ],
+          [
+            "2021",
+            "59,9%"
+          ],
+          [
+            "2022*",
+            "62,4%"
+          ]
+        ],
+        "noot": "* voorlopig. Aandeel = grond onder woningen / (grond onder woningen + woningen). DNB (ESB, 2019): 55% in 2018."
+      }
+    },
+    "belastingen": {
+      "alt": "Staafdiagram met bedragen voor 2026 in miljard euro: OZB woningen 3,2; OZB niet-woningen 3,1; Overdrachtsbelasting 5,1; Hypotheekrenteaftrek 10,7. De hypotheekrenteaftrek is geen opbrengst maar gemiste belasting.",
+      "breed": {
+        "src": "cijfers/belastingen.svg",
+        "v": "3e0896986a",
+        "w": 692,
+        "h": 331
+      },
+      "smal": {
+        "src": "cijfers/belastingen-smal.svg",
+        "v": "e948af660a",
+        "w": 380,
+        "h": 452
+      },
+      "tabel": {
+        "kop": [
+          "Post",
+          "Jaar",
+          "Bedrag (mld €)",
+          "Bron"
+        ],
+        "rechts": [
+          false,
+          true,
+          true,
+          false
+        ],
+        "rijen": [
+          [
+            "OZB woningen (begroot)",
+            "2026",
+            "3,20",
+            "CBS 83642NED"
+          ],
+          [
+            "OZB niet-woningen (begroot)",
+            "2026",
+            "3,14",
+            "CBS 83642NED"
+          ],
+          [
+            "Overdrachtsbelasting (raming)",
+            "2026",
+            "5,09",
+            "Miljoenennota 2027, tabel 3.1.7.1"
+          ],
+          [
+            "Hypotheekrenteaftrek (budgettair belang, raming)",
+            "2026",
+            "10,70",
+            "Miljoenennota 2027, tabel 4.3.2"
+          ],
+          [
+            "Eigenwoningforfait (budgettair belang, raming)",
+            "2026",
+            "-3,15",
+            "Miljoenennota 2027, tabel 4.3.2"
+          ]
+        ],
+        "noot": "OZB: som van 342 gemeenten, voorlopige cijfers. Het eigenwoningforfait staat niet in de grafiek; het is de tegenhanger van de aftrek."
+      }
+    }
+  },
+  "bronnen": [
+    {
+      "tabel": "85953NED",
+      "titel": "Niet-financiële balansen; nationale rekeningen",
+      "gewijzigd": "2026-08-28",
+      "gewijzigd_tekst": "28 augustus 2026",
+      "url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85953NED/table",
+      "voorlopig": [
+        2025
+      ],
+      "op_pagina": true
+    },
+    {
+      "tabel": "85879NED",
+      "titel": "Bbp, productie en bestedingen; kwartalen, waarden, nationale rekeningen",
+      "gewijzigd": "2026-09-23",
+      "gewijzigd_tekst": "23 september 2026",
+      "url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85879NED/table",
+      "voorlopig": [
+        2025
+      ],
+      "op_pagina": true
+    },
+    {
+      "tabel": "84550NED",
+      "titel": "Niet-financiële balansen; nationale rekeningen 1995-2022",
+      "gewijzigd": "2023-09-22",
+      "gewijzigd_tekst": "22 september 2023",
+      "url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84550NED/table",
+      "voorlopig": [
+        2022
+      ],
+      "op_pagina": true
+    },
+    {
+      "tabel": "83642NED",
+      "titel": "Gemeentebegrotingen; heffingen per gemeente",
+      "gewijzigd": "2026-02-05",
+      "gewijzigd_tekst": "5 februari 2026",
+      "url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83642NED/table",
+      "voorlopig": [
+        2026
+      ],
+      "op_pagina": true
+    },
+    {
+      "tabel": "83131NED",
+      "titel": "Consumentenprijzen; prijsindex 2015=100, 1996-2025",
+      "gewijzigd": "2026-02-12",
+      "gewijzigd_tekst": "12 februari 2026",
+      "url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83131NED/table",
+      "voorlopig": [],
+      "op_pagina": true
+    },
+    {
+      "tabel": "83625NED",
+      "titel": "Bestaande koopwoningen; gemiddelde verkoopprijzen, regio",
+      "gewijzigd": "2026-02-17",
+      "gewijzigd_tekst": "17 februari 2026",
+      "url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83625NED/table",
+      "voorlopig": [],
+      "op_pagina": false
+    }
+  ],
+  "herkomst": {
+    "grond_totaal": [
+      "85953NED",
+      "A047181 AN211 Grond, A044923, Eindbalans_6",
+      "2025"
+    ],
+    "bbp": [
+      "85879NED",
+      "A045297 Werkelijke prijzen, BrutoBinnenlandsProduct_2",
+      "2025"
+    ],
+    "grond_bbp": [
+      "85953NED / 85879NED",
+      "AN211 eindbalans / bbp werkelijke prijzen",
+      "1995-2025"
+    ],
+    "landbouwgrond": [
+      "85953NED",
+      "A047184 AN2112 Landbouwgrond, Eindbalans_6",
+      "2025"
+    ],
+    "woning_grond": [
+      "84550NED",
+      "A047182 AN2111A Grond onder woningen, Eindbalans_6",
+      "1995-2022"
+    ],
+    "woning_stenen": [
+      "84550NED",
+      "A047162 AN111 Woningen, Eindbalans_6",
+      "1995-2022"
+    ],
+    "volume": [
+      "84550NED",
+      "VolumeIndex2015100_7 (AN111, AN2111A)",
+      "2013, 2022"
+    ],
+    "cpi": [
+      "83131NED",
+      "T001112 Alle bestedingen, CPI_1 (jaargemiddelde)",
+      "2013, 2022"
+    ],
+    "revisie": [
+      "84550NED vs 85953NED",
+      "AN211 en AN111, Eindbalans_6",
+      "2022"
+    ],
+    "ozb": [
+      "83642NED",
+      "A047000/A047001/A046999, GemeentelijkeHeffingenIn1000Euro_1, som gemeenten",
+      "2026"
+    ],
+    "overdrachtsbelasting": [
+      "Miljoenennota 2027, bijlage 3, tabel 3.1.7.1 'Raming belasting- en premieontvangsten 2026-2031 op EMU-basis'",
+      "https://www.rijksfinancien.nl/miljoenennota/2027/bijlage",
+      "2026"
+    ],
+    "hypotheekrenteaftrek": [
+      "Miljoenennota 2027, bijlage 4 'Fiscale regelingen', tabel 4.3.2, regel 'Hypotheekrenteaftrek'",
+      "https://www.rijksfinancien.nl/miljoenennota/2027/bijlage",
+      "2026"
+    ],
+    "eigenwoningforfait": [
+      "Miljoenennota 2027, bijlage 4 'Fiscale regelingen', tabel 4.3.2, regel 'Eigenwoningforfait'",
+      "https://www.rijksfinancien.nl/miljoenennota/2027/bijlage",
+      "2026"
+    ],
+    "huisprijs": [
+      "83625NED",
+      "GemiddeldeVerkoopprijs_1, NL01",
+      "2025"
+    ],
+    "modaal_inkomen": [
+      "CPB, Kerngegevenstabel Macro Economische Verkenning 2027",
+      "https://www.cpb.nl/system/files/cpbmedia/CPB-kerngegevens-MEV-2027.pdf",
+      "2025"
+    ],
+    "doucet": [
+      "UBI advocates should watch South Korea",
+      "https://blog.landeconomics.org/p/ubi-advocates-should-watch-south",
+      "2026-04-23"
+    ],
+    "dnb_esb2019": [
+      "Niet stenen, maar vooral grond steeds prijziger",
+      "https://esb.nu/niet-stenen-maar-vooral-grond-steeds-prijziger/",
+      "2018"
+    ],
+    "dnb_2025": [
+      "Grondslag van een planbatenheffing",
+      "https://www.dnb.nl/publicaties/publicaties-onderzoek/analyse/grondslag-van-een-planbatenheffing/",
+      "2025"
+    ]
+  }
+}
