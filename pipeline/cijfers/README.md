@@ -92,10 +92,12 @@ colour-blindness separation checks. Every chart has a data table on the page.
 To check the rendering:
 
 ```sh
-uv run --with cairosvg python -c "import cairosvg, glob; [cairosvg.svg2png(url=f, write_to=f[:-4] + '.png') for f in glob.glob('static/cijfers/*.svg')]"
+mkdir -p /tmp/cijfers-png
+uv run --with cairosvg python -c "import cairosvg, glob, os; [cairosvg.svg2png(url=f, write_to='/tmp/cijfers-png/' + os.path.basename(f)[:-4] + '.png', scale=1.5) for f in glob.glob('static/cijfers/*.svg')]"
 ```
 
-(delete the PNGs afterwards; they are not part of the site).
+Note that cairosvg falls back to a wide font (often DejaVu Sans), so text looks a little
+larger than in a browser; the layout leaves room for that.
 
 ## Safety
 
