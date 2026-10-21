@@ -1,5 +1,6 @@
 baseURL = "https://wonenisteduur.nl/"
 languageCode = "nl"
+defaultContentLanguage = "nl"
 title = "Wonen is te duur"
 
 disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]

@@ -2,3 +2,4 @@
 {{- $u := .Site.Params.contactUser -}}
 {{- $d := .Site.Params.contactDomain -}}
 <a class="js-email" href="#" data-u="{{ $u }}" data-d="{{ $d }}">{{ $u }} [at] {{ replace $d "." " [dot] " }}</a>
+{{- /* trim trailing newline so punctuation can follow directly */ -}}
