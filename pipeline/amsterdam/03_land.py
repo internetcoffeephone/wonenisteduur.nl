@@ -54,11 +54,16 @@ def cbs_buurt_table() -> pd.DataFrame:
             "pct_eengezins_cbs": r.get("PercentageEengezinswoning_40"),
             "pct_koop_cbs": r.get("Koopwoningen_47"),
             "pct_corporatie_cbs": r.get("InBezitWoningcorporatie_49"),
-            "inkomen_gem": None if r.get("GemGestandaardiseerdInkomen_83") is None
-            else r["GemGestandaardiseerdInkomen_83"] * 1000.0,
-            "pct_laag_inkomen": r.get("k_40HuishoudensMetLaagsteInkomen_84"),
         })
-    return pd.DataFrame(rows).set_index("code")
+    df = pd.DataFrame(rows).set_index("code")
+    inc = read_json(RAW / "cbs" / f"{P['area']['cbs_inkomen']}_ams.json")["rows"]
+    df = df.join(pd.DataFrame([{
+        "code": r["WijkenEnBuurten"].strip(),
+        "inkomen_gem": None if r.get("GemGestandaardiseerdInkomenVanHuish_84") is None
+        else r["GemGestandaardiseerdInkomenVanHuish_84"] * 1000.0,
+        "pct_laag_inkomen": r.get("k_40HuishoudensMetLaagsteInkomen_85"),
+    } for r in inc]).set_index("code"))
+    return df
 
 
 def rebuild_cost_per_m2() -> dict:

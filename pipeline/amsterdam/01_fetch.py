@@ -76,6 +76,15 @@ def fetch_cbs(s):
         write_json(f, {"table": tab, "rows": rows, "properties": props})
         log("cbs", tab, len(rows), "rows")
 
+    # Income per buurt: the 2024 and 2025 editions do not have it yet.
+    inc = P["area"]["cbs_inkomen"]
+    f = out / f"{inc}_ams.json"
+    if not f.exists():
+        d = get_json(s, f"{CBS_ODATA}/{inc}/TypedDataSet",
+                     **{"$filter": f"substringof('BU{code}',WijkenEnBuurten)", "$format": "json"})
+        write_json(f, {"table": inc, "rows": d["value"]})
+        log("cbs", inc, len(d["value"]), "rows")
+
     f = out / "83642NED_ams.json"
     if not f.exists():
         d = get_json(s, f"{CBS_ODATA}/83642NED/TypedDataSet",

@@ -7,6 +7,8 @@ gemeentecode = "GM0363"           # CBS code for Amsterdam (incl. Weesp since 20
 gemeentecode_bag = "0363"
 cbs_kerncijfers = "86165NED"      # Kerncijfers wijken en buurten 2025
 cbs_buurtkaart = "wijken-en-buurten-2025"
+# Most recent Kerncijfers edition with income per buurt (same buurt codes).
+cbs_inkomen = "85618NED"
 # The CBS WOZ average in 86165NED is for belastingjaar 2025, peildatum 1-1-2024.
 woz_peildatum = "2024-01-01"
 woz_peiljaar = 2024
