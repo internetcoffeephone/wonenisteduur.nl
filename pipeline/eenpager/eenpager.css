@@ -46,7 +46,7 @@ strong {
 
 /* === Top (white) part === */
 .top {
-  padding: 15mm 16mm 0;
+  padding: 14mm 16mm 0;
 }
 
 header {
@@ -75,7 +75,7 @@ h1 {
   padding: 3mm 0 3.2mm;
   border-top: 0.6mm solid var(--sage);
   border-bottom: 0.25mm solid #d6dbd0;
-  margin-bottom: 6mm;
+  margin-bottom: 5.5mm;
 }
 
 h2 {
