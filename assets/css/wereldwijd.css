@@ -1,0 +1,420 @@
+/* === /wereldwijd/: grondbelasting in de wereld + NL-tracker ===
+   Alle klassen beginnen met ww- zodat ze niets anders raken.
+   Kleuren: navy #2c3e50, sage #7a9e5a, licht sage #f0f2ec, rand #e0ddd6.
+   Labels hebben altijd tekst en een vorm; kleur is alleen extra. */
+
+.ww {
+  --ww-navy: #2c3e50;
+  --ww-sage: #7a9e5a;
+  --ww-sage-dark: #4f6e36;
+  --ww-sage-light: #f0f2ec;
+  --ww-border: #e0ddd6;
+  --ww-muted: #5c5c5c;
+  --ww-neg: #9b3a24;
+  --ww-neg-bg: #f8ebe7;
+  --ww-mixed: #7a5a0c;
+  --ww-mixed-bg: #f7f0de;
+  --ww-null: #4d5560;
+  --ww-null-bg: #eef0f2;
+}
+
+.ww-stamp {
+  font-size: 0.9rem;
+  color: var(--ww-muted);
+  margin-top: -0.5rem;
+}
+
+.ww-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* --- Inhoudsopgave --- */
+.ww-toc {
+  margin: 1.75rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--ww-border);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.ww-toc__title {
+  font-weight: 700;
+  color: var(--ww-navy);
+  margin-bottom: 0.4rem;
+}
+
+.ww-toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.25rem;
+  font-size: 0.95rem;
+}
+
+.ww-toc li {
+  margin: 0;
+}
+
+/* --- Labels --- */
+.ww-label,
+.ww-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.1rem 0.55rem 0.1rem 0.45rem;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  vertical-align: 0.1em;
+}
+
+.ww-label__icon {
+  flex: none;
+}
+
+.ww-label--positief { color: var(--ww-sage-dark); background: var(--ww-sage-light); }
+.ww-label--negatief { color: var(--ww-neg); background: var(--ww-neg-bg); }
+.ww-label--geen { color: var(--ww-null); background: var(--ww-null-bg); }
+.ww-label--omstreden { color: var(--ww-mixed); background: var(--ww-mixed-bg); }
+.ww-label--onbekend { color: var(--ww-navy); background: #fff; border-style: dashed; }
+
+.ww-status { color: var(--ww-navy); background: #fff; }
+.ww-status--aangenomen,
+.ww-status--in-werking { color: var(--ww-sage-dark); background: var(--ww-sage-light); }
+.ww-status--verworpen { color: var(--ww-neg); background: var(--ww-neg-bg); }
+.ww-status--aangehouden { color: var(--ww-mixed); background: var(--ww-mixed-bg); }
+.ww-status--plan { border-style: dashed; }
+
+/* --- Legenda --- */
+.ww-legend {
+  margin: 1.75rem 0 2.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--ww-sage-light);
+  border-radius: 6px;
+}
+
+.ww-legend__title {
+  font-size: 1.1rem;
+  margin: 0 0 0.6rem;
+}
+
+.ww-legend__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+
+.ww-legend__list li {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  gap: 0.6rem;
+  align-items: start;
+  margin-bottom: 0.45rem;
+}
+
+.ww-legend__list .ww-label {
+  justify-self: start;
+}
+
+.ww-legend__note {
+  font-size: 0.9rem;
+  color: var(--ww-muted);
+  margin: 0;
+}
+
+/* --- Kaart per land --- */
+.ww-case {
+  margin: 1.5rem 0 2.5rem;
+  padding: 1.25rem 1.5rem 1.5rem;
+  background: #fff;
+  border: 1px solid var(--ww-border);
+  border-top: 4px solid var(--ww-navy);
+  border-radius: 6px;
+  scroll-margin-top: 4rem;
+}
+
+.ww-case__head {
+  margin-bottom: 0.75rem;
+}
+
+.ww-case__country {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ww-muted);
+  margin: 0;
+}
+
+.ww-case__title {
+  font-size: 1.45rem;
+  margin: 0.1rem 0 0.15rem;
+}
+
+.ww-case__sub {
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+}
+
+.ww-case__status {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--ww-navy);
+  background: var(--ww-sage-light);
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.ww-case__h {
+  font-size: 1rem;
+  color: var(--ww-navy);
+  margin: 1.25rem 0 0.4rem;
+}
+
+.ww-effects {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ww-effect {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  gap: 0.75rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--ww-border);
+  margin: 0;
+}
+
+.ww-effect:first-child {
+  border-top: none;
+  padding-top: 0.25rem;
+}
+
+.ww-effect > .ww-label {
+  justify-self: start;
+  align-self: start;
+  margin-top: 0.15rem;
+}
+
+.ww-effect__body p {
+  margin-bottom: 0.4rem;
+}
+
+.ww-effect__conf {
+  font-size: 0.88rem;
+  color: var(--ww-muted);
+}
+
+.ww-effect__conf-k {
+  font-weight: 700;
+}
+
+/* --- Bronnen --- */
+.ww-src {
+  font-size: 0.85rem;
+  color: var(--ww-muted);
+  margin-bottom: 0.5rem;
+  overflow-wrap: anywhere;
+}
+
+.ww-src__k {
+  font-weight: 700;
+}
+
+/* --- Les voor Nederland --- */
+.ww-lesson {
+  margin: 1rem 0 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--ww-sage-light);
+  border-left: 4px solid var(--ww-sage);
+  border-radius: 0 4px 4px 0;
+}
+
+.ww-lesson p {
+  margin-bottom: 0;
+}
+
+.ww-lesson .ww-lesson__k {
+  font-weight: 700;
+  color: var(--ww-navy);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.2rem;
+}
+
+/* --- Plannen, mislukkingen, geschiedenis --- */
+.ww-plans,
+.ww-history {
+  padding-left: 0;
+  list-style: none;
+}
+
+.ww-plan {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--ww-border);
+  margin: 0;
+}
+
+.ww-plan p {
+  margin-bottom: 0.35rem;
+}
+
+.ww-plan__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ww-fail {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 1px solid var(--ww-border);
+  border-left: 4px solid var(--ww-neg);
+  border-radius: 0 6px 6px 0;
+}
+
+.ww-fail__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.5rem;
+}
+
+.ww-history li {
+  margin-bottom: 0.9rem;
+}
+
+/* --- Nederlandse tracker --- */
+.ww-nl {
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  border-top: 3px solid var(--ww-sage);
+}
+
+.ww-nl h3 {
+  scroll-margin-top: 4rem;
+}
+
+.ww-nl__intro {
+  font-size: 0.95rem;
+  color: var(--ww-muted);
+}
+
+.ww-tracker {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.ww-item {
+  padding: 0.9rem 1rem;
+  margin: 0 0 0.75rem;
+  background: #fff;
+  border: 1px solid var(--ww-border);
+  border-radius: 6px;
+}
+
+.ww-item p {
+  margin-bottom: 0.35rem;
+}
+
+.ww-item__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.ww-item__date {
+  font-size: 0.85rem;
+  color: var(--ww-muted);
+}
+
+.ww-item__title {
+  font-weight: 700;
+  color: var(--ww-navy);
+}
+
+.ww-votes {
+  font-size: 0.85rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.ww-votes div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ww-votes dt {
+  font-weight: 700;
+  flex: none;
+  width: 3.2rem;
+}
+
+.ww-votes dd {
+  margin: 0;
+}
+
+/* --- Mobiel --- */
+@media (max-width: 600px) {
+  .ww-case {
+    padding: 1rem 1rem 1.25rem;
+  }
+
+  .ww-effect {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .ww-legend__list li {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .ww-toc ul {
+    display: block;
+  }
+
+  .ww-toc li {
+    margin-bottom: 0.3rem;
+  }
+}
+
+/* --- Print --- */
+@media print {
+  .ww-toc {
+    display: none;
+  }
+
+  .ww-case,
+  .ww-fail,
+  .ww-item {
+    break-inside: avoid;
+    border-color: #999;
+  }
+
+  .ww-label,
+  .ww-status {
+    color: #000;
+    background: #fff;
+  }
+}

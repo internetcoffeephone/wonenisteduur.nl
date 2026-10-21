@@ -14,6 +14,7 @@ categorieen:
     items:
       - titel: "OZB: één tarief over grond en gebouw samen"
         datum: 2026-10
+        datum_tekst: Geldende wet, oktober 2026
         status: in-werking
         tekst: >-
           De OZB wordt geheven over de WOZ-waarde van grond en gebouw samen (art. 220c Gemeentewet),
@@ -30,8 +31,10 @@ categorieen:
           Gemeenten mógen sinds 21 maart 2026 een belasting heffen op woningen die langer dan twaalf
           maanden leegstaan; ze bepalen zelf de maatstaf. Het artikel kwam er via een amendement van
           Stultiens c.s. op de Fiscale verzamelwet 2026, dat de Tweede Kamer op 23 september 2025
-          aannam. Een opt-in voor een grondbelasting zou op dezelfde manier kunnen worden geregeld.
+          aannam (stemming hieronder; de ChristenUnie liet achteraf weten vóór te hebben willen
+          stemmen). Een opt-in voor een grondbelasting zou op dezelfde manier kunnen worden geregeld.
         voor: [SP, GroenLinks-PvdA, PvdD, DENK, Volt, D66, NSC, PVV]
+        tegen: [ChristenUnie, SGP, CDA, VVD, JA21, BBB]
         bronnen:
           - titel: Gemeentewet, art. 221a
             url: https://wetten.overheid.nl/jci1.3:c:BWBR0005416&artikel=221a
