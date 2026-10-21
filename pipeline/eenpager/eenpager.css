@@ -130,7 +130,7 @@ h2 {
   color: var(--navy);
 }
 
-/* === Key figure (stat tile with a meter) === */
+/* === Key figure (stat tile with two stacked bars) === */
 .col-side {
   flex: 0 0 58mm;
   align-self: flex-start;
@@ -162,51 +162,12 @@ h2 {
   margin-right: 1mm;
 }
 
-.meter {
-  position: relative;
-  height: 6mm;
-  background: #fff;
-  border: 0.3mm solid var(--navy);
-}
-
-.meter-fill {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 62%;
-  background: var(--sage);
-  /* diagonal hatching keeps the land share visible in black and white */
-  background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) 0.45mm, transparent 0.45mm, transparent 1.3mm);
-}
-
-.meter-tick {
-  position: absolute;
-  left: 42%;
-  top: -1.4mm;
-  bottom: -1.4mm;
-  width: 0.6mm;
-  margin-left: -0.3mm;
-  background: var(--navy);
-}
-
-.meter-labels {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  font-size: 8.4pt;
-  font-weight: 600;
-  color: var(--navy);
-  margin-top: 1.6mm;
-}
-
-.meter-tick-label {
-  position: absolute;
-  left: 42%;
-  width: 12mm;
-  margin-left: -6mm;
-  text-align: center;
-  font-weight: 400;
+/* Two 100% stacked bars (2013, 2022): land in sage, buildings in grey, with
+   direct labels so the figure also reads in black and white. Bar widths are
+   the CBS shares (84550NED): 42.3% / 62.4% of the 166-unit track. */
+.stat-chart {
+  display: block;
+  margin: 1mm 0 0.5mm;
 }
 
 .stat-note {
