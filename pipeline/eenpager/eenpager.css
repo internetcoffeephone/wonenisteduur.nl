@@ -1,0 +1,346 @@
+/* One-pager "Verschuif de OZB van stenen naar grond" — A4, rendered with WeasyPrint.
+   Colours match the site: navy #2c3e50, sage #7a9e5a, light sage #f0f2ec.
+   Text never relies on colour alone, so the page also reads in black and white. */
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+:root {
+  --navy: #2c3e50;
+  --sage: #7a9e5a;
+  --sage-light: #f0f2ec;
+  --sage-text: #c9d8bd; /* light sage for secondary text on navy */
+  --ink: #2c2c2c;
+  --muted: #5b6168;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Ubuntu Sans", "DejaVu Sans", Arial, sans-serif;
+  font-size: 10.8pt;
+  line-height: 1.37;
+  color: var(--ink);
+}
+
+body {
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* === Top (white) part === */
+.top {
+  padding: 15mm 16mm 0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 5.5mm;
+}
+
+h1 {
+  font-size: 25pt;
+  line-height: 1.08;
+  font-weight: 800;
+  color: var(--navy);
+  letter-spacing: -0.2pt;
+}
+
+.subtitle {
+  font-size: 13.5pt;
+  font-style: italic;
+  color: var(--navy);
+  margin-top: 2mm;
+}
+
+.problem {
+  font-size: 11.2pt;
+  line-height: 1.42;
+  padding: 3mm 0 3.2mm;
+  border-top: 0.6mm solid var(--sage);
+  border-bottom: 0.25mm solid #d6dbd0;
+  margin-bottom: 6mm;
+}
+
+h2 {
+  font-size: 13.5pt;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 1.6mm;
+}
+
+.columns {
+  display: flex;
+  gap: 6mm;
+  margin-bottom: 6mm;
+}
+
+.col-main {
+  flex: 1 1 auto;
+}
+
+.col-main > p {
+  margin-bottom: 2mm;
+}
+
+.lead-in {
+  margin-top: 2.4mm;
+  margin-bottom: 0.8mm !important;
+}
+
+.col-main ul {
+  list-style: none;
+}
+
+.col-main li {
+  position: relative;
+  padding-left: 4.6mm;
+  margin-bottom: 0.5mm;
+}
+
+.col-main li::before {
+  content: "";
+  position: absolute;
+  left: 0.6mm;
+  top: 1.7mm;
+  width: 1.6mm;
+  height: 1.6mm;
+  border-radius: 50%;
+  background: var(--navy);
+}
+
+.col-main em {
+  font-style: italic;
+  color: var(--navy);
+}
+
+/* === Key figure (stat tile with a meter) === */
+.col-side {
+  flex: 0 0 58mm;
+  align-self: flex-start;
+  background: var(--sage-light);
+  border-left: 1.2mm solid var(--sage);
+  padding: 3.5mm 4mm 3.2mm;
+  margin-top: 1mm;
+}
+
+.stat-label {
+  font-size: 8.6pt;
+  font-weight: 600;
+  color: var(--navy);
+  text-transform: uppercase;
+  letter-spacing: 0.3pt;
+  line-height: 1.25;
+}
+
+.stat {
+  font-size: 11pt;
+  color: var(--navy);
+  margin: 0.5mm 0 2mm;
+}
+
+.stat-num {
+  font-size: 34pt;
+  font-weight: 800;
+  line-height: 1;
+  margin-right: 1mm;
+}
+
+.meter {
+  position: relative;
+  height: 6mm;
+  background: #fff;
+  border: 0.3mm solid var(--navy);
+}
+
+.meter-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 62%;
+  background: var(--sage);
+  /* diagonal hatching keeps the land share visible in black and white */
+  background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) 0.45mm, transparent 0.45mm, transparent 1.3mm);
+}
+
+.meter-tick {
+  position: absolute;
+  left: 42%;
+  top: -1.4mm;
+  bottom: -1.4mm;
+  width: 0.6mm;
+  margin-left: -0.3mm;
+  background: var(--navy);
+}
+
+.meter-labels {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8.4pt;
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 1.6mm;
+}
+
+.meter-tick-label {
+  position: absolute;
+  left: 42%;
+  width: 12mm;
+  margin-left: -6mm;
+  text-align: center;
+  font-weight: 400;
+}
+
+.stat-note {
+  font-size: 8.8pt;
+  line-height: 1.32;
+  margin-top: 1.8mm;
+}
+
+.stat-source {
+  font-size: 7.6pt;
+  color: var(--muted);
+  margin-top: 1.4mm;
+}
+
+/* === Proposal === */
+.proposal {
+  display: flex;
+  gap: 7mm;
+  align-items: flex-start;
+}
+
+.checks {
+  list-style: none;
+  flex: 0 0 96mm;
+}
+
+.checks li {
+  position: relative;
+  padding-left: 6.5mm;
+  margin-bottom: 1mm;
+  font-size: 11.2pt;
+}
+
+.checks li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.9mm;
+  width: 4mm;
+  height: 4mm;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%237a9e5a'/><path d='M4 8.4l2.6 2.6L12 5.4' fill='none' stroke='%23ffffff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>") no-repeat;
+  background-size: 4mm 4mm;
+}
+
+.proposal-note {
+  flex: 1 1 auto;
+  font-size: 10pt;
+  line-height: 1.38;
+  border-left: 0.4mm solid var(--sage);
+  padding-left: 3.5mm;
+}
+
+/* === Navy band === */
+.band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--navy);
+  color: #fff;
+  padding: 8mm 16mm 6mm;
+}
+
+.band h2 {
+  color: #fff;
+  font-size: 15pt;
+  text-align: center;
+  margin-bottom: 3.5mm;
+}
+
+.why {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.why li {
+  position: relative;
+  width: 85mm;
+  padding-left: 5mm;
+  margin-bottom: 2.6mm;
+}
+
+.why li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.5mm;
+  width: 2mm;
+  height: 2mm;
+  background: var(--sage);
+  border: 0.3mm solid #fff;
+}
+
+.why strong {
+  display: block;
+  font-size: 11pt;
+}
+
+.why span {
+  display: block;
+  font-size: 10pt;
+  color: #e9eee5;
+}
+
+.band footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-top: 0.3mm solid rgba(255, 255, 255, 0.35);
+  margin-top: 4mm;
+  padding-top: 3.5mm;
+}
+
+.site,
+.mail {
+  font-size: 14pt;
+  font-weight: 700;
+  color: #fff;
+}
+
+.foot-contact {
+  text-align: right;
+}
+
+.foot-sub {
+  font-size: 9pt;
+  color: var(--sage-text);
+}
+
+.sources {
+  font-size: 7pt;
+  line-height: 1.3;
+  color: var(--sage-text);
+  margin-top: 3mm;
+}

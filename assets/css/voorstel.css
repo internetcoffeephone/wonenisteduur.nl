@@ -1,0 +1,238 @@
+/* === /voorstel/: proposal page with draft legislation ===
+   Everything is scoped under .voorstel so nothing leaks into other pages. */
+
+.voorstel-lead {
+  font-size: 1.15rem;
+  line-height: 1.55;
+  color: #2c3e50;
+  margin-bottom: 1.25rem;
+}
+
+.voorstel-pdf {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin: 1.5rem 0;
+}
+
+.voorstel-pdf-meta {
+  font-size: 0.9rem;
+  color: #5b6168;
+}
+
+/* Table of contents */
+.voorstel-toc {
+  background: #f0f2ec;
+  border-radius: 6px;
+  padding: 1rem 1.25rem 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.voorstel-toc-title {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.voorstel-toc ol {
+  columns: 2;
+  column-gap: 2rem;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.voorstel-toc li {
+  break-inside: avoid;
+}
+
+/* The ask */
+.voorstel .voorstel-ask {
+  border-left: 4px solid #7a9e5a;
+  background: #f0f2ec;
+  padding: 1rem 1.25rem 0.5rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.voorstel .voorstel-ask-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+/* Quoted current law */
+.voorstel .wetcitaat {
+  margin: 1.25rem 0 1.5rem;
+}
+
+.voorstel .wetcitaat blockquote {
+  font-style: normal;
+  font-size: 0.95rem;
+  background: #fff;
+  border: 1px solid #e0ddd6;
+  border-left: 4px solid #2c3e50;
+  margin: 0;
+}
+
+.voorstel .wetcitaat blockquote p {
+  margin-bottom: 0.5rem;
+}
+
+.voorstel .wetcitaat .onderdeel {
+  padding-left: 1.5em;
+}
+
+.voorstel .wetcitaat figcaption {
+  font-size: 0.85rem;
+  margin-top: 0.35rem;
+  color: #5b6168;
+}
+
+/* Tables */
+.voorstel table td:first-child {
+  font-weight: 600;
+}
+
+.voorstel-reken td:not(:first-child),
+.voorstel-reken th:not(:first-child) {
+  white-space: nowrap;
+}
+
+/* Draft legislation */
+.voorstel .voorstel-concept {
+  font-size: 0.95rem;
+}
+
+.voorstel .voorstel-concept p {
+  margin: 0;
+}
+
+.voorstel .wettekst {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  background: #fff;
+  border: 1px solid #e0ddd6;
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.voorstel .wettekst p {
+  margin-bottom: 0.6rem;
+}
+
+.voorstel .wet-titel {
+  font-weight: 700;
+  color: #2c3e50;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.voorstel .wet-considerans {
+  color: #4a4f55;
+}
+
+.voorstel .wettekst h3.wet-artikel {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 1.75rem 0 0.6rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e0ddd6;
+}
+
+.voorstel .wet-onderdeel-kop {
+  font-weight: 700;
+  margin-top: 1.1rem;
+}
+
+.voorstel .wet-nieuw {
+  border-left: 3px solid #7a9e5a;
+  background: #f7f8f4;
+  padding: 0.75rem 1rem 0.25rem;
+  margin: 0.5rem 0 1rem 0.75rem;
+}
+
+.voorstel .wet-nieuw-kop {
+  font-weight: 700;
+}
+
+.voorstel .wettekst .lid {
+  padding-left: 1.8em;
+  text-indent: -1.8em;
+}
+
+.voorstel .wettekst .onderdeel {
+  padding-left: 3.6em;
+  text-indent: -1.8em;
+}
+
+.voorstel .wet-nieuw > .onderdeel:first-child {
+  padding-left: 1.8em;
+}
+
+.voorstel .wettekst .nr {
+  display: inline-block;
+  width: 1.8em;
+  text-indent: 0;
+}
+
+.voorstel .wet-optie {
+  color: #5b6168;
+  font-style: italic;
+}
+
+.voorstel .wettekst-variant {
+  border-style: dashed;
+}
+
+.voorstel .voorstel-download {
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .voorstel-toc ol {
+    columns: 1;
+  }
+
+  .voorstel .wettekst {
+    padding: 1rem 1rem 0.25rem;
+  }
+
+  .voorstel .wet-nieuw {
+    margin-left: 0;
+    padding: 0.6rem 0.75rem 0.1rem;
+  }
+
+  .voorstel .wettekst .onderdeel {
+    padding-left: 2.8em;
+  }
+
+  .voorstel-reken td:not(:first-child) {
+    white-space: normal;
+  }
+}
+
+@media print {
+  .voorstel-toc,
+  .voorstel-pdf {
+    display: none;
+  }
+
+  .voorstel .wettekst,
+  .voorstel .wet-nieuw,
+  .voorstel .voorstel-ask,
+  .voorstel .wetcitaat blockquote {
+    background: #fff;
+  }
+
+  .voorstel .wet-nieuw,
+  .voorstel .wetcitaat {
+    break-inside: avoid;
+  }
+
+  .voorstel .wettekst h3.wet-artikel {
+    break-after: avoid;
+  }
+}

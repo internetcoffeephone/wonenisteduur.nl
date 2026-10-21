@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="voorstel">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.lead }}<p class="voorstel-lead">{{ . }}</p>{{ end }}
+
+  {{ with .Params.pdf }}
+  {{- $size := "" }}
+  {{- with os.Stat (path.Join "static" .) }}{{ $size = printf ", %.0f kB" (math.Ceil (div (float .Size) 1024)) }}{{ end }}
+  <p class="voorstel-pdf">
+    <a class="cta-btn" href="/{{ . }}">Download de eenpager</a>
+    <span class="voorstel-pdf-meta">PDF, één A4{{ $size }}. Om door te sturen of te printen.</span>
+  </p>
+  {{ end }}
+
+  <nav class="voorstel-toc" aria-label="Inhoud van deze pagina">
+    <p class="voorstel-toc-title">Op deze pagina</p>
+    <ol>
+      {{- range .Fragments.Headings }}
+        {{- range .Headings }}
+          {{- if eq .Level 2 }}<li><a href="#{{ .ID }}">{{ .Title }}</a></li>{{ end }}
+        {{- end }}
+      {{- end }}
+    </ol>
+  </nav>
+
+  {{ .Content }}
+</div>
+{{ end }}
