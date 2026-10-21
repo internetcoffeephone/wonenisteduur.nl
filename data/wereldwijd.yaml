@@ -1,0 +1,686 @@
+# Gegevens voor /wereldwijd/ (layouts/wereldwijd/list.html).
+#
+# Elk effect heeft een label:
+#   positief  - gemeten effect in de bedoelde richting
+#   negatief  - gemeten nadeel, mislukking, afschaffing of weerstand
+#   geen      - gemeten, maar geen effect gevonden
+#   omstreden - onderzoeken spreken elkaar tegen, of het is een verklaring zonder meting
+#   onbekend  - (nog) niet gemeten of te vroeg om te zeggen
+# Tekstvelden mogen Markdown bevatten (links, *cursief*).
+# Elke bewering heeft minstens één bron met een werkende link.
+
+bijgewerkt: 2026-10-21
+
+gevallen:
+  - id: pennsylvania
+    land: Verenigde Staten
+    titel: Pennsylvania
+    ondertitel: Grond zwaarder belast dan gebouwen (gesplitst tarief)
+    status: Sinds 1913 toegestaan; in een deel van de steden weer afgeschaft
+    ingevoerd: >-
+      Pennsylvania staat steden sinds 1913 toe grond zwaarder te belasten dan gebouwen.
+      Pittsburgh deed dat van 1913 tot 2001; vanaf 1979 was het tarief op grond meer dan
+      vijf keer zo hoog als op gebouwen. In 2006 telde onderzoeker Mark Alan Hughes
+      16 gemeenten met een gesplitst tarief, 5 die het weer hadden afgeschaft en 12 die
+      het overwogen maar nooit invoerden.
+    bronnen:
+      - titel: Hughes (2006), Lincoln Institute working paper
+        url: https://www.lincolninst.edu/app/uploads/2024/04/1275_hughes_final.pdf
+      - titel: Banzhaf & Lavery (2008), Lincoln Institute working paper
+        url: https://www.lincolninst.edu/app/uploads/2024/04/banzhaf-wp08sb1.pdf
+    effecten:
+      - label: positief
+        tekst: >-
+          **Meer bouwvergunningen in Pittsburgh.** In 1980–1989 lag de waarde van de
+          bouwvergunningen ruim 70% hoger dan in 1960–1979. In 15 vergelijkbare steden in
+          het Midwesten daalde die in dezelfde periode gemiddeld 14%.
+        zekerheid: >-
+          Middel. De auteurs zeggen zelf dat het effect lastig te isoleren is: tegelijk liep
+          een groot stadsvernieuwingsprogramma (Renaissance II) en de leegstand was al laag.
+        bronnen:
+          - titel: Oates & Schwab (1997), National Tax Journal 50(1)
+            url: https://ideas.repec.org/a/ntj/journl/v50y1997i1p1-21.html
+          - titel: Kepner & Mattoon (2023), Chicago Fed Letter 489
+            url: https://www.chicagofed.org/publications/chicago-fed-letter/2023/489
+      - label: positief
+        tekst: >-
+          **Meer vergunningen in 15 gemeenten.** Over 1972–1994 hing een hoger grondtarief
+          (ten opzichte van het gebouwtarief) samen met significant meer bouwvergunningen.
+          Een duidelijk effect op de *waarde* van die vergunningen vonden de auteurs niet.
+        zekerheid: Middel. Peer-reviewed, maar het gaat om kleine en middelgrote steden in één staat.
+        bronnen:
+          - titel: Plassmann & Tideman (2000), Journal of Urban Economics 47(2)
+            url: https://ideas.repec.org/a/eee/juecon/v47y2000i2p216-247.html
+          - titel: Samenvatting in Banzhaf & Lavery (2008)
+            url: https://www.lincolninst.edu/app/uploads/2024/04/banzhaf-wp08sb1.pdf
+      - label: positief
+        tekst: >-
+          **Meer woningen per hectare.** Op basis van volkstellingen 1970–2000 groeide het
+          aantal woningen in gemeenten met een gesplitst tarief 2 tot 5 procentpunt per
+          decennium sneller dan in vergelijkbare gebieden. Het ging om méér woningen, niet
+          om grotere woningen.
+        zekerheid: Middel tot hoog. Peer-reviewed, maar oude data en een beperkt aantal gemeenten.
+        bronnen:
+          - titel: Banzhaf & Lavery (2010), Journal of Urban Economics 67(2)
+            url: https://www.lincolninst.edu/app/uploads/2024/04/banzhaf-wp08sb1.pdf
+      - label: geen
+        tekst: >-
+          **Bedrijven: eenmalig effect.** Een studie naar 9 gemeenten (1994–2017) vond direct
+          na invoering 60 tot 107 extra bedrijfsvestigingen, maar die winst ebde daarna deels
+          weg. Het verhogen of verlagen van de verhouding tussen grond- en gebouwtarief had
+          geen meetbaar effect.
+        zekerheid: Laag tot middel. Wij konden alleen de samenvatting door de Chicago Fed controleren.
+        bronnen:
+          - titel: Hanson (2022), samengevat in Chicago Fed Letter 489
+            url: https://www.chicagofed.org/publications/chicago-fed-letter/2023/489
+      - label: negatief
+        tekst: >-
+          **Afgeschaft, en niet om economische redenen.** Pittsburgh (2001), Altoona (2016),
+          Uniontown en Hazleton schaften het gesplitste tarief weer af. Volgens Hughes speelde
+          bewijs over de effecten op bouwen en grondgebruik bij het besluit in Pittsburgh
+          "geen herkenbare rol". Zie *Wat ging er mis?*
+        zekerheid: Hoog wat de feiten betreft.
+        bronnen:
+          - titel: Hughes (2006)
+            url: https://www.lincolninst.edu/app/uploads/2024/04/1275_hughes_final.pdf
+          - titel: Altoona Mirror (6 juni 2016)
+            url: https://www.altoonamirror.com/news/local-news/2016/06/city-council-decides-to-cut-land-value-tax/
+    les: >-
+      Een gesplitst tarief (grond hoger, gebouwen lager) gaat samen met iets meer bouw, maar het
+      effect is bescheiden en moeilijk los te zien van andere oorzaken. Of het systeem overleefde,
+      hing vooral af van de kwaliteit van de taxaties en van de politiek.
+
+  - id: denemarken
+    land: Denemarken
+    titel: Denemarken
+    ondertitel: Gemeentelijke grondbelasting (grundskyld)
+    status: Bestaat; taxatiesysteem jarenlang bevroren en vernieuwd in 2024
+    ingevoerd: >-
+      Deense gemeenten heffen een belasting op de getaxeerde grondwaarde, naast een landelijke
+      belasting op de woningwaarde. Vóór 2007 betaalden huishoudens ongeveer 1,6% tot 3,4% van de
+      getaxeerde grondwaarde per jaar. Bij de gemeentelijke herindeling van 2007 moesten
+      samengevoegde gemeenten één tarief kiezen: in het ene dorp ging de belasting omhoog, in
+      het buurdorp omlaag. Twee onderzoeksgroepen gebruikten dat als natuurlijk experiment.
+    bronnen:
+      - titel: Nielsson, Wroblewski & Yding (november 2024), werkpaper
+        url: https://ckwroblewski.github.io/research/LVT_draft.pdf
+    effecten:
+      - label: omstreden
+        tekst: >-
+          **Daalt de grondprijs mee?** Høj, Jørgensen en Schou vonden dat een hogere
+          grondbelasting volledig werd verrekend in een lagere huizenprijs: de koper betaalt
+          minder voor het huis en daarna meer belasting. Nielsson, Wroblewski en Yding
+          bestudeerden dezelfde hervorming over een langere periode (tot 2019) en vonden een
+          vrijwel exact nul-effect op huizenprijzen. Zij wijten het verschil aan vakantiewoningen:
+          waar de belasting daalde stonden veel meer vakantiehuizen, met een eigen
+          prijsontwikkeling. Laat je die weg, dan verdwijnt het effect.
+        zekerheid: >-
+          Omstreden. Høj e.a. is peer-reviewed (Fiscal Studies, 2018); Nielsson e.a. is een
+          werkpaper dat nog niet door vakgenoten is beoordeeld.
+        bronnen:
+          - titel: Høj, Jørgensen & Schou (2018), Fiscal Studies 39(2); werkpaper De Økonomiske Råd 2017:1
+            url: https://doi.org/10.1111/1475-5890.12163
+          - titel: Nielsson, Wroblewski & Yding (2024), bijlage C
+            url: https://ckwroblewski.github.io/research/LVT_draft.pdf
+      - label: geen
+        tekst: >-
+          **Geen extra bouw.** Geen meetbaar effect op de totale woningbouw, en ook niet op het
+          bebouwen van lege kavels. Een hogere grondbelasting remde het bouwen dus niet af, maar
+          zette op zichzelf ook geen extra bouw in gang.
+        zekerheid: Middel (werkpaper, maar precieze schattingen over twaalf jaar).
+        bronnen:
+          - titel: Nielsson, Wroblewski & Yding (2024)
+            url: https://ckwroblewski.github.io/research/LVT_draft.pdf
+      - label: geen
+        tekst: >-
+          **Niemand werd uit zijn huis gedrukt.** Eigenaren verkochten niet vaker en het
+          eigenwoningbezit veranderde niet.
+        zekerheid: Middel (werkpaper).
+        bronnen:
+          - titel: Nielsson, Wroblewski & Yding (2024)
+            url: https://ckwroblewski.github.io/research/LVT_draft.pdf
+      - label: negatief
+        tekst: >-
+          **Minder ouderen in gebieden met een hogere belasting.** Daar woonden in de jaren daarna
+          minder oudere eigenaren. De onderzoekers lezen dat zo: ouderen verhuisden minder vaak
+          náár die gebieden; ze werden er niet uit verdreven.
+        zekerheid: Middel (werkpaper).
+        bronnen:
+          - titel: Nielsson, Wroblewski & Yding (2024)
+            url: https://ckwroblewski.github.io/research/LVT_draft.pdf
+      - label: omstreden
+        tekst: >-
+          **Betalen huurders mee?** De onderzoekers opperen dat verhuurders de belasting
+          doorberekenen, omdat de Deense huurwet (Lejeloven § 46) verhuurders uitdrukkelijk
+          toestaat een hogere onroerendgoedbelasting in de huur te verwerken. Ze hebben geen
+          huurgegevens; het is een verklaring, geen meting. Als die klopt, is de belasting in
+          Denemarken minder progressief dan de theorie voorspelt.
+        zekerheid: Niet gemeten. Het wettelijke mechanisme zelf is wel vastgelegd.
+        bronnen:
+          - titel: Nielsson, Wroblewski & Yding (2024), § 9
+            url: https://ckwroblewski.github.io/research/LVT_draft.pdf
+          - titel: Social-, Bolig- og Ældreministeriet aan EjendomDanmark over § 46 (28 mei 2024)
+            url: https://ejd.dk/wp-content/uploads/2024/06/Svar-fra-Ministeriet.pdf
+      - label: negatief
+        tekst: >-
+          **Taxaties jarenlang bevroren en fout.** Van 2011 tot 2024 werd met oude taxaties
+          gerekend; nieuwe taxaties werden in 2013 stilgelegd na kritiek van de Rekenkamer. Wie te
+          veel betaalde, krijgt geld terug: in 2024 geschat op 11,3 miljard kroon voor 561.000
+          woningen. Zie *Wat ging er mis?*
+        zekerheid: Hoog.
+        bronnen:
+          - titel: Den Store Danske, "ejendomsvurdering" (bijgewerkt 7 september 2026)
+            url: https://lex.dk/ejendomsvurdering
+          - titel: BDO (8 mei 2024)
+            url: https://www.bdo.dk/da-dk/faglig-info/depechen/depechen-artikler-2024/tilbagebetalingen-af-ejendomsskat-2011-2020-praeget-af-forvirring
+    les: >-
+      Twee lessen. Eén: grondbelasting zónder lagere belasting op gebouwen leverde in Denemarken
+      geen extra bouw op; de winst zit in de verschuiving. Twee: in Nederland mag de OZB niet als
+      servicekosten aan huurders worden doorberekend en is de jaarlijkse huurverhoging aan een
+      maximum gebonden. Een Deense § 46 bestaat hier niet, en die moet er ook niet komen.
+
+  - id: baden-wuerttemberg
+    land: Duitsland
+    titel: Baden-Württemberg
+    ondertitel: Grondsteuer alleen nog op de grondwaarde (sinds 2025)
+    status: In werking sinds 1 januari 2025; door de hoogste belastingrechter goedgekeurd
+    ingevoerd: >-
+      Het Bundesverfassungsgericht oordeelde in 2018 dat de Duitse Grundsteuer ongrondwettig was,
+      omdat ze rekende met waarden uit 1964 (West) en 1935 (Oost). Deelstaten mochten daarna een
+      eigen model kiezen. Baden-Württemberg (11 miljoen inwoners) belast sinds 1 januari 2025
+      alleen nog de grond: oppervlakte × Bodenrichtwert (de officiële grondwaarde per zone, peildatum
+      1 januari 2022) × 1,3 promille, met 30% korting (0,91 promille) voor grond die vooral voor
+      wonen wordt gebruikt. De gemeente vermenigvuldigt dat met een eigen factor (Hebesatz).
+      Gebouwen tellen niet mee.
+    bronnen:
+      - titel: PwC Steuern & Recht over BFH II R 26/24 en 27/24 (bijgewerkt 3 juli 2026)
+        url: https://blogs.pwc.de/en/steuern-und-recht/article/254723/update-landesgrundsteuergesetz-baden-wuerttemberg-ist-nicht-verfassungswidrig/
+      - titel: Gemeente Gerlingen, uitleg Grundsteuer B
+        url: https://www.gerlingen.de/-/Lebenslagen/leb5001725
+    effecten:
+      - label: positief
+        tekst: >-
+          **Juridisch houdbaar.** Het Bundesfinanzhof oordeelde op 22 april 2026 (uitspraken
+          II R 26/24 en II R 27/24, gepubliceerd 20 mei 2026) dat het model grondwettig is, ook
+          al rekent het met grove gemiddelden per zone. De eisers, gesteund door Haus & Grund en de
+          Bund der Steuerzahler, kondigden een klacht bij het Bundesverfassungsgericht aan.
+        zekerheid: "Hoog. Let op: dit is een juridisch resultaat, geen gemeten effect op wonen."
+        bronnen:
+          - titel: Landesregierung Baden-Württemberg, persbericht (20 mei 2026)
+            url: https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/baden-wuerttembergisches-grundsteuermodell-bestaetigt
+          - titel: Bund der Steuerzahler (20 mei 2026)
+            url: https://www.steuerzahler.de/aktuelles/detail/grundsteuer-musterklagen-vom-bundesfinanzhof-abgewiesen/
+      - label: omstreden
+        tekst: >-
+          **Werd het 'budgetneutraal'?** Het land publiceerde per gemeente een bandbreedte voor een
+          tarief dat evenveel zou opleveren als vóór de hervorming. Volgens de Bund der Steuerzahler
+          bleven 720 van de 1.101 gemeenten (65%) daarbinnen, 43 gingen eronder en 338 erboven.
+          Ongeveer 18% gebruikte de hervorming voor ten minste zo'n 5% meer opbrengst.
+        zekerheid: >-
+          Middel. Analyse van een belangenorganisatie op basis van officiële tarieven. Zegt niets
+          over individuele aanslagen.
+        bronnen:
+          - titel: Bund der Steuerzahler Baden-Württemberg (15 september 2025)
+            url: https://steuerzahler.de/aktuelles/detail/grundsteuer-nicht-ueberall-im-land-aufkommensneutral/
+      - label: negatief
+        tekst: >-
+          **Verschuiving van bedrijven naar woningen.** Karlsruhe verwachtte dat de belasting ook na
+          een flinke verlaging van de Hebesatz (van 490% naar een voorstel van 270%) zou verschuiven
+          van bedrijfspanden naar woningen, met eengezinswoningen op ruime kavels als grootste
+          stijgers. Bijna de helft van de belastingplichtigen zou juist minder gaan betalen.
+        zekerheid: Middel. Een gemeentelijke prognose uit oktober 2024, geen meting achteraf.
+        bronnen:
+          - titel: Wochenblatt Reporter Karlsruhe (10 oktober 2024)
+            url: https://www.wochenblatt-reporter.de/karlsruhe/c-wirtschaft-handel/vorschlag-fuer-neuen-hebesatz-der-grundsteuer-b-in-karlsruhe_a594835
+      - label: negatief
+        tekst: >-
+          **Particuliere eigenaren melden flinke stijgingen.** In een enquête van Haus & Grund
+          (1.999 eigenaren in heel Duitsland) stegen de aanslagen in Baden-Württemberg gemiddeld het
+          sterkst: +141%, tegen +98% in het federale model.
+        zekerheid: >-
+          Laag. De deelnemers kozen zelf om mee te doen, maar zo'n 6% van de reacties kwam uit
+          Baden-Württemberg, en de enquête komt van de verhuurderslobby.
+        bronnen:
+          - titel: Haus & Grund Deutschland, "Erste Wirkungsanalyse" (mei 2025)
+            url: https://www.hausundgrund.de/sites/default/files/downloads/grundsteuerreform-2025sonderauswertung.pdf
+      - label: onbekend
+        tekst: >-
+          **Effect op bouwen: nog niet gemeten.** De belasting bestaat pas sinds 2025 en het tarief
+          is laag. Wij vonden geen evaluatie van het effect op bouwen of op lege kavels.
+        zekerheid: Te vroeg.
+        bronnen: []
+      - label: onbekend
+        tekst: >-
+          **Extra tarief op bouwrijpe kavels (Grundsteuer C).** Sinds 2025 mogen Duitse gemeenten een
+          hoger tarief heffen op onbebouwde, bouwrijpe grond. In september 2025 deden ten minste
+          14 gemeenten dat, onder wie 5 in Baden-Württemberg. In Wendlingen kwam voor 2 van de
+          60 à 70 belaste kavels een bouwaanvraag of bouwstart. Critici wijzen op de uitvoeringslast
+          en rechtsonzekerheid.
+        zekerheid: Anekdotisch; geen evaluatie.
+        bronnen:
+          - titel: KOMMUNAL (17 september 2025)
+            url: https://kommunal.de/grundsteuer-c-steuerungselement-oder-rohrkrepierer
+    vergelijking: >-
+      De andere Duitse deelstaten kozen anders. De meeste volgen het federale model (grond én
+      gebouw); het Bundesfinanzhof keurde dat op 10 december 2025 goed. Beieren belast alleen de
+      oppervlakte van grond en gebouw, zonder te kijken naar de waarde. Hamburg, Hessen en
+      Nedersaksen gebruiken mengvormen van oppervlakte en ligging.
+    vergelijking_bronnen:
+      - titel: DATEV, overzicht per deelstaat
+        url: https://www.datev.de/web/de/berufsgruppenuebergreifend/gesetzliche-themen/grundsteuerreform/gesetzlicher-hintergrund/regelungen-der-bundeslaender
+      - titel: LTO (20 mei 2026)
+        url: https://www.lto.de/recht/nachrichten/n/bfh-iir2624-iir2724-grundsteuer-baden-wuerttember-rechtmaessig
+    les: >-
+      Een belasting op alleen de grondwaarde is uitvoerbaar en juridisch houdbaar, ook met grove
+      waarden per zone. Maar 'budgetneutraal' geldt per gemeente, niet per huishouden: wie een
+      klein huis op een grote kavel heeft, gaat er vaak op achteruit. Dat moet vooraf eerlijk
+      worden verteld.
+
+  - id: estland
+    land: Estland
+    titel: Estland
+    ondertitel: Belasting op alleen de grond, sinds 1993
+    status: Bestaat; na ruim twintig jaar zonder hertaxatie in 2024 bijgewerkt
+    ingevoerd: >-
+      Het Estse parlement nam op 10 mei 1993 een grondbelastingwet aan. Gebouwen worden niet
+      belast. Gemeenten kiezen het tarief binnen een landelijke bandbreedte: in 2025 0,1% tot 1%
+      van de grondwaarde voor woongrond en 0,1% tot 2% voor overige grond. De opbrengst is klein:
+      halverwege de jaren negentig zo'n 7% van de gemeentelijke inkomsten.
+    bronnen:
+      - titel: Ott (1997), Lincoln Institute, "Land Reform and Taxation in Estonia"
+        url: https://www.lincolninst.edu/publications/articles/land-reform-taxation-estonia/
+      - titel: Estse belastingdienst (EMTA), wijzigingen 2025
+        url: https://emta.ee/en/news/land-tax-subject-several-changes-year
+    effecten:
+      - label: negatief
+        tekst: >-
+          **Twintig jaar oude taxaties.** Na 2001 bleef een algemene hertaxatie uit. De taxatie van
+          2022 (zo'n 750.000 percelen, gebruikt vanaf 2024) liet zien dat grondwaarden sinds 2001
+          gemiddeld zeven tot acht keer zo hoog waren geworden.
+        zekerheid: Hoog.
+        bronnen:
+          - titel: ERR News (17 april 2020)
+            url: https://news.err.ee/1078974/government-endorses-plan-for-land-valuation-in-2022
+          - titel: ERR News (25 april 2025)
+            url: https://news.err.ee/1609674656/businesses-call-for-restoration-of-10-percent-land-tax-hike-ceiling
+      - label: negatief
+        tekst: >-
+          **Ruzie over de rem.** De stijging van de aanslag was in 2024 beperkt tot 10%. In 2025
+          mocht die tot 50% stijgen; vanaf 2026 kiezen gemeenten zelf een rem tussen 10% en 100%.
+          De Kamer van Koophandel protesteerde in april 2025: eigenaren hadden op een blijvende rem
+          van 10% gerekend. Van de 79 gemeenten verhoogden er in 2025 6 het tarief tot het maximum
+          en hielden 44 het gelijk.
+        zekerheid: Hoog wat de feiten betreft.
+        bronnen:
+          - titel: ERR News (25 april 2025)
+            url: https://news.err.ee/1609674656/businesses-call-for-restoration-of-10-percent-land-tax-hike-ceiling
+          - titel: ERR News, gemeentelijke tarieven 2025
+            url: https://news.err.ee/1609575406/six-local-governments-hike-land-tax-to-maximum-extent-this-year
+      - label: onbekend
+        tekst: >-
+          **Effecten op bouwen of grondgebruik:** wij vonden geen onderzoek.
+        zekerheid: Niet gemeten.
+        bronnen: []
+    les: >-
+      Estland laat zien dat een grondbelasting jarenlang kan bestaan zonder veel op te leveren of
+      veel te veranderen, zolang tarief en taxaties laag blijven. Een inhaalslag na twintig jaar
+      geeft schokken en politieke ruzie. De jaarlijkse WOZ-taxatie in Nederland voorkomt dat.
+
+  - id: australie
+    land: Australië
+    titel: Australië
+    ondertitel: Grondbelasting per deelstaat; Canberra ruilt overdrachtsbelasting in
+    status: Bestaat al lang; de ruil in Canberra loopt sinds 2012 en loopt achter
+    ingevoerd: >-
+      Australische deelstaten heffen al tientallen jaren *land tax* op de onbebouwde grondwaarde.
+      In New South Wales is het hoofdverblijf vrijgesteld; de belasting treft vooral beleggers en
+      bedrijven. Het Australian Capital Territory (Canberra) besloot in 2012 de overdrachtsbelasting
+      (*stamp duty*) in twintig jaar af te bouwen en de jaarlijkse gemeentebelasting (*general
+      rates*), die op de onbebouwde grondwaarde is gebaseerd, geleidelijk te verhogen.
+    bronnen:
+      - titel: Revenue NSW, land tax
+        url: https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/land-tax
+      - titel: ACT Treasury, "ACT Tax Reform Program"
+        url: https://www.treasury.act.gov.au/__data/assets/pdf_file/0004/1370344/ACT-Tax-Reform-Program.pdf
+    effecten:
+      - label: positief
+        tekst: >-
+          **Meer verhuizingen, lagere lasten voor kwetsbare huishoudens.** Een microsimulatie vond
+          dat de hervorming in Canberra het aantal woningtransacties verhoogde en dat de meeste
+          groepen kwetsbare huishoudens minder kwijt waren aan overdrachtsbelasting en rates. Sterk
+          stijgende huizenprijzen kunnen dat voordeel weer tenietdoen.
+        zekerheid: Middel. Peer-reviewed, maar een modelberekening.
+        bronnen:
+          - titel: Vidyattama e.a. (2023), Urban Policy and Research 41(2)
+            url: https://doi.org/10.1080/08111146.2023.2167818
+      - label: omstreden
+        tekst: >-
+          **Prijzen: geen daling zichtbaar.** Tijdens de overgang stegen zowel de huizenprijzen als
+          het aantal transacties. Of de hervorming daar zelf invloed op had, is niet vastgesteld.
+        zekerheid: Beschrijvende cijfers; geen causale studie gevonden.
+        bronnen:
+          - titel: Housing Australia (NHFIC), "Stamp Duty Reform" (20 juli 2021)
+            url: https://housingaustralia.gov.au/research/stamp-duty-reform-benefits-and-challenges
+      - label: negatief
+        tekst: >-
+          **De ruil loopt vast.** Een review in opdracht van het parlement van Canberra (Pegasus
+          Economics, juli 2026) noemt het "extreem onwaarschijnlijk" dat de overdrachtsbelasting
+          binnen de beloofde twintig jaar verdwijnt: in 2029–30 levert die nog zo'n 10% van de eigen
+          inkomsten op, en het aandeel van de rates blijft steken rond 29%. De begrotingscommissie
+          waarschuwde in augustus 2026 dat de rates tegen het eind "onhoudbaar" hoog kunnen worden.
+        zekerheid: Hoog wat de cijfers betreft.
+        bronnen:
+          - titel: Canberra Times (3 juli 2026)
+            url: https://www.canberratimes.com.au/story/9303822/act-stamp-duty-phase-not-on-track-to-meet-timetable-review-says/
+          - titel: Canberra Times (29 augustus 2026)
+            url: https://www.canberratimes.com.au/story/9339303/inquiry-warns-against-unsustainable-rates-bills-for-canberrans/
+      - label: negatief
+        tekst: >-
+          **New South Wales draaide een keuzeregeling terug.** Starters konden van 16 januari tot
+          30 juni 2023 kiezen tussen eenmalige overdrachtsbelasting of een jaarlijkse grondbelasting
+          (A$400 plus 0,3% van de grondwaarde). Na een regeringswissel werd de regeling na minder dan
+          zes maanden gesloten; wie al had gekozen, houdt die.
+        zekerheid: Hoog.
+        bronnen:
+          - titel: Revenue NSW, First Home Buyer Choice
+            url: https://www.revenue.nsw.gov.au/grants-schemes/previous-schemes/first-home-buyer-choice
+      - label: onbekend
+        tekst: >-
+          **Victoria, bedrijfspanden.** Sinds 1 juli 2024 vervangt Victoria de overdrachtsbelasting op
+          bedrijfs- en industriepanden na de eerstvolgende verkoop door een jaarlijkse belasting van
+          1% van de onbebouwde grondwaarde. Een evaluatie bestaat nog niet.
+        zekerheid: Te vroeg.
+        bronnen:
+          - titel: Department of Treasury and Finance Victoria, informatieblad (oktober 2024)
+            url: https://www.dtf.vic.gov.au/sites/default/files/2024-10/Commercial-and-Industrial-Property-Tax-Reform-Information-Sheet.pdf
+    les: >-
+      Overdrachtsbelasting geleidelijk ruilen voor een jaarlijkse grondbelasting kan, maar het duurt
+      lang en blijft bij elke regeringswissel kwetsbaar. Wie de ruil belooft, moet laten zien dat de
+      opbrengst echt terugkomt; anders voelt het als lastenverzwaring.
+
+  - id: zuid-korea
+    land: Zuid-Korea
+    titel: Zuid-Korea
+    ondertitel: Landelijke belasting op duur vastgoedbezit (jongbuse)
+    status: Bestaat; fors verhoogd, verlaagd na verkiezingen, nu weer verhoogd
+    ingevoerd: >-
+      Naast de lokale onroerendgoedbelasting kent Zuid-Korea een landelijke, progressieve belasting
+      op duur bezit van woningen en grond (*comprehensive real estate holding tax*, jongbuse). Het
+      is geen zuivere grondbelasting: bij woningen telt de totale getaxeerde waarde.
+    bronnen:
+      - titel: The Korea Times (26 november 2024)
+        url: https://www.koreatimes.co.kr/www/biz/2024/11/602_387116.html
+    effecten:
+      - label: negatief
+        tekst: >-
+          **Politieke terugslag.** Tussen 2017 en 2022 verviervoudigde het aantal belastingplichtigen
+          en werd de opbrengst acht keer zo groot, door stijgende prijzen, hogere tarieven en
+          strafheffingen voor wie meerdere woningen bezit. In januari 2022 noemde 32% van de
+          Koreanen wonen het belangrijkste probleem voor de volgende regering. Die regering
+          verlaagde de belasting: in 2024 kregen nog zo'n 460.000 eigenaren een aanslag, tegen
+          1,19 miljoen in 2022.
+        zekerheid: Hoog wat de cijfers betreft. Hoeveel de belasting de verkiezing beïnvloedde, is niet te scheiden van de prijsstijgingen zelf.
+        bronnen:
+          - titel: The Korea Times (26 november 2024)
+            url: https://www.koreatimes.co.kr/www/biz/2024/11/602_387116.html
+          - titel: Council on Foreign Relations (7 februari 2022)
+            url: https://www.cfr.org/blog/south-koreas-real-estate-policy-and-presidential-election
+      - label: positief
+        tekst: >-
+          **Kleinere prijsverschillen.** De prijsverschillen tussen dure en goedkopere woningen werden
+          kleiner na de belastingverhogingen van 2019 en 2021, en weer groter na de verlaging van 2023.
+        zekerheid: Middel. Peer-reviewed (2026), maar over een belasting op totale waarde, niet alleen op grond.
+        bronnen:
+          - titel: Hong & Hwang (2026), Journal of Housing Economics 72
+            url: https://doi.org/10.1016/j.jhe.2026.102140
+      - label: negatief
+        tekst: >-
+          **Deels doorberekend aan huurders.** Bij dure huurwoningen die onder de belasting vielen,
+          vonden dezelfde onderzoekers dat een deel van de belasting in de huur terechtkwam.
+        zekerheid: Middel. De omvang van de doorberekening konden wij niet controleren.
+        bronnen:
+          - titel: Hong & Hwang (2026), Journal of Housing Economics 72
+            url: https://doi.org/10.1016/j.jhe.2026.102140
+      - label: onbekend
+        tekst: >-
+          **Nieuwe plannen.** Lee Jae-myung stelde in 2021, als kandidaat, een algemene grondbelasting
+          voor om een basisinkomen te betalen (zo'n 50 biljoen won per jaar); critici noemden dat een
+          aantasting van eigendom. Als president zei hij in juli 2026 dat de belasting op bezit
+          ongeveer drie keer zo hoog zou moeten om het niveau van rijke landen te halen, maar dat
+          dat in één keer "bijna rellen" zou geven. Op 3 augustus 2026 kondigde de regering hogere
+          tarieven aan voor dure en niet zelf bewoonde woningen vanaf 2027–2028, met ontzien van
+          eigen bewoners.
+        zekerheid: Plannen; nog geen effecten.
+        bronnen:
+          - titel: The Korea Herald (17 november 2021)
+            url: https://www.koreaherald.com/article/2727446
+          - titel: Asia Economy (23 juli 2026)
+            url: https://view.asiae.co.kr/en/article/2026072313395834981
+          - titel: UPI (3 augustus 2026)
+            url: https://www.upi.com/Top_News/World-News/2026/08/03/property-holding-tax-real-estate-policy-tax-reform/3791785809783/
+    les: >-
+      Een belasting die snel stijgt en als straf wordt gebracht, roept heftig verzet op en wordt bij
+      de volgende verkiezing teruggedraaid. Een voorspelbaar, geleidelijk pad met teruggave via
+      lagere andere belastingen is politiek sterker.
+
+  - id: ierland
+    land: Ierland
+    titel: Ierland
+    ondertitel: 3% per jaar op bestemde, onbebouwde woongrond (sinds 2025)
+    status: In werking sinds 2025
+    ingevoerd: >-
+      Eigenaren van grond die voor wonen is bestemd en ontsloten, maar nog niet bebouwd, betalen
+      sinds 2025 jaarlijks 3% van de marktwaarde (*Residential Zoned Land Tax*). Het doel is grond
+      in gebruik te krijgen, niet geld op te halen. Gemeenten maken elk jaar een kaart van de
+      grond die eronder valt.
+    bronnen:
+      - titel: Revenue (Ierse belastingdienst), RZLT-statistieken september 2025
+        url: https://www.revenue.ie/en/corporate/documents/statistics/property-taxes/rzlt-220925.pdf
+    effecten:
+      - label: negatief
+        tekst: >-
+          **Vooral uitstel.** Tot 15 september 2025 werd €120,4 miljoen aan belasting aangegeven,
+          waarvan €75,8 miljoen (63%) is uitgesteld, bijvoorbeeld omdat er een bouwaanvraag loopt.
+          Van de 1.982 aangiften vroegen er 583 uitstel en 158 een vrijstelling.
+        zekerheid: Hoog (officiële, voorlopige cijfers).
+        bronnen:
+          - titel: Revenue, RZLT-statistieken september 2025
+            url: https://www.revenue.ie/en/corporate/documents/statistics/property-taxes/rzlt-220925.pdf
+      - label: negatief
+        tekst: >-
+          **Liever de bestemming kwijt dan bouwen.** Eigenaren, vooral boeren, kunnen hun gemeente
+          vragen de woonbestemming te schrappen; dan vervalt de belasting. In 2024 hadden al 210
+          eigenaren dat gevraagd. In de begroting voor 2025 werd het een vaste route (aanvragen tot
+          1 april). Zo verdwijnt er bouwgrond van de kaart, het tegendeel van het doel.
+        zekerheid: Middel. Het aantal komt uit een Dáil-debat zoals weergegeven door Agriland.
+        bronnen:
+          - titel: Agriland, Taoiseach in de Dáil (2024)
+            url: https://www.agriland.ie/farming-news/farmers-do-not-want-housing-estates-on-land-taoiseach/
+          - titel: McCann FitzGerald (21 oktober 2024)
+            url: https://www.mccannfitzgerald.com/knowledge/environmental-and-planning/budget-2025-and-changes-to-residential-zoned-land-tax
+      - label: onbekend
+        tekst: >-
+          **Effect op het aantal bouwvergunningen of woningen:** nog niet onderzocht.
+        zekerheid: Te vroeg.
+        bronnen: []
+    les: >-
+      Een heffing op alleen 'bouwgrond' nodigt uit om de bestemming kwijt te raken in plaats van te
+      bouwen, en uitstelregels kunnen de prikkel grotendeels wegnemen. Een brede grondbelasting op
+      alle grond heeft dat ontsnappingsluik niet.
+
+# Kortere items: plannen en wetten zonder (al) gemeten effect.
+plannen:
+  - titel: Verenigd Koninkrijk
+    tekst: >-
+      Premier Andy Burnham steunt al jaren een grondbelasting en noemt de council tax, die in Engeland
+      nog op waarden uit 1991 rust, oneerlijk. Downing Street ontkende op 27 juli 2026 wel dat de
+      regering "actief overweegt" council tax en overdrachtsbelasting te vervangen door een belasting
+      op grond- of woningwaarde.
+    bronnen:
+      - titel: AJ Bell / PA (27 juli 2026)
+        url: https://www.ajbell.co.uk/news/articles/big-decisions-ahead-council-tax-uk-pm-notes-unfairness
+      - titel: Progress and Poverty, Center for Land Economics (20 juli 2026; pleitorganisatie)
+        url: https://progressandpoverty.substack.com/p/new-uk-prime-minister-supports-land
+  - titel: Wales
+    tekst: >-
+      Wales hertaxeert de council tax in 2028, voor het eerst sinds 2003 en drie jaar later dan
+      gepland; daarna elke vijf jaar. Volgens de regering betaalt 70% van de huishoudens dan evenveel
+      of minder en zo'n 450.000 woningen meer.
+    bronnen:
+      - titel: Caerphilly Observer (mei 2024)
+        url: https://caerphilly.observer/news/1038979/council-tax-shake-up-plans-pushed-back-to-2028/
+      - titel: Local Government Finance (Wales) Act 2024, toelichting
+        url: https://www.legislation.gov.uk/asc/2024/6/notes/division/3/2/data.htm
+  - titel: Virginia (VS)
+    tekst: >-
+      Met HB 282 mogen vier steden (Charlottesville, Falls Church, Fredericksburg en Newport News)
+      sinds 2026 grond zwaarder belasten dan gebouwen. Gouverneur Spanberger tekende op 6 april 2026.
+      Het is een bevoegdheid: geen van de steden heeft het nog ingevoerd.
+    bronnen:
+      - titel: Center for Land Economics (15 april 2026; pleitorganisatie)
+        url: https://blog.landeconomics.org/p/two-states-pass-land-value-tax-enablement
+  - titel: Kentucky (VS)
+    tekst: >-
+      HB 607 staat Louisville toe gebouwen lager te belasten dan grond. Gouverneur Beshear sprak een
+      veto uit; het parlement stemde dat in april 2026 weg. Louisville heeft het nog niet ingevoerd.
+    bronnen:
+      - titel: Bloomberg Tax (22 april 2026)
+        url: https://news.bloombergtax.com/daily-tax-report-state/kentucky-legislature-allows-consolidated-local-government-property-tax-subclassification
+  - titel: Ohio (VS)
+    tekst: >-
+      Senator Louis Blessing diende in oktober 2025 een grondwetswijziging in (SJR 7) die een
+      grondbelasting mogelijk maakt, als alternatief voor een burgerinitiatief om de
+      onroerendgoedbelasting helemaal af te schaffen. Na een eerste hoorzitting in februari 2026
+      vonden wij geen verdere stappen.
+    bronnen:
+      - titel: Ohio Capital Journal (26 februari 2026)
+        url: https://ohiocapitaljournal.com/2026/02/26/ohio-lawmaker-proposed-land-value-tax-amendment-as-alternative-to-property-tax-elimination/
+  - titel: Detroit (VS)
+    tekst: >-
+      Burgemeester Duggan wilde in 2023 de belasting op gebouwen in Detroit verlagen en die op grond
+      ruim verdubbelen; volgens de stad zou 97% van de huiseigenaren minder betalen. Daarvoor was een
+      wet van de staat Michigan nodig, en die kwam er niet. Het plan is niet ingevoerd.
+    bronnen:
+      - titel: Stad Detroit, "The Land Value Tax Plan"
+        url: https://detroitmi.gov/LandValueTax
+      - titel: Bridge Michigan (31 mei 2023)
+        url: https://bridgemi.com/michigan-government/duggan-urges-state-legislature-fix-detroits-unfair-tax-system/
+
+# Mislukkingen en lessen (sectie "Wat ging er mis?").
+misgegaan:
+  - titel: Pittsburgh, 2001
+    tekst: >-
+      Na een taxatiestop van vijf jaar (vanaf 1996) liet de county alle panden opnieuw taxeren, en
+      tegelijk stapte ze over van gedeeltelijke naar volledige marktwaarde. De getaxeerde grondwaarde
+      in Pittsburgh steeg tussen 2000 en 2001 met 81%, de gebouwwaarde met 43%. De stad had haar
+      tarieven gebaseerd op een lagere raming. Dat gebeurde midden in een burgemeestersverkiezing.
+      Veel bewoners zagen hun aanslag stijgen en gaven het gesplitste tarief de schuld; de
+      gemeenteraad schafte het in 2001 af, na 88 jaar.
+    les: >-
+      Taxeer jaarlijks, zodat er nooit een inhaalsprong komt, en voer een nieuwe methode niet
+      tegelijk in met een hertaxatie. Met de jaarlijkse WOZ heeft Nederland dat eerste al.
+    bronnen:
+      - titel: Hughes (2006), hoofdstuk Pittsburgh
+        url: https://www.lincolninst.edu/app/uploads/2024/04/1275_hughes_final.pdf
+  - titel: Denemarken, 2011–2024
+    tekst: >-
+      Nieuwe taxaties werden in 2013 stilgelegd nadat de Rekenkamer de kritiek op de onnauwkeurigheid
+      had gesteund. Het nieuwe systeem werd herhaaldelijk uitgesteld en ging pas op 1 januari 2024 in,
+      eerst nog met voorlopige waarden; voor bedrijfsgrond bleek het oorspronkelijke model niet
+      uitvoerbaar. Wie in 2011–2020 te veel betaalde, krijgt geld terug: geraamd op 8,4 miljard kroon
+      in 2017, op 11,3 miljard in 2024. Om protest te voorkomen krijgen zittende eigenaren een korting
+      die blijft tot ze verkopen. In 2027 en 2028 worden woningen opnieuw alleen geïndexeerd, en de
+      Rekenkamer onderzoekt de vertragingen opnieuw.
+    les: >-
+      Een grondbelasting staat of valt met taxaties die mensen vertrouwen. Een korting tot verkoop
+      beschermt zittende eigenaren, maar maakt verhuizen duurder.
+    bronnen:
+      - titel: Den Store Danske, "ejendomsvurdering"
+        url: https://lex.dk/ejendomsvurdering
+      - titel: BDO (8 mei 2024)
+        url: https://www.bdo.dk/da-dk/faglig-info/depechen/depechen-artikler-2024/tilbagebetalingen-af-ejendomsskat-2011-2020-praeget-af-forvirring
+      - titel: Skatteministeriet, factsheet skatterabat (januari 2023)
+        url: https://www.skm.dk/media/Skatteministeriet/Presse/Faktaark/BF17-lovforslag_januar_2023/skatterabat-forhindrer-stigninger-ved-overgang-til-nye-ejendomsskattereg-ler.pdf
+      - titel: Sjællandske Medier (2 september 2026)
+        url: https://sjaellandske.sn.dk/article/6635172/politik/rigsrevisionen-vil-undersoege-omstridt-system-for-ejendomsvurderinger
+  - titel: Zuid-Korea, 2021–2022
+    tekst: >-
+      Snel stijgende huizenprijzen en tariefverhogingen maakten van de belasting op duur bezit een
+      politiek thema. Na de verkiezingen van 2022 werd ze verlaagd en daalde het aantal betalers met
+      meer dan 60%. Sinds 2026 gaat ze weer omhoog.
+    les: >-
+      Laat tarieven niet meebewegen met een prijsexplosie zonder rem, en breng de belasting niet als
+      straf maar als ruil voor lagere andere belastingen.
+    bronnen:
+      - titel: The Korea Times (26 november 2024)
+        url: https://www.koreatimes.co.kr/www/biz/2024/11/602_387116.html
+  - titel: Ierland, 2018–2026
+    tekst: >-
+      Ierlands eerdere heffing op braakliggende bouwgrond (*Vacant Site Levy*, 3% en later 7%)
+      leverde weinig op: eind 2019 was €2,3 miljoen verschuldigd en €882.000 geïnd, en slechts 4 van
+      de 31 gemeenten inden iets. De opvolger uit 2025 (3% op bestemde woongrond) wordt grotendeels
+      uitgesteld, en eigenaren kunnen de bestemming laten schrappen.
+    les: >-
+      Smalle heffingen op 'leegstaande' of 'bouwrijpe' grond zijn makkelijk te ontwijken en lastig
+      te innen. Hoe smaller de grondslag, hoe meer discussie over wat er wel en niet onder valt.
+    bronnen:
+      - titel: eolas Magazine (november 2020), over het rapport van het Parliamentary Budget Office (mei 2020)
+        url: https://eolasmagazine.ie/?p=34871
+      - titel: Revenue, RZLT-statistieken september 2025
+        url: https://www.revenue.ie/en/corporate/documents/statistics/property-taxes/rzlt-220925.pdf
+  - titel: Altoona (Pennsylvania), 2016
+    tekst: >-
+      Altoona belastte vanaf 2011 als enige stad in de VS alleen nog de grond. In 2016 besloot de
+      gemeenteraad terug te gaan naar het gewone systeem. De redenen: het had volgens de raad nooit
+      aantoonbaar gewerkt en zorgde voor verwarring. De stadsbelasting was maar een kwart van de
+      totale aanslag (county en schooldistrict belastten gebouwen gewoon door), en het hoge
+      grondtarief schrok kopers van lege kavels af.
+    les: >-
+      Een grondbelasting die maar een klein deel van de totale belastingdruk verschuift, geeft weinig
+      prikkel en veel uitlegwerk.
+    bronnen:
+      - titel: Altoona Mirror (6 juni 2016)
+        url: https://www.altoonamirror.com/news/local-news/2016/06/city-council-decides-to-cut-land-value-tax/
+  - titel: West-Duitsland, 1961–1962
+    tekst: >-
+      De Baulandsteuer (Grundsteuer C) belastte bouwrijpe, onbebouwde grond extra zwaar en liep op met
+      de jaren. Ze werd na twee jaar afgeschaft: het aanbod van bouwgrond steeg niet, kleine eigenaren
+      moesten verkopen terwijl grote eigenaren en bedrijven de belasting makkelijk droegen, en
+      speculanten kochten juist meer grond. Veel uitzonderingen en vage definities hielpen niet.
+    les: >-
+      Ook hier: een smalle heffing op 'onbebouwde' grond werkte niet. Dit is precies het type
+      instrument dat nu in Nederland als boete op stilliggende bouwprojecten wordt overwogen.
+    bronnen:
+      - titel: Wetenschappelijke Dienst van de Bundestag, WD 4-3000-022/17 (maart 2017)
+        url: https://www.bundestag.de/resource/blob/503276/6cce808b218cadffee332d57b6fe9d0e/WD-4-022-17-pdf.pdf
+  - titel: New South Wales, 2023
+    tekst: >-
+      De keuzeregeling voor starters (grondbelasting in plaats van overdrachtsbelasting) werd na een
+      regeringswissel binnen zes maanden gesloten.
+    les: >-
+      Een hervorming die maar één verkiezing overleeft, levert niets op. Brede steun vooraf is
+      belangrijker dan een snelle start.
+    bronnen:
+      - titel: Revenue NSW
+        url: https://www.revenue.nsw.gov.au/grants-schemes/previous-schemes/first-home-buyer-choice
+
+# Historische voorbeelden, één regel per stuk.
+historisch:
+  - titel: Qingdao (Duitse kolonie Kiautschou), 1898–1914
+    tekst: >-
+      Grondbelasting van 6% van de grondwaarde, oplopend tot 24% als een kavel onbebouwd bleef, plus
+      een derde van de winst bij verkoop. Het werkte zestien jaar, tot de Japanse bezetting; de huren
+      lagen door hoge bouwkosten toch 30 tot 50% boven die in Shanghai. Effecten zijn nooit goed gemeten.
+    bronnen:
+      - titel: Deutsches Historisches Museum, catalogus "Tsingtau"
+        url: https://www.dhm.de/archiv/ausstellungen/tsingtau/katalog/auf1_6.htm
+      - titel: Silagi & Faulkner (1993), American Journal of Economics and Sociology
+        url: https://doi.org/10.1111/j.1536-7150.1993.tb02753.x
+  - titel: Verenigd Koninkrijk, 1909–1920
+    tekst: >-
+      De 'People's Budget' van Lloyd George voerde heffingen op grondwaardestijging in. De
+      daarvoor nodige taxatie van al het land kostte vijf jaar (1910–1915); de heffingen werden in
+      1920 afgeschaft voordat ze echt iets opleverden.
+    bronnen:
+      - titel: The National Archives, Valuation Office survey 1910–1915
+        url: https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/valuation-office-survey-land-value-ownership-1910-1915/

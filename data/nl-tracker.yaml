@@ -1,0 +1,333 @@
+# Nederlandse stand van zaken (sectie "En in Nederland?" op /wereldwijd/).
+#
+# Per item: titel, datum (JJJJ-MM-DD of JJJJ-MM), status, tekst (Markdown mag),
+# optioneel voor/tegen (fracties bij stemmingen) en bronnen (titel + url).
+# Statussen: programma, akkoord, aangenomen, verworpen, aangehouden, in-werking, rapport, brief, plan
+# Stemmingsuitslagen komen uit de open data van de Tweede Kamer (gegevensmagazijn.tweedekamer.nl).
+# Fractienamen staan zoals op het moment van stemmen (GroenLinks-PvdA heet sinds juni 2026 PRO).
+
+bijgewerkt: 2026-10-21
+
+categorieen:
+  - id: wet
+    titel: Wat de wet nu toestaat
+    items:
+      - titel: "OZB: één tarief over grond en gebouw samen"
+        datum: 2026-10
+        status: in-werking
+        tekst: >-
+          De OZB wordt geheven over de WOZ-waarde van grond en gebouw samen (art. 220c Gemeentewet),
+          met één percentage per categorie (art. 220f). Gemeenten mogen alleen de belastingen heffen
+          die de wet noemt (art. 219). Een gemeente kan dus niet zelf de grond zwaarder belasten dan
+          het gebouw; daarvoor moet de wet veranderen.
+        bronnen:
+          - titel: Gemeentewet, art. 220f
+            url: https://wetten.overheid.nl/jci1.3:c:BWBR0005416&artikel=220f
+      - titel: "Leegstandbelasting (art. 221a Gemeentewet): het voorbeeld van een opt-in"
+        datum: 2026-03-21
+        status: in-werking
+        tekst: >-
+          Gemeenten mógen sinds 21 maart 2026 een belasting heffen op woningen die langer dan twaalf
+          maanden leegstaan; ze bepalen zelf de maatstaf. Het artikel kwam er via een amendement van
+          Stultiens c.s. op de Fiscale verzamelwet 2026, dat de Tweede Kamer op 23 september 2025
+          aannam. Een opt-in voor een grondbelasting zou op dezelfde manier kunnen worden geregeld.
+        voor: [SP, GroenLinks-PvdA, PvdD, DENK, Volt, D66, NSC, PVV]
+        bronnen:
+          - titel: Gemeentewet, art. 221a
+            url: https://wetten.overheid.nl/jci1.3:c:BWBR0005416&artikel=221a
+          - titel: Staatsblad 2025, 431
+            url: https://zoek.officielebekendmakingen.nl/stb-2025-431.html
+          - titel: Staatsblad 2026, 58 (inwerkingtreding)
+            url: https://zoek.officielebekendmakingen.nl/stb-2026-58.html
+
+  - id: partijen
+    titel: Partijen (verkiezingen van 29 oktober 2025)
+    intro: >-
+      Volgens de doorrekening door het CPB (Keuzes in Kaart 2027–2030, oktober 2025). Alleen tien
+      partijen deden mee; PVV, SP, PvdD, FVD en DENK niet.
+    items:
+      - titel: GroenLinks-PvdA (nu PRO)
+        datum: 2025-10
+        status: programma
+        tekst: >-
+          Een grondwaardebelasting op percelen met een waarde vanaf €1 miljoen: €1,0 miljard per jaar,
+          betaald door bedrijven. Het CPB waarschuwt dat daarvoor een nieuwe registratie van
+          grondwaarden nodig is en dat het mogelijk tot uitvoeringsproblemen bij de Belastingdienst
+          leidt. Daarnaast een gemeentelijke planbatenheffing (structureel €1,5 miljard in 2037).
+        bronnen:
+          - titel: CPB, Keuzes in Kaart 2027–2030 (pdf, p. 178–179)
+            url: https://omgevingsweb.nl/wp-content/uploads/2025/10/1083646.pdf
+      - titel: D66
+        datum: 2025-10
+        status: programma
+        tekst: >-
+          Een landelijke heffing voor bedrijven op de waarde van grond waarop geen woningen staan:
+          €1,0 miljard. Een planbatenheffing van €1,3 miljard; volgens het CPB geeft snelle invoering
+          juridische en uitvoeringsrisico's. Ook het schrappen van OZB-vrijstellingen voor
+          niet-woningen (€1,2 miljard).
+        bronnen:
+          - titel: CPB, Keuzes in Kaart 2027–2030 (p. 222)
+            url: https://omgevingsweb.nl/wp-content/uploads/2025/10/1083646.pdf
+      - titel: Volt
+        datum: 2025-10
+        status: programma
+        tekst: >-
+          Een grondwaardebelasting op percelen met een waarde vanaf €1 miljoen (€1,0 miljard, betaald
+          door bedrijven) en een planbatenheffing (€0,2 miljard in 2037).
+        bronnen:
+          - titel: CPB, Keuzes in Kaart 2027–2030 (p. 290–291)
+            url: https://omgevingsweb.nl/wp-content/uploads/2025/10/1083646.pdf
+      - titel: CDA en ChristenUnie
+        datum: 2025-10
+        status: programma
+        tekst: >-
+          Geen grondbelasting, wel een gemeentelijke planbatenheffing: CDA €0,2 miljard in 2037 (de
+          opbrengst gaat naar gemeenten voor woningbouw), ChristenUnie €1,0 miljard in 2037.
+        bronnen:
+          - titel: CPB, Keuzes in Kaart 2027–2030 (p. 238, 244 en 272)
+            url: https://omgevingsweb.nl/wp-content/uploads/2025/10/1083646.pdf
+      - titel: VVD, NSC, BBB, SGP en JA21
+        datum: 2025-10
+        status: programma
+        tekst: >-
+          In hun doorrekening komt geen grondbelasting of planbatenheffing voor.
+        bronnen:
+          - titel: CPB, Keuzes in Kaart 2027–2030
+            url: https://omgevingsweb.nl/wp-content/uploads/2025/10/1083646.pdf
+
+  - id: kabinet
+    titel: Kabinet
+    items:
+      - titel: Coalitieakkoord D66, VVD en CDA (kabinet-Jetten)
+        datum: 2026-01-30
+        status: akkoord
+        tekst: >-
+          "De fiscale behandeling van de eigen woning [blijft] ongewijzigd." Gemeenten krijgen meer
+          mogelijkheden voor actief grondbeleid (voorkeursrecht, een grondfaciliteit). Voor het
+          afromen van winst op grond is "uitbreiden van het kostenverhaal het snelst en meest
+          geschikt". Vóór eind 2026 komt een hervormingsagenda voor het belastingstelsel, te beginnen
+          met de inkomstenbelasting. Een grondbelasting staat er niet in.
+        bronnen:
+          - titel: Coalitieakkoord "Aan de slag", p. 19 en 66
+            url: https://zoek.officielebekendmakingen.nl/blg-1233855.pdf
+      - titel: "Kamerbrief: liever meer kostenverhaal dan een planbatenheffing"
+        datum: 2025-06-20
+        status: brief
+        tekst: >-
+          De minister van VRO geeft de voorkeur aan uitbreiding van het bestaande kostenverhaal
+          boven een nieuwe planbatenheffing, "met name omdat er geen extra instrument wordt
+          geïntroduceerd". Omdat zo'n 70% van de woningbouw binnenstedelijk is, ontstaat daar
+          weinig waardestijging door bestemmingswijziging; een planbatenheffing werkt vooral buiten
+          de stad.
+        bronnen:
+          - titel: Kamerstuk 32847, nr. 1351
+            url: https://zoek.officielebekendmakingen.nl/kst-32847-1351.html
+
+  - id: moties
+    titel: Moties in de Tweede Kamer
+    items:
+      - titel: Grinwis c.s. — inbrengwaarde van grond op de residuele waarde
+        datum: 2026-09-29
+        status: aangenomen
+        tekst: >-
+          Verzoekt de regering de waarde van grond bij kostenverhaal vanaf 2028, uiterlijk 2029, te
+          bepalen met de residuele methode (opbrengst van de ontwikkeling min de kosten). De motie
+          noemt een planbatenheffing "complex", met risico op vertraging, en kiest daarom voor
+          kostenverhaal. Een grondadviseur noemde de methode op Omgevingsweb "nodeloos ingewikkeld"
+          en onuitvoerbaar.
+        voor: [SGP, BBB, CDA, Groep Markuszower, D66, JA21, FVD, VVD, Keijzer, 50PLUS, Volt, ChristenUnie, PVV]
+        tegen: [PRO, SP, DENK, PvdD]
+        bronnen:
+          - titel: Kamerstuk 36800-XXII, nr. 49
+            url: https://zoek.officielebekendmakingen.nl/kst-36800-XXII-49.html
+          - titel: Omgevingsweb (5 oktober 2026), kritiek
+            url: https://omgevingsweb.nl/nieuws/kies-bij-kostenverhaal-voor-een-werkbare-oplossing/
+      - titel: Zalinyan — maatschappelijke opgaven leidend bij de inzet van rijksgrond
+        datum: 2026-06-03
+        status: aangenomen
+        tekst: Bij strategische inzet van grond van het Rijk moeten maatschappelijke opgaven leidend zijn.
+        voor: [Volt, PvdD, SGP, SP, D66, ChristenUnie, CDA, JA21, GroenLinks-PvdA, 50PLUS, DENK]
+        tegen: [VVD, PVV, Groep Markuszower, BBB, FVD, Keijzer]
+        bronnen:
+          - titel: Kamerstuk 34293, nr. 152
+            url: https://zoek.officielebekendmakingen.nl/kst-34293-152.html
+      - titel: De Hoop — voorstel voor planbatenheffing of meer kostenverhaal vóór Prinsjesdag
+        datum: 2026-05-28
+        status: verworpen
+        tekst: >-
+          Constateert dat de Kamer al meerdere keren om een uitgewerkte planbatenheffing vroeg en
+          verzoekt de regering die vóór Prinsjesdag 2026 te sturen. Verworpen.
+        voor: [ChristenUnie, PvdD, DENK, GroenLinks-PvdA, Volt, BBB, 50PLUS, SP, PVV, Groep Markuszower]
+        tegen: [D66, Keijzer, JA21, VVD, CDA, SGP, FVD]
+        bronnen:
+          - titel: Kamerstuk 32847, nr. 1453
+            url: https://zoek.officielebekendmakingen.nl/kst-32847-1453.html
+      - titel: Zalinyan — gebruikswaarde van grond juridisch borgen
+        datum: 2026-01-15
+        status: verworpen
+        tekst: Vroeg de gebruikswaarde van grond (in plaats van de marktwaarde) zo snel mogelijk juridisch vast te leggen bij kostenverhaal.
+        voor: [GroenLinks-PvdA, SP, 50PLUS, Volt, PvdD, BBB]
+        tegen: [Groep Markuszower, PVV, ChristenUnie, VVD, DENK, SGP, CDA, JA21, D66, FVD]
+        bronnen:
+          - titel: Kamerstuk 36800-XXII, nr. 26
+            url: https://zoek.officielebekendmakingen.nl/kst-36800-XXII-26.html
+      - titel: Zalinyan en Beckerman — rijksgrondfaciliteit voor wooncoöperaties
+        datum: 2026-01-15
+        status: aangenomen
+        tekst: Verkennen hoe de rijksgrondfaciliteit wooncoöperaties kan helpen het risico van grondaankopen te delen.
+        voor: [DENK, SGP, PVV, SP, D66, 50PLUS, GroenLinks-PvdA, PvdD, Groep Markuszower, ChristenUnie, Volt, BBB]
+        tegen: [JA21, FVD, CDA, VVD]
+        bronnen:
+          - titel: Kamerstuk 36800-XXII, nr. 25
+            url: https://zoek.officielebekendmakingen.nl/kst-36800-XXII-25.html
+      - titel: Zalinyan — nationale grondbank
+        datum: 2026-01-15
+        status: aangehouden
+        tekst: Aangehouden en later vervallen omdat de termijn verstreek.
+        bronnen:
+          - titel: Kamerstuk 36800-XXII, nr. 24
+            url: https://zoek.officielebekendmakingen.nl/kst-36800-XXII-24.html
+      - titel: De Hoop en Beckerman — voorstel voor een gemeentelijke planbatenheffing
+        datum: 2025-03-26
+        status: aangenomen
+        tekst: Een van drie aangenomen moties (2024–2025) die om een uitgewerkte planbatenheffing vroegen.
+        voor: [GroenLinks-PvdA, NSC, PvdD, SP, SGP, CDA, DENK, PVV, Volt, D66, ChristenUnie]
+        tegen: [JA21, BBB, VVD, FVD]
+        bronnen:
+          - titel: Kamerstuk 32847, nr. 1292
+            url: https://zoek.officielebekendmakingen.nl/kst-32847-1292.html
+          - titel: Eerdere moties Beckerman (nr. 1163) en De Hoop c.s. (nr. 1167), april 2024
+            url: https://zoek.officielebekendmakingen.nl/kst-32847-1167.html
+      - titel: Nijboer — wettelijke mogelijkheden om braakliggende terreinen te benutten
+        datum: 2020-02-18
+        status: aangenomen
+        tekst: Onderzoek naar wettelijke mogelijkheden voor gemeenten om grond die speculanten braak laten liggen te benutten.
+        voor: [50PLUS, PvdD, PVV, Van Kooten-Arissen, SGP, ChristenUnie, GroenLinks, DENK, SP, D66, PvdA]
+        tegen: [Van Haga, CDA, VVD, FVD]
+        bronnen:
+          - titel: Kamerstuk 32847, nr. 610
+            url: https://zoek.officielebekendmakingen.nl/kst-32847-610.html
+      - titel: Beckerman c.s. — bouwplicht op uitgegeven grond
+        datum: 2019-03-13
+        status: verworpen
+        tekst: >-
+          Vroeg een landelijke bouwplicht, zodat gemeenten kunnen optreden als op uitgegeven grond
+          niet op tijd wordt gebouwd. Verworpen.
+        voor: [GroenLinks, SP, PvdA, DENK, PvdD, PVV]
+        tegen: [ChristenUnie, CDA, D66, FVD, 50PLUS, SGP, VVD]
+        bronnen:
+          - titel: Kamerstuk 32847, nr. 481
+            url: https://zoek.officielebekendmakingen.nl/kst-32847-481.html
+      - titel: Nijboer c.s. — onderzoek naar meeprofiteren van planbaten
+        datum: 2019-03-13
+        status: aangenomen
+        tekst: Leidde tot het onderzoek naar het afromen van planbaten dat in de werkgroep van 2020 terugkomt.
+        voor: [PvdA, PvdD, 50PLUS, SGP, DENK, D66, GroenLinks, ChristenUnie, SP]
+        tegen: [VVD, FVD, PVV, CDA]
+        bronnen:
+          - titel: Kamerstuk 32847, nr. 492
+            url: https://zoek.officielebekendmakingen.nl/kst-32847-492.html
+
+  - id: rapporten
+    titel: Rapporten
+    items:
+      - titel: DNB — de grondslag van een planbatenheffing
+        datum: 2025-06-02
+        status: rapport
+        tekst: >-
+          Schat de waardestijging door het omzetten van landbouwgrond in woningbouwgrond op zo'n
+          €1,4 miljoen per hectare en de landelijke planbaten op €7 à 8 miljard per jaar. De auteurs
+          noemen de schatting indicatief en waarschuwen dat eigenaren zonder rendement minder snel
+          bouwgrond aanbieden.
+        bronnen:
+          - titel: De Meijier & Hebbink, DNB Analyse
+            url: https://www.dnb.nl/publicaties/publicaties-onderzoek/analyse/grondslag-van-een-planbatenheffing/
+      - titel: IBO "Op grond kun je bouwen"
+        datum: 2024-06
+        status: rapport
+        tekst: >-
+          Een algemene grondbelasting is efficiënt, maar complex, vraagt een lang overgangspad en is
+          "niet doelmatig als alleen woningbouw het doel is". Een belasting op bouwgrond waar nog niet
+          gebouwd wordt, noemt het rapport een "doelmatig alternatief". Het splitsen van de WOZ in een
+          grond- en een opstaldeel maakt verschillende OZB-tarieven mogelijk. Naar schatting een kwart
+          van de harde plancapaciteit blijft lang ongebruikt.
+        bronnen:
+          - titel: IBO woningbouw en grond (2024), p. 47–48
+            url: https://zoek.officielebekendmakingen.nl/blg-1149537.pdf
+      - titel: COELO en ESBL voor het ministerie van Financiën
+        datum: 2024-05-31
+        status: rapport
+        tekst: >-
+          Een algemene grondbelasting "kan binnen de bestaande ozb worden ingepast en is een zeer
+          efficiënte manier om belastinggeld te verkrijgen", maar is "minder geschikt om woningbouw te
+          versnellen". Een belasting op alleen bebouwbare grond zal volgens de onderzoekers maar een
+          beperkt effect op de woningbouw hebben. Een planbatenheffing kan wél een goede bijdrage
+          leveren.
+        bronnen:
+          - titel: Allers, Schep e.a., "Mogelijkheden voor invoering van een planbatenheffing en een grondbelasting"
+            url: https://www.coelo.nl/images/rapporten/Eindrapport_planbatenheffing_en_grondbelasting_3_juni_2024.pdf
+      - titel: Werkgroep "Bouwstenen voor een beter belastingstelsel" (BZK)
+        datum: 2020-05-01
+        status: rapport
+        tekst: >-
+          Beoordeelde een grondbelasting als "minder kansrijk": hoog scorend op opbrengst en
+          economische efficiëntie, maar met de laagste score op uitvoerbaarheid. De Waarderingskamer
+          was "overwegend kritisch": Amsterdams onderzoek naar erfpacht vond weinig doorwerking in
+          prijzen, een grondbelasting zou betaalbare bouw op centrumlocaties kunnen belemmeren, de
+          grondmarkt is in Nederland grotendeels in handen van overheden, en het splitsen van de WOZ in
+          grond en opstal verhoogt de uitvoeringskosten en het aantal bezwaren.
+        bronnen:
+          - titel: Bouwstenen voor een beter belastingstelsel, bijlage 4.5 en 4.10
+            url: https://zoek.officielebekendmakingen.nl/blg-933312.pdf
+
+  - id: provincies
+    titel: Provincies
+    items:
+      - titel: Zuid-Holland — lobby voor een planbatenheffing (moties 1681 en 1780)
+        datum: 2026-02-24
+        status: aangenomen
+        tekst: >-
+          Provinciale Staten namen op 9 juli 2025 motie 1681 "Aan de slag met planbatenheffing" aan en
+          op 12 november 2025, na staking van stemmen in oktober, motie 1780 "Lobby voor invoering
+          planbatenheffing". Gedeputeerde Staten vroegen de minister van VRO op 24 februari 2026 per brief
+          om een planbatenheffing, en niet alleen om meer kostenverhaal.
+        bronnen:
+          - titel: GS-voorstel motie 1780 (24 februari 2026)
+            url: https://www.zuid-holland.nl/publish/besluitenattachments/behandelvoorstel-motie-1780-lobby-voor-invoering-planbatenheffing-oproep-bespoed/gs-voorstel-behandelvoorstel-motie-1780-lobby-voor-invoering-planbatenheffing-op.pdf
+          - titel: GS-voorstel motie 1681
+            url: https://www.zuid-holland.nl/publish/besluitenattachments/behandelvoorstel-motie-1681-aan-de-slag-met-planbatenheffing/gs-voorstel-behandelvoorstel-motie-1681-aan-de-slag-met-planbatenheffing-dos-201.pdf
+
+  - id: gemeenten
+    titel: Gemeenten
+    items:
+      - titel: Amsterdam — onderzoek naar een boete op uitgestelde bouwprojecten
+        datum: 2026-06
+        status: plan
+        tekst: >-
+          Het coalitieakkoord 2026–2030 van PRO en D66: "We onderzoeken of er een boete kan komen op
+          het zonder goede reden uitstellen van bouwprojecten." De stad wil ook vaker het voorkeursrecht
+          gebruiken. De OZB gaat deze periode niet omhoog, behalve met de inflatie.
+        bronnen:
+          - titel: NH Nieuws (3 juni 2026) over het coalitieakkoord
+            url: https://www.nhnieuws.nl/nieuws/360373/wat-staat-in-coalitieakkoord-amsterdam
+      - titel: Utrecht — OZB fors omhoog
+        datum: 2026
+        status: plan
+        tekst: >-
+          Het coalitieakkoord 2026–2030 verhoogt de OZB voor woningen met 15% en voor niet-woningen met
+          23%, goed voor €41,5 miljoen per jaar vanaf 2027. Gemeenten verhogen de OZB dus al; de vraag
+          is of ze die mogen verschuiven van gebouwen naar grond.
+        bronnen:
+          - titel: Coalitieakkoord gemeente Utrecht 2026–2030
+            url: https://www.utrecht.nl/fileadmin/uploads/documenten/bestuur-en-organisatie/college-van-b-en-w/collegeformatie/16927_GU_Coalitieakkoord_2026-2030_Digitaal.pdf
+
+  - id: maatschappij
+    titel: Maatschappelijke organisaties
+    items:
+      - titel: Land en Vrijheid
+        datum: 2026
+        status: plan
+        tekst: De Nederlandse vereniging van geoïsten (aanhangers van Henry George).
+        bronnen:
+          - titel: landenvrijheid.nl
+            url: https://landenvrijheid.nl/
