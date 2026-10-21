@@ -178,8 +178,8 @@ Verbeteringen zijn welkom.</p>
 <p class="onderdeel"><span class="nr">c.</span> een percentage voor de opstalwaarde, dat lager is dan het percentage voor de grondwaarde.</p>
 <p class="lid"><span class="nr">5.</span> De percentages, bedoeld in het vierde lid, onderdelen b en c, worden zodanig vastgesteld dat de geraamde opbrengst van de belasting niet hoger is dan de geraamde opbrengst bij heffing naar het basispercentage over de gehele heffingsmaatstaf.</p>
 <p class="lid"><span class="nr">6.</span> Indien artikel 220f, tweede lid, wordt toegepast en voor de belasting, bedoeld in artikel 220f, eerste lid, onderdeel b, toepassing is gegeven aan het eerste lid, gelden voor de daar bedoelde onroerende zaken de percentages voor de grondwaarde en de opstalwaarde van die belasting.</p>
-<p class="lid"><span class="nr">7.</span> In de belastingverordening kan worden bepaald dat voor onroerende zaken waarvan de grond door de gemeente in erfpacht is uitgegeven, voor de grondwaarde een lager percentage geldt dan het percentage, bedoeld in het vierde lid, onderdeel b, doch niet lager dan het percentage, bedoeld in het vierde lid, onderdeel c.</p>
-<p class="lid wet-optie"><span class="nr">[8.</span> In de eerste vier kalenderjaren waarin de gemeente toepassing geeft aan het eerste lid, bedraagt het percentage voor de opstalwaarde ten minste de helft van het percentage voor de grondwaarde.]</p>
+<p class="lid"><span class="nr">7.</span> Voor een onroerende zaak waarvan de grond in erfpacht is uitgegeven door een rechtspersoon als bedoeld in artikel 1, eerste lid, van Boek 2 van het Burgerlijk Wetboek, en waarvoor de erfpachter op regelmatig terugkerende tijdstippen een canon als bedoeld in artikel 85, tweede lid, van Boek 5 van het Burgerlijk Wetboek verschuldigd is, bedraagt het percentage voor de grondwaarde ten hoogste het basispercentage. In de belastingverordening kan voor deze onroerende zaken een lager percentage voor de grondwaarde worden vastgesteld, doch niet lager dan het percentage voor de opstalwaarde.</p>
+<p class="lid"><span class="nr">8.</span> Voor een kalenderjaar dat niet later valt dan het derde kalenderjaar na het kalenderjaar waarin dit artikel in werking is getreden, bedraagt het percentage voor de opstalwaarde ten minste de helft van het percentage voor de grondwaarde.</p>
 </div>
 <p class="wet-onderdeel-kop">B</p>
 <p>Aan artikel 221, derde lid, wordt een volzin toegevoegd, luidende: Indien toepassing is gegeven aan artikel 220fa, eerste lid, is daarbij het basispercentage, bedoeld in artikel 220fa, vierde lid, onderdeel a, van toepassing.</p>
@@ -195,6 +195,7 @@ Verbeteringen zijn welkom.</p>
 <p class="lid"><span class="nr">4.</span> De grondwaarde bedraagt niet meer dan de waarde, bedoeld in artikel 17.</p>
 <p class="lid"><span class="nr">5.</span> Artikel 18 is van overeenkomstige toepassing.</p>
 <p class="lid"><span class="nr">6.</span> Bij of krachtens algemene maatregel van bestuur worden regels gesteld over de bepaling van de grondwaarde, waaronder regels over het gebruik van grondprijzen per vierkante meter die per gebied worden vastgesteld. Artikel 20, derde lid, is van overeenkomstige toepassing.</p>
+<p class="lid"><span class="nr">7.</span> Degene die ingevolge artikel 1, tweede lid, met de uitvoering van deze wet is belast, maakt de grondprijzen per vierkante meter, bedoeld in het zesde lid, en de begrenzing van de gebieden waarvoor zij zijn vastgesteld, openbaar uiterlijk op het tijdstip waarop de beschikkingen, bedoeld in artikel 22, eerste lid, worden bekendgemaakt.</p>
 </div>
 <p class="wet-onderdeel-kop">B</p>
 <p>In artikel 20, eerste lid, wordt na &ldquo;bepaalt de waarde van die onroerende zaak&rdquo; ingevoegd &ldquo;en, in het geval, bedoeld in artikel 17a, eerste lid, de grondwaarde&rdquo;.</p>
@@ -266,14 +267,26 @@ Bij appartementen wordt de grondwaarde van het hele gebouw verdeeld naar verhoud
 De grondwaarde wordt in dezelfde beschikking vastgesteld als de WOZ-waarde, zodat er geen extra beschikking komt en bezwaar en beroep gewoon via de bestaande WOZ-procedure lopen (artikel II, onderdelen C en D).
 Een algemene maatregel van bestuur regelt de methode, onder meer het gebruik van grondprijzen per vierkante meter per gebied.
 De Waarderingskamer houdt daar toezicht op, zoals op de rest van de waardebepaling ([Wet WOZ, art. 4](https://wetten.overheid.nl/jci1.3:c:BWBR0007119&artikel=4)).
+De grondprijzen per vierkante meter per gebied en de grenzen van die gebieden worden openbaar (zevende lid).
+Dat zijn geen persoonsgegevens, en met de openbare kadastrale kaart kan iedereen de grondwaarde van zijn eigen perceel en dat van de buren narekenen.
+Zo zien inwoners of vergelijkbare grond in hun buurt gelijk wordt behandeld, en verschillen tussen buren zijn een veelvoorkomende reden voor bezwaar.
 
 ### Erfpacht
 
-Wie grond van de gemeente in erfpacht heeft, betaalt al een canon voor die grond en daarnaast OZB over de volle WOZ-waarde, inclusief de grond.
+Wie grond van een overheid in erfpacht heeft en daarvoor canon betaalt, betaalt al voor die grond, en daarnaast OZB over de volle WOZ-waarde, inclusief de grond.
 Een hoger tarief op grond zou die dubbele last vergroten.
-Het zevende lid laat de raad daarom een lager grondtarief kiezen voor grond die de gemeente in erfpacht heeft uitgegeven.
-De gemeente kan in plaats daarvan ook de canon aanpassen.
-Of deze regeling ook moet gelden voor erfpacht van andere overheden of van particulieren, is een open vraag.
+Het zevende lid voorkomt dat: voor die grond is het grondtarief nooit hoger dan het basispercentage.
+Dat is verplicht en niet aan de gemeente overgelaten, omdat de overheid de grondrente hier al via de canon ontvangt.
+De raad mag het grondtarief voor deze grond verder verlagen, tot het tarief voor gebouwen, of de canon aanpassen.
+In gemeenten met veel erfpacht, zoals Amsterdam, wordt de verschuiving daardoor kleiner.
+
+De regel geldt voor erfpacht van de Staat, provincies, gemeenten en waterschappen ([art. 2:1 BW](https://wetten.overheid.nl/jci1.3:c:BWBR0003045&boek=2&artikel=1)).
+Die is eenvoudig te controleren en niet vatbaar voor constructies.
+Bij particuliere erfpacht zou een eigenaar zijn grond in erfpacht kunnen geven aan een eigen vennootschap om het lagere tarief te krijgen.
+Bij particuliere erfpacht met een canon die periodiek wordt herzien, corrigeert het effect zich deels vanzelf: als de grond minder waard wordt, daalt de canon bij de volgende herziening.
+
+De regel geldt niet voor afgekochte erfpacht.
+Wie de canon voor altijd heeft afgekocht, heeft de grond in economische zin gekocht en staat er net zo voor als een eigenaar.
 
 ### Vrijstellingen en woonboten
 
@@ -289,7 +302,7 @@ Dat is een bewuste keuze, en een les uit de verhuurderheffing (zie de vragen hie
 ### Eigendomsrecht
 
 COELO/ESBL concluderen dat een grondbelasting binnen de OZB een geoorloofde inmenging in het eigendomsrecht is, onder voorwaarden (p. 82–83).
-Dit voorstel volgt die voorwaarden: de raad moet zijn keuze, zoals elke tariefkeuze, kunnen onderbouwen, de methode voor de grondwaarde staat in de wet en een AMvB, de verschuiving is budgetneutraal en dus gematigd, en het optionele achtste lid begrenst de verschuiving in de eerste jaren.
+Dit voorstel volgt die voorwaarden: de raad moet zijn keuze, zoals elke tariefkeuze, kunnen onderbouwen, de methode voor de grondwaarde staat in de wet en een AMvB, de verschuiving is budgetneutraal en dus gematigd, en het achtste lid begrenst de verschuiving in de eerste vier jaar na invoering.
 
 ### Gemeentefonds
 
@@ -343,9 +356,10 @@ Een verhuurder vraagt daar al wat de markt wil betalen, en een belasting op gron
 Een erfpachter betaalt nu al twee keer voor dezelfde grond: een canon aan de grondeigenaar, en OZB over de volle WOZ-waarde, inclusief de grond.
 COELO/ESBL wijzen erop dat de totale lasten voor erfpachters kunnen stijgen bij een grondbelasting (p. 85–86).
 Daarom moet er een verrekening zijn.
-Het concept geeft de raad de mogelijkheid om voor grond die de gemeente zelf in erfpacht heeft uitgegeven een lager grondtarief te kiezen (artikel 220fa, zevende lid).
-Een gemeente met veel erfpacht kan ook de canon verlagen.
-Voor erfpacht van andere grondeigenaren moet nog een oplossing worden uitgewerkt.
+Het concept regelt dat verplicht voor erfpacht van een overheid waarvoor nog canon wordt betaald: het grondtarief is daar nooit hoger dan het basispercentage (artikel 220fa, zevende lid).
+De raad mag verder gaan, of de canon verlagen.
+Afgekochte erfpacht valt er niet onder: wie heeft afgekocht, staat er net zo voor als een eigenaar.
+Voor particuliere erfpacht is er geen aparte regel, omdat die gevoelig is voor constructies; daar daalt de canon bij een herziening mee met de grondwaarde.
 
 ### Wat gebeurt er met landbouwgrond?
 
@@ -362,7 +376,8 @@ Een gerichte oplossing, bijvoorbeeld het vervallen van de vrijstelling voor gron
 
 Ja, op drie manieren.
 De raad kan klein beginnen, bijvoorbeeld met een verhouding van 1,5 : 1, en die elk jaar wat vergroten.
-Het optionele achtste lid maakt dat verplicht: in de eerste vier jaar is het tarief op gebouwen minstens de helft van dat op grond.
+Het achtste lid maakt dat verplicht in de eerste vier jaar na invoering van de wet: dan is het tarief op gebouwen minstens de helft van dat op grond.
+Gemeenten die later beginnen, zijn daar niet meer aan gebonden; zij kunnen leren van de gemeenten die al begonnen.
 En wie eerst wil zien hoe het werkt, kiest de variant met een experiment in een beperkt aantal gemeenten, met evaluatie na vier jaar.
 Een gemeente kan ook al vóór invoering de grondprijzen per gebied uitrekenen en publiceren, zodat inwoners kunnen nagaan wat er voor hen verandert.
 

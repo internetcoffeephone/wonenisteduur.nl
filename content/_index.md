@@ -110,7 +110,7 @@ Wél betaal je meer belasting als je op een gewilde plek woont. Maar daar krijg 
 
 De overheid, net als nu. Gemeenten stellen elk jaar al de WOZ-waarde van elk huis vast. De waarde van de grond los van het huis bepalen is ook goed te doen. Dat gebeurt met rekenmodellen die vergelijkbare huizen op verschillende locaties naast elkaar zetten. Zuid-Korea taxeert elk jaar de grond onder álle percelen in het land, los van de gebouwen, en is daar vijf maanden mee bezig. De Duitse deelstaat Baden-Württemberg belast sinds 2025 alleen nog grondwaarde; de hoogste Duitse belastingrechter heeft dat in 2026 bevestigd. Denemarken, Estland en delen van Australië en de VS doen het al veel langer. En veel Nederlandse gemeenten rekenen in hun WOZ-model nu al met een grondprijs per vierkante meter per buurt (de "grondstaffel"). Bij een huis met een eigen kavel staat die vaak al in het taxatieverslag, en een enkele gemeente publiceert de staffels per gebied.
 
-De WOZ-waarde van elk huis kun je nu al opzoeken. Voor grondwaarden moet dat ook gelden, per perceel. Zo kan iedereen controleren of het klopt, en kunnen politici en ambtenaren niet verstoppen wanneer ze het systeem misbruiken voor eigen gewin.
+De WOZ-waarde van elk huis kun je nu al opzoeken. Voor grond moet dat ook kunnen: als de gemeente de grondprijs per vierkante meter per buurt publiceert, kan iedereen narekenen wat zijn eigen grond en die van de buren waard is. Zo kan iedereen controleren of het klopt, en kunnen politici en ambtenaren niet verstoppen wanneer ze het systeem misbruiken voor eigen gewin.
 
 ---
 
@@ -136,7 +136,7 @@ Een paar dingen hoeven niet zo lang te wachten:
 
 - **Geef gemeenten de keuze om de OZB op grondwaarde te baseren** in plaats van op huis en grond samen, zonder dat de totale opbrengst stijgt. Nu mag dat niet: de Gemeentewet schrijft één tarief over de hele WOZ-waarde voor. Eén wetswijziging is genoeg, precies zoals gemeenten sinds 2026 zelf mogen kiezen voor een leegstandbelasting. Hoe dat kan, hebben economen van het COELO in 2024 al [uitgewerkt](https://www.coelo.nl/images/rapporten/Eindrapport_planbatenheffing_en_grondbelasting_3_juni_2024.pdf) voor het ministerie van Financiën.
 - **Schaf de overdrachtsbelasting af.** Die maakt verhuizen duur en houdt mensen vast op plekken waar ze liever weg zouden gaan.
-- **Maak grondwaarden per perceel openbaar,** zodat het debat over feiten gaat.
+- **Maak de grondprijzen per buurt openbaar,** zodat het debat over feiten gaat.
 
 ---
 

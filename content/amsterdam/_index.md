@@ -28,7 +28,7 @@ Wat dit betekent:
 
 - **Bijna alle waarde zit in de grond.** Een Amsterdams huis kost gemiddeld {{< cijfer "woz_gem" >}} (WOZ 2024). Opnieuw bouwen kost een fractie daarvan. De rest betaal je voor de plek.
 - **Op dure grond staan auto's.** Bovengrondse parkeerterreinen beslaan {{< cijfer "park_ha" >}} hectare, verspreid over {{< cijfer "park_aantal" >}} terreinen. Daarnaast ligt er {{< cijfer "straat_ha" >}} hectare aan parkeervakken langs de stoep.
-- **Een grondbelasting op woningen raakt vooral wie veel grond gebruikt.** Eengezinswoningen met een tuin gaan meer betalen, flats en appartementen meestal minder. Buurten met lage inkomens gaan er gemiddeld op vooruit.
+- **Een grondbelasting op woningen raakt vooral wie veel grond gebruikt.** Eengezinswoningen met een tuin gaan meer betalen, flats en appartementen meestal minder. Woningen in buurten met lage inkomens gaan er gemiddeld op vooruit; de OZB betaalt wel de eigenaar, niet de huurder.
 - **Het gaat om kleine bedragen, en dat is ook een conclusie.** De OZB op woningen is in Amsterdam laag: de mediane woning betaalt {{< cijfer "stad_ozb_nu" >}} per jaar. De grote verschuiving zou zitten bij niet-woningen en onbebouwde grond, en die kunnen we met openbare data nog niet doorrekenen.
 
 ---
@@ -102,7 +102,9 @@ Een typisch appartement merkt bijna niets: {{< cijfer "type_appartement_p_A" >}}
 
 {{< grafiek naam="ozb-inkomen" tabel="ozb_inkomen" bijschrift="Buurten ingedeeld in vijf groepen met elk ongeveer evenveel woningen, naar gemiddeld gestandaardiseerd huishoudinkomen (CBS). Mediane verandering per woning." >}}
 
-In de buurten met de laagste inkomens verandert de OZB voor een typische woning met {{< cijfer "kw1_p_A" >}} ({{< cijfer "kw1_d_A" >}} per jaar). Daar staan veel flats op relatief weinig grond. In de buurten met hogere inkomens stijgt de OZB een paar procent. Gemeten per buurt pakt een grondbelasting op woningen in Amsterdam dus eerder progressief uit dan regressief.
+Woningen in de buurten met de laagste inkomens gaan er gemiddeld op vooruit: {{< cijfer "kw1_p_A" >}} ({{< cijfer "kw1_d_A" >}} per jaar) voor een typische woning. Daar staan veel flats op relatief weinig grond. In de andere buurten verandert weinig: hooguit een paar procent, ongeveer een tientje per jaar.
+
+Let op twee dingen. Dit gaat over buurten, niet over huishoudens: ook in de buurten met de laagste inkomens gaat {{< cijfer "kw1_plus10_A" >}} van de woningen er meer dan 10% op achteruit. En de OZB op woningen betaalt de eigenaar. In buurten met veel huurwoningen is dat vaak een woningcorporatie of een andere verhuurder. Huurders merken het verschil niet direct, omdat gereguleerde huren niet meebewegen met de OZB.
 
 {{< grafiek naam="ozb-stadsdeel" tabel="ozb_stadsdeel" bijschrift="Mediane verandering per woning per stadsdeel, variant alleen grond." >}}
 

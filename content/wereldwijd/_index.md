@@ -27,9 +27,13 @@ Wie grondbelasting serieus wil invoeren, moet weten waar het eerder stukliep.
 - **Te vroeg om te zeggen:** Baden-Württemberg belast sinds 2025 alleen de grondwaarde en de hoogste Duitse belastingrechter keurde dat goed.
   Of het iets doet voor het bouwen, is nog niet onderzocht.
 
-Voor Nederland betekent dit: de jaarlijkse WOZ-taxatie is een groot voordeel, want de grootste valkuil elders waren verouderde taxaties.
+## Wat wij hieruit concluderen
+
+Dit is onze conclusie, niet die van de onderzoekers.
+Voor Nederland betekent het bewijs volgens ons: de jaarlijkse WOZ-taxatie is een groot voordeel, want de grootste valkuil elders waren verouderde taxaties.
 Een verschuiving van gebouwen naar grond, binnen de bestaande OZB en zonder hogere totale opbrengst, sluit het best aan bij wat het bewijs laat zien.
 Huurders moeten wettelijk beschermd blijven tegen doorberekening.
+Hoe dat er concreet uit kan zien, staat in [ons voorstel](/voorstel/).
 
 Mail naar {{< email >}} als er iets niet klopt of als er een onderzoek ontbreekt.
 We passen de pagina aan, ook als het bewijs ons niet goed uitkomt.
