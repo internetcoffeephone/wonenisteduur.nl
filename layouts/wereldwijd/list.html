@@ -1,0 +1,212 @@
+{{- /*
+  /wereldwijd/: grondbelasting in de wereld en de Nederlandse stand van zaken.
+  Inhoud komt uit data/wereldwijd.yaml en data/nl-tracker.yaml; de inleiding uit
+  content/wereldwijd/_index.md. Labels hebben altijd tekst plus een vorm, zodat ze
+  ook zonder kleur te lezen zijn.
+*/ -}}
+{{ define "main" }}
+{{- $w := hugo.Data.wereldwijd -}}
+{{- $nl := index hugo.Data "nl-tracker" -}}
+<article class="ww">
+  <h1>{{ .Title }}</h1>
+  <p class="ww-stamp">Bijgewerkt: {{ partial "inline/ww-datum.html" $w.bijgewerkt }}</p>
+
+  {{ .Content }}
+
+  <nav class="ww-toc" aria-label="Op deze pagina">
+    <p class="ww-toc__title">Op deze pagina</p>
+    <ul>
+      {{- range $w.gevallen }}
+      <li><a href="#{{ .id }}">{{ .titel }}</a></li>
+      {{- end }}
+      <li><a href="#plannen">Nieuwe plannen</a></li>
+      <li><a href="#wat-ging-er-mis">Wat ging er mis?</a></li>
+      <li><a href="#nederland">En in Nederland?</a></li>
+    </ul>
+  </nav>
+
+  <section class="ww-legend" aria-labelledby="ww-legend-title">
+    <h2 id="ww-legend-title" class="ww-legend__title">Zo lees je de labels</h2>
+    <ul class="ww-legend__list">
+      <li>{{ partial "inline/ww-label.html" "positief" }} gemeten effect in de bedoelde richting</li>
+      <li>{{ partial "inline/ww-label.html" "negatief" }} gemeten nadeel, mislukking of terugdraaiing</li>
+      <li>{{ partial "inline/ww-label.html" "geen" }} wel onderzocht, geen effect gevonden</li>
+      <li>{{ partial "inline/ww-label.html" "omstreden" }} onderzoeken spreken elkaar tegen, of het is een verklaring zonder meting</li>
+      <li>{{ partial "inline/ww-label.html" "onbekend" }} nog niet onderzocht of te vroeg</li>
+    </ul>
+    <p class="ww-legend__note">Bij elk effect staat hoe zeker het is en waar het vandaan komt.</p>
+  </section>
+
+  <section id="landen" aria-labelledby="landen-title">
+    <h2 id="landen-title">Per land</h2>
+    {{- range $w.gevallen }}
+    <article class="ww-case" id="{{ .id }}" aria-labelledby="{{ .id }}-title">
+      <header class="ww-case__head">
+        {{- if ne .land .titel }}
+        <p class="ww-case__country">{{ .land }}</p>
+        {{- end }}
+        <h3 id="{{ .id }}-title" class="ww-case__title">{{ .titel }}</h3>
+        <p class="ww-case__sub">{{ .ondertitel }}</p>
+        <p class="ww-case__status"><span class="ww-visually-hidden">Status: </span>{{ .status }}</p>
+      </header>
+
+      <h4 class="ww-case__h">Wat is er ingevoerd?</h4>
+      <p>{{ .ingevoerd | markdownify }}</p>
+      {{ partial "inline/ww-bronnen.html" .bronnen }}
+
+      <h4 class="ww-case__h">Wat is er gemeten?</h4>
+      <ul class="ww-effects">
+        {{- range .effecten }}
+        <li class="ww-effect ww-effect--{{ .label }}">
+          {{ partial "inline/ww-label.html" .label }}
+          <div class="ww-effect__body">
+            <p class="ww-effect__text">{{ .tekst | markdownify }}</p>
+            {{- with .zekerheid }}
+            <p class="ww-effect__conf"><span class="ww-effect__conf-k">Zekerheid:</span> {{ . | markdownify }}</p>
+            {{- end }}
+            {{ partial "inline/ww-bronnen.html" .bronnen }}
+          </div>
+        </li>
+        {{- end }}
+      </ul>
+
+      {{- with .vergelijking }}
+      <h4 class="ww-case__h">En de rest van Duitsland?</h4>
+      <p>{{ . | markdownify }}</p>
+      {{- end }}
+      {{- with .vergelijking_bronnen }}{{ partial "inline/ww-bronnen.html" . }}{{ end }}
+
+      <div class="ww-lesson">
+        <p class="ww-lesson__k">Les voor Nederland</p>
+        <p>{{ .les | markdownify }}</p>
+      </div>
+    </article>
+    {{- end }}
+  </section>
+
+  <section id="plannen" aria-labelledby="plannen-title">
+    <h2 id="plannen-title">Nieuwe plannen en wetten</h2>
+    <p>Hier is nog niets gemeten: het gaat om aankondigingen, bevoegdheden en voorstellen.
+      Een bevoegdheid betekent niet dat een stad de belasting ook invoert.</p>
+    <ul class="ww-plans">
+      {{- range $w.plannen }}
+      <li class="ww-plan">
+        <p class="ww-plan__title">{{ partial "inline/ww-label.html" "onbekend" }} <strong>{{ .titel }}</strong></p>
+        <p>{{ .tekst | markdownify }}</p>
+        {{ partial "inline/ww-bronnen.html" .bronnen }}
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+
+  <section id="wat-ging-er-mis" aria-labelledby="mis-title">
+    <h2 id="mis-title">Wat ging er mis?</h2>
+    <p>Mislukkingen zeggen vaak meer dan successen. In bijna alle gevallen lag het probleem niet
+      bij het economische idee, maar bij de uitvoering: oude of foute taxaties, plotselinge
+      sprongen, smalle heffingen die makkelijk te ontwijken waren, of een overgang die de volgende
+      verkiezing niet overleefde.</p>
+    {{- range $w.misgegaan }}
+    <article class="ww-fail">
+      <h3 class="ww-fail__title">{{ partial "inline/ww-label.html" "negatief" }} {{ .titel }}</h3>
+      <p>{{ .tekst | markdownify }}</p>
+      <div class="ww-lesson">
+        <p class="ww-lesson__k">Les</p>
+        <p>{{ .les | markdownify }}</p>
+      </div>
+      {{ partial "inline/ww-bronnen.html" .bronnen }}
+    </article>
+    {{- end }}
+
+    <h3>Uit de geschiedenis</h3>
+    <ul class="ww-history">
+      {{- range $w.historisch }}
+      <li><strong>{{ .titel }}.</strong> {{ .tekst | markdownify }}
+        {{ partial "inline/ww-bronnen.html" .bronnen }}</li>
+      {{- end }}
+    </ul>
+  </section>
+
+  <section id="nederland" class="ww-nl" aria-labelledby="nl-title">
+    <h2 id="nl-title">En in Nederland?</h2>
+    <p class="ww-stamp">Bijgewerkt: {{ partial "inline/ww-datum.html" $nl.bijgewerkt }}</p>
+    <p>Wat partijen, kabinet, Kamer, provincies en gemeenten tot nu toe hebben gedaan. Bij moties
+      staat hoe de fracties stemden.</p>
+    {{- range $nl.categorieen }}
+    <h3 id="nl-{{ .id }}">{{ .titel }}</h3>
+    {{- with .intro }}<p class="ww-nl__intro">{{ . | markdownify }}</p>{{ end }}
+    <ol class="ww-tracker">
+      {{- range .items }}
+      <li class="ww-item ww-item--{{ .status }}">
+        <p class="ww-item__meta">
+          {{ partial "inline/ww-status.html" .status }}
+          <span class="ww-item__date">{{ with .datum_tekst }}{{ . }}{{ else }}{{ partial "inline/ww-datum.html" .datum }}{{ end }}</span>
+        </p>
+        <p class="ww-item__title">{{ .titel }}</p>
+        <p class="ww-item__text">{{ .tekst | markdownify }}</p>
+        {{- if or .voor .tegen }}
+        <dl class="ww-votes">
+          {{- with .voor }}<div><dt>Voor</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
+          {{- with .tegen }}<div><dt>Tegen</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
+        </dl>
+        {{- end }}
+        {{ partial "inline/ww-bronnen.html" .bronnen }}
+      </li>
+      {{- end }}
+    </ol>
+    {{- end }}
+  </section>
+</article>
+{{ end }}
+
+{{- /* Label met tekst en vorm. Argument: positief | negatief | geen | omstreden | onbekend */ -}}
+{{ define "partials/inline/ww-label.html" }}
+{{- $labels := dict
+  "positief" (dict "t" "Positief" "svg" `<path d="M8 1.8 15 14.2H1z"/>`)
+  "negatief" (dict "t" "Negatief" "svg" `<path d="M1 1.8h14L8 14.2z"/>`)
+  "geen" (dict "t" "Geen effect" "svg" `<circle cx="8" cy="8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4.3 8h7.4" stroke="currentColor" stroke-width="2"/>`)
+  "omstreden" (dict "t" "Omstreden" "svg" `<path d="M8 .9 15.1 8 8 15.1.9 8z"/>`)
+  "onbekend" (dict "t" "Nog niet gemeten" "svg" `<circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-dasharray="2.4 2"/>`)
+-}}
+{{- $l := index $labels . | default (index $labels "onbekend") -}}
+<span class="ww-label ww-label--{{ . }}"><svg class="ww-label__icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false" fill="currentColor">{{ $l.svg | safeHTML }}</svg>{{ $l.t }}</span>
+{{- end }}
+
+{{- /* Status in de Nederlandse tracker: tekst plus vorm. */ -}}
+{{ define "partials/inline/ww-status.html" }}
+{{- $s := dict
+  "programma" (dict "t" "Verkiezingsprogramma" "svg" `<rect x="2.5" y="1.5" width="11" height="13" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5 5.5h6M5 8h6M5 10.5h4" stroke="currentColor" stroke-width="1.4"/>`)
+  "akkoord" (dict "t" "Coalitieakkoord" "svg" `<rect x="2.5" y="1.5" width="11" height="13" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5 5.5h6M5 8h6M5 10.5h4" stroke="currentColor" stroke-width="1.4"/>`)
+  "brief" (dict "t" "Kamerbrief" "svg" `<rect x="1.5" y="3.5" width="13" height="9" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m2 4.5 6 4.5 6-4.5" fill="none" stroke="currentColor" stroke-width="1.4"/>`)
+  "rapport" (dict "t" "Rapport" "svg" `<rect x="2.5" y="1.5" width="11" height="13" rx="1" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5 10.5v-2M8 10.5v-5M11 10.5v-3.5" stroke="currentColor" stroke-width="1.6"/>`)
+  "aangenomen" (dict "t" "Aangenomen" "svg" `<path d="m2.5 8.5 3.5 3.5 7.5-8" fill="none" stroke="currentColor" stroke-width="2.2"/>`)
+  "verworpen" (dict "t" "Verworpen" "svg" `<path d="m3.5 3.5 9 9m0-9-9 9" fill="none" stroke="currentColor" stroke-width="2.2"/>`)
+  "aangehouden" (dict "t" "Aangehouden" "svg" `<path d="M5 3v10M11 3v10" stroke="currentColor" stroke-width="2.4"/>`)
+  "in-werking" (dict "t" "In werking" "svg" `<circle cx="8" cy="8" r="6.3"/>`)
+  "plan" (dict "t" "Plan of initiatief" "svg" `<circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-dasharray="2.4 2"/>`)
+-}}
+{{- $x := index $s . | default (dict "t" . "svg" "") -}}
+<span class="ww-status ww-status--{{ . }}"><svg class="ww-label__icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false" fill="currentColor">{{ $x.svg | safeHTML }}</svg>{{ $x.t }}</span>
+{{- end }}
+
+{{- /* Bronnenlijst. Argument: lijst van {titel, url}. */ -}}
+{{ define "partials/inline/ww-bronnen.html" }}
+{{- with . }}
+<p class="ww-src"><span class="ww-src__k">{{ if gt (len .) 1 }}Bronnen{{ else }}Bron{{ end }}:</span>
+  {{- range $i, $b := . }}{{ if $i }};{{ end }} <a href="{{ $b.url }}" rel="noopener">{{ $b.titel }}</a>{{ end }}</p>
+{{- end }}
+{{- end }}
+
+{{- /* Datum in het Nederlands. Argument: JJJJ-MM-DD, JJJJ-MM of JJJJ (tekst of datum). */ -}}
+{{ define "partials/inline/ww-datum.html" }}
+{{- $maanden := slice "januari" "februari" "maart" "april" "mei" "juni" "juli" "augustus" "september" "oktober" "november" "december" -}}
+{{- $s := printf "%v" . -}}
+{{- if gt (len $s) 10 }}{{ $s = substr $s 0 10 }}{{ end -}}
+{{- $p := split $s "-" -}}
+{{- if eq (len $p) 3 -}}
+{{ int (strings.TrimLeft "0" (index $p 2)) }} {{ index $maanden (sub (int (strings.TrimLeft "0" (index $p 1))) 1) }} {{ index $p 0 }}
+{{- else if eq (len $p) 2 -}}
+{{ index $maanden (sub (int (strings.TrimLeft "0" (index $p 1))) 1) }} {{ index $p 0 }}
+{{- else -}}
+{{ $s }}
+{{- end -}}
+{{- end }}
