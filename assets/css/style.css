@@ -110,6 +110,24 @@ strong {
   font-weight: 700;
 }
 
+/* Code: long commands scroll inside their block, long paths wrap */
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+code {
+  overflow-wrap: anywhere;
+}
+
+pre code {
+  overflow-wrap: normal;
+}
+
 blockquote {
   border-left: 4px solid #7a9e5a;
   margin: 1.5rem 0;
