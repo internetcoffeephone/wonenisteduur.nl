@@ -24,7 +24,7 @@ Overal waar mensen graag wonen, zit het grootste deel van de waarde van een huis
 
 Een rijtjeshuis in Amsterdam-Oost kost €600.000. Precies hetzelfde huis in Delfzijl kost €200.000. De stenen kosten overal ongeveer hetzelfde. Het verschil van €400.000 is de grondwaarde, en die heeft de eigenaar niet zelf gecreëerd. Die komt van de stad eromheen.
 
-Dit is geen Amsterdams verschijnsel. Volgens het [CBS](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84550NED) zat in 2022 zo'n 60% van de waarde van alle Nederlandse woningen in de grond, tegen ruim 40% in 2013. De stenen werden in die jaren nauwelijks meer waard. De grond wel.
+Dit is geen Amsterdams verschijnsel. Volgens het [CBS](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/84550NED) zat in 2022 ruim 60% van de waarde van alle Nederlandse woningen in de grond, tegen ruim 40% in 2013. De grond onder onze woningen werd in die jaren drie keer zoveel waard. De woningen zelf werden ruim een derde meer waard, en dat is vrijwel helemaal inflatie en nieuwbouw. Meer cijfers staan op de pagina [Grond in cijfers](/grond-in-cijfers/).
 
 Legt de gemeente een metrostation aan, dan stijgen de huizenprijzen in de buurt. Komt er een park of een goede school bij, dan stijgen ze weer. De eigenaar heeft daar niets voor gedaan, maar krijgt wel de hele waardestijging. Het grootste deel van de waarde van een huis komt dus van de samenleving, en de stijging van die waarde al helemaal. Dat is geld dat de eigenaar gratis van de samenleving krijgt.
 
@@ -108,7 +108,7 @@ Wél betaal je meer belasting als je op een gewilde plek woont. Maar daar krijg 
 
 # Wie bepaalt hoeveel grond waard is?
 
-De overheid, net als nu. Gemeenten stellen elk jaar al de WOZ-waarde van elk huis vast. De waarde van de grond los van het huis bepalen is ook goed te doen. Dat gebeurt met rekenmodellen die vergelijkbare huizen op verschillende locaties naast elkaar zetten. Zuid-Korea taxeert elk jaar de grond onder álle percelen in het land, los van de gebouwen, en is daar vijf maanden mee bezig. De Duitse deelstaat Baden-Württemberg belast sinds 2025 alleen nog grondwaarde; de hoogste Duitse belastingrechter heeft dat in 2026 bevestigd. Denemarken, Estland en delen van Australië en de VS doen het al veel langer. En veel Nederlandse gemeenten rekenen in hun WOZ-model nu al met een grondprijs per vierkante meter per buurt (de "grondstaffel"). Ze publiceren die alleen niet.
+De overheid, net als nu. Gemeenten stellen elk jaar al de WOZ-waarde van elk huis vast. De waarde van de grond los van het huis bepalen is ook goed te doen. Dat gebeurt met rekenmodellen die vergelijkbare huizen op verschillende locaties naast elkaar zetten. Zuid-Korea taxeert elk jaar de grond onder álle percelen in het land, los van de gebouwen, en is daar vijf maanden mee bezig. De Duitse deelstaat Baden-Württemberg belast sinds 2025 alleen nog grondwaarde; de hoogste Duitse belastingrechter heeft dat in 2026 bevestigd. Denemarken, Estland en delen van Australië en de VS doen het al veel langer. En veel Nederlandse gemeenten rekenen in hun WOZ-model nu al met een grondprijs per vierkante meter per buurt (de "grondstaffel"). Bij een huis met een eigen kavel staat die vaak al in het taxatieverslag, en een enkele gemeente publiceert de staffels per gebied.
 
 De WOZ-waarde van elk huis kun je nu al opzoeken. Voor grondwaarden moet dat ook gelden, per perceel. Zo kan iedereen controleren of het klopt, en kunnen politici en ambtenaren niet verstoppen wanneer ze het systeem misbruiken voor eigen gewin.
 
@@ -164,6 +164,6 @@ Het is de enige juiste oplossing. We hebben de morele en praktische plicht om de
 Zet dit onderwerp op de kaart. Stem op politici die grondbelasting een warm hart toedragen, en laat de rest weten dat je het belangrijk vindt.
 
 - **Deel deze pagina.** Ken je iemand die klaagt over de woningprijzen? Stuur het ze.
-- **Schrijf je volksvertegenwoordigers aan.** Hun contactgegevens staan op de [politici-pagina](/politici/). Vraag om één ding: geef gemeenten de keuze.
+- **Schrijf je volksvertegenwoordigers aan.** Hun contactgegevens staan op de [politici-pagina](/politici/). Vraag om één ding: geef gemeenten de keuze. Stuur [het voorstel en de one-pager](/voorstel/) mee.
 - **Praat erover.** Op verjaardagen, op het werk, online. Gebruik #wonenisteduur.
 - **Wil je meedenken of meebouwen?** Zit je in een gemeenteraad, doe je onderzoek naar grond of wonen, of wil je helpen met data en kaarten? Mail {{< email >}}.

@@ -43,6 +43,6 @@ Zoek op de website van je gemeente de woordvoerders wonen en financiën van de f
 ## Tips voor je bericht
 
 - **Wees persoonlijk.** Leg uit waarom betaalbaar wonen jou raakt.
-- **Wees concreet.** Vraag om één ding: geef gemeenten de keuze om de OZB op grondwaarde te baseren.
+- **Wees concreet.** Vraag om één ding: geef gemeenten de keuze om de OZB op grondwaarde te baseren. Het [voorstel met conceptwettekst en one-pager](/voorstel/) kun je meesturen.
 - **Wees beleefd.** Een respectvol bericht wordt eerder gelezen.
 - **Verwijs naar deze pagina.** Stuur de link naar [wonenisteduur.nl](/) mee.
