@@ -25,7 +25,7 @@
     "woning_stenen": "€1.232 miljard",
     "woning_grond_begin": "€121 miljard",
     "woning_stenen_begin": "€408 miljard",
-    "grond_groter_dan_stenen_sinds": "2000",
+    "grond_groter_dan_stenen_sinds": "2016",
     "aandeel_grond": "62%",
     "aandeel_grond_begin": "23%",
     "aandeel_grond_2008": "52%",
@@ -286,16 +286,16 @@
       }
     },
     "grond-stenen": {
-      "alt": "Lijngrafiek van de waarde van de grond onder alle Nederlandse woningen en van de woningen zelf, in miljard euro, 1995 tot 2022. De stenen stijgen geleidelijk van €408 naar €1.232 miljard. De grond stijgt van €121 naar €2.045 miljard, met een dip tussen 2008 en 2013. Sinds 2000 is de grond meer waard dan de stenen.",
+      "alt": "Lijngrafiek van de waarde van de grond onder alle Nederlandse woningen en van de woningen zelf, in miljard euro, 1995 tot 2022. De stenen stijgen geleidelijk van €408 naar €1.232 miljard. De grond stijgt van €121 naar €2.045 miljard, met een dip tussen 2008 en 2013. Sinds 2016 is weer de grond meer waard dan de stenen.",
       "breed": {
         "src": "cijfers/grond-stenen.svg",
-        "v": "683c1eb5ec",
+        "v": "057339923f",
         "w": 692,
         "h": 441
       },
       "smal": {
         "src": "cijfers/grond-stenen-smal.svg",
-        "v": "ff4ae2079a",
+        "v": "481922330c",
         "w": 380,
         "h": 528
       },

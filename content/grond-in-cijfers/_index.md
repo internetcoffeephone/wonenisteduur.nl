@@ -22,7 +22,7 @@ Eind {{< cijfer "grond_jaar" >}} was alle grond in Nederland samen {{< cijfer "g
 
 ## Onder onze huizen: de grond werd duurder, de stenen niet
 
-Het CBS splitst de waarde van alle woningen in twee delen: de woningen zelf (de stenen) en de grond eronder. In {{< cijfer "woning_jaar" >}} waren de stenen {{< cijfer "woning_stenen" >}} waard en de grond {{< cijfer "woning_grond" >}}. In {{< cijfer "woning_begin_jaar" >}} was het nog andersom: {{< cijfer "woning_stenen_begin" >}} aan stenen tegen {{< cijfer "woning_grond_begin" >}} aan grond. Sinds {{< cijfer "grond_groter_dan_stenen_sinds" >}} is de grond meer waard dan de stenen.
+Het CBS splitst de waarde van alle woningen in twee delen: de woningen zelf (de stenen) en de grond eronder. In {{< cijfer "woning_jaar" >}} waren de stenen {{< cijfer "woning_stenen" >}} waard en de grond {{< cijfer "woning_grond" >}}. In {{< cijfer "woning_begin_jaar" >}} was het nog andersom: {{< cijfer "woning_stenen_begin" >}} aan stenen tegen {{< cijfer "woning_grond_begin" >}} aan grond. Sinds {{< cijfer "grond_groter_dan_stenen_sinds" >}} is de grond weer meer waard dan de stenen. Dat was ook al zo van 2000 tot en met 2008; in de crisisjaren daarna zakte de grondwaarde terug.
 
 {{< grafiek "grond-stenen" >}}
 

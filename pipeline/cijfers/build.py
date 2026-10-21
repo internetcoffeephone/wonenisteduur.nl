@@ -577,7 +577,13 @@ def main() -> None:
     share = {y: g_old[y] / (g_old[y] + s_old[y]) * 100 for y in years2}
     y20, y21 = years2[0], years2[-1]
     prov2 = meta["84550NED"]["voorlopig"]
-    cross_year = next(y for y in years2 if g_old[y] > s_old[y])
+    # Start of the latest unbroken run in which land is worth more than the
+    # buildings (land fell below the buildings again in 2009-2015).
+    if g_old[y21] <= s_old[y21]:
+        raise SystemExit("land no longer exceeds buildings; rewrite the text that uses cross_year")
+    cross_year = y21
+    while cross_year - 1 in g_old and g_old[cross_year - 1] > s_old[cross_year - 1]:
+        cross_year -= 1
     for y in (2008, BASE_YEAR):
         if y not in share:
             raise SystemExit(f"expected {y} in 84550NED")
@@ -724,7 +730,7 @@ def main() -> None:
         alt2 = (f"Lijngrafiek van de waarde van de grond onder alle Nederlandse woningen en van de woningen zelf, in "
                 f"miljard euro, {y20} tot {y21}. De stenen stijgen geleidelijk van €{nl(s_old[y20] / 1000)} naar "
                 f"€{nl(s_old[y21] / 1000)} miljard. De grond stijgt van €{nl(g_old[y20] / 1000)} naar "
-                f"€{nl(g_old[y21] / 1000)} miljard, met een dip tussen 2008 en {BASE_YEAR}. Sinds {cross_year} is "
+                f"€{nl(g_old[y21] / 1000)} miljard, met een dip tussen 2008 en {BASE_YEAR}. Sinds {cross_year} is weer "
                 "de grond meer waard dan de stenen.")
         alt3 = (f"Lijngrafiek van het aandeel van de grond in de waarde van alle woningen, {y20} tot {y21}. Van "
                 f"{pct(share[y20])} in {y20} naar {pct(share[2008])} in 2008, {pct(share[BASE_YEAR])} in {BASE_YEAR} "
