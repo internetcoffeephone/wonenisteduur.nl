@@ -9,7 +9,7 @@ De uitleg staat in de blauwgrijze blokken met **Uitleg** erboven.
 De achtergrond, een rekenvoorbeeld en antwoorden op vragen van ambtenaren staan op [de voorstelpagina](/voorstel/).
 
 <div class="disclaimer voorstel-concept" role="note">
-<p><strong>Concept ter discussie, geen juridisch advies.</strong>
+<p><strong>Concept ter discussie.</strong>
 Deze tekst is geschreven door een burgerinitiatief om het gesprek concreet te maken.
 Hij is niet getoetst door wetgevingsjuristen.
 Verbeteringen zijn welkom.</p>

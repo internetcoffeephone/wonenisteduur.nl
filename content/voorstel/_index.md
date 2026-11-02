@@ -150,7 +150,7 @@ Hoe het in een echte gemeente uitpakt, hangt af van de grondwaarden daar; dat mo
 ## Conceptwettekst
 
 <div class="disclaimer voorstel-concept" role="note">
-<p><strong>Concept ter discussie, geen juridisch advies.</strong>
+<p><strong>Concept ter discussie.</strong>
 Deze tekst is geschreven door een burgerinitiatief om het gesprek concreet te maken.
 Hij is niet getoetst door wetgevingsjuristen.
 Verbeteringen zijn welkom.</p>
