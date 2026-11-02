@@ -11,7 +11,7 @@ menus:
 <p class="ams-lead">Waar zit de waarde van Amsterdam? Hoeveel dure grond ligt er onder parkeerterreinen? En wie gaat meer of minder betalen als de OZB niet meer over huis én grond gaat, maar vooral over de grond? We hebben het uitgerekend voor alle buurten van de stad, met openbare gegevens.</p>
 
 <div class="disclaimer">
-<strong>Dit zijn schattingen, geen officiële waarden.</strong> Wij hebben de grondwaarden afgeleid uit de gemiddelde WOZ-waarde per buurt (CBS) en de bouwkosten van de woningen erop. Bij elke schatting staat een bandbreedte. De gemeente publiceert zelf alleen een grondprijs voor eengezinswoningen ({{< cijfer "gs_grondgebonden" >}} van de woningen). Onze schatting is daar ongeveer {{< cijfer "gs_verhouding" >}} keer zo hoog, maar de verschillen tussen buurten zijn vergelijkbaar. Zie <a href="/amsterdam/methode/#grondstaffel">de vergelijking</a>.
+<strong>Dit zijn schattingen, geen officiële waarden.</strong> Wij hebben de grondwaarden afgeleid uit de gemiddelde WOZ-waarde per buurt (CBS) en de bouwkosten van de woningen erop. Bij elke schatting staat een bandbreedte. De gemeente publiceert zelf alleen een grondprijs voor eengezinswoningen ({{< cijfer "gs_grondgebonden" >}} van de woningen). Onze schatting is daar ongeveer {{< cijfer "gs_verhouding" >}} keer zo hoog, maar de verschillen tussen buurten zijn vergelijkbaar. In Den Haag zien we hetzelfde: daar is onze schatting {{< cijfer "dh_verhouding" >}} keer zo hoog als die van de gemeente. Zie <a href="/amsterdam/methode/#grondstaffel">de vergelijking</a>.
 </div>
 
 ## De belangrijkste cijfers
