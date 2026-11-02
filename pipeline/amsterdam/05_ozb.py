@@ -42,7 +42,7 @@ import geopandas as gpd
 import numpy as np
 import pandas as pd
 
-from common import OUT, RAW, WORK, ensure_dirs, log, params, read_json, write_json
+from common import OUT, RAW, WORK, amsterdam_only, ensure_dirs, log, params, read_json, write_json
 
 P = params()
 Z = P["ozb"]
@@ -198,4 +198,5 @@ def main():
 
 
 if __name__ == "__main__":
+    amsterdam_only()
     main()

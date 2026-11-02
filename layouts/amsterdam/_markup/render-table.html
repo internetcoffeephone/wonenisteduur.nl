@@ -1,0 +1,41 @@
+{{- /* Markdown tables in /amsterdam/: as Hugo's default, plus a data-label per cell from its column header,
+       so the mobile card layout (style.css) still says which column a value belongs to. */ -}}
+{{- $head := index .THead 0 -}}
+<table
+  {{- range $k, $v := .Attributes }}
+    {{- if $v }}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+    {{- end }}
+  {{- end }}>
+  <thead>
+    {{- range .THead }}
+      <tr>
+        {{- range . }}
+          <th
+            {{- with .Alignment }}
+              {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
+            {{- end -}}
+          >
+            {{- .Text -}}
+          </th>
+        {{- end }}
+      </tr>
+    {{- end }}
+  </thead>
+  <tbody>
+    {{- range .TBody }}
+      <tr>
+        {{- range $i, $c := . }}
+          <td
+            {{- with (index $head $i).Text | plainify }} data-label="{{ . }}"{{ end }}
+            {{- with $c.Alignment }}
+              {{- printf " style=%q" (printf "text-align: %s" .) | safeHTMLAttr }}
+            {{- end -}}
+          >
+            {{- $c.Text -}}
+          </td>
+        {{- end }}
+      </tr>
+    {{- end }}
+  </tbody>
+</table>

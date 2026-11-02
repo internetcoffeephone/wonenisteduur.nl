@@ -26,7 +26,7 @@ import matplotlib
 import numpy as np
 import pandas as pd
 
-from common import OUT, SITE_DATA, SITE_STATIC, WORK, ensure_dirs, eur, log, mld, nl, params, pct, read_json, write_json
+from common import OUT, SITE_DATA, SITE_STATIC, WORK, amsterdam_only, ensure_dirs, eur, log, mld, nl, params, pct, read_json, write_json
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
@@ -499,4 +499,5 @@ def main():
 
 
 if __name__ == "__main__":
+    amsterdam_only()
     main()

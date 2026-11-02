@@ -1,0 +1,10 @@
+# Den Haag, as a cross-check of the Amsterdam method (08_denhaag.py).
+# Merged over params.toml when AMS_GEMEENTE=denhaag: each key here replaces the
+# same key there, everything else (rebuild cost, depreciation, shrinkage, land
+# allocation) stays the same, so both gemeenten use one method.
+
+[area]
+gemeentecode = "GM0518"
+gemeentecode_bag = "0518"
+bbox_rd = [72500, 447900, 88900, 461400]  # RD New, around the CBS gemeente outline
+stadsdeel = {}

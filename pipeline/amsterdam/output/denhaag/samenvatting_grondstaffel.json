@@ -1,0 +1,50 @@
+{
+ "peildatum": "2024-01-01",
+ "objecttype": "C",
+ "grondgebonden_aandeel_woningen": 0.21900531932252065,
+ "buurten_staffel": 112,
+ "prijs_eerste_band": {
+  "mediaan": 1125.0,
+  "p10": 1025.0,
+  "p90": 1800.0,
+  "min": 1025.0,
+  "max": 2000.0
+ },
+ "prijs_eerste_band_meest": 1125.0,
+ "buurten_prijs_meest": 14,
+ "buurten": 18,
+ "woningen": 31070,
+ "verhouding_mediaan": 1.7768505716586285,
+ "verhouding_p10": 1.5844145104548508,
+ "verhouding_p90": 2.022398720561033,
+ "binnen_band": 0,
+ "rangcorrelatie": 0.5327827245884442,
+ "grondaandeel_gemeente_mediaan": 0.32580400255175535,
+ "grondaandeel_ons_mediaan": 0.578,
+ "stabiliteit": [
+  {
+   "van": "2023-01-01",
+   "tot": "2024-01-01",
+   "buurten": 112,
+   "mediaan": 1.0,
+   "p10": 1.0,
+   "p90": 1.0769230769230769,
+   "min": 0.9375,
+   "max": 1.2,
+   "gelijk": 0.5267857142857143,
+   "woz": 1.058011049723757
+  },
+  {
+   "van": "2024-01-01",
+   "tot": "2025-01-01",
+   "buurten": 112,
+   "mediaan": 1.1219512195121952,
+   "p10": 1.0,
+   "p90": 1.2,
+   "min": 0.9259259259259259,
+   "max": 1.2,
+   "gelijk": 0.125,
+   "woz": 1.0678851174934725
+  }
+ ]
+}

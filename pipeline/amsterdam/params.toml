@@ -14,6 +14,8 @@ woz_peildatum = "2024-01-01"
 woz_peiljaar = 2024
 # RD New bounding box used for all bbox downloads (clipped to the gemeente later).
 bbox_rd = [110100, 476600, 136000, 494000]
+# Stadsdeel per 7th character of the CBS wijkcode (WK0363A0 -> "A").
+stadsdeel = { A = "Centrum", B = "Westpoort", E = "West", F = "Nieuw-West", K = "Zuid", M = "Oost", N = "Noord", S = "Weesp", T = "Zuidoost", 9 = "Water" }
 
 [rebuild_cost]
 # Base: CBS 83673NED "Bouwvergunningen; kerncijfers nieuwbouwwoningen",
@@ -101,3 +103,14 @@ objecttype = "rij_hoek"           # price used for the comparison: the most comm
 min_pct_grondgebonden = 60        # compare only buurten where most dwellings are grondgebonden
 # Market change of woningen the same document reports ("ongeveer 5,1% gestegen").
 marktontwikkeling = 0.051
+
+[denhaag]
+# Cross-check in Den Haag (08_denhaag.py): the same estimate (AMS_GEMEENTE=denhaag,
+# params-denhaag.toml) compared with Den Haag's grondstaffel the same way as above.
+# Source: Bijlage Grondstaffels 2024-2026, extracted by grondstaffel_denhaag.py.
+peildatum = "2024-01-01"          # Bijlage Grondstaffels 2025, same peildatum as the CBS WOZ averages
+peildata = ["2023-01-01", "2024-01-01", "2025-01-01"]  # for the stability check
+objecttype = "C"                  # rijwoning, the most common grondgebonden type
+# Mean WOZ value of woningen in Den Haag per peildatum, x EUR 1000: CBS 85036NED,
+# GM0518, eigendom totaal, belastingjaar 2024-2026 (peildatum one year earlier).
+woz_gemiddeld = { "2023-01-01" = 362, "2024-01-01" = 383, "2025-01-01" = 409 }

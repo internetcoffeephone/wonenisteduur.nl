@@ -30,7 +30,7 @@ import numpy as np
 import pandas as pd
 import shapely
 
-from common import OUT, WORK, ensure_dirs, log, params, write_json
+from common import OUT, WORK, amsterdam_only, ensure_dirs, log, params, write_json
 
 P = params()
 K = P["parking"]
@@ -245,4 +245,5 @@ def main():
 
 
 if __name__ == "__main__":
+    amsterdam_only()
     main()

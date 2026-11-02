@@ -37,6 +37,8 @@ We volgen de "simplest viable method" van Lars Doucet (Center for Land Economics
 | Gemeente Amsterdam, Verordening Onroerendezaakbelastingen (CVDR72876, versie 20) | OZB-tarief woningen 2026 | vrij van auteursrecht |
 | Gemeente Amsterdam, Grondwaardebepaling voor bestaande erfpachtrechten 2021 (Gemeenteblad 2021, 2521) | de gemeentelijke rekenregel voor grondquotes, als controle | vrij van auteursrecht |
 | Gemeente Amsterdam, [Verantwoordingsdocument WOZ](https://www.amsterdam.nl/belastingen/verantwoordingsdocument-woz) 2024 en 2025 | grondprijs per m² kavel voor eengezinswoningen, per waardegebied en buurt (peildata 1-1-2023 en 1-1-2024), als vergelijking | openbaar, zonder voorbehoud (art. 15b Auteurswet) |
+| Gemeente Den Haag, [Bijlage Grondstaffels](https://www.denhaag.nl/nl/belastingen/woz-waarde-en-taxatieverslag.htm) 2024, 2025 en 2026 | grondprijs per m² kavel per buurt en woningtype (peildata 1-1-2023 tot en met 1-1-2025), als controle | openbaar, zonder voorbehoud in de documenten (art. 15b Auteurswet) |
+| CBS 85036NED | gemiddelde WOZ-waarde van woningen in Den Haag per jaar | CC BY 4.0 |
 
 **Wat we bewust niet gebruiken:** het WOZ-waardeloket (massaal opvragen is niet toegestaan), WOZ-waarden per adres, eigendomsgegevens uit de Basisregistratie Kadaster, en de afgeschermde WOZ- en erfpachtgegevens van de gemeente. Niets op deze pagina's is herleidbaar tot een individuele eigenaar.
 
@@ -116,13 +118,33 @@ We hebben de grondstaffel van {{< cijfer "gs_peildatum" >}} vergeleken met onze 
 
 **De verdeling in het gemeentelijke model verandert sterk per jaar.** We hebben {{< cijfer "gs_stab_buurten" >}} buurten vergeleken die op {{< cijfer "gs_vorige_peildatum" >}} als referentiebuurt in het model stonden. Tussen {{< cijfer "gs_vorige_peildatum" >}} en {{< cijfer "gs_peildatum" >}} werd hun prijs voor de eerste 100 m² kavel {{< cijfer "gs_stab_min" >}} tot {{< cijfer "gs_stab_max" >}} keer zo hoog (mediaan {{< cijfer "gs_stab_mediaan" >}}). In hetzelfde document noemt de gemeente een marktstijging van ongeveer {{< cijfer "gs_markt" >}}. De staffel veranderde ook. De woningen werden dus niet twee keer zo veel waard; het model werd anders ingericht.
 
+### Is dit typisch Amsterdams? Den Haag als controle {#den-haag}
+
+Den Haag publiceert zijn grondstaffels ook, in de [Bijlage Grondstaffels](https://www.denhaag.nl/nl/belastingen/woz-waarde-en-taxatieverslag.htm) bij het verantwoordingsdocument. Daarin staat per buurt en woningtype een prijs per m² kavel, die lager wordt naarmate de kavel groter is. We hebben voor Den Haag dezelfde schatting gemaakt, met precies dezelfde parameters, en die op dezelfde manier vergeleken: peildatum {{< cijfer "dh_peildatum" >}}, de prijs voor rijwoningen, en alleen buurten met een eigen schatting waar minstens {{< cijfer "gs_min_pct" >}} van de woningen grondgebonden is. In Den Haag zijn dat er {{< cijfer "dh_buurten" >}}, vooral in Ypenburg, Leidschenveen en Wateringse Veld.
+
+| | Amsterdam | Den Haag |
+|---|---|---|
+| Buurten in de vergelijking | {{< cijfer "gs_buurten" >}} | {{< cijfer "dh_buurten" >}} |
+| Woningen in die buurten | {{< cijfer "gs_woningen" >}} | {{< cijfer "dh_woningen" >}} |
+| Onze grondprijs gedeeld door die van de gemeente (mediaan) | {{< cijfer "gs_verhouding" >}} | {{< cijfer "dh_verhouding" >}} |
+| Idem, in 80% van de buurten | {{< cijfer "gs_verhouding_p10" >}} tot {{< cijfer "gs_verhouding_p90" >}} | {{< cijfer "dh_verhouding_p10" >}} tot {{< cijfer "dh_verhouding_p90" >}} |
+| Rangcorrelatie | {{< cijfer "gs_rangcorrelatie" >}} | {{< cijfer "dh_rangcorrelatie" >}} |
+| Grondaandeel volgens de gemeente | {{< cijfer "gs_aandeel_gemeente" >}} | {{< cijfer "dh_aandeel_gemeente" >}} |
+| Grondaandeel volgens ons | {{< cijfer "gs_aandeel_ons" >}} | {{< cijfer "dh_aandeel_ons" >}} |
+
+- **Het verschil in niveau zien we ook in Den Haag.** De gemeentelijke prijs valt in {{< cijfer "dh_binnen_band" >}} van de {{< cijfer "dh_buurten" >}} buurten binnen onze bandbreedte, en het gemeentelijke grondaandeel is nog lager dan in Amsterdam. Het verschil hoort dus niet bij één gemeentelijk model. Het zit tussen de manier waarop WOZ-modellen de waarde verdelen en onze methode.
+- **De rangorde komt minder goed overeen.** In {{< cijfer "dh_prijs_meest_buurten" >}} van de {{< cijfer "dh_buurten" >}} buurten rekent Den Haag met dezelfde prijs voor de eerste 100 m²: {{< cijfer "dh_prijs_meest" >}}. De gemeentelijke prijs per m² verschilt daar alleen door de grootte van de kavel.
+- **De Haagse grondprijs is stabieler, maar volgt de markt niet jaar op jaar.** We vergeleken de prijs voor de eerste m² van een rijwoning in {{< cijfer "dh_stab_buurten" >}} buurten op drie peildata. Tussen {{< cijfer "dh_stab1_van" >}} en {{< cijfer "dh_stab1_tot" >}} bleef die in {{< cijfer "dh_stab1_gelijk" >}} van de buurten gelijk, terwijl de gemiddelde WOZ-waarde in Den Haag met {{< cijfer "dh_stab1_woz" >}} steeg. Een jaar later steeg hij in de mediane buurt met {{< cijfer "dh_stab2_mediaan" >}}, bij een WOZ-stijging van {{< cijfer "dh_stab2_woz" >}}. Per buurt lag de verandering steeds tussen {{< cijfer "dh_stab_min" >}} en {{< cijfer "dh_stab_max" >}} per jaar. Een verdubbeling zoals in Amsterdam kwam niet voor.
+
+Den Haag zegt niet of elke schijf alleen geldt voor de m² binnen die schijf. Wij rekenen het zo, net als in Amsterdam; anders zou een kavel van 100 m² minder waard zijn dan een van 99 m².
+
 **Wat betekent dit voor deze pagina's?**
 
 - Over het niveau van de grondwaarde is de onzekerheid groter dan onze bandbreedte laat zien. De gemeentelijke verdeling is een tweede, veel lagere schatting.
 - Voor de OZB-variant "alleen grond" maakt het niveau niet uit. Zijn alle grondwaarden half zo hoog, dan wordt het tarief op grond twee keer zo hoog en blijft de aanslag per woning gelijk. Wat telt zijn de verschillen tussen woningen, en die komen tussen buurten goed overeen. Bij de variant met een tarief op gebouw én grond telt het niveau wel: met een kleiner grondaandeel verschuift er minder.
 - We gebruiken de grondstaffel niet in plaats van onze schatting. Hij geldt alleen voor eengezinswoningen en verandert sterk per jaar. Een grondbelasting heeft een grondwaarde nodig die apart en stabiel wordt vastgesteld; daarom legt het [voorstel](/voorstel/) de methode vast in de wet en een AMvB, en begrenst het hoe snel de verhouding tussen de tarieven per jaar mag veranderen.
 
-De vergelijking per buurt staat in de download [vergelijking_grondstaffel.csv](/amsterdam/data/vergelijking_grondstaffel.csv).
+De vergelijking per buurt staat in de downloads [vergelijking_grondstaffel.csv](/amsterdam/data/vergelijking_grondstaffel.csv) en, voor Den Haag, [vergelijking_grondstaffel_denhaag.csv](/amsterdam/data/vergelijking_grondstaffel_denhaag.csv).
 
 ## Parkeren
 
@@ -151,7 +173,7 @@ Per woning publiceren we niets: dat zijn modeluitkomsten, geen waarnemingen. De 
 ## Beperkingen
 
 - Schattingen op buurtniveau. Een individueel perceel kan flink afwijken.
-- Voor eengezinswoningen zijn onze grondwaarden ongeveer {{< cijfer "gs_verhouding" >}} keer zo hoog als het grondbedrag in het WOZ-model van de gemeente. Zie [de vergelijking](#grondstaffel).
+- Voor eengezinswoningen zijn onze grondwaarden ongeveer {{< cijfer "gs_verhouding" >}} keer zo hoog als het grondbedrag in het WOZ-model van de gemeente, en in Den Haag {{< cijfer "dh_verhouding" >}} keer. Zie [de vergelijking](#grondstaffel).
 - Alleen woningen. Voor niet-woningen is geen open WOZ-data.
 - Statisch: eerste jaar, huidige bebouwing, geen gedragsverandering.
 - Erfpachters betalen al canon. Zonder verrekening wordt hun grond dubbel belast.
@@ -167,8 +189,11 @@ export AMS_CACHE=/pad/naar/cache   # ruwe downloads, enkele GB
 uv run 01_fetch.py && uv run 02_prepare.py
 uv run 03_land.py && uv run 04_parking.py && uv run 05_ozb.py && uv run 06_publish.py
 uv run 07_grondstaffel.py          # vergelijking met de grondstaffel van de gemeente
+# Den Haag als controle: dezelfde schatting, dan de vergelijking
+AMS_GEMEENTE=denhaag uv run 01_fetch.py && AMS_GEMEENTE=denhaag uv run 02_prepare.py && AMS_GEMEENTE=denhaag uv run 03_land.py
+uv run grondstaffel_denhaag.py && uv run 08_denhaag.py
 ```
 
 De grondstaffel staat al als CSV in `pipeline/amsterdam/input/grondstaffel/`. Amsterdam.nl blokkeert automatische downloads. Wie de tabellen zelf uit de PDF's wil halen, downloadt de Verantwoordingsdocumenten WOZ 2024 en 2025 in een browser en draait `uv run grondstaffel_pdf.py --vd2024 ... --vd2025 ...`.
 
-Alle getallen op deze pagina's komen uit `data/amsterdam/cijfers.json`, dat door de laatste twee stappen wordt geschreven.
+Alle getallen op deze pagina's komen uit `data/amsterdam/cijfers.json`, dat door `06_publish.py`, `07_grondstaffel.py` en `08_denhaag.py` wordt geschreven.

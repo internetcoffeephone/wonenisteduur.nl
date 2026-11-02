@@ -16,10 +16,16 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent.parent
-CACHE = Path(os.environ.get("AMS_CACHE", HERE / "cache")).resolve()
+# Steps 01-03 also run for another gemeente, as a cross-check (08_denhaag.py):
+# AMS_GEMEENTE=denhaag merges params-denhaag.toml over params.toml and uses its
+# own cache and output folder. Steps 04-08 only run for Amsterdam.
+GEMEENTE = os.environ.get("AMS_GEMEENTE", "amsterdam")
+CACHE_ROOT = Path(os.environ.get("AMS_CACHE", HERE / "cache")).resolve()
+CACHE = CACHE_ROOT if GEMEENTE == "amsterdam" else CACHE_ROOT / GEMEENTE
 RAW = CACHE / "raw"          # downloads, untouched
 WORK = CACHE / "work"        # intermediate parquet files
-OUT = HERE / "output"        # CSV/GeoJSON deliverables (committed, small)
+BAG = CACHE_ROOT / "raw" / "bag" / "bag-light.gpkg"  # national, shared by all gemeenten
+OUT = HERE / "output" if GEMEENTE == "amsterdam" else HERE / "output" / GEMEENTE  # committed, small
 SITE_DATA = REPO / "data" / "amsterdam"        # JSON read by Hugo templates
 SITE_STATIC = REPO / "static" / "amsterdam"    # map data and images served as-is
 
@@ -31,7 +37,17 @@ WGS84 = "EPSG:4326"
 
 def params() -> dict:
     with open(HERE / "params.toml", "rb") as f:
-        return tomllib.load(f)
+        p = tomllib.load(f)
+    if GEMEENTE != "amsterdam":
+        with open(HERE / f"params-{GEMEENTE}.toml", "rb") as f:
+            for section, values in tomllib.load(f).items():
+                p[section] = {**p.get(section, {}), **values}
+    return p
+
+
+def amsterdam_only() -> None:
+    if GEMEENTE != "amsterdam":
+        raise SystemExit(f"this step is for Amsterdam only (AMS_GEMEENTE={GEMEENTE})")
 
 
 def log(*args) -> None:
@@ -79,6 +95,16 @@ def read_json(path: Path):
 
 def variants() -> tuple[str, str, str]:
     return ("low", "central", "high")
+
+
+def staffel_waarde(m2: float, van: list[float], prijs: list[float]) -> float:
+    """Value of a kavel of `m2` when each m2 from van[i] up to van[i + 1] is worth prijs[i].
+
+    This is how the published grondstaffels work ("afnemende meerwaarde"): a
+    larger kavel adds less per extra m2, without jumps at the band edges.
+    """
+    tot = [*van[1:], float("inf")]
+    return sum((min(m2, hi) - lo) * p for lo, hi, p in zip(van, tot, prijs) if m2 > lo)
 
 
 # Dutch number formatting for the site texts (06_publish.py, 07_grondstaffel.py).

@@ -6,6 +6,7 @@
 
     uv run 01_fetch.py            # all sources, skipping files already present
     uv run 01_fetch.py dkk osm    # only some sources
+    AMS_GEMEENTE=denhaag uv run 01_fetch.py   # cbs, grid, dkk, bag for another gemeente
 
 Sources (all open, see README for licences):
   cbs     CBS OData: 86165NED (buurten), 83642NED (OZB), 83673NED (bouwkosten),
@@ -27,7 +28,7 @@ import sys
 import time
 import zipfile
 
-from common import RAW, RD, ensure_dirs, log, params, read_json, session, write_json
+from common import BAG, GEMEENTE, RAW, RD, ensure_dirs, log, params, read_json, session, write_json
 
 P = params()
 GM = P["area"]["gemeentecode"]
@@ -260,27 +261,29 @@ def fetch_osm(s):
 
 # ---------------------------------------------------------------- BAG
 def fetch_bag(s):
-    out = RAW / "bag"
-    out.mkdir(parents=True, exist_ok=True)
-    f = out / "bag-light.gpkg"
-    if f.exists() and not (out / "bag-light.gpkg.part").exists():
+    f = BAG
+    f.parent.mkdir(parents=True, exist_ok=True)
+    if f.exists():
         return
     url = "https://service.pdok.nl/kadaster/bag/atom/downloads/bag-light.gpkg"
     log("bag: downloading ~7.8 GB, this takes a while")
+    tmp = f.with_suffix(".part")
     with s.get(url, stream=True, timeout=600) as r:
         r.raise_for_status()
-        with open(f, "wb") as fh:
+        with open(tmp, "wb") as fh:
             for chunk in r.iter_content(8 << 20):
                 fh.write(chunk)
+    tmp.replace(f)
     log("bag", f.stat().st_size, "bytes")
 
 
 STEPS = {"cbs": fetch_cbs, "cvdr": fetch_cvdr, "grid": fetch_grid, "dkk": fetch_dkk,
          "bgt": fetch_bgt, "osm": fetch_osm, "bag": fetch_bag}
+LAND_ONLY = ["cbs", "grid", "dkk", "bag"]  # what 02-03 need; the default for other gemeenten
 
 if __name__ == "__main__":
     ensure_dirs()
-    want = sys.argv[1:] or list(STEPS)
+    want = sys.argv[1:] or (list(STEPS) if GEMEENTE == "amsterdam" else LAND_ONLY)
     sess = session()
     if any(w in ("dkk", "grid") for w in want):
         fetch_cbs(sess)  # tiles need the gemeente outline

@@ -21,6 +21,7 @@ uv run 04_parking.py   # B: surface parking land
 uv run 05_ozb.py       # C: OZB shift, woningen
 uv run 06_publish.py   # D: data/amsterdam/*.json, static/amsterdam/{data,grafieken,*.png}
 uv run 07_grondstaffel.py  # check: compare with the municipality's grondstaffel (adds gs_* keys)
+uv run 08_denhaag.py       # check: the same comparison in Den Haag (adds dh_* keys), see below
 ```
 
 All parameters live in `params.toml`. Downloaded files are only parsed, never executed.
@@ -35,6 +36,7 @@ All parameters live in `params.toml`. Downloaded files are only parsed, never ex
 | `top20_parkeerterreinen.csv` | 20 most valuable lots (buurten with own estimate) |
 | `ozb_buurt.csv`, `ozb_buurt_type.csv` | typical OZB change per buurt and per buurt x housing type |
 | `vergelijking_grondstaffel.csv` | per buurt (mostly grondgebonden): official land price from the grondstaffel vs ours |
+| `denhaag/` | the same land price estimate for Den Haag, and its comparison with Den Haag's grondstaffel |
 | `samenvatting_*.json` | all aggregate numbers used on the site |
 
 No per-dwelling or per-address output is written.
@@ -43,8 +45,9 @@ No per-dwelling or per-address output is written.
 
 CBS (CC BY 4.0), Kadaster Kadastrale kaart via PDOK (CC BY 4.0, credit "Kadaster"),
 BAG (public domain), BGT (CC0), OpenStreetMap (ODbL), gemeente Amsterdam CVDR texts,
-gemeente Amsterdam Verantwoordingsdocument WOZ 2024/2025 (published without a
-copyright reservation, art. 15b Auteurswet; only the area-level grondstaffel tables).
+gemeente Amsterdam Verantwoordingsdocument WOZ 2024/2025 and gemeente Den Haag
+Bijlage Grondstaffels 2024-2026 (published without a copyright reservation in the
+documents, art. 15b Auteurswet; only the area-level grondstaffel tables).
 Not used, on purpose: WOZ-waardeloket, per-address WOZ, BRK owner data,
 restricted Amsterdam WOZ/erfpacht APIs. Lots are named by type and location,
 never by owner or brand.
@@ -65,6 +68,25 @@ the estimate: they cover grondgebonden woningen only (apartments get no land
 part), and the split between woning and grond moves a lot between model years.
 Our land prices come out about twice the official ones in mostly-grondgebonden
 buurten, with a similar ranking of buurten. See the method page.
+
+## Den Haag as a cross-check
+
+To see whether that factor of two is particular to Amsterdam's model, steps
+01-03 also run for Den Haag, with the same parameters (`params-denhaag.toml`
+only changes the area). Den Haag publishes its grondstaffels in a yearly
+"Bijlage Grondstaffels" and allows scripted downloads, so the extraction
+downloads the PDFs itself:
+
+```bash
+AMS_GEMEENTE=denhaag uv run 01_fetch.py     # cbs, grid, dkk, bag (shares the BAG file with Amsterdam)
+AMS_GEMEENTE=denhaag uv run 02_prepare.py
+AMS_GEMEENTE=denhaag uv run 03_land.py      # -> output/denhaag/
+uv run grondstaffel_denhaag.py              # -> input/grondstaffel/denhaag/grondstaffel.csv
+uv run 08_denhaag.py
+```
+
+The Den Haag cache lives in `$AMS_CACHE/denhaag/`. Steps 04-08 refuse to run
+for another gemeente: they write the Amsterdam site data.
 
 ## Colours
 

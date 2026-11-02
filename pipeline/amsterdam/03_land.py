@@ -33,11 +33,9 @@ import numpy as np
 import pandas as pd
 import shapely
 
-from common import OUT, RAW, WORK, ensure_dirs, log, params, read_json, write_json
+from common import BAG, OUT, RAW, WORK, ensure_dirs, log, params, read_json, write_json
 
 P = params()
-STADSDEEL = {"A": "Centrum", "B": "Westpoort", "E": "West", "F": "Nieuw-West", "K": "Zuid", "M": "Oost",
-             "N": "Noord", "S": "Weesp", "T": "Zuidoost", "9": "Water"}
 VARIANTS = ("low", "central", "high")
 
 
@@ -111,7 +109,7 @@ def national_check(cost: dict) -> dict:
     import pyogrio
 
     la = P["land_area"]
-    df = pyogrio.read_dataframe(RAW / "bag" / "bag-light.gpkg", layer="verblijfsobject", read_geometry=False,
+    df = pyogrio.read_dataframe(BAG, layer="verblijfsobject", read_geometry=False,
                                 columns=["oppervlakte", "status", "gebruiksdoel", "bouwjaar"], use_arrow=True)
     df = df[df.status.isin(la["vbo_status"]) & df.gebruiksdoel.fillna("").str.contains("woonfunctie")]
     opp = df.oppervlakte.where(df.oppervlakte.between(la["min_vbo_m2"], la["max_vbo_m2"]))
@@ -238,7 +236,7 @@ def main():
     ensure_dirs()
     ls = P["land_share"]
     buurten = gpd.read_parquet(WORK / "buurten.parquet")
-    buurten["stadsdeel"] = buurten.wijkcode.str[6].map(STADSDEEL)
+    buurten["stadsdeel"] = buurten.wijkcode.str[6].map(P["area"]["stadsdeel"])
     cbs = cbs_buurt_table()
     cost = rebuild_cost_per_m2()
     nat = national_land_share()

@@ -32,10 +32,10 @@ from __future__ import annotations
 import re
 import shutil
 
-import numpy as np
 import pandas as pd
 
-from common import HERE, OUT, SITE_DATA, SITE_STATIC, eur, log, nl, params, pct, read_json, write_json
+from common import (HERE, OUT, SITE_DATA, SITE_STATIC, amsterdam_only, eur, log, nl, params, pct, read_json,
+                    staffel_waarde, write_json)
 
 P = params()
 G = P["grondstaffel"]
@@ -47,17 +47,6 @@ MAAND = ("januari", "februari", "maart", "april", "mei", "juni", "juli", "august
 def datum(iso: str) -> str:
     y, m, d = (int(x) for x in iso.split("-"))
     return f"{d} {MAAND[m - 1]} {y}"
-
-
-def staffel_m2(area: float, bands: pd.DataFrame) -> float:
-    """Kavel m2 weighted by the marginal factor of each band ("afnemende meerwaarde")."""
-    total, lo = 0.0, 0.0
-    for tot, f in zip(bands.tot_m2, bands.factor):
-        hi = float(tot) if pd.notna(tot) else np.inf
-        if area > lo:
-            total += (min(area, hi) - lo) * f
-        lo = hi
-    return total
 
 
 def norm(name: str) -> str:
@@ -74,6 +63,7 @@ def main():
 
     prijs = bp[(bp.peildatum == peil) & (bp.objecttype == typ)].set_index("gebied").basisprijs_m2
     bands = st[(st.peildatum == peil) & (st.objecttype == typ)].sort_values("van_m2")
+    van, factor = [0, *bands.tot_m2.dropna()], list(bands.factor)  # "0-100", "101-200": edges at 100, 200
 
     # ------------------------------------------------------------ per buurt
     b = ours[(ours.bron_grondprijs == "buurt") & (ours.pct_grondgebonden_bag >= G["min_pct_grondgebonden"])
@@ -81,7 +71,7 @@ def main():
     b = b.join(bc[["waardegebied", "correctie"]], on="buurtcode")
     b["basisprijs_m2"] = b.waardegebied.map(prijs)
     b["kavel_m2"] = b.grond_m2_per_woning
-    b["grondwaarde_gemeente"] = b.basisprijs_m2 * (1 + b.correctie) * b.kavel_m2.map(lambda a: staffel_m2(a, bands))
+    b["grondwaarde_gemeente"] = b.basisprijs_m2 * (1 + b.correctie) * b.kavel_m2.map(lambda a: staffel_waarde(a, van, factor))
     b["grondprijs_m2_gemeente"] = b.grondwaarde_gemeente / b.kavel_m2
     b["grondaandeel_gemeente"] = b.grondwaarde_gemeente / b.woz_gem
     b["verhouding"] = b.grondprijs_m2_central / b.grondprijs_m2_gemeente
@@ -182,4 +172,5 @@ def main():
 
 
 if __name__ == "__main__":
+    amsterdam_only()
     main()

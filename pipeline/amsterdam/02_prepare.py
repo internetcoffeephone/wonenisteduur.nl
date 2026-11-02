@@ -2,7 +2,7 @@
 # requires-python = ">=3.11"
 # dependencies = ["geopandas>=1.0", "pyogrio>=0.9", "pyarrow>=15", "shapely>=2.0", "pandas>=2.2", "numpy>=1.26"]
 # ///
-"""Parse the raw downloads into clean GeoParquet files clipped to Amsterdam.
+"""Parse the raw downloads into clean GeoParquet files clipped to the gemeente.
 
     uv run 02_prepare.py
 
@@ -25,7 +25,7 @@ from shapely import make_valid
 from shapely.geometry import LineString, MultiPolygon, Point, Polygon, shape
 from shapely.ops import polygonize, unary_union
 
-from common import RAW, RD, WGS84, WORK, ensure_dirs, log, params, read_json
+from common import BAG, GEMEENTE, RAW, RD, WGS84, WORK, ensure_dirs, log, params, read_json
 
 P = params()
 KAART = P["area"]["cbs_buurtkaart"]
@@ -58,7 +58,7 @@ def prepare_buurten():
 
 # ---------------------------------------------------------------- BAG
 def prepare_bag(buurten, gem):
-    path = RAW / "bag" / "bag-light.gpkg"
+    path = BAG
     bbox = tuple(gem.bounds)
     la = P["land_area"]
     vbo = pyogrio.read_dataframe(path, layer="verblijfsobject", bbox=bbox,
@@ -263,7 +263,8 @@ if __name__ == "__main__":
     import sys
 
     ensure_dirs()
-    want = sys.argv[1:] or ["buurten", "bag", "percelen", "bgt", "osm", "grid"]
+    want = sys.argv[1:] or (["buurten", "bag", "percelen", "bgt", "osm", "grid"] if GEMEENTE == "amsterdam"
+                            else ["buurten", "bag", "percelen", "grid"])
     buurten, gem_all = prepare_buurten()
     if "bag" in want:
         prepare_bag(buurten, gem_all)
