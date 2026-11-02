@@ -6,6 +6,7 @@ Hugo static site advocating for grondwaardebelasting (land value tax) in the Net
 
 - `hugo` — build the site to `public/`
 - `hugo server` — local preview at http://localhost:1313
+- After a push to main, wait for the live site with `~/src/agent-skills/bin/poll --budget 240 -- scripts/check-live.sh PATH PATTERN ...` (GitHub Pages takes about a minute)
 
 ## Pre-commit
 
