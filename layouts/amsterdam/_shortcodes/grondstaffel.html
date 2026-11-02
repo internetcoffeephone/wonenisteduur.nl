@@ -1,0 +1,20 @@
+{{- /* Our land price vs the municipality's grondstaffel per waardegebied, from tabellen.json (07_grondstaffel.py). */ -}}
+<div class="ams-tabel-scroll">
+<table>
+  <thead><tr><th>Waardegebied</th><th>Buurten</th><th>Kavel (m²)</th><th>Gemeente per m²</th><th>Wij per m²</th><th>Grondaandeel gemeente</th><th>Grondaandeel wij</th></tr></thead>
+  <tbody>
+  {{- range hugo.Data.amsterdam.tabellen.grondstaffel }}
+    <tr>
+      <td data-label="Waardegebied">{{ .waardegebied }}</td>
+      <td data-label="Buurten">{{ .buurten }}</td>
+      <td data-label="Kavel (m²)">{{ .kavel }}</td>
+      <td data-label="Gemeente per m²">{{ .gemeente }}</td>
+      <td data-label="Wij per m²">{{ .ons }} <span class="ams-klein">({{ .bereik }})</span></td>
+      <td data-label="Grondaandeel gemeente">{{ .aandeel_gemeente }}</td>
+      <td data-label="Grondaandeel wij">{{ .aandeel_ons }}</td>
+    </tr>
+  {{- end }}
+  </tbody>
+</table>
+</div>
+<p class="ams-klein">Medianen per waardegebied over de buurten met een eigen schatting waar minstens {{ (index hugo.Data.amsterdam.cijfers "gs_min_pct").t }} van de woningen grondgebonden is. Kavel: gemiddelde grond per woning in de buurt. Gemeente: prijs voor rij- en hoekwoningen met staffel en buurtcorrectie, peildatum {{ (index hugo.Data.amsterdam.cijfers "gs_peildatum").t }}. Grondaandeel: grondwaarde van die kavel gedeeld door de gemiddelde WOZ-waarde van de buurt.</p>

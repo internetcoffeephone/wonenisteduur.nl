@@ -90,3 +90,14 @@ change_threshold = 0.10           # report shares changing more than +/- 10%
 # A dwelling is "grondgebonden" when its pand holds exactly one woon-VBO and at
 # most `max_vbo_in_pand` VBOs in total; otherwise "appartement".
 max_vbo_in_pand = 2
+
+[grondstaffel]
+# Comparison with the municipality's own land price (07_grondstaffel.py). Source:
+# Verantwoordingsdocument WOZ 2025 (waardepeildatum 1-1-2024) and 2024 (1-1-2023),
+# extracted to input/grondstaffel/ by grondstaffel_pdf.py.
+peildatum = "2024-01-01"          # same peildatum as the CBS WOZ averages above
+vorige_peildatum = "2023-01-01"
+objecttype = "rij_hoek"           # price used for the comparison: the most common grondgebonden type
+min_pct_grondgebonden = 60        # compare only buurten where most dwellings are grondgebonden
+# Market change of woningen the same document reports ("ongeveer 5,1% gestegen").
+marktontwikkeling = 0.051

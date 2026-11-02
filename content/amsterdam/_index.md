@@ -11,7 +11,7 @@ menus:
 <p class="ams-lead">Waar zit de waarde van Amsterdam? Hoeveel dure grond ligt er onder parkeerterreinen? En wie gaat meer of minder betalen als de OZB niet meer over huis én grond gaat, maar vooral over de grond? We hebben het uitgerekend voor alle buurten van de stad, met openbare gegevens.</p>
 
 <div class="disclaimer">
-<strong>Dit zijn schattingen, geen officiële waarden.</strong> De gemeente publiceert geen grondwaarden. Wij hebben ze afgeleid uit de gemiddelde WOZ-waarde per buurt (CBS) en de bouwkosten van de woningen erop. Bij elke schatting staat een bandbreedte. Officiële grondstaffels zijn opgevraagd via een Woo-verzoek; deze kaart wordt bijgewerkt zodra die er zijn.
+<strong>Dit zijn schattingen, geen officiële waarden.</strong> Wij hebben de grondwaarden afgeleid uit de gemiddelde WOZ-waarde per buurt (CBS) en de bouwkosten van de woningen erop. Bij elke schatting staat een bandbreedte. De gemeente publiceert zelf alleen een grondprijs voor eengezinswoningen ({{< cijfer "gs_grondgebonden" >}} van de woningen). Onze schatting is daar ongeveer {{< cijfer "gs_verhouding" >}} keer zo hoog, maar de verschillen tussen buurten zijn vergelijkbaar. Zie <a href="/amsterdam/methode/#grondstaffel">de vergelijking</a>.
 </div>
 
 ## De belangrijkste cijfers
@@ -26,7 +26,7 @@ menus:
 
 Wat dit betekent:
 
-- **Bijna alle waarde zit in de grond.** Een Amsterdams huis kost gemiddeld {{< cijfer "woz_gem" >}} (WOZ 2024). Opnieuw bouwen kost een fractie daarvan. De rest betaal je voor de plek.
+- **Het grootste deel van de waarde zit in de grond.** Een Amsterdams huis kost gemiddeld {{< cijfer "woz_gem" >}} (WOZ 2024). Opnieuw bouwen kost een fractie daarvan. De rest betaal je voor de plek. Het WOZ-model van de gemeente rekent voor eengezinswoningen wel met een kleiner deel grond ([vergelijking](/amsterdam/methode/#grondstaffel)).
 - **Op dure grond staan auto's.** Bovengrondse parkeerterreinen beslaan {{< cijfer "park_ha" >}} hectare, verspreid over {{< cijfer "park_aantal" >}} terreinen. Daarnaast ligt er {{< cijfer "straat_ha" >}} hectare aan parkeervakken langs de stoep.
 - **Een grondbelasting op woningen raakt vooral wie veel grond gebruikt.** Eengezinswoningen met een tuin gaan meer betalen, flats en appartementen meestal minder. Woningen in buurten met lage inkomens gaan er gemiddeld op vooruit; de OZB betaalt wel de eigenaar, niet de huurder.
 - **Het gaat om kleine bedragen, en dat is ook een conclusie.** De OZB op woningen is in Amsterdam laag: de mediane woning betaalt {{< cijfer "stad_ozb_nu" >}} per jaar. De grote verschuiving zou zitten bij niet-woningen en onbebouwde grond, en die kunnen we met openbare data nog niet doorrekenen.
@@ -133,10 +133,10 @@ Twee dingen vallen op. Ten eerste schuift de last binnen buurten meer dan tussen
 
 De gemeente kán dit nu niet invoeren: de Gemeentewet schrijft één OZB-tarief over de hele WOZ-waarde voor. Eén wetswijziging is genoeg om gemeenten de keuze te geven, budgetneutraal, net zoals ze sinds 2026 zelf mogen kiezen voor een leegstandbelasting.
 
-Tegelijk kan de gemeente nu al doen wat deze pagina laat zien, maar dan beter. In haar WOZ-model rekent ze met grondprijzen per waardegebied: de grondstaffels. Die zijn niet openbaar. We hebben ze opgevraagd met een Woo-verzoek. Zodra ze er zijn, vervangen ze onze schattingen en werken we deze pagina bij.
+Tegelijk kan de gemeente nu al doen wat deze pagina laat zien, maar dan beter. In haar WOZ-model rekent ze voor eengezinswoningen al met een grondprijs per m² per waardegebied, de grondstaffel, en die publiceert ze. Voor appartementen ontbreekt zo'n grondprijs. En de verdeling tussen grond en gebouw verandert in het model sterk van jaar tot jaar ([vergelijking](/amsterdam/methode/#grondstaffel)). Voor een grondbelasting zou de gemeente de grondwaarde van alle percelen apart en stabiel moeten vaststellen.
 
 - **Methode, aannames en bronnen:** [methodepagina](/amsterdam/methode/)
-- **Downloads (CSV):** [grondprijs per buurt](/amsterdam/data/buurt_grondprijs.csv), [parkeren per buurt](/amsterdam/data/buurt_parkeren.csv), [OZB per buurt](/amsterdam/data/ozb_buurt.csv), [OZB per buurt en woningtype](/amsterdam/data/ozb_buurt_type.csv)
+- **Downloads (CSV):** [grondprijs per buurt](/amsterdam/data/buurt_grondprijs.csv), [parkeren per buurt](/amsterdam/data/buurt_parkeren.csv), [OZB per buurt](/amsterdam/data/ozb_buurt.csv), [OZB per buurt en woningtype](/amsterdam/data/ozb_buurt_type.csv), [vergelijking met de grondstaffel](/amsterdam/data/vergelijking_grondstaffel.csv)
 - **Zit je in de gemeenteraad of doe je onderzoek?** Mail {{< email >}}. We rekenen graag een variant voor je door.
 
-<p class="ams-bronnen">Bronnen: CBS Kerncijfers wijken en buurten 2025 en 2023, CBS 83642NED, 83673NED en 84550NED, CBS Wijk- en buurtkaart 2025 en vierkantstatistieken (CC BY 4.0); Kadaster, Kadastrale kaart via PDOK (CC BY 4.0); BAG (publiek domein); BGT (CC0); © OpenStreetMap-bijdragers (ODbL); gemeente Amsterdam, Verordening Onroerendezaakbelastingen (CVDR72876, versie 2026) en Grondwaardebepaling voor bestaande erfpachtrechten 2021. Bewerking en schattingen: wonenisteduur.nl.</p>
+<p class="ams-bronnen">Bronnen: CBS Kerncijfers wijken en buurten 2025 en 2023, CBS 83642NED, 83673NED en 84550NED, CBS Wijk- en buurtkaart 2025 en vierkantstatistieken (CC BY 4.0); Kadaster, Kadastrale kaart via PDOK (CC BY 4.0); BAG (publiek domein); BGT (CC0); © OpenStreetMap-bijdragers (ODbL); gemeente Amsterdam, Verordening Onroerendezaakbelastingen (CVDR72876, versie 2026) en Grondwaardebepaling voor bestaande erfpachtrechten 2021, Verantwoordingsdocument WOZ 2024 en 2025. Bewerking en schattingen: wonenisteduur.nl.</p>

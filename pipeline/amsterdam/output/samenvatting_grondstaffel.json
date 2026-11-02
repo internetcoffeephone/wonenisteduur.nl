@@ -1,0 +1,235 @@
+{
+ "peildatum": "2024-01-01",
+ "vorige_peildatum": "2023-01-01",
+ "objecttype": "rij_hoek",
+ "grondgebonden_aandeel_woningen": 0.12634578284742526,
+ "buurtcorrecties": 518,
+ "basisprijs": {
+  "Centrum": 3035.08,
+  "Nieuw-West/Westpoort": 1735.85,
+  "Noord": 1976.44,
+  "Oost": 2630.37,
+  "Weesp": 1441.88,
+  "West": 2977.2,
+  "Zuid": 3191.95,
+  "Zuidoost": 1289.6
+ },
+ "buurten": 56,
+ "woningen": 35976,
+ "verhouding_mediaan": 1.9739383160191586,
+ "verhouding_p10": 1.574700658792972,
+ "verhouding_p90": 2.330247163654392,
+ "binnen_band": 0,
+ "rangcorrelatie": 0.8574846206425153,
+ "grondaandeel_gemeente_mediaan": 0.3860896175952153,
+ "grondaandeel_ons_mediaan": 0.7685,
+ "stabiliteit": {
+  "basisbuurten": 18,
+  "factor_mediaan": 2.202937111257517,
+  "factor_min": 1.502075692857643,
+  "factor_max": 2.7587185492533406,
+  "marktontwikkeling": 0.051,
+  "buurten": [
+   {
+    "gebied": "Vondelparkbuurt Oost",
+    "buurtcode": "BU0363EV02",
+    "basisprijs_m2": 1956.07,
+    "prijs_nu": 3881.17,
+    "factor": 1.98
+   },
+   {
+    "gebied": "Driehoekbuurt",
+    "buurtcode": "BU0363AB02",
+    "basisprijs_m2": 1395.16,
+    "prijs_nu": 3112.23,
+    "factor": 2.23
+   },
+   {
+    "gebied": "Hemonybuurt",
+    "buurtcode": "BU0363KE05",
+    "basisprijs_m2": 1400.93,
+    "prijs_nu": 3346.98,
+    "factor": 2.39
+   },
+   {
+    "gebied": "Kop Zeedijk",
+    "buurtcode": "BU0363AE01",
+    "basisprijs_m2": 1217.49,
+    "prijs_nu": 2773.73,
+    "factor": 2.28
+   },
+   {
+    "gebied": "Wielingenbuurt",
+    "buurtcode": "BU0363KK01",
+    "basisprijs_m2": 1469.06,
+    "prijs_nu": 3290.52,
+    "factor": 2.24
+   },
+   {
+    "gebied": "Van der Pekbuurt",
+    "buurtcode": "BU0363NK03",
+    "basisprijs_m2": 855.87,
+    "prijs_nu": 2274.15,
+    "factor": 2.66
+   },
+   {
+    "gebied": "Bretten Oost",
+    "buurtcode": "BU0363FA07",
+    "basisprijs_m2": 787.77,
+    "prijs_nu": 1735.85,
+    "factor": 2.2
+   },
+   {
+    "gebied": "Langestraat e.o.",
+    "buurtcode": "BU0363AC01",
+    "basisprijs_m2": 1520.79,
+    "prijs_nu": 3142.55,
+    "factor": 2.07
+   },
+   {
+    "gebied": "Oosterparkbuurt Noordwest",
+    "buurtcode": "BU0363MC01",
+    "basisprijs_m2": 1068.76,
+    "prijs_nu": 2948.41,
+    "factor": 2.76
+   },
+   {
+    "gebied": "Oostelijke Handelskade",
+    "buurtcode": "BU0363MA03",
+    "basisprijs_m2": 1071.72,
+    "prijs_nu": 2590.57,
+    "factor": 2.42
+   },
+   {
+    "gebied": "Westerdokseiland",
+    "buurtcode": "BU0363AA03",
+    "basisprijs_m2": 1322.46,
+    "prijs_nu": 2912.55,
+    "factor": 2.2
+   },
+   {
+    "gebied": "Hoofdcentrum Zuidoost",
+    "buurtcode": "BU0363TA01",
+    "basisprijs_m2": 604.05,
+    "prijs_nu": 1289.6,
+    "factor": 2.13
+   },
+   {
+    "gebied": "Bertelmanpleinbuurt",
+    "buurtcode": "BU0363KH01",
+    "basisprijs_m2": 2140.05,
+    "prijs_nu": 3214.52,
+    "factor": 1.5
+   },
+   {
+    "gebied": "Middelveldsche Akerpolder",
+    "buurtcode": "BU0363FG01",
+    "basisprijs_m2": 739.17,
+    "prijs_nu": 1442.73,
+    "factor": 1.95
+   },
+   {
+    "gebied": "Spiegelbuurt",
+    "buurtcode": "BU0363AG04",
+    "basisprijs_m2": 1651.53,
+    "prijs_nu": 3464.97,
+    "factor": 2.1
+   },
+   {
+    "gebied": "Oosterdokseiland",
+    "buurtcode": "BU0363AF01",
+    "basisprijs_m2": 1373.2,
+    "prijs_nu": 3272.33,
+    "factor": 2.38
+   },
+   {
+    "gebied": "Gelderlandpleinbuurt",
+    "buurtcode": "BU0363KQ04",
+    "basisprijs_m2": 1110.96,
+    "prijs_nu": 2275.0,
+    "factor": 2.05
+   },
+   {
+    "gebied": "Ookmeer",
+    "buurtcode": "BU0363FF02",
+    "basisprijs_m2": 706.24,
+    "prijs_nu": 1225.89,
+    "factor": 1.74
+   }
+  ]
+ },
+ "per_waardegebied": [
+  {
+   "waardegebied": "Nieuw-West/Westpoort",
+   "buurten": 11,
+   "woningen": 10601,
+   "kavel_m2": 118.0,
+   "gemeente_m2": 1513.83895104,
+   "ons_m2": 3149.0,
+   "ons_m2_low": 2729.0,
+   "ons_m2_high": 3671.0,
+   "aandeel_gemeente": 0.3376658997962963,
+   "aandeel_ons": 0.748
+  },
+  {
+   "waardegebied": "Noord",
+   "buurten": 21,
+   "woningen": 10987,
+   "kavel_m2": 161.0,
+   "gemeente_m2": 1729.3261273191488,
+   "ons_m2": 3211.0,
+   "ons_m2_low": 2923.0,
+   "ons_m2_high": 3490.0,
+   "aandeel_gemeente": 0.4400124113883301,
+   "aandeel_ons": 0.817
+  },
+  {
+   "waardegebied": "Oost",
+   "buurten": 1,
+   "woningen": 90,
+   "kavel_m2": 398.0,
+   "gemeente_m2": 1535.9846552828137,
+   "ons_m2": 3705.0,
+   "ons_m2_low": 3413.0,
+   "ons_m2_high": 4068.0,
+   "aandeel_gemeente": 0.32517121957582973,
+   "aandeel_ons": 0.785
+  },
+  {
+   "waardegebied": "Weesp",
+   "buurten": 11,
+   "woningen": 6081,
+   "kavel_m2": 176.0,
+   "gemeente_m2": 1320.3787896944882,
+   "ons_m2": 2543.0,
+   "ons_m2_low": 2205.0,
+   "ons_m2_high": 2963.0,
+   "aandeel_gemeente": 0.38997234021209304,
+   "aandeel_ons": 0.772
+  },
+  {
+   "waardegebied": "Zuid",
+   "buurten": 1,
+   "woningen": 327,
+   "kavel_m2": 259.0,
+   "gemeente_m2": 3463.3639979745167,
+   "ons_m2": 7639.0,
+   "ons_m2_low": 7062.0,
+   "ons_m2_high": 8133.0,
+   "aandeel_gemeente": 0.3923933838475065,
+   "aandeel_ons": 0.866
+  },
+  {
+   "waardegebied": "Zuidoost",
+   "buurten": 11,
+   "woningen": 7890,
+   "kavel_m2": 103.0,
+   "gemeente_m2": 1325.5282559999998,
+   "ons_m2": 2716.0,
+   "ons_m2_low": 2359.0,
+   "ons_m2_high": 3289.0,
+   "aandeel_gemeente": 0.30236704457142854,
+   "aandeel_ons": 0.704
+  }
+ ]
+}

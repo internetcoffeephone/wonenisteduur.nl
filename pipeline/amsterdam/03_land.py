@@ -19,8 +19,9 @@ Doucet's "simplest viable method", adapted to Dutch open data:
              = a x mean WOZ / mean land m2 per dwelling.
 
 Three variants (low / central / high land price) combine the rebuild-cost and
-depreciation ranges in params.toml. If official grondstaffels are available
-(input/grondstaffels.*), they replace the estimate; see README.
+depreciation ranges in params.toml. The municipality's published grondstaffel
+is not used here: it covers only grondgebonden woningen and is a model split, so
+07_grondstaffel.py compares it with these estimates instead; see README.
 
     uv run 03_land.py
 """
@@ -32,7 +33,7 @@ import numpy as np
 import pandas as pd
 import shapely
 
-from common import HERE, OUT, RAW, WORK, ensure_dirs, log, params, read_json, write_json
+from common import OUT, RAW, WORK, ensure_dirs, log, params, read_json, write_json
 
 P = params()
 STADSDEEL = {"A": "Centrum", "B": "Westpoort", "E": "West", "F": "Nieuw-West", "K": "Zuid", "M": "Oost",
@@ -195,27 +196,6 @@ def allocate_land(vbo: pd.DataFrame) -> tuple[pd.Series, dict]:
     return pd.Series(land_vbo, index=vbo.index), stats
 
 
-# ---------------------------------------------------------------- grondstaffels hook
-def official_rates(buurten: gpd.GeoDataFrame, res_land: pd.DataFrame) -> pd.DataFrame | None:
-    """If the Woo grondstaffels are present, return EUR/m2 per buurt from them.
-
-    Expected input (see README): input/grondstaffels.gpkg (or .geojson) with one
-    polygon per waardegebied and a numeric field `grondprijs_m2` (woningen),
-    plus `peildatum`. Rates are mapped to buurten as the residential-land-
-    weighted mean over the waardegebieden that overlap each buurt.
-    """
-    for ext in ("gpkg", "geojson"):
-        f = HERE / "input" / f"grondstaffels.{ext}"
-        if f.exists():
-            gs = gpd.read_file(f).to_crs(buurten.crs)
-            ov = gpd.overlay(buurten[["buurtcode", "geometry"]], gs[["grondprijs_m2", "geometry"]], how="intersection")
-            ov["w"] = ov.geometry.area
-            r = ov.groupby("buurtcode").apply(lambda g: np.average(g.grondprijs_m2, weights=g.w))
-            log("official grondstaffels used:", f.name, len(r), "buurten")
-            return pd.DataFrame({"r_official": r})
-    return None
-
-
 # ---------------------------------------------------------------- uniformity
 def uniformity(buurten: gpd.GeoDataFrame, vbo: pd.DataFrame) -> pd.DataFrame:
     """Spread of WOZ per m2 floor area across CBS 100 m cells within each buurt."""
@@ -336,15 +316,6 @@ def main():
     b["bron_grondprijs"] = np.where(own, "buurt", np.where(b.grondprijs_m2_central.notna(), "wijk", "geen"))
     b["woz_bruikbaar"] = ok
 
-    off = official_rates(buurten, b)
-    if off is not None:
-        b = b.join(off)
-        for v in VARIANTS:
-            b[f"grondprijs_m2_{v}"] = b.r_official.fillna(b[f"grondprijs_m2_{v}"])
-            b[f"grondprijs_m2_std_{v}"] = b.r_official.fillna(b[f"grondprijs_m2_std_{v}"])
-            b[f"grondwaarde_m2_wo_{v}"] = (b.r_official / b.dichtheid).fillna(b[f"grondwaarde_m2_wo_{v}"])
-        b["bron_grondprijs"] = np.where(b.r_official.notna(), "grondstaffel", b.bron_grondprijs)
-
     b["grondwaarde_per_woning_central"] = b.grondprijs_m2_central * b.grond_m2_per_woning
     b = b.join(uniformity(buurten, vbo))
 
@@ -356,7 +327,7 @@ def main():
     w[keep_w].to_parquet(WORK / "dwellings.parquet")
 
     # ------------------------------------------------------------ summary
-    res = gdf[gdf.bron_grondprijs.isin(["buurt", "wijk", "grondstaffel"])]
+    res = gdf[gdf.bron_grondprijs.isin(["buurt", "wijk"])]
     tot_woz = float(gdf.woz_som.sum())
     summ = {
         "rebuild_cost": cost,

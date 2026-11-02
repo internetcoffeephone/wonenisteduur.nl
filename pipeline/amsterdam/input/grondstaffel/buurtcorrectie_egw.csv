@@ -1,0 +1,519 @@
+peildatum,buurtcode,buurtnaam,waardegebied,correctie
+2024-01-01,BU0363AA01,Planciusbuurt-Noord,Centrum,-0.14807
+2024-01-01,BU0363AA02,Westelijke eilanden,Centrum,-0.02774
+2024-01-01,BU0363AA03,Westerdokseiland,Centrum,-0.040369999999999996
+2024-01-01,BU0363AA04,Planciusbuurt-Zuid,Centrum,-0.06462
+2024-01-01,BU0363AA05,Haarlemmerbuurt-West,Centrum,-0.06282
+2024-01-01,BU0363AA06,Haarlemmerbuurt-Oost,Centrum,-0.04707
+2024-01-01,BU0363AB01,Marnixbuurt-Noord,Centrum,-0.00718
+2024-01-01,BU0363AB02,Driehoekbuurt,Centrum,0.025419999999999998
+2024-01-01,BU0363AB03,Anjeliersbuurt-Noord,Centrum,0.08374000000000001
+2024-01-01,BU0363AB04,Zaagpoortbuurt,Centrum,-0.039420000000000004
+2024-01-01,BU0363AB05,Anjeliersbuurt-Zuid,Centrum,0.07769
+2024-01-01,BU0363AB06,Marnixbuurt-Midden,Centrum,-0.026840000000000003
+2024-01-01,BU0363AB07,Bloemgrachtbuurt,Centrum,-0.00577
+2024-01-01,BU0363AB08,Groenmarktkadebuurt,Centrum,0.006690000000000001
+2024-01-01,BU0363AB09,Marnixbuurt-Zuid,Centrum,0.00194
+2024-01-01,BU0363AB10,Elandsgrachtbuurt,Centrum,0.052270000000000004
+2024-01-01,BU0363AB11,Passeerdersgrachtbuurt,Centrum,0.07675
+2024-01-01,BU0363AC01,Langestraat e.o.,Centrum,0.03541
+2024-01-01,BU0363AC02,Leliegracht e.o.,Centrum,0.03972
+2024-01-01,BU0363AC03,Felix Meritisbuurt,Centrum,0.00748
+2024-01-01,BU0363AC04,Leidsegracht-Noord,Centrum,0.07669
+2024-01-01,BU0363AD01,Stationsplein e.o.,Centrum,-0.09125
+2024-01-01,BU0363AD02,Hemelrijk,Centrum,-0.1085
+2024-01-01,BU0363AD03,Nieuwendijk-Noord,Centrum,-0.12345
+2024-01-01,BU0363AD04,Spuistraat-Noord,Centrum,-0.10404999999999999
+2024-01-01,BU0363AD05,Nieuwe Kerk e.o.,Centrum,-0.07165
+2024-01-01,BU0363AD06,Spuistraat-Zuid,Centrum,-0.09371
+2024-01-01,BU0363AD07,Begijnhofbuurt,Centrum,-0.07339000000000001
+2024-01-01,BU0363AD08,Kalverdriehoek,Centrum,-0.06865
+2024-01-01,BU0363AE01,Kop Zeedijk,Centrum,-0.08611
+2024-01-01,BU0363AE02,Oude Kerk e.o.,Centrum,-0.12011
+2024-01-01,BU0363AE03,Burgwallen-Oost,Centrum,-0.07125
+2024-01-01,BU0363AE04,Nes e.o.,Centrum,-0.043070000000000004
+2024-01-01,BU0363AE05,BG-terrein e.o.,Centrum,-0.0538
+2024-01-01,BU0363AF01,Oosterdokseiland,Centrum,0.07817
+2024-01-01,BU0363AF02,Lastage,Centrum,-0.0379
+2024-01-01,BU0363AF03,Scheepvaarthuisbuurt,Centrum,-0.04165
+2024-01-01,BU0363AF04,Rapenburg,Centrum,-0.059539999999999996
+2024-01-01,BU0363AF05,Nieuwmarkt,Centrum,-0.01631
+2024-01-01,BU0363AF06,Uilenburg,Centrum,-0.02936
+2024-01-01,BU0363AF07,Valkenburg,Centrum,-0.045110000000000004
+2024-01-01,BU0363AF08,Zuiderkerkbuurt,Centrum,0.00962
+2024-01-01,BU0363AF09,Waterloopleinbuurt,Centrum,-0.03615
+2024-01-01,BU0363AG01,Leidsegracht-Zuid,Centrum,0.14243
+2024-01-01,BU0363AG02,Geelvinckbuurt,Centrum,0.11801
+2024-01-01,BU0363AG03,Rembrandtplein e.o.,Centrum,0.08857
+2024-01-01,BU0363AG04,Spiegelbuurt,Centrum,0.14164
+2024-01-01,BU0363AG05,Vijzelstraatbuurt,Centrum,0.20861999999999997
+2024-01-01,BU0363AG06,Amstelveldbuurt,Centrum,0.19640000000000002
+2024-01-01,BU0363AH01,Leidsebuurt-Noordwest,Centrum,0.022789999999999998
+2024-01-01,BU0363AH02,Leidsebuurt-Noordoost,Centrum,0.03041
+2024-01-01,BU0363AH03,Weteringbuurt,Centrum,0.15713
+2024-01-01,BU0363AH04,Utrechtsebuurt-Zuid,Centrum,0.16371
+2024-01-01,BU0363AH05,Leidsebuurt-Zuidwest,Centrum,0.04285
+2024-01-01,BU0363AH06,Leidsebuurt-Zuidoost,Centrum,0.015489999999999999
+2024-01-01,BU0363AH07,Den Texbuurt,Centrum,0.12449
+2024-01-01,BU0363AH08,Frederikspleinbuurt,Centrum,0.1573
+2024-01-01,BU0363AJ01,Weesperbuurt,Centrum,-0.00179
+2024-01-01,BU0363AJ02,Plantage,Centrum,0.03995
+2024-01-01,BU0363AJ03,Sarphatistrook,Centrum,0.015009999999999999
+2024-01-01,BU0363AJ04,Alexanderplein e.o.,Centrum,0.01447
+2024-01-01,BU0363AK01,Marine-Etablissement,Centrum,-0.06679
+2024-01-01,BU0363AK02,Kattenburg,Centrum,-0.06478
+2024-01-01,BU0363AK03,Wittenburg,Centrum,-0.11606
+2024-01-01,BU0363AK04,Oostenburg,Centrum,-0.06958
+2024-01-01,BU0363AK05,Czaar Peterbuurt,Centrum,-0.08589000000000001
+2024-01-01,BU0363AK06,Het Funen,Centrum,-0.09295999999999999
+2024-01-01,BU0363AK07,Kadijken,Centrum,-0.02408
+2024-01-01,BU0363AK08,Kazernebuurt,Centrum,-0.0262
+2024-01-01,BU0363BA01,Afrikahaven,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BA02,Amerikahaven,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BA03,Westhaven-Noord,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BA04,Petroleumhaven,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BA05,Vervoerscentrum,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BA06,Westhaven-Zuid,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BB01,Coenhaven,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BB02,Vlothaven,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BB03,Minervahaven-Noordoost,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BB04,Minervahaven-Noordwest,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BB05,Minervahaven-Zuidwest,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BB06,Minervahaven-Zuidoost,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BB07,Alfa-driehoek,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363BB08,Hemknoop-Noord,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363EA01,Isolatorbuurt,West,-0.07982
+2024-01-01,BU0363EA02,Contactbuurt,West,-0.07982
+2024-01-01,BU0363EA03,Woon- en Groengebied Sloterdijk,West,-0.09845000000000001
+2024-01-01,BU0363EB01,Hemknoop-Zuid,West,-0.0304
+2024-01-01,BU0363EB02,Overbraker Binnenpolder,West,-0.0304
+2024-01-01,BU0363EB03,Zaanstraat emplacement,West,-0.0304
+2024-01-01,BU0363EB04,Spaarndammerbuurt-Noordwest,West,-0.02588
+2024-01-01,BU0363EB05,Spaarndammerbuurt-Midden,West,-0.027149999999999997
+2024-01-01,BU0363EB06,Spaarndammerbuurt-Zuidwest,West,-0.033929999999999995
+2024-01-01,BU0363EB07,Spaarndammerbuurt-Noordoost,West,-0.05815000000000001
+2024-01-01,BU0363EB08,Zeeheldenbuurt,West,-0.02734
+2024-01-01,BU0363EB09,Westergasfabriek,West,-0.0304
+2024-01-01,BU0363EB10,Spaarndammerbuurt-Zuidoost,West,-0.01529
+2024-01-01,BU0363EC01,Houthavens-West,West,0.02709
+2024-01-01,BU0363EC02,Houthavens-Oost,West,0.035379999999999995
+2024-01-01,BU0363ED01,Kolenkitbuurt-Noord,West,-0.22081
+2024-01-01,BU0363ED02,Kolenkitbuurt-Zuid,West,-0.21106999999999998
+2024-01-01,BU0363ED03,Laan van Spartaan,West,-0.21877
+2024-01-01,BU0363ED04,Robert Scottbuurt-West,West,-0.12162
+2024-01-01,BU0363EE01,Bosleeuw,West,-0.13208
+2024-01-01,BU0363EE02,Gibraltarbuurt,West,-0.09821999999999999
+2024-01-01,BU0363EE03,Bedrijventerrein Landlust,West,-0.08205
+2024-01-01,BU0363EE04,Landlust-Noord,West,-0.12197
+2024-01-01,BU0363EE05,Erasmusparkbuurt-Oost,West,-0.06634999999999999
+2024-01-01,BU0363EE06,Landlust-Zuid,West,-0.02881
+2024-01-01,BU0363EF01,Robert Scottbuurt-Oost,West,-0.0748
+2024-01-01,BU0363EF02,Erasmusparkbuurt-West,West,-0.08123
+2024-01-01,BU0363EG01,Bedrijvencentrum Westerkwartier,West,-0.016390000000000002
+2024-01-01,BU0363EG02,GWL-terrein,West,0.00015
+2024-01-01,BU0363EG03,Markthallen,West,-0.016390000000000002
+2024-01-01,BU0363EG04,Marcanti,West,0.030059999999999996
+2024-01-01,BU0363EH01,Westerstaatsman,West,-0.00357
+2024-01-01,BU0363EH02,Fannius Scholtenbuurt,West,-0.02632
+2024-01-01,BU0363EH03,Staatsliedenbuurt-Noordoost,West,-0.038599999999999995
+2024-01-01,BU0363EH04,De Wittenbuurt-Noord,West,-0.00517
+2024-01-01,BU0363EH05,De Wittenbuurt-Zuid,West,-0.00481
+2024-01-01,BU0363EH06,Buyskade e.o.,West,0.01599
+2024-01-01,BU0363EJ01,Frederik Hendrikbuurt-Noord,West,0.013049999999999999
+2024-01-01,BU0363EJ02,Frederik Hendrikbuurt-Zuidwest,West,0.01782
+2024-01-01,BU0363EJ03,Frederik Hendrikbuurt-Zuidoost,West,0.00931
+2024-01-01,BU0363EK01,Mercatorpark,West,-0.050359999999999995
+2024-01-01,BU0363EK02,Orteliusbuurt-Noord,West,-0.056740000000000006
+2024-01-01,BU0363EK03,Jan Maijenbuurt,West,-0.060579999999999995
+2024-01-01,BU0363EK04,John Franklinbuurt,West,-0.04456
+2024-01-01,BU0363EL01,Pieter van der Doesbuurt,West,-0.027440000000000003
+2024-01-01,BU0363EL02,Trompbuurt,West,-0.015600000000000001
+2024-01-01,BU0363EL03,Geuzenhofbuurt,West,-0.02848
+2024-01-01,BU0363EM01,Orteliusbuurt-Midden,West,-0.01799
+2024-01-01,BU0363EM02,Balboaplein e.o.,West,-0.04354
+2024-01-01,BU0363EM03,Orteliusbuurt-Zuid,West,-0.02376
+2024-01-01,BU0363EM04,Columbusplein e.o.,West,-0.032010000000000004
+2024-01-01,BU0363EN01,Filips van Almondekwartier,West,-0.043739999999999994
+2024-01-01,BU0363EN02,Kortenaerkwartier,West,-0.02406
+2024-01-01,BU0363EN03,Van Brakelkwartier,West,-0.02934
+2024-01-01,BU0363EN04,De Wester Quartier,West,-0.02036
+2024-01-01,BU0363EP01,Bellamybuurt-Noord,West,0.06003
+2024-01-01,BU0363EP02,Bellamybuurt-Zuid,West,0.049089999999999995
+2024-01-01,BU0363EQ01,Da Costabuurt-Noord,West,0.06349
+2024-01-01,BU0363ER01,Postjeskade e.o.,West,0.011930000000000001
+2024-01-01,BU0363ER02,Paramariboplein e.o.,West,0.00792
+2024-01-01,BU0363ES01,Lootsbuurt,West,0.0066
+2024-01-01,BU0363ES02,Borgerbuurt,West,0.02282
+2024-01-01,BU0363ES03,Da Costabuurt-Zuid,West,0.06336
+2024-01-01,BU0363ET01,Cremerbuurt-West,West,0.08417
+2024-01-01,BU0363ET02,Vondelparkbuurt-West,West,0.13299
+2024-01-01,BU0363EU01,Cremerbuurt-Oost,West,0.10659
+2024-01-01,BU0363EU02,WG-terrein,West,0.14545
+2024-01-01,BU0363EU03,Helmersbuurt-Oost,West,0.16623000000000002
+2024-01-01,BU0363EV01,Vondelparkbuurt-Midden,West,0.30103
+2024-01-01,BU0363EV02,Vondelparkbuurt-Oost,West,0.30363
+2024-01-01,BU0363FA01,Sloterdijk De Heining,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363FA02,Sloterdijk Poort-Noord,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363FA03,Sloterdijk Poort-Zuid,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363FA04,Sloterdijk Rhônepark,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363FA05,Sloterdijk Donauhoek,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363FA06,Bretten-West,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363FA07,Bretten-Oost,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363FA08,Sloterdijk Stationskwartier,Nieuw-West/Westpoort,0.0
+2024-01-01,BU0363FB01,Osdorper Binnenpolder,Nieuw-West/Westpoort,-0.10246000000000001
+2024-01-01,BU0363FB02,De Eendracht,Nieuw-West/Westpoort,-0.15958
+2024-01-01,BU0363FB03,Ruys de Beerenbrouckbuurt,Nieuw-West/Westpoort,-0.04721
+2024-01-01,BU0363FB04,Eendrachtspark,Nieuw-West/Westpoort,-0.12534
+2024-01-01,BU0363FB05,Van Tijenbuurt,Nieuw-West/Westpoort,-0.07424
+2024-01-01,BU0363FB06,Dudokbuurt,Nieuw-West/Westpoort,-0.10583000000000001
+2024-01-01,BU0363FB07,Bakemabuurt,Nieuw-West/Westpoort,-0.11709
+2024-01-01,BU0363FB08,Wegener Sleeswijkbuurt,Nieuw-West/Westpoort,-0.14445
+2024-01-01,BU0363FC01,Jan de Louterbuurt,Nieuw-West/Westpoort,-0.03266
+2024-01-01,BU0363FC02,Lodewijk van Deysselbuurt,Nieuw-West/Westpoort,-0.09474
+2024-01-01,BU0363FC03,Confuciusbuurt,Nieuw-West/Westpoort,-0.01543
+2024-01-01,BU0363FD01,Arondeusbuurt,Nieuw-West/Westpoort,0.007189999999999999
+2024-01-01,BU0363FD02,Coronelbuurt,Nieuw-West/Westpoort,0.08457
+2024-01-01,BU0363FD03,Meerwaldtbuurt,Nieuw-West/Westpoort,0.0258
+2024-01-01,BU0363FD04,Dobbebuurt,Nieuw-West/Westpoort,0.01869
+2024-01-01,BU0363FE01,Dichtersbuurt,Nieuw-West/Westpoort,0.05164
+2024-01-01,BU0363FE02,Louis Couperusbuurt,Nieuw-West/Westpoort,0.040060000000000005
+2024-01-01,BU0363FE03,Noordoever Sloterplas,Nieuw-West/Westpoort,0.15959
+2024-01-01,BU0363FE04,Sloterpark,Nieuw-West/Westpoort,0.08647
+2024-01-01,BU0363FF01,Osdorper Bovenpolder,Nieuw-West/Westpoort,-0.30767
+2024-01-01,BU0363FF02,Ookmeer,Nieuw-West/Westpoort,-0.29378
+2024-01-01,BU0363FF03,Bedrijvenpark Lutkemeer,Nieuw-West/Westpoort,-0.29378
+2024-01-01,BU0363FG01,Middelveldsche Akerpolder,Nieuw-West/Westpoort,-0.16885999999999998
+2024-01-01,BU0363FG02,De Aker-West,Nieuw-West/Westpoort,-0.09638
+2024-01-01,BU0363FG03,De Aker-Oost,Nieuw-West/Westpoort,-0.09156
+2024-01-01,BU0363FH01,Bedrijvencentrum Osdorp,Nieuw-West/Westpoort,-0.07342
+2024-01-01,BU0363FH02,Dijkgraafpleinbuurt,Nieuw-West/Westpoort,-0.09153
+2024-01-01,BU0363FJ01,Reimerswaal,Nieuw-West/Westpoort,-0.05665
+2024-01-01,BU0363FJ02,Botteskerkbuurt,Nieuw-West/Westpoort,-0.0851
+2024-01-01,BU0363FJ03,Zuidwestkwadrant-Noord,Nieuw-West/Westpoort,-0.12505
+2024-01-01,BU0363FJ04,Zuidwestkwadrant-Zuid,Nieuw-West/Westpoort,-0.12405
+2024-01-01,BU0363FK01,Wildeman,Nieuw-West/Westpoort,-0.05624
+2024-01-01,BU0363FK02,Meer en Oever,Nieuw-West/Westpoort,-0.03391
+2024-01-01,BU0363FK03,Osdorpplein e.o.,Nieuw-West/Westpoort,-0.023849999999999996
+2024-01-01,BU0363FK04,Calandlaan/Lelylaan,Nieuw-West/Westpoort,-0.05229
+2024-01-01,BU0363FK05,Osdorp-Zuidoost,Nieuw-West/Westpoort,0.017490000000000002
+2024-01-01,BU0363FL01,Oostoever Sloterplas,Nieuw-West/Westpoort,0.07408000000000001
+2024-01-01,BU0363FL02,Emanuel van Meterenbuurt,Nieuw-West/Westpoort,0.16803
+2024-01-01,BU0363FL03,Jacob Geelbuurt,Nieuw-West/Westpoort,0.06218
+2024-01-01,BU0363FM01,Lucas/Andreasziekenhuis e.o.,Nieuw-West/Westpoort,0.14978999999999998
+2024-01-01,BU0363FM02,Overtoomse Veld-Noord,Nieuw-West/Westpoort,0.13905
+2024-01-01,BU0363FM03,Rembrandtpark-Noord,Nieuw-West/Westpoort,0.14978999999999998
+2024-01-01,BU0363FM04,Overtoomse Veld-Zuid,Nieuw-West/Westpoort,0.13045
+2024-01-01,BU0363FM05,Rembrandtpark-Zuid,Nieuw-West/Westpoort,0.20604
+2024-01-01,BU0363FM06,Johan Jongkindbuurt,Nieuw-West/Westpoort,0.14978999999999998
+2024-01-01,BU0363FN01,Louis Crispijnbuurt,Nieuw-West/Westpoort,0.11671
+2024-01-01,BU0363FN02,Jacques Veltmanbuurt,Nieuw-West/Westpoort,0.19434
+2024-01-01,BU0363FN03,Medisch Centrum Slotervaart,Nieuw-West/Westpoort,0.1482
+2024-01-01,BU0363FN04,Staalmanbuurt,Nieuw-West/Westpoort,0.14004
+2024-01-01,BU0363FP01,Schipluidenbuurt,Nieuw-West/Westpoort,0.16771
+2024-01-01,BU0363FP02,Koningin Wilhelminaplein,Nieuw-West/Westpoort,0.11426
+2024-01-01,BU0363FP03,Andreasterrein,Nieuw-West/Westpoort,0.36666
+2024-01-01,BU0363FP04,Delflandpleinbuurt-West,Nieuw-West/Westpoort,0.09291
+2024-01-01,BU0363FP05,Delflandpleinbuurt-Oost,Nieuw-West/Westpoort,0.2845
+2024-01-01,BU0363FP06,Riekerhaven,Nieuw-West/Westpoort,0.19218
+2024-01-01,BU0363FQ01,Dorp Sloten,Nieuw-West/Westpoort,-0.03034
+2024-01-01,BU0363FQ02,Nieuw-Sloten-Noordwest,Nieuw-West/Westpoort,-0.01088
+2024-01-01,BU0363FQ03,Nieuw-Sloten-Noordoost,Nieuw-West/Westpoort,-0.041580000000000006
+2024-01-01,BU0363FQ04,Nieuw-Sloten-Zuidwest,Nieuw-West/Westpoort,-0.02694
+2024-01-01,BU0363FQ05,Belgiëplein e.o.,Nieuw-West/Westpoort,-0.08271
+2024-01-01,BU0363FQ06,Nieuw-Sloten-Zuidoost,Nieuw-West/Westpoort,-0.01275
+2024-01-01,BU0363FQ07,Sloterweg e.o.,Nieuw-West/Westpoort,-0.11234999999999999
+2024-01-01,BU0363FQ08,Park Haagseweg,Nieuw-West/Westpoort,-0.01072
+2024-01-01,BU0363FQ09,Riekerpolder,Nieuw-West/Westpoort,-0.057859999999999995
+2024-01-01,BU0363FQ10,Nieuwe Meer,Nieuw-West/Westpoort,-0.057859999999999995
+2024-01-01,BU0363KA01,Westlandgrachtbuurt,Zuid,-0.02471
+2024-01-01,BU0363KA02,Surinamepleinbuurt,Zuid,0.00888
+2024-01-01,BU0363KA03,Legmeerpleinbuurt,Zuid,-0.03857
+2024-01-01,BU0363KA04,Aalsmeerwegbuurt-West,Zuid,-0.047869999999999996
+2024-01-01,BU0363KA05,Aalsmeerwegbuurt-Oost,Zuid,-0.06487
+2024-01-01,BU0363KA06,Bedrijventerrein Schinkel,Zuid,-0.03242
+2024-01-01,BU0363KB01,Schinkelbuurt-Noord,Zuid,-0.00737
+2024-01-01,BU0363KB02,Schinkelbuurt-Zuid,Zuid,-0.05483
+2024-01-01,BU0363KC01,Vondelpark-West,Zuid,0.23786000000000002
+2024-01-01,BU0363KC02,Willemsparkbuurt-Noord,Zuid,0.26949
+2024-01-01,BU0363KC03,Valeriusbuurt-West,Zuid,0.21716000000000002
+2024-01-01,BU0363KC04,Valeriusbuurt-Oost,Zuid,0.2909
+2024-01-01,BU0363KD01,Vondelpark-Oost,Zuid,0.38104999999999994
+2024-01-01,BU0363KD02,Cornelis Schuytbuurt,Zuid,0.51089
+2024-01-01,BU0363KD03,Concertgebouwbuurt,Zuid,0.34020000000000006
+2024-01-01,BU0363KD04,P.C. Hooftbuurt,Zuid,0.436
+2024-01-01,BU0363KD05,Museumplein,Zuid,0.38104999999999994
+2024-01-01,BU0363KD06,Banpleinbuurt,Zuid,0.37878999999999996
+2024-01-01,BU0363KD07,Hondecoeterbuurt,Zuid,0.3607
+2024-01-01,BU0363KD08,Johannes Vermeerbuurt,Zuid,0.33785
+2024-01-01,BU0363KD09,Duivelseiland,Zuid,0.21028
+2024-01-01,BU0363KD10,Harmoniehofbuurt,Zuid,0.38104999999999994
+2024-01-01,BU0363KE01,Frans Halsbuurt,Zuid,0.03574
+2024-01-01,BU0363KE02,Gerard Doubuurt,Zuid,0.03232
+2024-01-01,BU0363KE03,Hercules Seghersbuurt,Zuid,0.0241
+2024-01-01,BU0363KE04,Sarphatiparkbuurt,Zuid,-0.00384
+2024-01-01,BU0363KE05,Hemonybuurt,Zuid,0.04857
+2024-01-01,BU0363KF01,Cornelis Troostbuurt,Zuid,0.005350000000000001
+2024-01-01,BU0363KF02,Lizzy Ansinghbuurt,Zuid,-0.01625
+2024-01-01,BU0363KF03,Van der Helstpleinbuurt,Zuid,0.02207
+2024-01-01,BU0363KF04,Willibrordusbuurt,Zuid,0.0037199999999999998
+2024-01-01,BU0363KG01,Burgemeester Tellegenbuurt-West,Zuid,-0.058280000000000005
+2024-01-01,BU0363KG02,Burgemeester Tellegenbuurt-Oost,Zuid,-0.023399999999999997
+2024-01-01,BU0363KG03,Diamantbuurt,Zuid,-0.048179999999999994
+2024-01-01,BU0363KH01,Bertelmanpleinbuurt,Zuid,0.00707
+2024-01-01,BU0363KH02,Olympisch Stadion e.o.,Zuid,0.00431
+2024-01-01,BU0363KH03,Marathonbuurt-West,Zuid,-0.025929999999999998
+2024-01-01,BU0363KH04,Marathonbuurt-Oost,Zuid,0.02738
+2024-01-01,BU0363KH05,Van Tuyllbuurt,Zuid,-0.00298
+2024-01-01,BU0363KH06,IJsbaanpad e.o.,Zuid,0.00185
+2024-01-01,BU0363KJ01,Hiltonbuurt,Zuid,0.32456
+2024-01-01,BU0363KJ02,Minervabuurt-Noord,Zuid,0.37518
+2024-01-01,BU0363KJ03,Minervabuurt-Midden,Zuid,0.33995
+2024-01-01,BU0363KJ04,Minervabuurt-Zuid,Zuid,0.30497
+2024-01-01,BU0363KJ05,Beethovenbuurt,Zuid,0.32504
+2024-01-01,BU0363KJ06,Diepenbrockbuurt,Zuid,0.38027
+2024-01-01,BU0363KK01,Wielingenbuurt,Zuid,0.03088
+2024-01-01,BU0363KK02,Scheldebuurt-West,Zuid,0.01137
+2024-01-01,BU0363KK03,Scheldebuurt-Midden,Zuid,0.012589999999999999
+2024-01-01,BU0363KK04,Scheldebuurt-Oost,Zuid,-0.02391
+2024-01-01,BU0363KK05,Veluwebuurt,Zuid,-0.11713
+2024-01-01,BU0363KK06,Kop Zuidas,Zuid,-0.0616
+2024-01-01,BU0363KL01,IJselbuurt-West,Zuid,-0.03653
+2024-01-01,BU0363KL02,IJselbuurt-Oost,Zuid,-0.0458
+2024-01-01,BU0363KM01,Kromme Mijdrechtbuurt,Zuid,-0.0472
+2024-01-01,BU0363KM02,Rijnbuurt-West,Zuid,-0.04548
+2024-01-01,BU0363KM03,Rijnbuurt-Midden,Zuid,-0.03932
+2024-01-01,BU0363KM04,Rijnbuurt-Oost,Zuid,-0.02487
+2024-01-01,BU0363KM05,Zorgvlied,Zuid,-0.03772
+2024-01-01,BU0363KN01,Prinses Irenebuurt,Zuid,0.14386
+2024-01-01,BU0363KN02,Beatrixpark,Zuid,0.11266999999999999
+2024-01-01,BU0363KP01,Zuidas-Noord,Zuid,0.00988
+2024-01-01,BU0363KP02,RAI,Zuid,-0.04886
+2024-01-01,BU0363KP03,VU-kwartier,Zuid,-0.17028
+2024-01-01,BU0363KP04,Zuidas-Zuid,Zuid,0.02984
+2024-01-01,BU0363KP05,Vivaldi,Zuid,-0.06246
+2024-01-01,BU0363KQ01,Amsterdamse Bos,Zuid,-0.27493
+2024-01-01,BU0363KQ02,Zuiderhof,Zuid,-0.27493
+2024-01-01,BU0363KQ03,Buitenveldert-West-Midden,Zuid,-0.22168
+2024-01-01,BU0363KQ04,Gelderlandpleinbuurt,Zuid,-0.28727
+2024-01-01,BU0363KQ05,Buitenveldert-Zuidwest,Zuid,-0.3188
+2024-01-01,BU0363KQ06,Buitenveldert-Zuid-Midden,Zuid,-0.30752
+2024-01-01,BU0363KR01,De Klenckebuurt,Zuid,-0.24649000000000001
+2024-01-01,BU0363KR02,Buitenveldert-Oost-Midden,Zuid,-0.2749
+2024-01-01,BU0363KR03,Buitenveldert-Zuidoost,Zuid,-0.31663
+2024-01-01,BU0363KR04,Amstelpark,Zuid,-0.26098
+2024-01-01,BU0363MA01,Java-eiland,Oost,0.03769
+2024-01-01,BU0363MA02,KNSM-eiland,Oost,-0.031920000000000004
+2024-01-01,BU0363MA03,Oostelijke Handelskade,Oost,-0.01513
+2024-01-01,BU0363MA04,Rietlanden,Oost,-0.03585
+2024-01-01,BU0363MA05,Sporenburg,Oost,0.00218
+2024-01-01,BU0363MA06,Borneo,Oost,0.0412
+2024-01-01,BU0363MA07,Entrepot-Noordwest,Oost,-0.05288
+2024-01-01,BU0363MA08,Bedrijvengebied Veelaan,Oost,-0.01268
+2024-01-01,BU0363MA09,Architectenbuurt,Oost,-0.06511
+2024-01-01,BU0363MA10,Cruquiusbuurt,Oost,0.00681
+2024-01-01,BU0363MA11,Bedrijvengebied Zeeburgerkade,Oost,-0.01268
+2024-01-01,BU0363MB01,Weesperzijde-Noord,Oost,0.18596000000000001
+2024-01-01,BU0363MB02,Weesperzijde-Midden/Zuid,Oost,0.17737999999999998
+2024-01-01,BU0363MB03,Parooldriehoek,Oost,0.16205999999999998
+2024-01-01,BU0363MC01,Oosterparkbuurt-Noordwest,Oost,0.12090999999999999
+2024-01-01,BU0363MC02,Oosterpark,Oost,0.12601
+2024-01-01,BU0363MC03,Oosterparkbuurt-Zuidwest,Oost,0.12076
+2024-01-01,BU0363MC04,Oosterparkbuurt-Zuidoost,Oost,0.16707
+2024-01-01,BU0363MD01,Transvaalbuurt-West,Oost,0.048979999999999996
+2024-01-01,BU0363MD02,Transvaalbuurt-Oost,Oost,0.09230000000000001
+2024-01-01,BU0363ME01,Dapperbuurt-Noord,Oost,0.1013
+2024-01-01,BU0363ME02,Dapperbuurt-Zuid,Oost,0.09713
+2024-01-01,BU0363ME03,Oostpoort,Oost,0.05534
+2024-01-01,BU0363MF01,Timorpleinbuurt-Noord,Oost,0.07096
+2024-01-01,BU0363MF02,Timorpleinbuurt-Zuid,Oost,0.052320000000000005
+2024-01-01,BU0363MF03,Ambonpleinbuurt,Oost,0.012629999999999999
+2024-01-01,BU0363MG01,Makassarpleinbuurt,Oost,0.01997
+2024-01-01,BU0363MG02,Zeeburgerdijk-Oost,Oost,-0.03177
+2024-01-01,BU0363MG03,Sumatraplantsoenbuurt,Oost,0.016739999999999998
+2024-01-01,BU0363MG04,Flevopark,Oost,0.0006900000000000001
+2024-01-01,BU0363MH01,Sluisbuurt,Oost,-0.08421
+2024-01-01,BU0363MH02,Sportheldenbuurt,Oost,-0.10221999999999999
+2024-01-01,BU0363MH03,Oostpunt Zeeburgereiland,Oost,-0.08421
+2024-01-01,BU0363MH04,Baaibuurt-West,Oost,-0.08421
+2024-01-01,BU0363MH05,Baaibuurt-Oost,Oost,-0.08421
+2024-01-01,BU0363MH06,Bovendiep/Diemerpark,Oost,-0.08421
+2024-01-01,BU0363MJ01,Steigereiland-Zuid,Oost,-0.23843
+2024-01-01,BU0363MJ02,Steigereiland-Noord,Oost,-0.16858
+2024-01-01,BU0363MJ03,Rieteilanden-West,Oost,-0.1764
+2024-01-01,BU0363MJ04,Joris Ivenspleinbuurt,Oost,-0.20678000000000002
+2024-01-01,BU0363MJ05,Ed Pelsterparkbuurt,Oost,-0.24992
+2024-01-01,BU0363MK01,Buiteneiland,Oost,0.0
+2024-01-01,BU0363MK02,Pampusbuurt-West,Oost,0.0
+2024-01-01,BU0363MK03,Pampusbuurt-Oost,Oost,0.0
+2024-01-01,BU0363MK04,Centrumeiland,Oost,0.0
+2024-01-01,BU0363MK05,Muidenbuurt-West,Oost,0.0
+2024-01-01,BU0363MK06,Muidenbuurt-Oost,Oost,0.0
+2024-01-01,BU0363ML01,Havenkwartier IJburg,Oost,-0.19585999999999998
+2024-01-01,BU0363ML02,Theo van Goghparkbuurt,Oost,-0.25923999999999997
+2024-01-01,BU0363ML03,Rieteiland-Oost,Oost,-0.10336000000000001
+2024-01-01,BU0363MM01,Van der Kunbuurt,Oost,-0.00666
+2024-01-01,BU0363MM02,De Eenhoorn,Oost,-0.00666
+2024-01-01,BU0363MM03,Don Bosco,Oost,0.01534
+2024-01-01,BU0363MM04,Julianapark,Oost,-0.021589999999999998
+2024-01-01,BU0363MM05,Frankendael,Oost,-0.00666
+2024-01-01,BU0363MM06,Tuindorp Amstelstation,Oost,-0.00666
+2024-01-01,BU0363MM07,De Wetbuurt,Oost,-0.00867
+2024-01-01,BU0363MM08,Tuindorp Frankendael,Oost,-0.03716
+2024-01-01,BU0363MN01,Linnaeusparkbuurt,Oost,0.21672
+2024-01-01,BU0363MN02,Middenmeer-Noord,Oost,0.18855
+2024-01-01,BU0363MN03,Middenmeer-Zuid,Oost,0.15489
+2024-01-01,BU0363MN04,Science Park-Noord,Oost,-0.03788
+2024-01-01,BU0363MN05,Science Park-Zuid,Oost,0.07301
+2024-01-01,BU0363MN06,Sportpark Middenmeer-Zuid,Oost,0.055830000000000005
+2024-01-01,BU0363MN07,Sportpark Middenmeer-Noord,Oost,0.07301
+2024-01-01,BU0363MN08,Park de Meer,Oost,-0.13936
+2024-01-01,BU0363MN09,Sportpark Voorland,Oost,0.07301
+2024-01-01,BU0363MP01,Drieburg,Oost,-0.09686
+2024-01-01,BU0363MP02,Nieuwe Oosterbegraafplaats,Oost,-0.09686
+2024-01-01,BU0363MP03,Betondorp,Oost,-0.12036
+2024-01-01,BU0363MQ01,De Omval,Oost,0.06993
+2024-01-01,BU0363MQ02,Overamstel,Oost,0.15689999999999998
+2024-01-01,BU0363MQ03,Amstelglorie,Oost,0.15689999999999998
+2024-01-01,BU0363MQ04,Amstelkwartier-West,Oost,0.15689999999999998
+2024-01-01,BU0363MQ05,Amstelkwartier-Noord,Oost,0.209
+2024-01-01,BU0363MQ06,Amstelkwartier-Zuid,Oost,0.15689999999999998
+2024-01-01,BU0363MQ07,Weespertrekvaart,Oost,0.19438
+2024-01-01,BU0363NA01,Noorder IJplas,Noord,-0.17976
+2024-01-01,BU0363NA02,Melkweg/Oostzanerwerf,Noord,-0.17976
+2024-01-01,BU0363NA03,Walvisbuurt,Noord,-0.22564
+2024-01-01,BU0363NA04,Twiske-West,Noord,-0.18600000000000003
+2024-01-01,BU0363NA05,Oostzanerdijk,Noord,-0.13916
+2024-01-01,BU0363NA06,Circus/Kermisbuurt,Noord,-0.20751
+2024-01-01,BU0363NA07,Molenwijk,Noord,-0.25598
+2024-01-01,BU0363NB01,Cornelis Douwesterrein-West,Noord,0.21162
+2024-01-01,BU0363NB02,Cornelis Douwesterrein-Oost,Noord,0.21162
+2024-01-01,BU0363NB03,NDSM terrein,Noord,0.29833
+2024-01-01,BU0363NB04,Buiksloterham-Zuid,Noord,0.22032
+2024-01-01,BU0363NB05,Buiksloterham-Noord,Noord,0.159
+2024-01-01,BU0363NB06,Klaprozenbuurt,Noord,0.21162
+2024-01-01,BU0363NB07,Overhoeks,Noord,0.23841
+2024-01-01,BU0363NC01,Tuindorp Oostzaan-West,Noord,-0.09519999999999999
+2024-01-01,BU0363NC02,Tuindorp Oostzaan-Oost,Noord,-0.11166999999999999
+2024-01-01,BU0363NC03,Terrasdorp,Noord,-0.11535000000000001
+2024-01-01,BU0363NC04,De Bongerd,Noord,-0.048490000000000005
+2024-01-01,BU0363ND01,Twiske-Oost,Noord,-0.18352000000000002
+2024-01-01,BU0363ND02,Kadoelen,Noord,-0.11708
+2024-01-01,BU0363NE01,Banne-Noordwest,Noord,-0.15143
+2024-01-01,BU0363NE02,Banne-Noordoost,Noord,-0.1067
+2024-01-01,BU0363NE03,Banne-Zuidwest,Noord,-0.09577
+2024-01-01,BU0363NE04,Banne-Zuidoost,Noord,-0.07198
+2024-01-01,BU0363NE05,Buiksloterbreek,Noord,0.07687000000000001
+2024-01-01,BU0363NE06,Marjoleinterrein,Noord,0.06237
+2024-01-01,BU0363NF01,Buiksloterdijk-West,Noord,0.09189
+2024-01-01,BU0363NF02,Buiksloterdijk-Oost,Noord,0.18678
+2024-01-01,BU0363NF03,Nieuwendammerdijk-West,Noord,0.27831
+2024-01-01,BU0363NF04,Nieuwendammerdijk-Oost,Noord,0.27831
+2024-01-01,BU0363NF05,Nieuwendammerdijk-Zuid,Noord,0.19263000000000002
+2024-01-01,BU0363NG01,Elzenhagen-Noord,Noord,-0.08449999999999999
+2024-01-01,BU0363NG02,Elzenhagen-Zuid,Noord,-0.03786
+2024-01-01,BU0363NG03,Nintemanterrein,Noord,0.00111
+2024-01-01,BU0363NH01,Buikslotermeer-Noord,Noord,-0.05524
+2024-01-01,BU0363NH02,De Kleine Wereld,Noord,-0.06174
+2024-01-01,BU0363NH03,Loenermark,Noord,-0.10837
+2024-01-01,BU0363NH04,Buikslotermeerplein,Noord,0.04386
+2024-01-01,BU0363NH05,Plan van Gool,Noord,0.00782
+2024-01-01,BU0363NH06,Rode Kruisbuurt,Noord,0.03042
+2024-01-01,BU0363NJ01,Markengouw-Noord,Noord,-0.11698
+2024-01-01,BU0363NJ02,Markengouw-Midden,Noord,-0.19244
+2024-01-01,BU0363NJ03,Markengouw-Zuid,Noord,-0.08041000000000001
+2024-01-01,BU0363NJ04,Werengouw-Noord,Noord,-0.10894
+2024-01-01,BU0363NJ05,Werengouw-Midden,Noord,-0.06138
+2024-01-01,BU0363NJ06,Werengouw-Zuid,Noord,0.020640000000000002
+2024-01-01,BU0363NK01,Bloemenbuurt-Noord,Noord,-0.0042699999999999995
+2024-01-01,BU0363NK02,Bloemenbuurt-Zuid,Noord,0.14634
+2024-01-01,BU0363NK03,Van der Pekbuurt,Noord,0.15063000000000001
+2024-01-01,BU0363NL01,Vogelbuurt-Noord,Noord,0.27763000000000004
+2024-01-01,BU0363NL02,Vliegenbos,Noord,0.22613
+2024-01-01,BU0363NL03,Vogelbuurt-Zuid,Noord,0.18398
+2024-01-01,BU0363NL04,IJplein e.o.,Noord,0.31963
+2024-01-01,BU0363NM01,Blauwe Zand,Noord,0.02751
+2024-01-01,BU0363NN01,Tuindorp Nieuwendam-West,Noord,0.04878999999999999
+2024-01-01,BU0363NN02,Tuindorp Nieuwendam-Oost,Noord,0.16469999999999999
+2024-01-01,BU0363NP01,Hamerstraatkwartier-West,Noord,0.05505
+2024-01-01,BU0363NP02,Hamerstraatkwartier-Oost,Noord,0.04498
+2024-01-01,BU0363NP03,Bedrijventerrein Nieuwendammerdijk,Noord,0.04498
+2024-01-01,BU0363NQ01,Noorderstrook-West,Noord,-0.019039999999999998
+2024-01-01,BU0363NQ02,Noorderstrook-Oost,Noord,-0.019039999999999998
+2024-01-01,BU0363NQ03,Zunderdorp,Noord,-0.10933
+2024-01-01,BU0363NQ04,Schellingwoude-West,Noord,0.13171
+2024-01-01,BU0363NQ05,Schellingwoude-Oost,Noord,0.1595
+2024-01-01,BU0363NQ06,Schellingwoude-Noord,Noord,-0.019039999999999998
+2024-01-01,BU0363NQ07,Zwarte Gouw,Noord,-0.019039999999999998
+2024-01-01,BU0363NQ08,Holysloot,Noord,-0.2556
+2024-01-01,BU0363NQ09,Ransdorp,Noord,-0.10697
+2024-01-01,BU0363NQ10,Durgerdam,Noord,0.14117000000000002
+2024-01-01,BU0363SA01,Landelijk Gebied Driemond,Weesp,-0.20024
+2024-01-01,BU0363SA02,Dorp Driemond,Weesp,-0.12863
+2024-01-01,BU0363SB01,Weespersluis-Noord,Weesp,0.15702
+2024-01-01,BU0363SB02,Waterrijk,Weesp,0.23142
+2024-01-01,BU0363SB03,Lanenrijk,Weesp,0.20119
+2024-01-01,BU0363SB04,Vechtrijk,Weesp,0.15702
+2024-01-01,BU0363SB05,Leeuwenveld,Weesp,0.10686
+2024-01-01,BU0363SB06,Bedrijventerrein Nijverheidslaan,Weesp,0.15702
+2024-01-01,BU0363SC01,Bedrijventerrein-Noord Weesp,Weesp,0.05405
+2024-01-01,BU0363SC02,Hogewey-Noord,Weesp,-0.04091
+2024-01-01,BU0363SC03,Hogewey-Midden,Weesp,-0.03961
+2024-01-01,BU0363SC04,Hogewey-Zuid,Weesp,0.10823
+2024-01-01,BU0363SC05,Weesp Dichtersbuurt,Weesp,0.054169999999999996
+2024-01-01,BU0363SC06,Weesp Schildersbuurt,Weesp,0.02878
+2024-01-01,BU0363SD01,Herensingelkwartier,Weesp,0.1362
+2024-01-01,BU0363SD02,Bedrijventerrein Van Houten,Weesp,0.10865
+2024-01-01,BU0363SD03,Weesp Centrum,Weesp,0.22251
+2024-01-01,BU0363SD04,Weesp-Zuid I,Weesp,0.02705
+2024-01-01,BU0363SD05,Weesp-Zuid II,Weesp,0.14728
+2024-01-01,BU0363SD06,De Klomp,Weesp,0.12452999999999999
+2024-01-01,BU0363SE01,Aetsveldsepolder,Weesp,-0.12369
+2024-01-01,BU0363SE02,Aetsveld-Zuid,Weesp,-0.0436
+2024-01-01,BU0363SE03,Aetsveld-Noord,Weesp,-0.045579999999999996
+2024-01-01,BU0363SE04,Oostelijke Vechtoever,Weesp,-0.29155000000000003
+2024-01-01,BU0363TA01,Hoofdcentrum-Zuidoost,Zuidoost,0.0
+2024-01-01,BU0363TA02,Amstel III deel C/D-Noord,Zuidoost,0.0
+2024-01-01,BU0363TA03,Amstel III deel A/B-Noord,Zuidoost,0.0
+2024-01-01,BU0363TA04,Amstel III deel C/D-Zuid,Zuidoost,0.0
+2024-01-01,BU0363TA05,Amstel III deel A/B-Zuid,Zuidoost,0.0
+2024-01-01,BU0363TA06,AMC,Zuidoost,0.0
+2024-01-01,BU0363TA07,Hoge Dijk,Zuidoost,0.0
+2024-01-01,BU0363TB01,Venserpolder-West,Zuidoost,0.1045
+2024-01-01,BU0363TB02,Venserpolder-Oost,Zuidoost,0.11231
+2024-01-01,BU0363TC01,D-buurt,Zuidoost,0.09009
+2024-01-01,BU0363TC02,F-buurt,Zuidoost,0.07683
+2024-01-01,BU0363TC03,Amsterdamse Poort,Zuidoost,0.09009
+2024-01-01,BU0363TC04,Vogeltjeswei,Zuidoost,0.1039
+2024-01-01,BU0363TC05,Nelson Mandelapark,Zuidoost,0.09009
+2024-01-01,BU0363TD01,Hoptille,Zuidoost,-0.02346
+2024-01-01,BU0363TD02,Rechte H-buurt,Zuidoost,-0.04904
+2024-01-01,BU0363TD03,Hakfort/Huigenbos,Zuidoost,-0.03238
+2024-01-01,BU0363TD04,Huntum,Zuidoost,-0.02488
+2024-01-01,BU0363TE01,E-buurt,Zuidoost,0.08498
+2024-01-01,BU0363TE02,G-buurt-West,Zuidoost,0.01671
+2024-01-01,BU0363TE03,G-buurt-Noord,Zuidoost,0.0444
+2024-01-01,BU0363TF01,G-buurt-Oost,Zuidoost,0.04768
+2024-01-01,BU0363TF02,Grunder/Koningshoef,Zuidoost,0.02786
+2024-01-01,BU0363TF03,Kantershof,Zuidoost,-0.08878
+2024-01-01,BU0363TG01,Bijlmermuseum-Noord,Zuidoost,0.03388
+2024-01-01,BU0363TG02,Bijlmermuseum-Zuid,Zuidoost,0.01764
+2024-01-01,BU0363TG03,De Kameleon e.o.,Zuidoost,0.02313
+2024-01-01,BU0363TH01,Gooise Kant,Zuidoost,0.18056
+2024-01-01,BU0363TH02,Kortvoort,Zuidoost,0.05075
+2024-01-01,BU0363TH03,Kelbergen,Zuidoost,-0.14553000000000002
+2024-01-01,BU0363TH04,K-buurt-Zuidwest,Zuidoost,-0.00361
+2024-01-01,BU0363TH05,K-buurt-Zuidoost,Zuidoost,0.05427
+2024-01-01,BU0363TJ01,Holendrecht-West,Zuidoost,-0.00147
+2024-01-01,BU0363TJ02,Holendrecht-Oost,Zuidoost,0.00787
+2024-01-01,BU0363TJ03,Holendrecht-Zuid,Zuidoost,-0.01367
+2024-01-01,BU0363TK01,L-buurt,Zuidoost,-0.05973
+2024-01-01,BU0363TK02,Gaasperpark,Zuidoost,-0.049139999999999996
+2024-01-01,BU0363TK03,Gaasperplas,Zuidoost,-0.049139999999999996
+2024-01-01,BU0363TL01,Reigersbos 1,Zuidoost,-0.00751
+2024-01-01,BU0363TL02,Reigersbos 2,Zuidoost,0.020470000000000002
+2024-01-01,BU0363TL03,Reigersbos 3,Zuidoost,0.024550000000000002
+2024-01-01,BU0363TL04,Reigersbos 4,Zuidoost,0.00875
+2024-01-01,BU0363TM01,Gein 1,Zuidoost,0.01552
+2024-01-01,BU0363TM02,Gein 2,Zuidoost,0.01686
+2024-01-01,BU0363TM03,Gein 3,Zuidoost,0.07815
+2024-01-01,BU0363TM04,Gein 4,Zuidoost,0.04118

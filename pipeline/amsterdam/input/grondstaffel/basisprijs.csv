@@ -1,0 +1,51 @@
+peildatum,objecttype,gebied,gebiedssoort,segment,basisprijs_m2
+2023-01-01,rij_hoek,Vondelparkbuurt Oost,basisbuurt,12 Buurt 17,1956.07
+2023-01-01,rij_hoek,Driehoekbuurt,basisbuurt,25 Buurt 7,1395.16
+2023-01-01,rij_hoek,Landsmeer,basisbuurt,28 Buurt 29,609.34
+2023-01-01,rij_hoek,Coenhaven/Mercuriushaven,basisbuurt,50 Buurt 8,1290.28
+2023-01-01,rij_hoek,Zeeburgereiland Noordwest,basisbuurt,55 Buurt 14,842.56
+2023-01-01,rij_hoek,Hemonybuurt,basisbuurt,79 Buurt 11,1400.93
+2023-01-01,rij_hoek,Kop Zeedijk,basisbuurt,82 Buurt 1,1217.49
+2023-01-01,rij_hoek,Wielingenbuurt,basisbuurt,87 Buurt 19,1469.06
+2023-01-01,rij_hoek,Van der Pekbuurt,basisbuurt,90 Buurt 21,855.87
+2023-01-01,rij_hoek,Bretten Oost,basisbuurt,98 Buurt 22,787.77
+2023-01-01,rij_hoek,Langestraat e.o.,basisbuurt,106 Buurt 3,1520.79
+2023-01-01,rij_hoek,Oosterparkbuurt Noordwest,basisbuurt,111 Buurt 12,1068.76
+2023-01-01,rij_hoek,Oostelijke Handelskade,basisbuurt,123 Buurt 13,1071.72
+2023-01-01,rij_hoek,Gein Noordwest,basisbuurt,136 Buurt 28,603.86
+2023-01-01,rij_hoek,Westerdokseiland,basisbuurt,159 Buurt 6,1322.46
+2023-01-01,rij_hoek,Hoofdcentrum Zuidoost,basisbuurt,161 Buurt 26,604.05
+2023-01-01,rij_hoek,Bertelmanpleinbuurt,basisbuurt,162 Buurt 18,2140.05
+2023-01-01,rij_hoek,Middelveldsche Akerpolder,basisbuurt,175 Buurt 24,739.17
+2023-01-01,rij_hoek,K-buurt Midden,basisbuurt,176 Buurt 27,561.86
+2023-01-01,rij_hoek,Spiegelbuurt,basisbuurt,195 Buurt 5,1651.53
+2023-01-01,rij_hoek,Oosterdokseiland,basisbuurt,257 Buurt 4,1373.2
+2023-01-01,rij_hoek,Sloterdijk,basisbuurt,268 Buurt 15,1115.83
+2023-01-01,rij_hoek,Gelderlandpleinbuurt,basisbuurt,287 Buurt 25,1110.96
+2023-01-01,rij_hoek,Ookmeer,basisbuurt,307 Buurtgroep 23,706.24
+2023-01-01,rij_hoek,Industrieterrein Noord,basisbuurt,340 Weesp,705.36
+2023-01-01,rij_hoek,Industrieterrein Noord,basisbuurt,341 Weesp buitengebied,691.88
+2024-01-01,rij_hoek,Centrum,waardegebied,,3035.08
+2024-01-01,rij_hoek,Nieuw-West/Westpoort,waardegebied,,1735.85
+2024-01-01,rij_hoek,Noord,waardegebied,,1976.44
+2024-01-01,rij_hoek,Oost,waardegebied,,2630.37
+2024-01-01,rij_hoek,Weesp,waardegebied,,1441.88
+2024-01-01,rij_hoek,West,waardegebied,,2977.2
+2024-01-01,rij_hoek,Zuid,waardegebied,,3191.95
+2024-01-01,rij_hoek,Zuidoost,waardegebied,,1289.6
+2024-01-01,twee_onder_een_kap,Centrum,waardegebied,,2532.46
+2024-01-01,twee_onder_een_kap,Nieuw-West/Westpoort,waardegebied,,1381.98
+2024-01-01,twee_onder_een_kap,Noord,waardegebied,,1657.25
+2024-01-01,twee_onder_een_kap,Oost,waardegebied,,2081.78
+2024-01-01,twee_onder_een_kap,Weesp,waardegebied,,1149.41
+2024-01-01,twee_onder_een_kap,West,waardegebied,,2368.54
+2024-01-01,twee_onder_een_kap,Zuid,waardegebied,,2718.1
+2024-01-01,twee_onder_een_kap,Zuidoost,waardegebied,,1063.27
+2024-01-01,vrijstaand,Centrum,waardegebied,,2081.53
+2024-01-01,vrijstaand,Nieuw-West/Westpoort,waardegebied,,1145.37
+2024-01-01,vrijstaand,Noord,waardegebied,,1367.3
+2024-01-01,vrijstaand,Oost,waardegebied,,1793.03
+2024-01-01,vrijstaand,Weesp,waardegebied,,967.51
+2024-01-01,vrijstaand,West,waardegebied,,1946.8
+2024-01-01,vrijstaand,Zuid,waardegebied,,2284.29
+2024-01-01,vrijstaand,Zuidoost,waardegebied,,873.94

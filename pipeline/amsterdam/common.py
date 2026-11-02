@@ -79,3 +79,32 @@ def read_json(path: Path):
 
 def variants() -> tuple[str, str, str]:
     return ("low", "central", "high")
+
+
+# Dutch number formatting for the site texts (06_publish.py, 07_grondstaffel.py).
+def nl(x: float, d: int = 0) -> str:
+    s = f"{x:,.{d}f}"
+    return s.replace(",", " ").replace(".", ",").replace(" ", ".")
+
+
+# U+2060 (word joiner) keeps a sign glued to its number when text wraps.
+SIGN_UP, SIGN_DOWN = "+\u2060", "\u2212\u2060"
+
+
+def pct(x: float, d: int = 0, sign: bool = False) -> str:
+    v = x * 100
+    s = nl(abs(v), d)
+    if sign:
+        return (SIGN_UP if v > 0 else SIGN_DOWN if v < 0 else "") + s + "%"
+    return s + "%"
+
+
+def eur(x: float, sign: bool = False) -> str:
+    s = "\u20ac" + nl(abs(x))
+    if sign:
+        return (SIGN_UP if x > 0 else SIGN_DOWN if x < 0 else "") + s
+    return s
+
+
+def mld(x: float, d: int = 1) -> str:
+    return nl(x / 1e9, d)

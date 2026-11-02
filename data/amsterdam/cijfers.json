@@ -750,5 +750,89 @@
  "p_max_vbo": {
   "v": 2,
   "t": "2"
+ },
+ "gs_peildatum": {
+  "v": "2024-01-01",
+  "t": "1 januari 2024"
+ },
+ "gs_vorige_peildatum": {
+  "v": "2023-01-01",
+  "t": "1 januari 2023"
+ },
+ "gs_grondgebonden": {
+  "v": 0.12634578284742526,
+  "t": "13%"
+ },
+ "gs_buurtcorrecties": {
+  "v": 518,
+  "t": "518"
+ },
+ "gs_prijs_min": {
+  "v": 1289.6,
+  "t": "€1.290 (Zuidoost)"
+ },
+ "gs_prijs_max": {
+  "v": 3191.95,
+  "t": "€3.192 (Zuid)"
+ },
+ "gs_min_pct": {
+  "v": 60,
+  "t": "60%"
+ },
+ "gs_buurten": {
+  "v": 56,
+  "t": "56"
+ },
+ "gs_woningen": {
+  "v": 35976,
+  "t": "35.976"
+ },
+ "gs_verhouding": {
+  "v": 1.9739383160191586,
+  "t": "2,0"
+ },
+ "gs_verhouding_p10": {
+  "v": 1.574700658792972,
+  "t": "1,6"
+ },
+ "gs_verhouding_p90": {
+  "v": 2.330247163654392,
+  "t": "2,3"
+ },
+ "gs_binnen_band": {
+  "v": 0,
+  "t": "geen"
+ },
+ "gs_rangcorrelatie": {
+  "v": 0.8574846206425153,
+  "t": "0,86"
+ },
+ "gs_aandeel_gemeente": {
+  "v": 0.3860896175952153,
+  "t": "39%"
+ },
+ "gs_aandeel_ons": {
+  "v": 0.7685,
+  "t": "77%"
+ },
+ "gs_stab_buurten": {
+  "v": 18,
+  "t": "18"
+ },
+ "gs_stab_mediaan": {
+  "v": 2.202937111257517,
+  "t": "2,2"
+ },
+ "gs_stab_min": {
+  "v": 1.502075692857643,
+  "t": "1,5"
+ },
+ "gs_stab_max": {
+  "v": 2.7587185492533406,
+  "t": "2,8"
+ },
+ "gs_markt": {
+  "v": 0.051,
+  "t": "5,1%"
  }
 }

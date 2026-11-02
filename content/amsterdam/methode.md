@@ -7,7 +7,7 @@ title: "Methode: grondwaarde, parkeren en OZB in Amsterdam"
 Deze pagina legt uit hoe we de cijfers op [Grond in Amsterdam](/amsterdam/) hebben berekend: welke gegevens, welke aannames, en waar de onzekerheid zit. Alles is na te rekenen. De code staat in de map `pipeline/amsterdam/` van de broncode van deze site, met alle parameters in één bestand (`params.toml`).
 
 <div class="disclaimer">
-Alle grondwaarden op deze pagina's zijn <strong>schattingen</strong>, geen officiële waarden. Officiële grondstaffels zijn opgevraagd via een Woo-verzoek; deze kaart wordt bijgewerkt zodra die er zijn.
+Alle grondwaarden op deze pagina's zijn <strong>schattingen</strong>, geen officiële waarden. De gemeente publiceert alleen voor eengezinswoningen een grondprijs. Die ligt flink lager dan onze schatting; zie <a href="#grondstaffel">de vergelijking</a>.
 </div>
 
 ## De aanpak in het kort
@@ -36,6 +36,7 @@ We volgen de "simplest viable method" van Lars Doucet (Center for Land Economics
 | OpenStreetMap | parkeerterreinen en herkenningspunten (stations, winkelcentra) | ODbL, © OpenStreetMap-bijdragers |
 | Gemeente Amsterdam, Verordening Onroerendezaakbelastingen (CVDR72876, versie 20) | OZB-tarief woningen 2026 | vrij van auteursrecht |
 | Gemeente Amsterdam, Grondwaardebepaling voor bestaande erfpachtrechten 2021 (Gemeenteblad 2021, 2521) | de gemeentelijke rekenregel voor grondquotes, als controle | vrij van auteursrecht |
+| Gemeente Amsterdam, [Verantwoordingsdocument WOZ](https://www.amsterdam.nl/belastingen/verantwoordingsdocument-woz) 2024 en 2025 | grondprijs per m² kavel voor eengezinswoningen, per waardegebied en buurt (peildata 1-1-2023 en 1-1-2024), als vergelijking | openbaar, zonder voorbehoud (art. 15b Auteurswet) |
 
 **Wat we bewust niet gebruiken:** het WOZ-waardeloket (massaal opvragen is niet toegestaan), WOZ-waarden per adres, eigendomsgegevens uit de Basisregistratie Kadaster, en de afgeschermde WOZ- en erfpachtgegevens van de gemeente. Niets op deze pagina's is herleidbaar tot een individuele eigenaar.
 
@@ -92,6 +93,36 @@ Die maat zegt alleen iets over de plek, niet over de bebouwing. Mediaan: {{< cij
 - **De gemeentelijke erfpachtregel.** Amsterdam bepaalt voor erfpacht de grondwaarde als WOZ-waarde maal de buurtstraatquote: het gemiddelde van (WOZ-waarde − herbouwkosten) / WOZ-waarde in een buurtstraat. Zonder afschrijving, met sloopkosten erbij, minimaal 5% en maximaal 49%. Dat is een beleidskeuze die gunstig is voor erfpachters, geen marktwaarde. Als wij dezelfde regel toepassen (middenkosten plus 5% sloopkosten, geen afschrijving), komt {{< cijfer "bsq_boven_plafond" >}} van de buurten boven de 49% uit.
 - **Gelijkmatigheid binnen buurten.** Doucet stelt dat een buurt alleen één grondprijs kan krijgen als hij vrij gelijkmatig is. We hebben per buurt gekeken hoeveel de WOZ-waarde per m² verschilt tussen de blokken van 100 bij 100 meter (CBS-vierkanten, gewogen naar woningen). De mediane variatiecoëfficiënt is {{< cijfer "cv_median" >}}. Slechts {{< cijfer "cv_boven_25" >}} van de {{< cijfer "cv_buurten" >}} buurten met genoeg blokken zit boven 25%. Die staan in de download (`cv_woz_m2`).
 - **Woningtype.** We noemen een woning grondgebonden als het pand precies één woning bevat en hoogstens {{< cijfer "p_max_vbo" >}} verblijfsobjecten. Per stadsdeel ligt dat aandeel binnen enkele procentpunten van het CBS-aandeel eengezinswoningen.
+- **De grondstaffel van de gemeente.** Zie hieronder.
+
+## Vergelijking met de grondstaffel van de gemeente {#grondstaffel}
+
+In haar WOZ-model splitst de gemeente de waarde van een eengezinswoning in een deel woning en een deel grond. Het deel grond is een prijs per m² kavel. De gemeente publiceert die elk jaar in het [Verantwoordingsdocument WOZ](https://www.amsterdam.nl/belastingen/verantwoordingsdocument-woz), in de bijlage Grondstaffel:
+
+- **Een basisprijs per woningtype en waardegebied.** De waardegebieden zijn de stadsdelen en Weesp. Voor rij- en hoekwoningen loopt de basisprijs op peildatum {{< cijfer "gs_peildatum" >}} van {{< cijfer "gs_prijs_min" >}} tot {{< cijfer "gs_prijs_max" >}} per m².
+- **Een staffel.** Hoe groter de kavel, hoe minder elke extra m² waard is. Bij rij- en hoekwoningen telt de eerste 100 m² volledig mee, de volgende 100 m² voor 80%.
+- **Een correctie per buurt,** voor {{< cijfer "gs_buurtcorrecties" >}} buurten.
+
+Appartementen krijgen in het model geen apart bedrag voor de grond. De gemeentelijke grondprijs gaat dus alleen over grondgebonden woningen: {{< cijfer "gs_grondgebonden" >}} van de Amsterdamse woningen.
+
+We hebben de grondstaffel van {{< cijfer "gs_peildatum" >}} vergeleken met onze schatting. Dat is dezelfde peildatum als onze WOZ-gegevens. We kijken alleen naar de {{< cijfer "gs_buurten" >}} buurten met een eigen schatting waar minstens {{< cijfer "gs_min_pct" >}} van de woningen grondgebonden is. Per buurt berekenen we de gemeentelijke grondwaarde van een kavel die even groot is als de gemiddelde grond per woning in die buurt. We gebruiken daarvoor de prijs voor rij- en hoekwoningen, het meest voorkomende type. Voor twee-onder-een-kap- en vrijstaande woningen rekent de gemeente met een lagere prijs per m².
+
+{{< grondstaffel >}}
+
+- **Het niveau verschilt sterk.** In de mediane buurt is onze grondprijs {{< cijfer "gs_verhouding" >}} keer zo hoog als die van de gemeente. In 80% van de buurten ligt dat tussen {{< cijfer "gs_verhouding_p10" >}} en {{< cijfer "gs_verhouding_p90" >}} keer. De gemeentelijke prijs valt in {{< cijfer "gs_binnen_band" >}} van de {{< cijfer "gs_buurten" >}} buurten binnen onze bandbreedte. Volgens de gemeente is {{< cijfer "gs_aandeel_gemeente" >}} van de WOZ-waarde van zo'n woning grond, volgens ons {{< cijfer "gs_aandeel_ons" >}}.
+- **De verschillen tussen buurten komen wel overeen.** Waar onze grondprijs hoger is, is die van de gemeente meestal ook hoger. De rangcorrelatie is {{< cijfer "gs_rangcorrelatie" >}}.
+
+**Waarom verschillen ze zo?** De twee cijfers meten niet hetzelfde. Wij trekken de afgeschreven herbouwkosten af van de WOZ-waarde; wat overblijft is grond. Het model van de gemeente leidt een prijs voor de woning en een prijs voor de grond af uit verkopen. Ook de prijs per m² woning krijgt daarbij een correctie per buurt. Zo komt een deel van de waarde van de plek in het woningdeel terecht. Het gemeentelijke grondaandeel ligt zelfs onder het landelijke grondaandeel van het CBS ({{< cijfer "cbs_grondaandeel_nl" >}}), terwijl grond in Amsterdam duurder is dan gemiddeld. Onze middenvariant is juist op dat CBS-cijfer afgestemd.
+
+**De verdeling in het gemeentelijke model verandert sterk per jaar.** We hebben {{< cijfer "gs_stab_buurten" >}} buurten vergeleken die op {{< cijfer "gs_vorige_peildatum" >}} als referentiebuurt in het model stonden. Tussen {{< cijfer "gs_vorige_peildatum" >}} en {{< cijfer "gs_peildatum" >}} werd hun prijs voor de eerste 100 m² kavel {{< cijfer "gs_stab_min" >}} tot {{< cijfer "gs_stab_max" >}} keer zo hoog (mediaan {{< cijfer "gs_stab_mediaan" >}}). In hetzelfde document noemt de gemeente een marktstijging van ongeveer {{< cijfer "gs_markt" >}}. De staffel veranderde ook. De woningen werden dus niet twee keer zo veel waard; het model werd anders ingericht.
+
+**Wat betekent dit voor deze pagina's?**
+
+- Over het niveau van de grondwaarde is de onzekerheid groter dan onze bandbreedte laat zien. De gemeentelijke verdeling is een tweede, veel lagere schatting.
+- Voor de OZB-variant "alleen grond" maakt het niveau niet uit. Zijn alle grondwaarden half zo hoog, dan wordt het tarief op grond twee keer zo hoog en blijft de aanslag per woning gelijk. Wat telt zijn de verschillen tussen woningen, en die komen tussen buurten goed overeen. Bij de variant met een tarief op gebouw én grond telt het niveau wel: met een kleiner grondaandeel verschuift er minder.
+- We gebruiken de grondstaffel niet in plaats van onze schatting. Hij geldt alleen voor eengezinswoningen en verandert sterk per jaar. Een grondbelasting heeft een grondwaarde nodig die apart en stabiel wordt vastgesteld; daarom legt het [voorstel](/voorstel/) de methode vast in de wet en een AMvB, en begrenst het hoe snel de verhouding tussen de tarieven per jaar mag veranderen.
+
+De vergelijking per buurt staat in de download [vergelijking_grondstaffel.csv](/amsterdam/data/vergelijking_grondstaffel.csv).
 
 ## Parkeren
 
@@ -120,22 +151,13 @@ Per woning publiceren we niets: dat zijn modeluitkomsten, geen waarnemingen. De 
 ## Beperkingen
 
 - Schattingen op buurtniveau. Een individueel perceel kan flink afwijken.
+- Voor eengezinswoningen zijn onze grondwaarden ongeveer {{< cijfer "gs_verhouding" >}} keer zo hoog als het grondbedrag in het WOZ-model van de gemeente. Zie [de vergelijking](#grondstaffel).
 - Alleen woningen. Voor niet-woningen is geen open WOZ-data.
 - Statisch: eerste jaar, huidige bebouwing, geen gedragsverandering.
 - Erfpachters betalen al canon. Zonder verrekening wordt hun grond dubbel belast.
 - De WOZ-peildatum loopt een jaar achter op de aanslag 2026, en de CBS-gemiddelden lopen achter op nieuwbouw.
 - Woonboten en woonwagens zitten wel in het CBS-gemiddelde, maar niet in de grondverdeling.
 - De parkeerclassificatie is automatisch. Er zitten fouten in, zoals terreinen die bij een gebouw horen.
-
-## Als de grondstaffels binnenkomen
-
-De gemeente heeft per waardegebied een grondprijs per m² in haar WOZ-model. Als die via het Woo-verzoek beschikbaar komen:
-
-1. Zet ze als `pipeline/amsterdam/input/grondstaffels.gpkg` neer: één vlak per waardegebied, met het veld `grondprijs_m2` (woningen) en `peildatum`.
-2. Draai de pipeline opnieuw. Stap A gebruikt dan per buurt de officiële prijs, gemiddeld over de waardegebieden in de buurt naar oppervlak. De kolom `bron_grondprijs` wordt `grondstaffel`. Parkeren en OZB rekenen automatisch mee.
-3. Pas de tekst aan: "schatting" wordt "gemeentelijke grondprijs", en de vergelijking tussen schatting en staffel wordt zelf een bevinding.
-
-Staffels voor grondgebonden woningen zijn per m² kavel. Voor appartementen heeft de gemeente vaak geen staffel; daar blijft onze schatting nodig.
 
 ## Reproduceren
 
@@ -144,6 +166,9 @@ cd pipeline/amsterdam
 export AMS_CACHE=/pad/naar/cache   # ruwe downloads, enkele GB
 uv run 01_fetch.py && uv run 02_prepare.py
 uv run 03_land.py && uv run 04_parking.py && uv run 05_ozb.py && uv run 06_publish.py
+uv run 07_grondstaffel.py          # vergelijking met de grondstaffel van de gemeente
 ```
 
-Alle getallen op deze pagina's komen uit `data/amsterdam/cijfers.json`, dat door de laatste stap wordt geschreven.
+De grondstaffel staat al als CSV in `pipeline/amsterdam/input/grondstaffel/`. Amsterdam.nl blokkeert automatische downloads. Wie de tabellen zelf uit de PDF's wil halen, downloadt de Verantwoordingsdocumenten WOZ 2024 en 2025 in een browser en draait `uv run grondstaffel_pdf.py --vd2024 ... --vd2025 ...`.
+
+Alle getallen op deze pagina's komen uit `data/amsterdam/cijfers.json`, dat door de laatste twee stappen wordt geschreven.

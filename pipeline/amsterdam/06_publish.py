@@ -26,7 +26,7 @@ import matplotlib
 import numpy as np
 import pandas as pd
 
-from common import OUT, SITE_DATA, SITE_STATIC, WORK, ensure_dirs, log, params, read_json, write_json
+from common import OUT, SITE_DATA, SITE_STATIC, WORK, ensure_dirs, eur, log, mld, nl, params, pct, read_json, write_json
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
@@ -42,35 +42,6 @@ DIV = ["#0b4c92", "#407bc5", "#a0c0eb", "#dfdeda", "#e5b099", "#df6c32", "#a1420
 DOWN, UP, NEUTRAL = "#407bc5", "#df6c32", "#d6d4cd"
 NODATA = "#efede8"
 FONT = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif"
-
-
-# ---------------------------------------------------------------- formatting
-def nl(x: float, d: int = 0) -> str:
-    s = f"{x:,.{d}f}"
-    return s.replace(",", " ").replace(".", ",").replace(" ", ".")
-
-
-# U+2060 (word joiner) keeps a sign glued to its number when text wraps.
-SIGN_UP, SIGN_DOWN = "+\u2060", "\u2212\u2060"
-
-
-def pct(x: float, d: int = 0, sign: bool = False) -> str:
-    v = x * 100
-    s = nl(abs(v), d)
-    if sign:
-        return (SIGN_UP if v > 0 else SIGN_DOWN if v < 0 else "") + s + "%"
-    return s + "%"
-
-
-def eur(x: float, sign: bool = False) -> str:
-    s = "\u20ac" + nl(abs(x))
-    if sign:
-        return (SIGN_UP if x > 0 else SIGN_DOWN if x < 0 else "") + s
-    return s
-
-
-def mld(x: float, d: int = 1) -> str:
-    return nl(x / 1e9, d)
 
 
 def nice_breaks(values, weights, n=7, step=500):
