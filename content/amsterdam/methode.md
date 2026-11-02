@@ -4,7 +4,7 @@ title: "Methode: grondwaarde, parkeren en OZB in Amsterdam"
 
 # Methode
 
-Deze pagina legt uit hoe we de cijfers op [Grond in Amsterdam](/amsterdam/) hebben berekend: welke gegevens, welke aannames, en waar de onzekerheid zit. Alles is na te rekenen. De code staat in de map `pipeline/amsterdam/` van de broncode van deze site, met alle parameters in één bestand (`params.toml`).
+Deze pagina legt uit hoe we de cijfers op [Grond in Amsterdam](/amsterdam/) hebben berekend: welke gegevens, welke aannames, en waar de onzekerheid zit. Alles is na te rekenen. De code staat in de map [`pipeline/amsterdam/`](https://github.com/internetcoffeephone/wonenisteduur.nl/tree/main/pipeline/amsterdam) van de [broncode van deze site](https://github.com/internetcoffeephone/wonenisteduur.nl), met alle parameters in één bestand ([`params.toml`](https://github.com/internetcoffeephone/wonenisteduur.nl/blob/main/pipeline/amsterdam/params.toml)). In de [README](https://github.com/internetcoffeephone/wonenisteduur.nl/blob/main/pipeline/amsterdam/README.md) staat hoe je de berekening zelf draait.
 
 <div class="disclaimer">
 Alle grondwaarden op deze pagina's zijn <strong>schattingen</strong>, geen officiële waarden. De gemeente publiceert alleen voor eengezinswoningen een grondprijs. Die ligt flink lager dan onze schatting; zie <a href="#grondstaffel">de vergelijking</a>.
@@ -180,20 +180,3 @@ Per woning publiceren we niets: dat zijn modeluitkomsten, geen waarnemingen. De 
 - De WOZ-peildatum loopt een jaar achter op de aanslag 2026, en de CBS-gemiddelden lopen achter op nieuwbouw.
 - Woonboten en woonwagens zitten wel in het CBS-gemiddelde, maar niet in de grondverdeling.
 - De parkeerclassificatie is automatisch. Er zitten fouten in, zoals terreinen die bij een gebouw horen.
-
-## Reproduceren
-
-```bash
-cd pipeline/amsterdam
-export AMS_CACHE=/pad/naar/cache   # ruwe downloads, enkele GB
-uv run 01_fetch.py && uv run 02_prepare.py
-uv run 03_land.py && uv run 04_parking.py && uv run 05_ozb.py && uv run 06_publish.py
-uv run 07_grondstaffel.py          # vergelijking met de grondstaffel van de gemeente
-# Den Haag als controle: dezelfde schatting, dan de vergelijking
-AMS_GEMEENTE=denhaag uv run 01_fetch.py && AMS_GEMEENTE=denhaag uv run 02_prepare.py && AMS_GEMEENTE=denhaag uv run 03_land.py
-uv run grondstaffel_denhaag.py && uv run 08_denhaag.py
-```
-
-De grondstaffel staat al als CSV in `pipeline/amsterdam/input/grondstaffel/`. Amsterdam.nl blokkeert automatische downloads. Wie de tabellen zelf uit de PDF's wil halen, downloadt de Verantwoordingsdocumenten WOZ 2024 en 2025 in een browser en draait `uv run grondstaffel_pdf.py --vd2024 ... --vd2025 ...`.
-
-Alle getallen op deze pagina's komen uit `data/amsterdam/cijfers.json`, dat door `06_publish.py`, `07_grondstaffel.py` en `08_denhaag.py` wordt geschreven.

@@ -10,7 +10,8 @@ All results are **estimates**, not official values.
 
 ## Run
 
-Requires [uv](https://docs.astral.sh/uv/). Each script is a PEP 723 script.
+Requires [uv](https://docs.astral.sh/uv/). Each script is a PEP 723 script. Run
+them from this folder (`pipeline/amsterdam/`), in this order:
 
 ```bash
 export AMS_CACHE=/path/to/cache   # raw downloads (~9 GB incl. BAG); default ./cache (gitignored)
@@ -23,6 +24,11 @@ uv run 06_publish.py   # D: data/amsterdam/*.json, static/amsterdam/{data,grafie
 uv run 07_grondstaffel.py  # check: compare with the municipality's grondstaffel (adds gs_* keys)
 uv run 08_denhaag.py       # check: the same comparison in Den Haag (adds dh_* keys), see below
 ```
+
+Every number on the site pages comes from `data/amsterdam/cijfers.json`.
+`06_publish.py` rewrites that file, and 07 and 08 add their keys to it, so run
+them after 06. The grondstaffel tables are already committed as CSV; see below
+for how to extract them again.
 
 All parameters live in `params.toml`. Downloaded files are only parsed, never executed.
 
